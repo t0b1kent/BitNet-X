@@ -45,3 +45,19 @@ poetry.toml
 
 build/
 logs/
+.venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+__pycache__/
+*.pyc
+*.gguf
+*.safetensors
+*.pt
+*.pth
+models/
+build/
+build-*/
+BitNet-Original/
+BitNet-GGUF/
