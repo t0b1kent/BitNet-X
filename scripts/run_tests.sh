@@ -36,6 +36,7 @@ case "$(uname -s)" in
     *)      UNDEF=(-Wl,--unresolved-symbols=ignore-all -lm) ;;
 esac
 QUANTS="$L/ggml/src/ggml-cpu/quants.c"
+QBASE="$L/ggml/src/ggml-quants.c"   # ggml-base: quantize_i2_s / dequantize_row_i2_s live here once patch 0001 is applied
 I2S="$L/ggml/src/ggml-cpu/ggml-cpu-i2s.c"
 
 VERBOSE=0; DO_BUILD=1; ONLY=()
@@ -54,7 +55,7 @@ cc_cxx() { "$CXX" -O1 -std=c++17 -w "${INC[@]}" "$@" "${UNDEF[@]}"; }
 
 t_py_i2s_reference()   { python3 "$T/py/test_i2s_ref.py"; }
 t_gguf_layout_real()   { python3 "$T/py/test_gguf_layout.py"; }
-t_i2s_roundtrip()      { cc_c "$T/c/test_i2s_roundtrip.c" "$QUANTS" -o "$OUT/t_i2s_roundtrip" && "$OUT/t_i2s_roundtrip"; }
+t_i2s_roundtrip()      { cc_c "$T/c/test_i2s_roundtrip.c" "$QUANTS" "$QBASE" -o "$OUT/t_i2s_roundtrip" && "$OUT/t_i2s_roundtrip"; }
 t_i2s_dot()            { cc_c "$T/c/test_i2s_dot.c" "$QUANTS" "$I2S" -o "$OUT/t_i2s_dot" && "$OUT/t_i2s_dot" vecdot; }
 t_i2s_gemm()           { cc_c "$T/c/test_i2s_dot.c" "$QUANTS" "$I2S" -o "$OUT/t_i2s_dot" && "$OUT/t_i2s_dot" gemm; }
 t_i2s_dot_nodotprod()  {

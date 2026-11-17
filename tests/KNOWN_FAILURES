@@ -3,8 +3,6 @@
 # The pull request that fixes a defect removes its line (a listed test that
 # passes is reported as XPASS and fails the run).
 
-build_smoke         arm64/macOS link error: _quantize_i2_s/_dequantize_row_i2_s undefined in libggml-base (microsoft/BitNet#682 step 1)
-#
 src1_cont           ggml-cpu.c:1495 `src1_cont` undeclared without GGML_USE_LLAMAFILE (#682 step 2)
 #
 i2s_roundtrip       quants.c quantize_i2_s packs 4 consecutive weights per byte instead of the 128/32 layout
