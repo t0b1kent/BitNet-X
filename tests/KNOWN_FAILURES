@@ -4,8 +4,6 @@
 # passes is reported as XPASS and fails the run).
 
 #
-it_cpu_generation   consequence of i2s_dot on arm64: "@@@@" on the CPU path (#682, #348)
-#
 #
 #
 mad_layout          src/ggml-bitnet-mad.cpp (not compiled by the current build) uses the 64/16 layout on ARM (#585); not fixed yet
