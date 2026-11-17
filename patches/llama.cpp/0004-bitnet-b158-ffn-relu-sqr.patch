@@ -1,0 +1,25 @@
+diff --git a/src/models/bitnet.cpp b/src/models/bitnet.cpp
+index 985c8d6fc..e20bc8ea1 100644
+--- a/src/models/bitnet.cpp
++++ b/src/models/bitnet.cpp
+@@ -54,6 +54,11 @@ llama_model_bitnet::graph::graph(const llama_model & model, const llm_graph_para
+ 
+     GGML_ASSERT(n_embd_head == hparams.n_embd_head_k());
+ 
++    // FFN activation. BitNet b1.58 2B4T (arch "bitnet-b1.58") uses squared ReLU
++    // (config.json: "hidden_act": "relu2"); the original 1bitLLM models (arch "bitnet") use SiLU.
++    // llama_model_bitnet_b158 inherits this graph, so it must not silently get SiLU (microsoft/BitNet#588).
++    const llm_ffn_op_type ffn_act = (model.arch == LLM_ARCH_BITNET_B158) ? LLM_FFN_RELU_SQR : LLM_FFN_SILU;
++
+     ggml_tensor * cur;
+     ggml_tensor * inpL;
+ 
+@@ -130,7 +135,7 @@ llama_model_bitnet::graph::graph(const llama_model & model, const llm_graph_para
+                 model.layers[il].ffn_gate, NULL, model.layers[il].ffn_gate_s,
+                 NULL,                      NULL, NULL,
+                 NULL,
+-                LLM_FFN_SILU, LLM_FFN_PAR, il);
++                ffn_act, LLM_FFN_PAR, il);
+         cb(cur, "ffn_sub_out", il);
+ 
+         cur = build_norm(cur,

@@ -19,8 +19,6 @@ i2s_gemm_nodotprod same as i2s_gemm, NEON without dotprod
 #
 it_cpu_generation   consequence of i2s_dot on arm64: "@@@@" on the CPU path (#682, #348)
 #
-it_relu2            bitnet-b1.58 FFN uses SiLU instead of ReLU^2 (#588); skipped while the CPU kernel is broken
-#
 it_tokenizer        official GGUF lacks tokenizer.ggml.pre -> 'default' pre-tokenizer (#684)
 #
 it_blas_batch       BLAS backend claims I2_S MUL_MAT for batches >= 32 and crashes (SIGSEGV)
