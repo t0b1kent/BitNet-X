@@ -9,4 +9,9 @@ it_require
 out="$(it_complete 99 4 "$IT_PROMPT")"; rc=$?
 echo "llama-completion (-ngl 99) exit status: $rc, continuation: [${out#"$IT_PROMPT"}]"
 [ $rc -eq 0 ] || { echo "FAIL: aborted (134 = SIGABRT)"; exit 1; }
+# the I2_S mat-vec runs on the GPU now (patch 0010): the answer must be the correct one
+case "${out#"$IT_PROMPT"}" in
+    " Paris"*) echo "ok: Metal continuation starts with ' Paris'" ;;
+    *) echo "FAIL: Metal continuation does not start with ' Paris'"; exit 1 ;;
+esac
 exit 0

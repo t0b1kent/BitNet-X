@@ -67,6 +67,7 @@ t_i2s_gemm_nodotprod() {
     cc_c -march=armv8-a+nodotprod "$T/c/test_i2s_dot.c" "$QUANTS" "$I2S" -o "$OUT/t_i2s_dot_nodotprod" && "$OUT/t_i2s_dot_nodotprod" gemm
 }
 t_mad_layout()         { "$CC" -c -w "$T/c/stubs_mad.c" -o "$OUT/stubs_mad.o" && cc_cxx "$T/c/test_mad_layout.cpp" "$ROOT/src/ggml-bitnet-mad.cpp" "$OUT/stubs_mad.o" -o "$OUT/t_mad_layout" && "$OUT/t_mad_layout"; }
+t_metal_i2s_kernel()   { bash "$T/metal/run.sh"; }
 t_src1_cont()          { bash "$T/test_src1_cont.sh"; }
 t_setup_env()          { python3 "$T/py/test_setup_env.py"; }
 t_patches_idempotent() {
@@ -92,6 +93,7 @@ ALL_TESTS=(
     i2s_dot_nodotprod
     i2s_gemm
     i2s_gemm_nodotprod
+    metal_i2s_kernel
     mad_layout
     src1_cont
     setup_env
