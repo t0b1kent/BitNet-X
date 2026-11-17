@@ -1,0 +1,22 @@
+diff --git a/src/llama-vocab.cpp b/src/llama-vocab.cpp
+index 2b546c495..291dca841 100644
+--- a/src/llama-vocab.cpp
++++ b/src/llama-vocab.cpp
+@@ -2108,6 +2108,17 @@ void llama_vocab::impl::load(llama_model_loader & ml, const LLM_KV & kv) {
+             add_space_prefix = false;
+             escape_whitespaces = false;
+             clean_spaces = true;
++            if (tokenizer_pre.empty()) {
++                // The official microsoft/bitnet-b1.58-2B-4T-gguf has no tokenizer.ggml.pre although the model
++                // uses the LLaMA-3 tokenizer; the 'default' pre-tokenizer splits numbers, '$' and contractions
++                // differently from tokenizer.json (microsoft/BitNet#684). The file itself must stay untouched.
++                std::string general_arch_pre;
++                ml.get_key(LLM_KV_GENERAL_ARCHITECTURE, general_arch_pre, false);
++                if (general_arch_pre == "bitnet-b1.58") {
++                    LLAMA_LOG_WARN("%s: missing pre-tokenizer type for arch 'bitnet-b1.58', using: 'llama-bpe'\n", __func__);
++                    tokenizer_pre = "llama-bpe";
++                }
++            }
+             if (tokenizer_pre.empty()) {
+                 LLAMA_LOG_WARN("%s: missing pre-tokenizer type, using: 'default'\n", __func__);
+                 LLAMA_LOG_WARN("%s:                                             \n", __func__);
