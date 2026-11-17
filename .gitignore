@@ -61,3 +61,13 @@ build/
 build-*/
 BitNet-Original/
 BitNet-GGUF/
+
+# BitNet-X: builds, models, virtualenvs and test scratch never go into git
+build-*/
+/bitnetx-build-*/
+venv/
+.venv*/
+*.safetensors
+*.gguf
+tests/out/
+.pytest_cache/

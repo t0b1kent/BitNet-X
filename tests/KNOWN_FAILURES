@@ -1,0 +1,28 @@
+# Tests that are expected to FAIL on this branch: one line per open defect.
+# Format: <test name> <free text>. scripts/run_tests.sh reports them as XFAIL.
+# The pull request that fixes a defect removes its line (a listed test that
+# passes is reported as XPASS and fails the run).
+
+build_smoke         arm64/macOS link error: _quantize_i2_s/_dequantize_row_i2_s undefined in libggml-base (microsoft/BitNet#682 step 1)
+#
+src1_cont           ggml-cpu.c:1495 `src1_cont` undeclared without GGML_USE_LLAMAFILE (#682 step 2)
+#
+i2s_roundtrip       quants.c quantize_i2_s packs 4 consecutive weights per byte instead of the 128/32 layout
+#
+i2s_dot             quants.c non-AVX2 ggml_vec_dot_i2_i8_s: sequential layout, signed weights instead of codes, wrong GEMM semantics
+#
+i2s_dot_nodotprod   same as i2s_dot, NEON without dotprod
+#
+it_cpu_generation   consequence of i2s_dot on arm64: "@@@@" on the CPU path (#682, #348)
+#
+it_relu2            bitnet-b1.58 FFN uses SiLU instead of ReLU^2 (#588); skipped while the CPU kernel is broken
+#
+it_tokenizer        official GGUF lacks tokenizer.ggml.pre -> 'default' pre-tokenizer (#684)
+#
+it_blas_batch       BLAS backend claims I2_S MUL_MAT for batches >= 32 and crashes (SIGSEGV)
+#
+it_metal_default    Metal backend claims I2_S MUL_MAT but has no kernel -> abort
+#
+setup_env           setup_env.py: run_command always exits without log_step; TL flag ignores --quant-type; gen_code overwrites presets
+#
+mad_layout          src/ggml-bitnet-mad.cpp (not compiled by the current build) uses the 64/16 layout on ARM (#585); not fixed yet

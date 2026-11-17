@@ -2,3 +2,4 @@
 	path = 3rdparty/llama.cpp
 	url = https://github.com/isHuangXin/llama.cpp.git
 	branch = release-bitnet-embedding-0.6b-270m
+	ignore = dirty
