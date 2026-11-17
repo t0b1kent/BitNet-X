@@ -1,0 +1,25 @@
+--- a/ggml/src/ggml-quants.c
++++ b/ggml/src/ggml-quants.c
+@@ -5618,6 +5618,10 @@
+ size_t quantize_i2_s(const float * src, void * dst, int64_t nrow, int64_t n_per_row, const float * quant_weights) {
+     (void)quant_weights;
+     int64_t n = nrow * n_per_row;
++
++    // Canonical I2_S layout (official GGUF, dequantize_row_i2_s): 128 weights per 32 bytes, byte gp of a
++    // block holds the codes of weights {gp, 32+gp, 64+gp, 96+gp} in bits [7:6], [5:4], [3:2], [1:0].
++    GGML_ASSERT(n % 128 == 0 && "I2_S needs a multiple of 128 weights");
+ 
+     double max = 0.0;
+     for (int64_t i = 0; i < n; i++) {
+@@ -5635,9 +5639,8 @@
+         } else {
+             val = ((double)src[i] * max > 0) ? 2 : 0; // maps to +1 or -1
+         }
+-        int byte_idx = i / 4;
+-        int bit_pos = 6 - 2 * (i % 4);
+-        q[byte_idx] |= (val << bit_pos);
++        const int64_t blk = i / 128, j = i % 128;
++        q[blk * 32 + (j % 32)] |= (uint8_t)(val << (6 - 2 * (j / 32)));
+     }
+ 
+     float * scale_ptr = (float *)(q + n / 4);
