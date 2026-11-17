@@ -1,0 +1,34 @@
+diff --git a/ggml/src/ggml-cpu/ggml-cpu-i2s.c b/ggml/src/ggml-cpu/ggml-cpu-i2s.c
+index d2ea0d729..a544605cd 100644
+--- a/ggml/src/ggml-cpu/ggml-cpu-i2s.c
++++ b/ggml/src/ggml-cpu/ggml-cpu-i2s.c
+@@ -185,17 +185,18 @@ void ggml_gemm_i2_i8_s(int n, float * GGML_RESTRICT s, size_t bs, const void * G
+     const int64_t col_block = COL_BLOCK_SIZE;
+ 
+ #if defined(ACT_PARALLEL)
+-    for (int64_t c0 = 0; c0 < nc; c0 += col_block) {
+-        int64_t cur_c = (c0 + col_block <= nc) ? col_block : (nc - c0);
+-        for (int64_t r0 = 0; r0 < nr; r0 += row_block) {
+-            int64_t cur_r = (r0 + row_block <= nr) ? row_block : (nr - r0);
+-            const void * vy_r = (const uint8_t *)vy + r0 * n;
+-            for (int64_t c = 0; c < cur_c; ++c) {
+-                const int64_t col = c0 + c;
+-                float * s_col = s + col;
+-                const void * vx_col = (const uint8_t *)vx + col * n / 4;
+-                ggml_vec_dot_i2_i8_s(n, s_col + r0 * bs, bs, vx_col, n, vy_r, n, cur_r);
+-            }
++    // The generic ggml_vec_dot_i2_i8_s() treats nrc as the number of consecutive WEIGHT rows
++    // (x advances by bx/4 per row and s[row] is written), not as a number of activation columns.
++    // Calling it with nrc = activation columns (as this branch used to) therefore read weight
++    // rows past the intended ones and wrote results to the wrong places. Process every
++    // activation column on its own and let the dot kernel walk blocks of weight rows.
++    GGML_UNUSED(row_block); GGML_UNUSED(col_block);
++    for (int64_t c = 0; c < nr; ++c) {
++        const void * vy_c = (const uint8_t *)vy + c * n;
++        for (int64_t r0 = 0; r0 < nc; r0 += 16) {
++            const int64_t cur = (r0 + 16 <= nc) ? 16 : (nc - r0);
++            ggml_vec_dot_i2_i8_s(n, s + c * bs + r0, 1,
++                (const uint8_t *)vx + r0 * n / 4, n, vy_c, 0, (int)cur);
+         }
+     }
+ #else
