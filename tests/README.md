@@ -44,6 +44,7 @@ is a `FAIL` or an `XPASS`.
 | `i2s_dot` | `ggml_vec_dot_i2_i8_s` and `ggml_gemv_i2_i8_s` vs integer reference on canonical input | – |
 | `i2s_dot_nodotprod` | same, compiled with `-march=armv8-a+nodotprod` | arm64 |
 | `i2s_gemm` | `ggml_gemm_i2_i8_s` (4 activation columns) vs integer reference | – |
+| `metal_i2s_kernel` | Metal I2_S kernels (`tests/metal/run.sh`) vs CPU reference on the model's shapes, 1..33 columns, an all-zero column (within 2 ulp) | macOS |
 | `i2s_gemm_nodotprod` | same, compiled with `-march=armv8-a+nodotprod` | arm64 |
 | `mad_layout` | `src/ggml-bitnet-mad.cpp` `quantize_i2_s` emits canonical bytes | – |
 | `src1_cont` | `ggml-cpu.c` compiles with and without `GGML_USE_LLAMAFILE` | – |
