@@ -74,6 +74,17 @@ COMPILER_EXTRA_ARGS = {
     "x86_64": ["-DBITNET_X86_TL2=OFF"]
 }
 
+# The lookup-table kernel of each architecture is enabled by its own --quant-type
+# (arm64: tl1, x86_64: tl2); every other quant type (i2_s) builds with it OFF.
+TL_QUANT_FLAG = {
+    "arm64": ("tl1", "-DBITNET_ARM_TL1"),
+    "x86_64": ("tl2", "-DBITNET_X86_TL2"),
+}
+
+def compiler_extra_args(arch):
+    quant, flag = TL_QUANT_FLAG[arch]
+    return [f"{flag}={'ON' if args.quant_type == quant else 'OFF'}"]
+
 OS_EXTRA_ARGS = {
     "Windows":["-T", "ClangCL"],
 }
@@ -110,7 +121,7 @@ def run_command(command, shell=False, log_step=None):
             subprocess.run(command, shell=shell, check=True)
         except subprocess.CalledProcessError as e:
             logging.error(f"Error occurred while running command: {e}")
-        sys.exit(1)
+            sys.exit(1)
 
 def prepare_model():
     _, arch = system_info()
@@ -161,6 +172,12 @@ def setup_gguf():
 
 def gen_code():
     _, arch = system_info()
+
+    # i2_s does not use the lookup-table kernels (bitnet-lut-kernels.h is only included when
+    # BITNET_ARM_TL1 / BITNET_X86_TL2 is ON), so there is nothing to generate and the tracked
+    # include/bitnet-lut-kernels.h must not be rewritten.
+    if not args.quant_type.startswith("tl"):
+        return
     
     llama3_f3_models = set([model['model_name'] for model in SUPPORTED_HF_MODELS.values() if model['model_name'].startswith("Falcon") or model['model_name'].startswith("Llama")])
 
@@ -176,6 +193,7 @@ def gen_code():
             elif args.quant_type == "tl2":
                 shutil.copyfile(os.path.join(pretuned_kernels, "bitnet-lut-kernels-tl2.h"), "include/bitnet-lut-kernels.h")
                 shutil.copyfile(os.path.join(pretuned_kernels, "kernel_config_tl2.ini"), "include/kernel_config.ini")
+            return
         if get_model_name() == "bitnet_b1_58-large":
             run_command([sys.executable, "utils/codegen_tl1.py", "--model", "bitnet_b1_58-large", "--BM", "256,128,256", "--BK", "128,64,128", "--bm", "32,64,32"], log_step="codegen")
         elif get_model_name() in llama3_f3_models:
@@ -194,6 +212,7 @@ def gen_code():
                 logging.error(f"Pretuned kernels not found for model {args.hf_repo}")
                 sys.exit(1)
             shutil.copyfile(os.path.join(pretuned_kernels, "bitnet-lut-kernels-tl2.h"), "include/bitnet-lut-kernels.h")
+            return
         if get_model_name() == "bitnet_b1_58-large":
             run_command([sys.executable, "utils/codegen_tl2.py", "--model", "bitnet_b1_58-large", "--BM", "256,128,256", "--BK", "96,192,96", "--bm", "32,32,32"], log_step="codegen")
         elif get_model_name() in llama3_f3_models:
@@ -217,7 +236,7 @@ def compile():
         logging.error(f"Arch {arch} is not supported yet")
         exit(0)
     logging.info("Compiling the code using CMake.")
-    run_command(["cmake", "-B", "build", *COMPILER_EXTRA_ARGS[arch], *OS_EXTRA_ARGS.get(platform.system(), []), "-DCMAKE_C_COMPILER=clang", "-DCMAKE_CXX_COMPILER=clang++", "-DLLAMA_BUILD_TOOLS=ON", "-DLLAMA_BUILD_EXAMPLES=ON", "-DLLAMA_BUILD_COMMON=ON", "-DLLAMA_BUILD_SERVER=ON"], log_step="generate_build_files")
+    run_command(["cmake", "-B", "build", *compiler_extra_args(arch), *OS_EXTRA_ARGS.get(platform.system(), []), "-DCMAKE_C_COMPILER=clang", "-DCMAKE_CXX_COMPILER=clang++", "-DLLAMA_BUILD_TOOLS=ON", "-DLLAMA_BUILD_EXAMPLES=ON", "-DLLAMA_BUILD_COMMON=ON", "-DLLAMA_BUILD_SERVER=ON"], log_step="generate_build_files")
     # run_command(["cmake", "--build", "build", "--target", "llama-cli", "--config", "Release"])
     run_command(["cmake", "--build", "build", "--config", "Release"], log_step="compile")
 
