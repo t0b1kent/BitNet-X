@@ -1,7 +1,7 @@
 // Standalone test + micro benchmark of the BitNet I2_S Metal kernels (quantize_i8_s + mul_mv_i2_s).
 // Compares the GPU result with a CPU reference that replicates quantize_row_i8_s() + the integer dot product
 // on weights in the canonical 128/32 layout, then times the mat-vec kernel.
-//   i2s_kernel_bench <kernels.metal> <K> <N> <ncols> <NSG> <R> [iters]
+//   i2s_kernel_bench <kernels.metal> <K> <N> <ncols> <NSG> <R> [iters]     (BX_BITS=1: bit-serial popcount kernels)
 // exit status: 0 = results identical, 1 = mismatch, 77 = no Metal device
 #import <Foundation/Foundation.h>
 #import <Metal/Metal.h>
@@ -11,6 +11,7 @@
 #include <cstring>
 #include <vector>
 #include "../c/i2s_ref.h"
+#include "../../3rdparty/llama.cpp/ggml/src/ggml-metal/ggml-metal-i2s.h"
 
 struct kq { uint64_t nb11, nb12, nb13; int32_t ne10, ne11, ne12, ncols; };
 struct km { uint64_t nb1, nb2, nb3, ws_off; int32_t ne00, ne01, ne11, ne12, ncols; };
@@ -36,7 +37,9 @@ int main(int argc, char ** argv) {
 
         int C = NC >= 4 ? 4 : (NC >= 2 ? 2 : 1);
         NSString * mvname = [NSString stringWithFormat:@"kernel_mul_mv_i2_s_i8_c%d", C];
-        id<MTLComputePipelineState> pq = [dev newComputePipelineStateWithFunction:[lib newFunctionWithName:@"kernel_quantize_i8_s_f32"] error:&err];
+        const bool bits = getenv("BX_BITS") != nullptr;
+        if (bits) mvname = [NSString stringWithFormat:@"kernel_mul_mv_i2_s_bits_c%d_r%d", C, R];
+        id<MTLComputePipelineState> pq = [dev newComputePipelineStateWithFunction:[lib newFunctionWithName:bits ? @"kernel_quantize_i8_s_planes_f32" : @"kernel_quantize_i8_s_f32"] error:&err];
         id<MTLComputePipelineState> pm = [dev newComputePipelineStateWithFunction:[lib newFunctionWithName:mvname] error:&err];
         if (!pq || !pm) { printf("pipeline error: %s\n", err.localizedDescription.UTF8String); return 1; }
 
@@ -71,6 +74,13 @@ int main(int argc, char ** argv) {
 
         const size_t q8_bytes = (size_t) NC*K, sc_bytes = ((size_t) NC*4 + 15)/16*16, dst_bytes = (size_t) NC*N*4;
         id<MTLBuffer> bw  = [dev newBufferWithBytes:w.data() length:w.size() options:MTLResourceStorageModeShared];
+        std::vector<uint32_t> wb;
+        id<MTLBuffer> bwb = nil;
+        if (bits) {
+            wb.resize((size_t) N*K/32*2);
+            ggml_metal_i2s_repack(w.data(), N, K, wb.data());
+            bwb = [dev newBufferWithBytes:wb.data() length:wb.size()*4 options:MTLResourceStorageModeShared];
+        }
         id<MTLBuffer> bx  = [dev newBufferWithBytes:x.data() length:x.size()*4 options:MTLResourceStorageModeShared];
         id<MTLBuffer> bq  = [dev newBufferWithLength:q8_bytes options:MTLResourceStorageModeShared];
         id<MTLBuffer> bs  = [dev newBufferWithLength:sc_bytes options:MTLResourceStorageModeShared];
@@ -85,11 +95,16 @@ int main(int argc, char ** argv) {
                 [e setComputePipelineState:pq];
                 [e setBytes:&aq length:sizeof(aq) atIndex:0];
                 [e setBuffer:bx offset:0 atIndex:1]; [e setBuffer:bq offset:0 atIndex:2]; [e setBuffer:bs offset:0 atIndex:3];
+                if (bits) [e setThreadgroupMemoryLength:((size_t) K + 15)/16*16 atIndex:0];
                 [e dispatchThreadgroups:MTLSizeMake(NC, 1, 1) threadsPerThreadgroup:MTLSizeMake(256, 1, 1)];
             }
             [e setComputePipelineState:pm];
             [e setBytes:&am length:sizeof(am) atIndex:0];
-            [e setBuffer:bw offset:0 atIndex:1]; [e setBuffer:bq offset:0 atIndex:2]; [e setBuffer:bs offset:0 atIndex:3]; [e setBuffer:bd offset:0 atIndex:4];
+            if (bits) {
+                [e setBuffer:bwb offset:0 atIndex:1]; [e setBuffer:bw offset:0 atIndex:2]; [e setBuffer:bq offset:0 atIndex:3]; [e setBuffer:bs offset:0 atIndex:4]; [e setBuffer:bd offset:0 atIndex:5];
+            } else {
+                [e setBuffer:bw offset:0 atIndex:1]; [e setBuffer:bq offset:0 atIndex:2]; [e setBuffer:bs offset:0 atIndex:3]; [e setBuffer:bd offset:0 atIndex:4];
+            }
             [e dispatchThreadgroups:MTLSizeMake((N + NSG*R - 1)/(NSG*R), (NC + C - 1)/C, 1) threadsPerThreadgroup:MTLSizeMake(32, NSG, 1)];
         };
 
@@ -106,7 +121,7 @@ int main(int argc, char ** argv) {
             if (fabs((double) got[i] - ref[i]) > tol) { bad++; maxd = fmax(maxd, fabs((double) got[i] - ref[i])); }
         }
 
-        if (getenv("BX_DEBUG")) {
+        if (getenv("BX_DEBUG") && !bits) {
             // scales: GPU vs CPU
             const float * gs = (const float *) bs.contents; long sbad = 0;
             for (int c = 0; c < NC; c++) {
@@ -182,8 +197,8 @@ int main(int argc, char ** argv) {
             ms = (cb.GPUEndTime - cb.GPUStartTime) * 1e3 / iters;
         }
         const double gbs = ((double) N*K/4) / (ms*1e-3) / 1e9;
-        printf("K=%-5d N=%-5d ncols=%-2d NSG=%d R=%d C=%d : %s (%ld/%zu differ, max |d|=%g) | mv %.1f us, %.0f GB/s of weights\n",
-               K, N, NC, NSG, R, C, bad ? "MISMATCH" : "ok", bad, (size_t) NC*N, maxd, ms*1e3, gbs);
+        printf("%s K=%-5d N=%-5d ncols=%-2d NSG=%d R=%d C=%d : %s (%ld/%zu differ, max |d|=%g) | mv %.1f us, %.0f GB/s of weights\n",
+               bits ? "bits" : "int8", K, N, NC, NSG, R, C, bad ? "MISMATCH" : "ok", bad, (size_t) NC*N, maxd, ms*1e3, gbs);
         return bad ? 1 : 0;
     }
 }

@@ -83,6 +83,7 @@ t_it_relu2()           { bash "$T/integration/it_relu2.sh"; }
 t_it_tokenizer()       { bash "$T/integration/it_tokenizer.sh"; }
 t_it_blas_batch()      { bash "$T/integration/it_blas_batch.sh"; }
 t_it_metal_default()   { bash "$T/integration/it_metal_default.sh"; }
+t_it_metal_int8()      { bash "$T/integration/it_metal_int8.sh"; }
 
 ALL_TESTS=(
     patches_idempotent
@@ -103,6 +104,7 @@ ALL_TESTS=(
     it_tokenizer
     it_blas_batch
     it_metal_default
+    it_metal_int8
 )
 
 # ---- runner ------------------------------------------------------------------
