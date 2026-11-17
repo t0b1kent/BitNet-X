@@ -9,9 +9,13 @@ src1_cont           ggml-cpu.c:1495 `src1_cont` undeclared without GGML_USE_LLAM
 #
 i2s_roundtrip       quants.c quantize_i2_s packs 4 consecutive weights per byte instead of the 128/32 layout
 #
-i2s_dot             quants.c non-AVX2 ggml_vec_dot_i2_i8_s: sequential layout, signed weights instead of codes, wrong GEMM semantics
+i2s_dot            quants.c non-AVX2 ggml_vec_dot_i2_i8_s (and gemv): sequential layout, signed weights instead of codes
 #
-i2s_dot_nodotprod   same as i2s_dot, NEON without dotprod
+i2s_dot_nodotprod  same as i2s_dot, NEON without dotprod
+#
+i2s_gemm           ggml-cpu-i2s.c non-AVX2 ggml_gemm_i2_i8_s: ACT_PARALLEL branch calls vec_dot with nrc = activation columns
+#
+i2s_gemm_nodotprod same as i2s_gemm, NEON without dotprod
 #
 it_cpu_generation   consequence of i2s_dot on arm64: "@@@@" on the CPU path (#682, #348)
 #

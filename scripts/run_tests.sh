@@ -55,10 +55,15 @@ cc_cxx() { "$CXX" -O1 -std=c++17 -w "${INC[@]}" "$@" "${UNDEF[@]}"; }
 t_py_i2s_reference()   { python3 "$T/py/test_i2s_ref.py"; }
 t_gguf_layout_real()   { python3 "$T/py/test_gguf_layout.py"; }
 t_i2s_roundtrip()      { cc_c "$T/c/test_i2s_roundtrip.c" "$QUANTS" -o "$OUT/t_i2s_roundtrip" && "$OUT/t_i2s_roundtrip"; }
-t_i2s_dot()            { cc_c "$T/c/test_i2s_dot.c" "$QUANTS" "$I2S" -o "$OUT/t_i2s_dot" && "$OUT/t_i2s_dot"; }
+t_i2s_dot()            { cc_c "$T/c/test_i2s_dot.c" "$QUANTS" "$I2S" -o "$OUT/t_i2s_dot" && "$OUT/t_i2s_dot" vecdot; }
+t_i2s_gemm()           { cc_c "$T/c/test_i2s_dot.c" "$QUANTS" "$I2S" -o "$OUT/t_i2s_dot" && "$OUT/t_i2s_dot" gemm; }
 t_i2s_dot_nodotprod()  {
     case "$(uname -m)" in arm64|aarch64) ;; *) echo "SKIP: arm64 only"; return 77 ;; esac
-    cc_c -march=armv8-a+nodotprod "$T/c/test_i2s_dot.c" "$QUANTS" "$I2S" -o "$OUT/t_i2s_dot_nodotprod" && "$OUT/t_i2s_dot_nodotprod"
+    cc_c -march=armv8-a+nodotprod "$T/c/test_i2s_dot.c" "$QUANTS" "$I2S" -o "$OUT/t_i2s_dot_nodotprod" && "$OUT/t_i2s_dot_nodotprod" vecdot
+}
+t_i2s_gemm_nodotprod() {
+    case "$(uname -m)" in arm64|aarch64) ;; *) echo "SKIP: arm64 only"; return 77 ;; esac
+    cc_c -march=armv8-a+nodotprod "$T/c/test_i2s_dot.c" "$QUANTS" "$I2S" -o "$OUT/t_i2s_dot_nodotprod" && "$OUT/t_i2s_dot_nodotprod" gemm
 }
 t_mad_layout()         { "$CC" -c -w "$T/c/stubs_mad.c" -o "$OUT/stubs_mad.o" && cc_cxx "$T/c/test_mad_layout.cpp" "$ROOT/src/ggml-bitnet-mad.cpp" "$OUT/stubs_mad.o" -o "$OUT/t_mad_layout" && "$OUT/t_mad_layout"; }
 t_src1_cont()          { bash "$T/test_src1_cont.sh"; }
@@ -84,6 +89,8 @@ ALL_TESTS=(
     i2s_roundtrip
     i2s_dot
     i2s_dot_nodotprod
+    i2s_gemm
+    i2s_gemm_nodotprod
     mad_layout
     src1_cont
     setup_env

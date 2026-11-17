@@ -41,8 +41,10 @@ is a `FAIL` or an `XPASS`.
 | `py_i2s_reference` | NumPy reference of the I2_S format (`tests/py/i2s_ref.py`) | numpy |
 | `gguf_layout_real` | official GGUF trits decoded with 128/32, 64/16 and sequential layouts vs ternarised BF16 master | `BITNET_GGUF`, `BITNET_BF16` |
 | `i2s_roundtrip` | `quantize_i2_s` emits canonical bytes; `dequantize_row_i2_s` inverts it | – |
-| `i2s_dot` | `ggml_vec_dot_i2_i8_s`, `ggml_gemv_i2_i8_s`, `ggml_gemm_i2_i8_s` vs integer reference on canonical input | – |
+| `i2s_dot` | `ggml_vec_dot_i2_i8_s` and `ggml_gemv_i2_i8_s` vs integer reference on canonical input | – |
 | `i2s_dot_nodotprod` | same, compiled with `-march=armv8-a+nodotprod` | arm64 |
+| `i2s_gemm` | `ggml_gemm_i2_i8_s` (4 activation columns) vs integer reference | – |
+| `i2s_gemm_nodotprod` | same, compiled with `-march=armv8-a+nodotprod` | arm64 |
 | `mad_layout` | `src/ggml-bitnet-mad.cpp` `quantize_i2_s` emits canonical bytes | – |
 | `src1_cont` | `ggml-cpu.c` compiles with and without `GGML_USE_LLAMAFILE` | – |
 | `setup_env` | `setup_env.py` behaviour (`run_command`, cmake flags, `gen_code`) with recorders | – |

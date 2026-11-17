@@ -14,7 +14,8 @@ extern void ggml_vec_dot_i2_i8_s(int n, float *s, size_t bs, const void *vx, siz
 extern void ggml_gemv_i2_i8_s(int n, float *s, size_t bs, const void *vx, const void *vy, int nr, int nc);
 extern void ggml_gemm_i2_i8_s(int n, float *s, size_t bs, const void *vx, const void *vy, int nr, int nc);
 
-static int run(int N, int ROWS) {
+// mode 0: ggml_vec_dot_i2_i8_s + ggml_gemv_i2_i8_s;  mode 1: ggml_gemm_i2_i8_s
+static int run(int N, int ROWS, int mode) {
     enum { COLS = 4 };
     int8_t  *t  = malloc((size_t)ROWS * N);
     uint8_t *W  = malloc((size_t)ROWS * N / 4 + 32);
@@ -33,6 +34,7 @@ static int run(int N, int ROWS) {
     int fail = 0, bad;
 
     // 1) vec_dot, one weight row x one activation vector
+    if (mode == 0) {
     bad = 0;
     for (int r = 0; r < ROWS; r++) {
         float v = -1e30f;
@@ -49,24 +51,28 @@ static int run(int N, int ROWS) {
     for (int r = 0; r < ROWS; r++) bad += (s[r] != (float)rf[r]);
     printf("  n=%-5d rows=%-3d gemv        : %d / %d mismatches\n", N, ROWS, bad, ROWS);
     fail |= bad;
+    }
 
     // 3) GEMM as called from ggml-cpu.c: 4 activation columns, out[col*bs+row]
+    if (mode == 1) {
     bad = 0;
     for (int i = 0; i < ROWS * COLS; i++) s[i] = -1e30f;
     ggml_gemm_i2_i8_s(N, s, ROWS, W, Y, COLS, ROWS);
     for (int i = 0; i < ROWS * COLS; i++) bad += (s[i] != (float)rf[i]);
     printf("  n=%-5d rows=%-3d gemm (4 col): %d / %d mismatches\n", N, ROWS, bad, ROWS * COLS);
     fail |= bad;
+    }
 
     free(t); free(W); free(Y); free(s); free(rf);
     return fail;
 }
 
-int main(void) {
+int main(int argc, char **argv) {
+    const int mode = (argc > 1 && strcmp(argv[1], "gemm") == 0) ? 1 : 0;  // default / "vecdot"
     int fail = 0;
-    fail |= run(128, 16);
-    fail |= run(2560, 32);   // hidden size of bitnet-b1.58-2B-4T
-    fail |= run(6912, 16);   // FFN size
-    fail |= run(4224, 20);   // 33 blocks of 128: exercises the non-multiple-of-32-blocks tail
+    fail |= run(128, 16, mode);
+    fail |= run(2560, 32, mode);   // hidden size of bitnet-b1.58-2B-4T
+    fail |= run(6912, 16, mode);   // FFN size
+    fail |= run(4224, 20, mode);   // 33 blocks of 128: exercises the non-multiple-of-32-blocks tail
     return fail ? 1 : 0;
 }
