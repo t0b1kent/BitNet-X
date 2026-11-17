@@ -5,7 +5,6 @@
 
 src1_cont           ggml-cpu.c:1495 `src1_cont` undeclared without GGML_USE_LLAMAFILE (#682 step 2)
 #
-i2s_roundtrip       quants.c quantize_i2_s packs 4 consecutive weights per byte instead of the 128/32 layout
 #
 it_cpu_generation   consequence of i2s_dot on arm64: "@@@@" on the CPU path (#682, #348)
 #
@@ -14,5 +13,6 @@ it_cpu_generation   consequence of i2s_dot on arm64: "@@@@" on the CPU path (#68
 setup_env           setup_env.py: run_command always exits without log_step; TL flag ignores --quant-type; gen_code overwrites presets
 #
 mad_layout          src/ggml-bitnet-mad.cpp (not compiled by the current build) uses the 64/16 layout on ARM (#585); not fixed yet
+
 
 
