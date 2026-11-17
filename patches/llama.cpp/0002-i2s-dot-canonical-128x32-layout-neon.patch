@@ -1,0 +1,77 @@
+diff --git a/ggml/src/ggml-cpu/quants.c b/ggml/src/ggml-cpu/quants.c
+index 603f51c54..b56d0aa2f 100644
+--- a/ggml/src/ggml-cpu/quants.c
++++ b/ggml/src/ggml-cpu/quants.c
+@@ -1486,18 +1486,66 @@ static void ggml_vec_dot_i2_i8_s_1x1(int n, float * s, size_t bs, const void * v
+         int sumi = hsum_i32_8(accu);
+         s[row] = (float)sumi;
+     }
++#elif defined(__ARM_NEON)
++    // Canonical I2_S layout (the one of the official GGUF and of dequantize_row_i2_s):
++    // 128 weights per 32 bytes; byte gp holds the codes of weights {gp, 32+gp, 64+gp, 96+gp}
++    // in bits [7:6], [5:4], [3:2], [1:0]. Like the AVX2 kernel this returns
++    // sum_i code_i * y_i with code in {0,1,2} (= weight + 1); ggml-cpu.c subtracts sum(y).
++    // n must be a multiple of 128.
++    const uint8_t * x = (const uint8_t *)vx;
++    const int8_t  * y = (const int8_t *)vy;
++    const int nb = n / 128;
++    const uint8x16_t mask = vdupq_n_u8(3);
++
++    for (int row = 0; row < nrc; row++) {
++        const uint8_t * x_row = x + (size_t)row * bx / 4;
++        int32x4_t accu = vdupq_n_s32(0);
++
++        for (int b = 0; b < nb; b++) {
++            const uint8_t * px = x_row + (size_t)b * 32;
++            const int8_t  * py = y + (size_t)b * 128;
++            for (int h = 0; h < 2; h++) {
++                const uint8x16_t p = vld1q_u8(px + 16 * h);
++                const int8x16_t c0 = vreinterpretq_s8_u8(vandq_u8(vshrq_n_u8(p, 6), mask));
++                const int8x16_t c1 = vreinterpretq_s8_u8(vandq_u8(vshrq_n_u8(p, 4), mask));
++                const int8x16_t c2 = vreinterpretq_s8_u8(vandq_u8(vshrq_n_u8(p, 2), mask));
++                const int8x16_t c3 = vreinterpretq_s8_u8(vandq_u8(p, mask));
++                const int8x16_t y0 = vld1q_s8(py +  0 + 16 * h);
++                const int8x16_t y1 = vld1q_s8(py + 32 + 16 * h);
++                const int8x16_t y2 = vld1q_s8(py + 64 + 16 * h);
++                const int8x16_t y3 = vld1q_s8(py + 96 + 16 * h);
++#if defined(__ARM_FEATURE_DOTPROD)
++                accu = vdotq_s32(accu, c0, y0);
++                accu = vdotq_s32(accu, c1, y1);
++                accu = vdotq_s32(accu, c2, y2);
++                accu = vdotq_s32(accu, c3, y3);
++#else
++                // |code * y| <= 2 * 127, so int16 products are exact; widen immediately
++                accu = vpadalq_s16(accu, vmull_s8(vget_low_s8(c0),  vget_low_s8(y0)));
++                accu = vpadalq_s16(accu, vmull_s8(vget_high_s8(c0), vget_high_s8(y0)));
++                accu = vpadalq_s16(accu, vmull_s8(vget_low_s8(c1),  vget_low_s8(y1)));
++                accu = vpadalq_s16(accu, vmull_s8(vget_high_s8(c1), vget_high_s8(y1)));
++                accu = vpadalq_s16(accu, vmull_s8(vget_low_s8(c2),  vget_low_s8(y2)));
++                accu = vpadalq_s16(accu, vmull_s8(vget_high_s8(c2), vget_high_s8(y2)));
++                accu = vpadalq_s16(accu, vmull_s8(vget_low_s8(c3),  vget_low_s8(y3)));
++                accu = vpadalq_s16(accu, vmull_s8(vget_high_s8(c3), vget_high_s8(y3)));
++#endif
++            }
++        }
++        s[row] = (float)vaddvq_s32(accu);
++    }
+ #else
+-    // Scalar fallback
++    // Scalar fallback, same contract as the SIMD kernels: sum_i code_i * y_i with the
++    // canonical 128/32 layout (see the NEON branch). n must be a multiple of 128.
+     const uint8_t * x = (const uint8_t *)vx;
+     const int8_t * y  = (const int8_t *)vy;
+-    static const int map2bit[4] = { -1, 0, 1, 0 };
+     for (int row = 0; row < nrc; row++) {
++        const uint8_t * x_row = x + (size_t)row * bx / 4;
+         int32_t sum = 0;
+         for (int i = 0; i < n; i++) {
+-            int byte_idx = i / 4;
+-            int bit_pos = 6 - 2 * (i % 4);
+-            int w = map2bit[(x[row * (n/4) + byte_idx] >> bit_pos) & 0x03];
+-            sum += w * y[i];
++            const int blk = i / 128, j = i % 128;
++            const int code = (x_row[blk * 32 + (j % 32)] >> (6 - 2 * (j / 32))) & 0x03;
++            sum += code * y[i];
+         }
+         s[row] = (float)sum;
+     }
