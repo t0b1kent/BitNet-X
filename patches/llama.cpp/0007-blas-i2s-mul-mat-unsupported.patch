@@ -1,0 +1,17 @@
+diff --git a/ggml/src/ggml-blas/ggml-blas.cpp b/ggml/src/ggml-blas/ggml-blas.cpp
+index b4c735267..28795cf00 100644
+--- a/ggml/src/ggml-blas/ggml-blas.cpp
++++ b/ggml/src/ggml-blas/ggml-blas.cpp
+@@ -415,7 +415,11 @@ static bool ggml_backend_blas_device_supports_op(ggml_backend_dev_t dev, const s
+             // TODO: find the optimal value
+             const int64_t min_batch = 32;
+ 
+-            return ggml_is_contiguous(src0) &&
++            // I2_S keeps ONE f32 scale per tensor in the 32-byte tail after the packed weights and its
++            // dequantize_row_i2_s() takes that scale as a 4th argument; the generic row-wise to_float(x, y, n)
++            // call used below cannot supply it (garbage scale / out-of-bounds read -> SIGSEGV on prompts >= 32 tokens).
++            return src0->type != GGML_TYPE_I2_S &&
++                   ggml_is_contiguous(src0) &&
+                    ggml_is_contiguous(src1) &&
+                    src1->type == GGML_TYPE_F32 &&
+                    (ne0 >= min_batch && ne1 >= min_batch && ne10 >= min_batch) &&
