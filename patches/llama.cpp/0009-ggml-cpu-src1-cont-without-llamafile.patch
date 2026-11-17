@@ -1,0 +1,21 @@
+diff --git a/ggml/src/ggml-cpu/ggml-cpu.c b/ggml/src/ggml-cpu/ggml-cpu.c
+index ec88ef29a..246f270df 100644
+--- a/ggml/src/ggml-cpu/ggml-cpu.c
++++ b/ggml/src/ggml-cpu/ggml-cpu.c
+@@ -1353,13 +1353,14 @@ void ggml_compute_forward_mul_mat(
+     //   compute by src0 rows
+ 
+     // TODO: extract to "extra_op"
++    // also used by the I2_S fast path below, so it must exist without GGML_USE_LLAMAFILE (microsoft/BitNet#682)
++    const bool src1_cont = ggml_is_contiguous(src1);
++
+ #if GGML_USE_LLAMAFILE
+     // broadcast factors
+     const int64_t r2 = ne12 / ne02;
+     const int64_t r3 = ne13 / ne03;
+ 
+-    const bool src1_cont = ggml_is_contiguous(src1);
+-
+     if (src1_cont) {
+         for (int64_t i13 = 0; i13 < ne13; i13++)
+             for (int64_t i12 = 0; i12 < ne12; i12++)
