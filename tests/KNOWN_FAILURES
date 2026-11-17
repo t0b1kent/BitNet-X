@@ -25,8 +25,6 @@ it_tokenizer        official GGUF lacks tokenizer.ggml.pre -> 'default' pre-toke
 #
 it_blas_batch       BLAS backend claims I2_S MUL_MAT for batches >= 32 and crashes (SIGSEGV)
 #
-it_metal_default    Metal backend claims I2_S MUL_MAT but has no kernel -> abort
-#
 setup_env           setup_env.py: run_command always exits without log_step; TL flag ignores --quant-type; gen_code overwrites presets
 #
 mad_layout          src/ggml-bitnet-mad.cpp (not compiled by the current build) uses the 64/16 layout on ARM (#585); not fixed yet
