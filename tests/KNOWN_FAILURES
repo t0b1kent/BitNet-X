@@ -8,8 +8,6 @@ it_cpu_generation   consequence of i2s_dot on arm64: "@@@@" on the CPU path (#68
 #
 #
 #
-setup_env           setup_env.py: run_command always exits without log_step; TL flag ignores --quant-type; gen_code overwrites presets
-#
 mad_layout          src/ggml-bitnet-mad.cpp (not compiled by the current build) uses the 64/16 layout on ARM (#585); not fixed yet
 
 
