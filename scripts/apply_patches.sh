@@ -37,15 +37,33 @@ if [ "${#PATCHES[@]}" -eq 0 ]; then
     exit 0
 fi
 
-is_applied()   { git -C "$SUB" apply --reverse --check "$1" >/dev/null 2>&1; }
 can_apply()    { git -C "$SUB" apply --check "$1" >/dev/null 2>&1; }
+
+# Is patch number $1 (index into PATCHES) applied?  Patches may touch the same lines
+# (0001 moves a function, a later one edits it), so a plain "reverse --check" on the
+# working tree is wrong for any patch that is not the last one. Instead: copy the files
+# of all patches to a scratch directory, reverse the LATER patches that are applied
+# there (newest first), then reverse-check this one.
+is_applied() {
+    local k="$1" f j tmp ok=1
+    tmp="$(mktemp -d "${TMPDIR:-/tmp}/bitnetx-patch.XXXXXX")"
+    for f in $(git -C "$SUB" apply --numstat "${PATCHES[@]}" 2>/dev/null | cut -f3 | sort -u); do
+        mkdir -p "$tmp/$(dirname "$f")"; cp "$SUB/$f" "$tmp/$f" 2>/dev/null || true
+    done
+    for ((j=${#PATCHES[@]}-1; j>k; j--)); do
+        ( cd "$tmp" && git apply --reverse "${PATCHES[$j]}" >/dev/null 2>&1 ) || true
+    done
+    ( cd "$tmp" && git apply --reverse --check "${PATCHES[$k]}" >/dev/null 2>&1 ) && ok=0
+    rm -rf "$tmp"
+    return $ok
+}
 
 rc=0
 case "$MODE" in
 apply)
-    for p in "${PATCHES[@]}"; do
-        n="$(basename "$p")"
-        if is_applied "$p"; then
+    for ((i=0; i<${#PATCHES[@]}; i++)); do
+        p="${PATCHES[$i]}"; n="$(basename "$p")"
+        if is_applied "$i"; then
             echo "apply_patches: already applied  $n"
         elif can_apply "$p"; then
             git -C "$SUB" apply "$p"
@@ -58,9 +76,9 @@ apply)
     done
     ;;
 --check)
-    for p in "${PATCHES[@]}"; do
-        n="$(basename "$p")"
-        if is_applied "$p"; then
+    for ((i=0; i<${#PATCHES[@]}; i++)); do
+        p="${PATCHES[$i]}"; n="$(basename "$p")"
+        if is_applied "$i"; then
             echo "apply_patches: applied          $n"
         elif can_apply "$p"; then
             echo "apply_patches: NOT applied      $n"; rc=1
@@ -72,7 +90,7 @@ apply)
 --reverse)
     for ((i=${#PATCHES[@]}-1; i>=0; i--)); do
         p="${PATCHES[$i]}"; n="$(basename "$p")"
-        if is_applied "$p"; then
+        if is_applied "$i"; then
             git -C "$SUB" apply --reverse "$p"
             echo "apply_patches: reverted         $n"
         else
