@@ -1,0 +1,13 @@
+{
+  "sealed_file": "~/Developer/MicrosoftAI/BitNet-X-sealed/test_sealed_100.jsonl (outside the repository, read-only)",
+  "n_tasks": 100,
+  "sha256": "6d335f32ac3efa09d952bee0e16b3f4874ebf39f6f728adb8a5047913d0ace27",
+  "generator_sha256": "80f6f5e77011360123addbda099ec3115ba121df3d6c098a230a4787edd11215",
+  "dev_set": {
+    "file": "research/tasks/dev_100.jsonl",
+    "seed": "1",
+    "sha256": "2954b8b6663d1fdd102886cc54b1e815b7e590fbfa351e69792c1b70c77fbed4"
+  },
+  "created": "2026-11-17",
+  "rule": "The sealed set is opened once, for the final comparison of a frozen method. Never used for prompt or hyper-parameter choices."
+}

@@ -71,3 +71,9 @@ venv/
 *.gguf
 tests/out/
 .pytest_cache/
+
+# research run logs (server logs carry local paths) and scratch runs
+research/results/**/*.log
+research/results/cmp/pilot/
+research/results/inside/test/
+__pycache__/

@@ -1,0 +1,750 @@
+{"level": "0", "type": "hop1", "q": "What is Hakido's job?", "ans": "teacher", "reply": "Teacher", "ok": true}
+{"level": "0", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "pilot", "reply": "Pilot.", "ok": true}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Suta's mentor live?", "ans": "Ririford", "reply": "Ririford", "ok": true}
+{"level": "0", "type": "count", "q": "How many people live in Tabataburg?", "ans": "3", "reply": "3", "ok": true}
+{"level": "0", "type": "older", "q": "Who is older, Tasuno or Tagi?", "ans": "Tasuno", "reply": "Tasuno is older.", "ok": true}
+{"level": "0", "type": "hop1", "q": "What is Nalu's job?", "ans": "sailor", "reply": "Sailor.", "ok": true}
+{"level": "0", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "pilot", "reply": "Pilot.", "ok": true}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Naluha's mentor live?", "ans": "Navekuburg", "reply": "Nokuzo's mentor is Kitana, who lives in Navekuburg. Therefore, the answer is", "ok": true}
+{"level": "0", "type": "count", "q": "How many people live in Ririford?", "ans": "4", "reply": "4", "ok": true}
+{"level": "0", "type": "older", "q": "Who is older, Metaba or Mizo?", "ans": "Metaba", "reply": "Metaba is older.", "ok": true}
+{"level": "0", "type": "hop1", "q": "What is Lukujo's job?", "ans": "miner", "reply": "Miner.", "ok": true}
+{"level": "0", "type": "hop2", "q": "What is the job of Nalu's mentor?", "ans": "painter", "reply": "Painter\n\n(Note: The prompt states Zojota works as a painter, and Nalu's mentor i", "ok": true}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Meripo's mentor live?", "ans": "Navekuburg", "reply": "Kitana\n\nKitana lives in Navekuburg.\nPomipo's mentor is Kitana, so", "ok": false}
+{"level": "0", "type": "count", "q": "How many people live in Navekuburg?", "ans": "5", "reply": "5", "ok": true}
+{"level": "0", "type": "older", "q": "Who is older, Naluha or Tagi?", "ans": "Naluha", "reply": "Naluha is older.", "ok": true}
+{"level": "0", "type": "hop1", "q": "What is Lukujo's job?", "ans": "miner", "reply": "Miner.", "ok": true}
+{"level": "0", "type": "hop2", "q": "What is the job of Metaba's mentor?", "ans": "baker", "reply": "Baker.", "ok": true}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Milu's mentor live?", "ans": "Gidoford", "reply": "Gila\n\nGila lives in Gidoford.\nMilu's mentor is Suta.\nSuta", "ok": false}
+{"level": "0", "type": "count", "q": "How many people live in Nodosuford?", "ans": "4", "reply": "4", "ok": true}
+{"level": "0", "type": "older", "q": "Who is older, Mizo or Feta?", "ans": "Mizo", "reply": "Mizo is older.", "ok": true}
+{"level": "0", "type": "hop1", "q": "What is Pomipo's job?", "ans": "painter", "reply": "Painter", "ok": true}
+{"level": "0", "type": "hop2", "q": "What is the job of Tasuno's mentor?", "ans": "sailor", "reply": "Sailor.", "ok": true}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Mena's mentor live?", "ans": "Ririford", "reply": "Ririford", "ok": true}
+{"level": "0", "type": "count", "q": "How many people live in Ririford?", "ans": "4", "reply": "4", "ok": true}
+{"level": "0", "type": "older", "q": "Who is older, Laku or Lukujo?", "ans": "Laku", "reply": "Laku is older.", "ok": true}
+{"level": "0", "type": "hop1", "q": "What is Metaba's job?", "ans": "teacher", "reply": "Teacher", "ok": true}
+{"level": "0", "type": "hop2", "q": "What is the job of Laku's mentor?", "ans": "baker", "reply": "Baker.", "ok": true}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Lukujo's mentor live?", "ans": "Gidoford", "reply": "Gidoford", "ok": true}
+{"level": "0", "type": "count", "q": "How many people live in Nodosuford?", "ans": "4", "reply": "4", "ok": true}
+{"level": "0", "type": "older", "q": "Who is older, Milu or Jodo?", "ans": "Jodo", "reply": "Jodo is older.", "ok": true}
+{"level": "0", "type": "hop1", "q": "What is Kizo's job?", "ans": "doctor", "reply": "Doctor", "ok": true}
+{"level": "0", "type": "hop2", "q": "What is the job of Surife's mentor?", "ans": "teacher", "reply": "Teacher", "ok": true}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Gino's mentor live?", "ans": "Nagiburg", "reply": "Nagiburg\n\n**Nagiburg**", "ok": true}
+{"level": "0", "type": "count", "q": "How many people live in Kizoford?", "ans": "2", "reply": "2", "ok": true}
+{"level": "0", "type": "older", "q": "Who is older, Bapo or Dobado?", "ans": "Bapo", "reply": "Bapo.", "ok": true}
+{"level": "0", "type": "hop1", "q": "What is Kilu's job?", "ans": "teacher", "reply": "Teacher", "ok": true}
+{"level": "0", "type": "hop2", "q": "What is the job of Kizo's mentor?", "ans": "tailor", "reply": "Tailor.", "ok": true}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Nokiba's mentor live?", "ans": "Nagiburg", "reply": "Nagiburg", "ok": true}
+{"level": "0", "type": "count", "q": "How many people live in Zonoburg?", "ans": "5", "reply": "5", "ok": true}
+{"level": "0", "type": "older", "q": "Who is older, Kumeri or Vekulu?", "ans": "Vekulu", "reply": "Vekulu is older.", "ok": true}
+{"level": "0", "type": "hop1", "q": "What is Nomi's job?", "ans": "farmer", "reply": "Farmer.", "ok": true}
+{"level": "0", "type": "hop2", "q": "What is the job of Mena's mentor?", "ans": "tailor", "reply": "Tailor.", "ok": true}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Gino's mentor live?", "ans": "Nagiburg", "reply": "Nagiburg", "ok": true}
+{"level": "0", "type": "count", "q": "How many people live in Kizoford?", "ans": "2", "reply": "2", "ok": true}
+{"level": "0", "type": "older", "q": "Who is older, Kigina or Fegi?", "ans": "Fegi", "reply": "Fegi is older.", "ok": true}
+{"level": "0", "type": "hop1", "q": "What is Vezo's job?", "ans": "potter", "reply": "Potter.", "ok": true}
+{"level": "0", "type": "hop2", "q": "What is the job of Bapo's mentor?", "ans": "farmer", "reply": "Farmer.", "ok": true}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Fegi's mentor live?", "ans": "Zonoburg", "reply": "Zonoburg\n\n**Zonoburg**", "ok": true}
+{"level": "0", "type": "count", "q": "How many people live in Hanoton?", "ans": "5", "reply": "5", "ok": true}
+{"level": "0", "type": "older", "q": "Who is older, Gino or Kigina?", "ans": "Gino", "reply": "Gino.", "ok": true}
+{"level": "0", "type": "hop1", "q": "What is Mihajo's job?", "ans": "doctor", "reply": "Doctor", "ok": true}
+{"level": "0", "type": "hop2", "q": "What is the job of Joki's mentor?", "ans": "teacher", "reply": "Teacher", "ok": true}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Nokiba's mentor live?", "ans": "Nagiburg", "reply": "Nagiburg", "ok": true}
+{"level": "0", "type": "count", "q": "How many people live in Hanoton?", "ans": "5", "reply": "5", "ok": true}
+{"level": "0", "type": "older", "q": "Who is older, Jojo or Jota?", "ans": "Jojo", "reply": "Jojo is older.", "ok": true}
+{"level": "0", "type": "hop1", "q": "What is Kizo's job?", "ans": "doctor", "reply": "Doctor", "ok": true}
+{"level": "0", "type": "hop2", "q": "What is the job of Vezo's mentor?", "ans": "doctor", "reply": "Doctor.", "ok": true}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Bapo's mentor live?", "ans": "Hanoton", "reply": "Hanoton", "ok": true}
+{"level": "0", "type": "count", "q": "How many people live in Fekiton?", "ans": "2", "reply": "2", "ok": true}
+{"level": "0", "type": "older", "q": "Who is older, Vekulu or Joki?", "ans": "Vekulu", "reply": "Vekulu is older.", "ok": true}
+{"level": "0", "type": "hop1", "q": "What is Lumefe's job?", "ans": "baker", "reply": "Baker", "ok": true}
+{"level": "0", "type": "hop2", "q": "What is the job of Melata's mentor?", "ans": "painter", "reply": "Painting.", "ok": false}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Sumime's mentor live?", "ans": "Hahaburg", "reply": "Hahaburg", "ok": true}
+{"level": "0", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "2\n\n2", "ok": true}
+{"level": "0", "type": "older", "q": "Who is older, Kutari or Popo?", "ans": "Kutari", "reply": "Kutari is older.", "ok": true}
+{"level": "0", "type": "hop1", "q": "What is Lumefe's job?", "ans": "baker", "reply": "Baker", "ok": true}
+{"level": "0", "type": "hop2", "q": "What is the job of Sudolu's mentor?", "ans": "miner", "reply": "Miner.", "ok": true}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Suhaki's mentor live?", "ans": "Dokuburg", "reply": "Dokuburg", "ok": true}
+{"level": "0", "type": "count", "q": "How many people live in Hahaburg?", "ans": "4", "reply": "4", "ok": true}
+{"level": "0", "type": "older", "q": "Who is older, Sumime or Jola?", "ans": "Sumime", "reply": "Jola is older.", "ok": false}
+{"level": "0", "type": "hop1", "q": "What is Jopona's job?", "ans": "doctor", "reply": "Doctor", "ok": true}
+{"level": "0", "type": "hop2", "q": "What is the job of Kutari's mentor?", "ans": "painter", "reply": "Painting.", "ok": false}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Sumime's mentor live?", "ans": "Hahaburg", "reply": "Hahaburg", "ok": true}
+{"level": "0", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "2\n\n2", "ok": true}
+{"level": "0", "type": "older", "q": "Who is older, Sumime or Jopona?", "ans": "Sumime", "reply": "Sumime is older.", "ok": true}
+{"level": "0", "type": "hop1", "q": "What is Givedo's job?", "ans": "doctor", "reply": "Doctor", "ok": true}
+{"level": "0", "type": "hop2", "q": "What is the job of Jopona's mentor?", "ans": "baker", "reply": "Baker.", "ok": true}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Nala's mentor live?", "ans": "Dokuburg", "reply": "Dokuburg", "ok": true}
+{"level": "0", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "2\n\n2", "ok": true}
+{"level": "0", "type": "older", "q": "Who is older, Pome or Gihado?", "ans": "Pome", "reply": "Pome is older.", "ok": true}
+{"level": "0", "type": "hop1", "q": "What is Sumime's job?", "ans": "doctor", "reply": "Doctor", "ok": true}
+{"level": "0", "type": "hop2", "q": "What is the job of Dove's mentor?", "ans": "baker", "reply": "Baker.", "ok": true}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Sudolu's mentor live?", "ans": "Hahaburg", "reply": "Hahaburg", "ok": true}
+{"level": "0", "type": "count", "q": "How many people live in Jogipoton?", "ans": "4", "reply": "4", "ok": true}
+{"level": "0", "type": "older", "q": "Who is older, Noki or Pome?", "ans": "Pome", "reply": "Pome\n\nPome is older.", "ok": true}
+{"level": "0", "type": "hop1", "q": "What is Nala's job?", "ans": "tailor", "reply": "Tailor.", "ok": true}
+{"level": "0", "type": "hop2", "q": "What is the job of Suba's mentor?", "ans": "doctor", "reply": "Doctor\n\n(Note: The prompt states Givedo works as a doctor, and Suba's mentor is ", "ok": true}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Jozola's mentor live?", "ans": "Basubaford", "reply": "Basubaford", "ok": true}
+{"level": "0", "type": "count", "q": "How many people live in Dokuburg?", "ans": "5", "reply": "5", "ok": true}
+{"level": "0", "type": "older", "q": "Who is older, Sudolu or Sumime?", "ans": "Sudolu", "reply": "Sudolu is older.", "ok": true}
+{"level": "0", "type": "hop1", "q": "What is Kisupo's job?", "ans": "farmer", "reply": "Farmer.", "ok": true}
+{"level": "0", "type": "hop2", "q": "What is the job of Najomi's mentor?", "ans": "pilot", "reply": "Pilot.", "ok": true}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Noki's mentor live?", "ans": "Lanafeton", "reply": "Zojo's mentor is Dovezo, and Dovezo lives in Lanafeton. Therefore, the answer is", "ok": true}
+{"level": "0", "type": "count", "q": "How many people live in Bafeton?", "ans": "3", "reply": "3", "ok": true}
+{"level": "0", "type": "older", "q": "Who is older, Kisupo or Joha?", "ans": "Joha", "reply": "Joha.", "ok": true}
+{"level": "0", "type": "hop1", "q": "What is Baku's job?", "ans": "baker", "reply": "Baker.", "ok": true}
+{"level": "0", "type": "hop2", "q": "What is the job of Zodo's mentor?", "ans": "sailor", "reply": "Sailor.", "ok": true}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Kihafe's mentor live?", "ans": "Rizoford", "reply": "Vena\n\nVena lives in Rizoford.", "ok": false}
+{"level": "0", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "3\n\n3", "ok": true}
+{"level": "0", "type": "older", "q": "Who is older, Riha or Vemeri?", "ans": "Riha", "reply": "Riha is older.", "ok": true}
+{"level": "0", "type": "hop1", "q": "What is Kihafe's job?", "ans": "tailor", "reply": "Tailor.", "ok": true}
+{"level": "0", "type": "hop2", "q": "What is the job of Najomi's mentor?", "ans": "pilot", "reply": "Pilot.", "ok": true}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Kunaba's mentor live?", "ans": "Rizoford", "reply": "Rizoford", "ok": true}
+{"level": "0", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "3\n\n3", "ok": true}
+{"level": "0", "type": "older", "q": "Who is older, Noki or Najomi?", "ans": "Noki", "reply": "Noki is older.", "ok": true}
+{"level": "0", "type": "hop1", "q": "What is Kisupo's job?", "ans": "farmer", "reply": "Farmer.", "ok": true}
+{"level": "0", "type": "hop2", "q": "What is the job of Jojo's mentor?", "ans": "potter", "reply": "Potter.", "ok": true}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Riha's mentor live?", "ans": "Rizoford", "reply": "Vena\n\nVena lives in Rizoford.", "ok": false}
+{"level": "0", "type": "count", "q": "How many people live in Rizoford?", "ans": "5", "reply": "5", "ok": true}
+{"level": "0", "type": "older", "q": "Who is older, Kidoba or Josuha?", "ans": "Josuha", "reply": "Kidoba is older.", "ok": false}
+{"level": "0", "type": "hop1", "q": "What is Jojo's job?", "ans": "pilot", "reply": "Pilot.", "ok": true}
+{"level": "0", "type": "hop2", "q": "What is the job of Noki's mentor?", "ans": "teacher", "reply": "Teacher", "ok": true}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Gime's mentor live?", "ans": "Lanafeton", "reply": "Lanafeton", "ok": true}
+{"level": "0", "type": "count", "q": "How many people live in Kikiton?", "ans": "3", "reply": "3", "ok": true}
+{"level": "0", "type": "older", "q": "Who is older, Najomi or Hamiku?", "ans": "Hamiku", "reply": "Hamiku is older.", "ok": true}
+{"level": "0", "type": "hop1", "q": "What is Baku's job?", "ans": "baker", "reply": "Baker.", "ok": true}
+{"level": "0", "type": "hop2", "q": "What is the job of Kuki's mentor?", "ans": "teacher", "reply": "Teacher", "ok": true}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Kihafe's mentor live?", "ans": "Rizoford", "reply": "Vena\n\nVena lives in Rizoford.", "ok": false}
+{"level": "0", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "3\n\n3", "ok": true}
+{"level": "0", "type": "older", "q": "Who is older, Kisupo or Domiri?", "ans": "Domiri", "reply": "Domiri is older.", "ok": true}
+{"level": "0", "type": "hop1", "q": "What is Mizo's job?", "ans": "teacher", "reply": "Teacher", "ok": true}
+{"level": "0", "type": "hop2", "q": "What is the job of Dojodo's mentor?", "ans": "farmer", "reply": "Farmer.", "ok": true}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Mizo's mentor live?", "ans": "Pojoburg", "reply": "Pojoburg", "ok": true}
+{"level": "0", "type": "count", "q": "How many people live in Habahaford?", "ans": "4", "reply": "4", "ok": true}
+{"level": "0", "type": "older", "q": "Who is older, Gikizo or Vela?", "ans": "Gikizo", "reply": "Gikizo is older.", "ok": true}
+{"level": "0", "type": "hop1", "q": "What is Dojodo's job?", "ans": "tailor", "reply": "Tailor.", "ok": true}
+{"level": "0", "type": "hop2", "q": "What is the job of Bazono's mentor?", "ans": "baker", "reply": "Baker\n\n(Note: The prompt states Zobave works as a baker, and Bazono's mentor is ", "ok": true}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Haluzo's mentor live?", "ans": "Pojoburg", "reply": "Pojoburg", "ok": true}
+{"level": "0", "type": "count", "q": "How many people live in Pojoburg?", "ans": "5", "reply": "5", "ok": true}
+{"level": "0", "type": "older", "q": "Who is older, Ferive or Haluzo?", "ans": "Ferive", "reply": "Haluzo is older.", "ok": false}
+{"level": "0", "type": "hop1", "q": "What is Rifeba's job?", "ans": "painter", "reply": "Painter", "ok": true}
+{"level": "0", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "painter", "reply": "Painter", "ok": true}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Vela's mentor live?", "ans": "Pojoburg", "reply": "Pojoburg", "ok": true}
+{"level": "0", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "5", "ok": true}
+{"level": "0", "type": "older", "q": "Who is older, Dodo or Jopoku?", "ans": "Jopoku", "reply": "Dodo is older.", "ok": false}
+{"level": "0", "type": "hop1", "q": "What is Bazono's job?", "ans": "baker", "reply": "Baker.", "ok": true}
+{"level": "0", "type": "hop2", "q": "What is the job of Dodo's mentor?", "ans": "farmer", "reply": "Bado's job is a farmer. However, the question asks for the job of Dodo's mentor,", "ok": true}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Haluzo's mentor live?", "ans": "Pojoburg", "reply": "Lano's mentor is Zobave, and Zobave lives in Pojoburg.\n\nPojoburg", "ok": true}
+{"level": "0", "type": "count", "q": "How many people live in Baveford?", "ans": "2", "reply": "2\n\n2", "ok": true}
+{"level": "0", "type": "older", "q": "Who is older, Dojodo or Kupogi?", "ans": "Dojodo", "reply": "Dojodo is older.", "ok": true}
+{"level": "0", "type": "hop1", "q": "What is Dojodo's job?", "ans": "tailor", "reply": "Tailor.", "ok": true}
+{"level": "0", "type": "hop2", "q": "What is the job of Lagiba's mentor?", "ans": "pilot", "reply": "Pilot.", "ok": true}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Bado's mentor live?", "ans": "Dojoburg", "reply": "Lano\n\nLano", "ok": false}
+{"level": "0", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "5", "ok": true}
+{"level": "0", "type": "older", "q": "Who is older, Nohapo or Gikizo?", "ans": "Nohapo", "reply": "Nohapo is older.", "ok": true}
+{"level": "0", "type": "hop1", "q": "What is Rina's job?", "ans": "sailor", "reply": "Sailor.", "ok": true}
+{"level": "0", "type": "hop2", "q": "What is the job of Fevena's mentor?", "ans": "potter", "reply": "Potter.", "ok": true}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Rina's mentor live?", "ans": "Pohajoton", "reply": "Lagiba lives in Pohajoton. Therefore, the mentor of Rina's mentor (Jopoku) lives", "ok": true}
+{"level": "0", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "5", "ok": true}
+{"level": "0", "type": "older", "q": "Who is older, Bazono or Gife?", "ans": "Bazono", "reply": "Gife is older.", "ok": false}
+{"level": "3", "type": "hop1", "q": "What is Hakido's job?", "ans": "teacher", "reply": "Hakido's job is a teacher.", "ok": true}
+{"level": "3", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "pilot", "reply": "Pilot.", "ok": true}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Suta's mentor live?", "ans": "Ririford", "reply": "Jodo lives in Ririford.\n\nThe answer is Ririford.", "ok": true}
+{"level": "3", "type": "count", "q": "How many people live in Tabataburg?", "ans": "3", "reply": "5\n\n5", "ok": false}
+{"level": "3", "type": "older", "q": "Who is older, Tasuno or Tagi?", "ans": "Tasuno", "reply": "Tasuno is older (66 years old) than Tagi (30 years old).\n\nAnswer: Tas", "ok": true}
+{"level": "3", "type": "hop1", "q": "What is Nalu's job?", "ans": "sailor", "reply": "Sailor.", "ok": true}
+{"level": "3", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "pilot", "reply": "Pilot\n\n(Note: The text states Kitana works as a pilot, and Mizo's mentor is Kita", "ok": true}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Naluha's mentor live?", "ans": "Navekuburg", "reply": "Nokuzo's mentor is Kitana, who lives in Navekuburg.\n\nThe answer is N", "ok": true}
+{"level": "3", "type": "count", "q": "How many people live in Ririford?", "ans": "4", "reply": "6\n\n6", "ok": false}
+{"level": "3", "type": "older", "q": "Who is older, Metaba or Mizo?", "ans": "Metaba", "reply": "Mizo is older.\n\nMizo is 55 years old, and Metaba is 76 years old", "ok": false}
+{"level": "3", "type": "hop1", "q": "What is Lukujo's job?", "ans": "miner", "reply": "Lukujo's job is a miner.", "ok": true}
+{"level": "3", "type": "hop2", "q": "What is the job of Nalu's mentor?", "ans": "painter", "reply": "Zojota\n\n**Zojota**", "ok": false}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Meripo's mentor live?", "ans": "Navekuburg", "reply": "The mentor of Meripo's mentor is Pomipo. Pomipo lives in Navekuburg (based on th", "ok": true}
+{"level": "3", "type": "count", "q": "How many people live in Navekuburg?", "ans": "5", "reply": "9\n\n9\n</think>\n\n9", "ok": false}
+{"level": "3", "type": "older", "q": "Who is older, Naluha or Tagi?", "ans": "Naluha", "reply": "Naluha is older.\n\n**Naluha**", "ok": true}
+{"level": "3", "type": "hop1", "q": "What is Lukujo's job?", "ans": "miner", "reply": "Miner.", "ok": true}
+{"level": "3", "type": "hop2", "q": "What is the job of Metaba's mentor?", "ans": "baker", "reply": "Baker\n\n(Note: The text states Kukimi works as a baker, and Metaba's mentor is Ku", "ok": true}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Milu's mentor live?", "ans": "Gidoford", "reply": "Gila\n\nGila lives in Gidoford.", "ok": false}
+{"level": "3", "type": "count", "q": "How many people live in Nodosuford?", "ans": "4", "reply": "6\n\n6", "ok": false}
+{"level": "3", "type": "older", "q": "Who is older, Mizo or Feta?", "ans": "Mizo", "reply": "Mizo is older.\n\nMizo is 55 years old, and Feta is 25 years old", "ok": true}
+{"level": "3", "type": "hop1", "q": "What is Pomipo's job?", "ans": "painter", "reply": "Pomipo's job is a painter.", "ok": true}
+{"level": "3", "type": "hop2", "q": "What is the job of Tasuno's mentor?", "ans": "sailor", "reply": "Jodo\n\nJodo works as a sailor.", "ok": false}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Mena's mentor live?", "ans": "Ririford", "reply": "Ririford", "ok": true}
+{"level": "3", "type": "count", "q": "How many people live in Ririford?", "ans": "4", "reply": "6\n\n6", "ok": false}
+{"level": "3", "type": "older", "q": "Who is older, Laku or Lukujo?", "ans": "Laku", "reply": "Laku is older.\n\nLaku is 54, and Lukujo is 53.\n\nAnswer", "ok": true}
+{"level": "3", "type": "hop1", "q": "What is Metaba's job?", "ans": "teacher", "reply": "Teacher", "ok": true}
+{"level": "3", "type": "hop2", "q": "What is the job of Laku's mentor?", "ans": "baker", "reply": "Baker.", "ok": true}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Lukujo's mentor live?", "ans": "Gidoford", "reply": "Gidoford", "ok": true}
+{"level": "3", "type": "count", "q": "How many people live in Nodosuford?", "ans": "4", "reply": "6\n\n6", "ok": false}
+{"level": "3", "type": "older", "q": "Who is older, Milu or Jodo?", "ans": "Jodo", "reply": "Jodo is older.\n\nJodo is 47, and Milu is 26. Therefore, J", "ok": true}
+{"level": "3", "type": "hop1", "q": "What is Kizo's job?", "ans": "doctor", "reply": "Doctor", "ok": true}
+{"level": "3", "type": "hop2", "q": "What is the job of Surife's mentor?", "ans": "teacher", "reply": "Vekulu.", "ok": false}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Gino's mentor live?", "ans": "Nagiburg", "reply": "The mentor of Gino's mentor is Joki's mentor, which is Veveme. Veveme lives in", "ok": false}
+{"level": "3", "type": "count", "q": "How many people live in Kizoford?", "ans": "2", "reply": "3\n\n3 (Mihajo, Kizo, Vezo, Jota, Nokiba, Joki)\n\n", "ok": false}
+{"level": "3", "type": "older", "q": "Who is older, Bapo or Dobado?", "ans": "Bapo", "reply": "Dobado is older.\n\nWait, Bapo is 51 and Dobado is 21. B", "ok": false}
+{"level": "3", "type": "hop1", "q": "What is Kilu's job?", "ans": "teacher", "reply": "Teacher", "ok": true}
+{"level": "3", "type": "hop2", "q": "What is the job of Kizo's mentor?", "ans": "tailor", "reply": "Tailor.", "ok": true}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Nokiba's mentor live?", "ans": "Nagiburg", "reply": "Veveme\n\nVeveme lives in Nagiburg.", "ok": false}
+{"level": "3", "type": "count", "q": "How many people live in Zonoburg?", "ans": "5", "reply": "7\n\n7", "ok": false}
+{"level": "3", "type": "older", "q": "Who is older, Kumeri or Vekulu?", "ans": "Vekulu", "reply": "Vekulu is older.\n\nVekulu is 72 years old, while Kumeri is 3", "ok": true}
+{"level": "3", "type": "hop1", "q": "What is Nomi's job?", "ans": "farmer", "reply": "Nomi's job is a farmer.", "ok": true}
+{"level": "3", "type": "hop2", "q": "What is the job of Mena's mentor?", "ans": "tailor", "reply": "Tailor.", "ok": true}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Gino's mentor live?", "ans": "Nagiburg", "reply": "Veveme\n\nVeveme lives in Nagiburg.", "ok": false}
+{"level": "3", "type": "count", "q": "How many people live in Kizoford?", "ans": "2", "reply": "3\n\nKizo, Mihajo, and Kilu are not people (Kilu is a person, but the question", "ok": false}
+{"level": "3", "type": "older", "q": "Who is older, Kigina or Fegi?", "ans": "Fegi", "reply": "Fegi is 69, so she is older than Kigina (24).\n\nAnswer: Fegi", "ok": true}
+{"level": "3", "type": "hop1", "q": "What is Vezo's job?", "ans": "potter", "reply": "Potter.", "ok": true}
+{"level": "3", "type": "hop2", "q": "What is the job of Bapo's mentor?", "ans": "farmer", "reply": "Jojo\n\nJojo", "ok": false}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Fegi's mentor live?", "ans": "Zonoburg", "reply": "Nado lives in Zonoburg. Since Mena's mentor is Nado, the mentor of Fegi's", "ok": true}
+{"level": "3", "type": "count", "q": "How many people live in Hanoton?", "ans": "5", "reply": "6\n\n6", "ok": false}
+{"level": "3", "type": "older", "q": "Who is older, Gino or Kigina?", "ans": "Gino", "reply": "Gino is older.", "ok": true}
+{"level": "3", "type": "hop1", "q": "What is Mihajo's job?", "ans": "doctor", "reply": "Doctor", "ok": true}
+{"level": "3", "type": "hop2", "q": "What is the job of Joki's mentor?", "ans": "teacher", "reply": "Veveme", "ok": false}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Nokiba's mentor live?", "ans": "Nagiburg", "reply": "Veveme\n\nVeveme lives in Nagiburg.", "ok": false}
+{"level": "3", "type": "count", "q": "How many people live in Hanoton?", "ans": "5", "reply": "7\n\n7 (Dobado, Joki, Vekulu, Meku, Kumeri, Nomi", "ok": false}
+{"level": "3", "type": "older", "q": "Who is older, Jojo or Jota?", "ans": "Jojo", "reply": "Jojo is older.", "ok": true}
+{"level": "3", "type": "hop1", "q": "What is Kizo's job?", "ans": "doctor", "reply": "Doctor", "ok": true}
+{"level": "3", "type": "hop2", "q": "What is the job of Vezo's mentor?", "ans": "doctor", "reply": "Doctor", "ok": true}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Bapo's mentor live?", "ans": "Hanoton", "reply": "Joki\n\nJoki lives in Hanoton.\nWait, the prompt says \"Kumeri lives in Hanoton", "ok": false}
+{"level": "3", "type": "count", "q": "How many people live in Fekiton?", "ans": "2", "reply": "Bapo and Mena live in Fekiton. That makes 2 people.\n\n2", "ok": true}
+{"level": "3", "type": "older", "q": "Who is older, Vekulu or Joki?", "ans": "Vekulu", "reply": "Vekulu is older.", "ok": true}
+{"level": "3", "type": "hop1", "q": "What is Lumefe's job?", "ans": "baker", "reply": "Baker.", "ok": true}
+{"level": "3", "type": "hop2", "q": "What is the job of Melata's mentor?", "ans": "painter", "reply": "Painting.", "ok": false}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Sumime's mentor live?", "ans": "Hahaburg", "reply": "Pome lives in Hahaburg.\n\nPome is the mentor of Mita, and Mita is the", "ok": true}
+{"level": "3", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "5\n\n5", "ok": false}
+{"level": "3", "type": "older", "q": "Who is older, Kutari or Popo?", "ans": "Kutari", "reply": "Popo is 42 years old, and Kutari is 65 years old. Therefore, Kutari is", "ok": true}
+{"level": "3", "type": "hop1", "q": "What is Lumefe's job?", "ans": "baker", "reply": "Baker.", "ok": true}
+{"level": "3", "type": "hop2", "q": "What is the job of Sudolu's mentor?", "ans": "miner", "reply": "Miner.", "ok": true}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Suhaki's mentor live?", "ans": "Dokuburg", "reply": "Mita lives in Dokuburg.\n\nDokuburg.", "ok": true}
+{"level": "3", "type": "count", "q": "How many people live in Hahaburg?", "ans": "4", "reply": "6\n\n6", "ok": false}
+{"level": "3", "type": "older", "q": "Who is older, Sumime or Jola?", "ans": "Sumime", "reply": "Jola is 32, and Sumime is 44. Therefore, Sumime is older.\n\nSum", "ok": true}
+{"level": "3", "type": "hop1", "q": "What is Jopona's job?", "ans": "doctor", "reply": "Doctor", "ok": true}
+{"level": "3", "type": "hop2", "q": "What is the job of Kutari's mentor?", "ans": "painter", "reply": "Milu.", "ok": false}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Sumime's mentor live?", "ans": "Hahaburg", "reply": "The mentor of Sumime's mentor is Pome. Pome lives in Hahaburg.\n\nAnswer: H", "ok": true}
+{"level": "3", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "3\n\n3", "ok": false}
+{"level": "3", "type": "older", "q": "Who is older, Sumime or Jopona?", "ans": "Sumime", "reply": "Jopona is 36, and Sumime is 44. Therefore, Sumime is older.\n\n", "ok": true}
+{"level": "3", "type": "hop1", "q": "What is Givedo's job?", "ans": "doctor", "reply": "Doctor", "ok": true}
+{"level": "3", "type": "hop2", "q": "What is the job of Jopona's mentor?", "ans": "baker", "reply": "Popo\n\nPopo works as a baker, so his mentor's job is a baker. However, the text s", "ok": false}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Nala's mentor live?", "ans": "Dokuburg", "reply": "Popo lives in Dokuburg.\n\nThe mentor of Nala's mentor is Dove's mentor, which is ", "ok": true}
+{"level": "3", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "3\n\nMelata and Dosudo both live in Lupoton.\nTotal: 2 people.\n\nWait, let", "ok": false}
+{"level": "3", "type": "older", "q": "Who is older, Pome or Gihado?", "ans": "Pome", "reply": "Gihado is older.\n\n**Gihado**", "ok": false}
+{"level": "3", "type": "hop1", "q": "What is Sumime's job?", "ans": "doctor", "reply": "Doctor", "ok": true}
+{"level": "3", "type": "hop2", "q": "What is the job of Dove's mentor?", "ans": "baker", "reply": "Popo\n\nPopo works as a baker.\nDove's mentor is Popo.\nPopo works as", "ok": false}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Sudolu's mentor live?", "ans": "Hahaburg", "reply": "Hahaburg", "ok": true}
+{"level": "3", "type": "count", "q": "How many people live in Jogipoton?", "ans": "4", "reply": "6\n\n6", "ok": false}
+{"level": "3", "type": "older", "q": "Who is older, Noki or Pome?", "ans": "Pome", "reply": "Pome\n\nPome is 64 years old, and Noki is 25 years old. Therefore,", "ok": true}
+{"level": "3", "type": "hop1", "q": "What is Nala's job?", "ans": "tailor", "reply": "Nala's job is a tailor.", "ok": true}
+{"level": "3", "type": "hop2", "q": "What is the job of Suba's mentor?", "ans": "doctor", "reply": "Doctor\n\n**Doctor**", "ok": true}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Jozola's mentor live?", "ans": "Basubaford", "reply": "Melata's mentor is Milu. Milu lives in Basubaford. Therefore, the mentor of Joz", "ok": true}
+{"level": "3", "type": "count", "q": "How many people live in Dokuburg?", "ans": "5", "reply": "7\n\n7 (Gizo, Popo, Jozola, Dove, Mita, plus the two sailors:", "ok": false}
+{"level": "3", "type": "older", "q": "Who is older, Sudolu or Sumime?", "ans": "Sudolu", "reply": "Sudolu is 75, and Sumime is 44. Therefore, Sudolu is older.\n\n", "ok": true}
+{"level": "3", "type": "hop1", "q": "What is Kisupo's job?", "ans": "farmer", "reply": "Farmer.", "ok": true}
+{"level": "3", "type": "hop2", "q": "What is the job of Najomi's mentor?", "ans": "pilot", "reply": "Pilot.", "ok": true}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Noki's mentor live?", "ans": "Lanafeton", "reply": "Vena\n\nVena lives in Lanafeton (implied from the context of Girizo's mentor, thou", "ok": false}
+{"level": "3", "type": "count", "q": "How many people live in Bafeton?", "ans": "3", "reply": "5", "ok": false}
+{"level": "3", "type": "older", "q": "Who is older, Kisupo or Joha?", "ans": "Joha", "reply": "Joha is older.", "ok": true}
+{"level": "3", "type": "hop1", "q": "What is Baku's job?", "ans": "baker", "reply": "Baku's job is a baker.", "ok": true}
+{"level": "3", "type": "hop2", "q": "What is the job of Zodo's mentor?", "ans": "sailor", "reply": "Batave\n\nBatave works as a sailor, so his mentor is Batave. The job of Zodo's men", "ok": false}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Kihafe's mentor live?", "ans": "Rizoford", "reply": "Rizoford", "ok": true}
+{"level": "3", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "6\n\n6", "ok": false}
+{"level": "3", "type": "older", "q": "Who is older, Riha or Vemeri?", "ans": "Riha", "reply": "Vemeri is older.\n\nVemeri is 29, and Riha is not given a specific age", "ok": false}
+{"level": "3", "type": "hop1", "q": "What is Kihafe's job?", "ans": "tailor", "reply": "Tailor.", "ok": true}
+{"level": "3", "type": "hop2", "q": "What is the job of Najomi's mentor?", "ans": "pilot", "reply": "Pilot.", "ok": true}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Kunaba's mentor live?", "ans": "Rizoford", "reply": "Vena\n\nVena lives in Rizoford, and Domiri's mentor is Vena. Therefore, the mentor", "ok": false}
+{"level": "3", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "5\n\n5 (Baku, Noki, Najomi)", "ok": false}
+{"level": "3", "type": "older", "q": "Who is older, Noki or Najomi?", "ans": "Noki", "reply": "Noki is older.\n\nNoki is 53, and Najomi is 22.\n</think>\n\n", "ok": true}
+{"level": "3", "type": "hop1", "q": "What is Kisupo's job?", "ans": "farmer", "reply": "Kisupo's job is a farmer.", "ok": true}
+{"level": "3", "type": "hop2", "q": "What is the job of Jojo's mentor?", "ans": "potter", "reply": "Vena\n\nVena", "ok": false}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Riha's mentor live?", "ans": "Rizoford", "reply": "Vena lives in Rizoford.\n\nVena is the mentor of Girizo, and Girizo is the mentor", "ok": true}
+{"level": "3", "type": "count", "q": "How many people live in Rizoford?", "ans": "5", "reply": "5", "ok": true}
+{"level": "3", "type": "older", "q": "Who is older, Kidoba or Josuha?", "ans": "Josuha", "reply": "Kidoba is older.\n\nKidoba (32) is younger than Josuha (38). Wait, the", "ok": false}
+{"level": "3", "type": "hop1", "q": "What is Jojo's job?", "ans": "pilot", "reply": "Pilot.", "ok": true}
+{"level": "3", "type": "hop2", "q": "What is the job of Noki's mentor?", "ans": "teacher", "reply": "Zojo\n\nZojo works as a teacher.\nNoki's mentor is Zojo.\nTherefore, the job", "ok": false}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Gime's mentor live?", "ans": "Lanafeton", "reply": "Josuha\n\n**Josuha**", "ok": false}
+{"level": "3", "type": "count", "q": "How many people live in Kikiton?", "ans": "3", "reply": "4\n\nVemeri, Kihafe, Gime, Jojo's mentor (Vena), and Riha", "ok": false}
+{"level": "3", "type": "older", "q": "Who is older, Najomi or Hamiku?", "ans": "Hamiku", "reply": "Hamiku is older.", "ok": true}
+{"level": "3", "type": "hop1", "q": "What is Baku's job?", "ans": "baker", "reply": "Baku's job is a baker.", "ok": true}
+{"level": "3", "type": "hop2", "q": "What is the job of Kuki's mentor?", "ans": "teacher", "reply": "Teacher", "ok": true}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Kihafe's mentor live?", "ans": "Rizoford", "reply": "Vena lives in Rizoford.\n\nThe answer is Rizoford.", "ok": true}
+{"level": "3", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "5\n\nNoki, Najomi, and Baku all live in Zonoton. That makes 3 people.", "ok": false}
+{"level": "3", "type": "older", "q": "Who is older, Kisupo or Domiri?", "ans": "Domiri", "reply": "Domiri is 54, and Kisupo is 21. Therefore, Domiri is older.\n\nDom", "ok": true}
+{"level": "3", "type": "hop1", "q": "What is Mizo's job?", "ans": "teacher", "reply": "Teacher", "ok": true}
+{"level": "3", "type": "hop2", "q": "What is the job of Dojodo's mentor?", "ans": "farmer", "reply": "Mepoku\n\nMepoku", "ok": false}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Mizo's mentor live?", "ans": "Pojoburg", "reply": "Rifeba's mentor is Mepoku, and Mepoku lives in Pojoburg.\n\nAnswer: Po", "ok": true}
+{"level": "3", "type": "count", "q": "How many people live in Habahaford?", "ans": "4", "reply": "6\n\n6", "ok": false}
+{"level": "3", "type": "older", "q": "Who is older, Gikizo or Vela?", "ans": "Gikizo", "reply": "Vela is older.\n\nVela is 35, and Gikizo is 48. Therefore,", "ok": false}
+{"level": "3", "type": "hop1", "q": "What is Dojodo's job?", "ans": "tailor", "reply": "Tailor.", "ok": true}
+{"level": "3", "type": "hop2", "q": "What is the job of Bazono's mentor?", "ans": "baker", "reply": "Baker.", "ok": true}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Haluzo's mentor live?", "ans": "Pojoburg", "reply": "The mentor of Haluzo's mentor is Lano. Lano lives in Pojoburg (since Zobave live", "ok": true}
+{"level": "3", "type": "count", "q": "How many people live in Pojoburg?", "ans": "5", "reply": "5\n\n5", "ok": true}
+{"level": "3", "type": "older", "q": "Who is older, Ferive or Haluzo?", "ans": "Ferive", "reply": "Ferive is older.\n\nFerive (74) is older than Haluzo (73).\n\nAnswer", "ok": true}
+{"level": "3", "type": "hop1", "q": "What is Rifeba's job?", "ans": "painter", "reply": "Rifeba's job is a painter.", "ok": true}
+{"level": "3", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "painter", "reply": "Rifeba\n\nRifeba", "ok": false}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Vela's mentor live?", "ans": "Pojoburg", "reply": "Bazono's mentor is Zobave, and Zobave lives in Pojoburg.\n\nPojoburg", "ok": true}
+{"level": "3", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "7\n\n7", "ok": false}
+{"level": "3", "type": "older", "q": "Who is older, Dodo or Jopoku?", "ans": "Jopoku", "reply": "Dodo is older.\n\nDodo is 54 and Jopoku is 76. Therefore, J", "ok": false}
+{"level": "3", "type": "hop1", "q": "What is Bazono's job?", "ans": "baker", "reply": "Bazono's job is a baker.", "ok": true}
+{"level": "3", "type": "hop2", "q": "What is the job of Dodo's mentor?", "ans": "farmer", "reply": "Farmer", "ok": true}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Haluzo's mentor live?", "ans": "Pojoburg", "reply": "Lano's mentor is Zobave.\nZobave lives in Pojoburg.\n\nThe answer is Pojob", "ok": false}
+{"level": "3", "type": "count", "q": "How many people live in Baveford?", "ans": "2", "reply": "5\n\n5 (Mizo and Vela)\nWait, let me recount.\n1. Lagiba (5", "ok": false}
+{"level": "3", "type": "older", "q": "Who is older, Dojodo or Kupogi?", "ans": "Dojodo", "reply": "Dojodo is older.\n\n**Dojodo**", "ok": true}
+{"level": "3", "type": "hop1", "q": "What is Dojodo's job?", "ans": "tailor", "reply": "Tailor.", "ok": true}
+{"level": "3", "type": "hop2", "q": "What is the job of Lagiba's mentor?", "ans": "pilot", "reply": "Pilot.", "ok": true}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Bado's mentor live?", "ans": "Dojoburg", "reply": "Lano\n\nLano lives in Dojoburg, and Haluzo's mentor is Lano. Therefore, the", "ok": false}
+{"level": "3", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "6\n\n6", "ok": false}
+{"level": "3", "type": "older", "q": "Who is older, Nohapo or Gikizo?", "ans": "Nohapo", "reply": "Nohapo is older.\n\n**Nohapo**", "ok": true}
+{"level": "3", "type": "hop1", "q": "What is Rina's job?", "ans": "sailor", "reply": "Sailor.", "ok": true}
+{"level": "3", "type": "hop2", "q": "What is the job of Fevena's mentor?", "ans": "potter", "reply": "Gilu\n\nGilu works as a potter.\nFevena's mentor is Gilu.\nTherefore, the", "ok": false}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Rina's mentor live?", "ans": "Pohajoton", "reply": "The mentor of Rina's mentor is Jopoku. Jopoku lives in Pohajoton (according to t", "ok": true}
+{"level": "3", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "6\n\n6", "ok": false}
+{"level": "3", "type": "older", "q": "Who is older, Bazono or Gife?", "ans": "Bazono", "reply": "Bazono is older.\n\nBazono is 27, and Gife is 23.\n\n", "ok": true}
+{"level": "10", "type": "hop1", "q": "What is Hakido's job?", "ans": "teacher", "reply": "Hakido's job is a teacher.", "ok": true}
+{"level": "10", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "pilot", "reply": "Pilot\n\nPilot", "ok": true}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Suta's mentor live?", "ans": "Ririford", "reply": "The mentor of Suta's mentor is Gila. Gila lives in Gidoford.\n\nAnswer: G", "ok": false}
+{"level": "10", "type": "count", "q": "How many people live in Tabataburg?", "ans": "3", "reply": "6\n\n6 (Tagi, Sula, Doveta, Nalu, Feta, Gila, Pomipo", "ok": false}
+{"level": "10", "type": "older", "q": "Who is older, Tasuno or Tagi?", "ans": "Tasuno", "reply": "Tasuno is 66, and Tagi is 30. Therefore, Tasuno is older.\n\n", "ok": true}
+{"level": "10", "type": "hop1", "q": "What is Nalu's job?", "ans": "sailor", "reply": "Nalu's job is a tailor.", "ok": false}
+{"level": "10", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "pilot", "reply": "Pilot", "ok": true}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Naluha's mentor live?", "ans": "Navekuburg", "reply": "The mentor of Naluha's mentor is Nokuzo. Nokuzo's mentor is Kitana. Kitana", "ok": false}
+{"level": "10", "type": "count", "q": "How many people live in Ririford?", "ans": "4", "reply": "5\n\n5 (Jodo, Mena, Hakido, Nokuzo, and Milu's mentor Suta", "ok": false}
+{"level": "10", "type": "older", "q": "Who is older, Metaba or Mizo?", "ans": "Metaba", "reply": "Mizo is 55 years old, and Metaba is 76 years old. Therefore, Metaba is", "ok": true}
+{"level": "10", "type": "hop1", "q": "What is Lukujo's job?", "ans": "miner", "reply": "Lukujo's job is a miner.", "ok": true}
+{"level": "10", "type": "hop2", "q": "What is the job of Nalu's mentor?", "ans": "painter", "reply": "Zojota\n\n**Zojota**", "ok": false}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Meripo's mentor live?", "ans": "Navekuburg", "reply": "Navekuburg", "ok": true}
+{"level": "10", "type": "count", "q": "How many people live in Navekuburg?", "ans": "5", "reply": "9\n\nNavekuburg contains the following residents:\n1. Feta\n2. Meripo\n3", "ok": false}
+{"level": "10", "type": "older", "q": "Who is older, Naluha or Tagi?", "ans": "Naluha", "reply": "Naluha is 49 years old and Tagi is 30 years old. Therefore, Naluha", "ok": true}
+{"level": "10", "type": "hop1", "q": "What is Lukujo's job?", "ans": "miner", "reply": "Lukujo works as a miner.", "ok": true}
+{"level": "10", "type": "hop2", "q": "What is the job of Metaba's mentor?", "ans": "baker", "reply": "Kukimi\n\nKukimi", "ok": false}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Milu's mentor live?", "ans": "Gidoford", "reply": "The mentor of Milu's mentor is Gila. Gila lives in Gidoford.\n\nAnswer: G", "ok": true}
+{"level": "10", "type": "count", "q": "How many people live in Nodosuford?", "ans": "4", "reply": "6", "ok": false}
+{"level": "10", "type": "older", "q": "Who is older, Mizo or Feta?", "ans": "Mizo", "reply": "Feta is 25 years old, and Mizo is 55 years old. Therefore, Mizo is", "ok": true}
+{"level": "10", "type": "hop1", "q": "What is Pomipo's job?", "ans": "painter", "reply": "Pomipo's job is a painter.", "ok": true}
+{"level": "10", "type": "hop2", "q": "What is the job of Tasuno's mentor?", "ans": "sailor", "reply": "Jodo\n\nJodo works as a sailor.", "ok": false}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Mena's mentor live?", "ans": "Ririford", "reply": "The mentor of Mena's mentor is Nokuzo. Nokuzo lives in Ririford.\n\nR", "ok": true}
+{"level": "10", "type": "count", "q": "How many people live in Ririford?", "ans": "4", "reply": "5\n\nRiriford is home to Jodo, Nokuzo, Hakido, Mena, and L", "ok": false}
+{"level": "10", "type": "older", "q": "Who is older, Laku or Lukujo?", "ans": "Laku", "reply": "Lukujo is 53 years old, and Laku is 54 years old. Therefore, Laku", "ok": true}
+{"level": "10", "type": "hop1", "q": "What is Metaba's job?", "ans": "teacher", "reply": "Metaba's job is a teacher.", "ok": true}
+{"level": "10", "type": "hop2", "q": "What is the job of Laku's mentor?", "ans": "baker", "reply": "Kukimi\n\nKukimi", "ok": false}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Lukujo's mentor live?", "ans": "Gidoford", "reply": "The mentor of Lukujo's mentor is Milu. Milu's mentor is Suta. Suta lives in", "ok": false}
+{"level": "10", "type": "count", "q": "How many people live in Nodosuford?", "ans": "4", "reply": "Naluha, Nalu, Naluha, Naluha, Naluha, Naluha, N", "ok": false}
+{"level": "10", "type": "older", "q": "Who is older, Milu or Jodo?", "ans": "Jodo", "reply": "Jodo is 47, and Milu is 26. Therefore, Jodo is older.\n\nJ", "ok": true}
+{"level": "10", "type": "hop1", "q": "What is Kizo's job?", "ans": "doctor", "reply": "Kizo's job is a doctor.", "ok": true}
+{"level": "10", "type": "hop2", "q": "What is the job of Surife's mentor?", "ans": "teacher", "reply": "Kilu works as a teacher.\n\n**Teacher**", "ok": true}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Gino's mentor live?", "ans": "Nagiburg", "reply": "The mentor of Gino's mentor is Joki. Joki lives in Nagiburg (implied by the cont", "ok": true}
+{"level": "10", "type": "count", "q": "How many people live in Kizoford?", "ans": "2", "reply": "3\n\nKizo, Mihajo, and Jojo all live in Kizoford.", "ok": false}
+{"level": "10", "type": "older", "q": "Who is older, Bapo or Dobado?", "ans": "Bapo", "reply": "Bapo is 51 years old and Dobado is 21 years old. Therefore, Bapo is older", "ok": true}
+{"level": "10", "type": "hop1", "q": "What is Kilu's job?", "ans": "teacher", "reply": "Kilu's job is a teacher.", "ok": true}
+{"level": "10", "type": "hop2", "q": "What is the job of Kizo's mentor?", "ans": "tailor", "reply": "Rikuku\n\nRikuku's mentor is Kizo, so Kizo's mentor is Nado. Wait,", "ok": false}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Nokiba's mentor live?", "ans": "Nagiburg", "reply": "The mentor of Nokiba's mentor is Joki. Joki's mentor is Veveme. Veveme lives", "ok": false}
+{"level": "10", "type": "count", "q": "How many people live in Zonoburg?", "ans": "5", "reply": "9\n\n**People in Zonoburg:**\n1. Dobado\n2. Gino\n3. R", "ok": false}
+{"level": "10", "type": "older", "q": "Who is older, Kumeri or Vekulu?", "ans": "Vekulu", "reply": "Vekulu is 72 years old, and Kumeri is 37 years old. Therefore, V", "ok": true}
+{"level": "10", "type": "hop1", "q": "What is Nomi's job?", "ans": "farmer", "reply": "Nomi's job is a farmer.", "ok": true}
+{"level": "10", "type": "hop2", "q": "What is the job of Mena's mentor?", "ans": "tailor", "reply": "Nado's job is a tailor. Therefore, Mena's mentor's job is a tailor.\n\nWait, let", "ok": true}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Gino's mentor live?", "ans": "Nagiburg", "reply": "Joki's mentor is Veveme, and Veveme lives in Nagiburg. Therefore, the mentor of", "ok": true}
+{"level": "10", "type": "count", "q": "How many people live in Kizoford?", "ans": "2", "reply": "Kizo lives in Kizoford and Mihajo lives in Kizoford. That makes 2 people.", "ok": true}
+{"level": "10", "type": "older", "q": "Who is older, Kigina or Fegi?", "ans": "Fegi", "reply": "Fegi is 69 years old and Kigina is 24 years old. Therefore, Fegi is", "ok": true}
+{"level": "10", "type": "hop1", "q": "What is Vezo's job?", "ans": "potter", "reply": "Vezo's job is a potter.", "ok": true}
+{"level": "10", "type": "hop2", "q": "What is the job of Bapo's mentor?", "ans": "farmer", "reply": "Jojo\n\nJojo works as a farmer.\nTherefore, Bapo's mentor is Jojo, who works as", "ok": false}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Fegi's mentor live?", "ans": "Zonoburg", "reply": "The mentor of Fegi's mentor is Mena. Mena lives in Fekiton. Therefore, the city ", "ok": false}
+{"level": "10", "type": "count", "q": "How many people live in Hanoton?", "ans": "5", "reply": "9\n\n**Hanoton** residents: Kumeri, Nomi, Mihajo, Kigina, Meku", "ok": false}
+{"level": "10", "type": "older", "q": "Who is older, Gino or Kigina?", "ans": "Gino", "reply": "Gino is 79 years old and Kigina is 24 years old. Therefore, Gino is", "ok": true}
+{"level": "10", "type": "hop1", "q": "What is Mihajo's job?", "ans": "doctor", "reply": "Doctor", "ok": true}
+{"level": "10", "type": "hop2", "q": "What is the job of Joki's mentor?", "ans": "teacher", "reply": "Joki's mentor is Veveme, and Veveme works as a teacher.\n\nAnswer: Teacher", "ok": true}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Nokiba's mentor live?", "ans": "Nagiburg", "reply": "Nokiba's mentor is Joki. Joki's mentor is Veveme. Veveme lives in Nag", "ok": false}
+{"level": "10", "type": "count", "q": "How many people live in Hanoton?", "ans": "5", "reply": "9\n\n**Hanoton** contains: Kumeri, Nomi, Bapo, Mihajo, Kigina", "ok": false}
+{"level": "10", "type": "older", "q": "Who is older, Jojo or Jota?", "ans": "Jojo", "reply": "Jojo is 64 years old, and Jota is 52 years old. Therefore, Jojo is", "ok": true}
+{"level": "10", "type": "hop1", "q": "What is Kizo's job?", "ans": "doctor", "reply": "Kizo's job is a doctor.", "ok": true}
+{"level": "10", "type": "hop2", "q": "What is the job of Vezo's mentor?", "ans": "doctor", "reply": "Gino\n\nGino works as a doctor.", "ok": false}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Bapo's mentor live?", "ans": "Hanoton", "reply": "The mentor of Bapo's mentor is Jojo, and Jojo lives in Nagiburg (wait, let's", "ok": false}
+{"level": "10", "type": "count", "q": "How many people live in Fekiton?", "ans": "2", "reply": "5\n\nBapo, Mena, and Mena (wait, Mena is listed once) and Posupo?", "ok": false}
+{"level": "10", "type": "older", "q": "Who is older, Vekulu or Joki?", "ans": "Vekulu", "reply": "Vekulu is 72 years old, and Joki is 48 years old. Therefore, Vek", "ok": true}
+{"level": "10", "type": "hop1", "q": "What is Lumefe's job?", "ans": "baker", "reply": "Lumefe's job is a baker.", "ok": true}
+{"level": "10", "type": "hop2", "q": "What is the job of Melata's mentor?", "ans": "painter", "reply": "Melata's mentor is Milu, and Milu works as a painter.\n\nAnswer: Painter", "ok": true}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Sumime's mentor live?", "ans": "Hahaburg", "reply": "Pome lives in Hahaburg.\n\nHahaburg.", "ok": true}
+{"level": "10", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "5\n\n**Answer:** 5", "ok": false}
+{"level": "10", "type": "older", "q": "Who is older, Kutari or Popo?", "ans": "Kutari", "reply": "Kutari is 65 years old and Popo is 42 years old. Therefore, Kutari is", "ok": true}
+{"level": "10", "type": "hop1", "q": "What is Lumefe's job?", "ans": "baker", "reply": "Lumefe's job is a baker.", "ok": true}
+{"level": "10", "type": "hop2", "q": "What is the job of Sudolu's mentor?", "ans": "miner", "reply": "Rigi\n\nRigi works as a miner.", "ok": false}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Suhaki's mentor live?", "ans": "Dokuburg", "reply": "The mentor of Suhaki's mentor is Sumime.\nSumime lives in Dokuburg.\n\nAnswer: Dok", "ok": false}
+{"level": "10", "type": "count", "q": "How many people live in Hahaburg?", "ans": "4", "reply": "5\n\n5", "ok": false}
+{"level": "10", "type": "older", "q": "Who is older, Sumime or Jola?", "ans": "Sumime", "reply": "Jola is 32, and Sumime is 44. Therefore, Sumime is older.\n\nSum", "ok": true}
+{"level": "10", "type": "hop1", "q": "What is Jopona's job?", "ans": "doctor", "reply": "Jopona works as a doctor.", "ok": true}
+{"level": "10", "type": "hop2", "q": "What is the job of Kutari's mentor?", "ans": "painter", "reply": "Milu's mentor is Milu's mentor, which is Gizo. However, the question asks for th", "ok": false}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Sumime's mentor live?", "ans": "Hahaburg", "reply": "Mita's mentor is Pome. Pome lives in Hahaburg. Therefore, the mentor of Sumime", "ok": true}
+{"level": "10", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "Based on the text provided:\n1.  **Dosudo** lives in Lupoton.\n2.  **", "ok": false}
+{"level": "10", "type": "older", "q": "Who is older, Sumime or Jopona?", "ans": "Sumime", "reply": "Jopona is 36 years old, and Sumime is 44 years old. Therefore, Sumime", "ok": true}
+{"level": "10", "type": "hop1", "q": "What is Givedo's job?", "ans": "doctor", "reply": "Givedo's job is a doctor.", "ok": true}
+{"level": "10", "type": "hop2", "q": "What is the job of Jopona's mentor?", "ans": "baker", "reply": "Jopona's mentor is Popo.\n\nPopo works as a baker.\n\nAnswer: Baker\n</think>\n\n", "ok": false}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Nala's mentor live?", "ans": "Dokuburg", "reply": "Dove's mentor is Popo.\nPopo lives in Dokuburg.\nTherefore, the mentor of N", "ok": false}
+{"level": "10", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "Lupoton is home to Dosudo, Melata, and Mita (wait, Mita owns a goat,", "ok": false}
+{"level": "10", "type": "older", "q": "Who is older, Pome or Gihado?", "ans": "Pome", "reply": "Pome is 64 years old, and Gihado is 28 years old. Therefore, Pome", "ok": true}
+{"level": "10", "type": "hop1", "q": "What is Sumime's job?", "ans": "doctor", "reply": "Sumime's job is a doctor.", "ok": true}
+{"level": "10", "type": "hop2", "q": "What is the job of Dove's mentor?", "ans": "baker", "reply": "Pome\n\nPome", "ok": false}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Sudolu's mentor live?", "ans": "Hahaburg", "reply": "The mentor of Sudolu's mentor is Rigi. Rigi lives in Basubaford (wait, let's", "ok": false}
+{"level": "10", "type": "count", "q": "How many people live in Jogipoton?", "ans": "4", "reply": "6\n\nJogipoton is home to:\n1. Donagi\n2. Fekive\n3.", "ok": false}
+{"level": "10", "type": "older", "q": "Who is older, Noki or Pome?", "ans": "Pome", "reply": "Pome is 64 years old, and Noki is 25 years old. Therefore, Pome is", "ok": true}
+{"level": "10", "type": "hop1", "q": "What is Nala's job?", "ans": "tailor", "reply": "Nala's job is a tailor.", "ok": true}
+{"level": "10", "type": "hop2", "q": "What is the job of Suba's mentor?", "ans": "doctor", "reply": "Donagi's mentor is Mita, so Suba's mentor is Givedo.\n\nAnswer: Givedo", "ok": false}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Jozola's mentor live?", "ans": "Basubaford", "reply": "Milu lives in Basubaford.\n\nBasubaford.", "ok": true}
+{"level": "10", "type": "count", "q": "How many people live in Dokuburg?", "ans": "5", "reply": "To find the number of people living in Dokuburg, let's list the individuals ment", "ok": false}
+{"level": "10", "type": "older", "q": "Who is older, Sudolu or Sumime?", "ans": "Sudolu", "reply": "Sudolu is 75 and Sumime is 44. Therefore, Sudolu is older.\n\nS", "ok": true}
+{"level": "10", "type": "hop1", "q": "What is Kisupo's job?", "ans": "farmer", "reply": "Kisupo's job is a farmer.", "ok": true}
+{"level": "10", "type": "hop2", "q": "What is the job of Najomi's mentor?", "ans": "pilot", "reply": "Jojo\n\nJojo works as a pilot.", "ok": false}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Noki's mentor live?", "ans": "Lanafeton", "reply": "The mentor of Noki's mentor is Zojo. Zojo's mentor is Dovezo. Dovezo lives in La", "ok": false}
+{"level": "10", "type": "count", "q": "How many people live in Bafeton?", "ans": "3", "reply": "5\n\n**Answer:** 5", "ok": false}
+{"level": "10", "type": "older", "q": "Who is older, Kisupo or Joha?", "ans": "Joha", "reply": "Joha is 55 years old, and Kisupo is 21 years old. Therefore, Joha is", "ok": true}
+{"level": "10", "type": "hop1", "q": "What is Baku's job?", "ans": "baker", "reply": "Baku's job is a baker.", "ok": true}
+{"level": "10", "type": "hop2", "q": "What is the job of Zodo's mentor?", "ans": "sailor", "reply": "Batave\n\nBatave works as a sailor, and Zodo's mentor is Batave.", "ok": false}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Kihafe's mentor live?", "ans": "Rizoford", "reply": "Rizoford\n\n**Rizoford**", "ok": true}
+{"level": "10", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "3\n\nNoki, Najomi, and Baku all live in Zonoton.", "ok": true}
+{"level": "10", "type": "older", "q": "Who is older, Riha or Vemeri?", "ans": "Riha", "reply": "Riha is older.\n\nRiha is 33, and Vemeri is 29.\n</think>", "ok": true}
+{"level": "10", "type": "hop1", "q": "What is Kihafe's job?", "ans": "tailor", "reply": "Kihafe's job is a tailor.", "ok": true}
+{"level": "10", "type": "hop2", "q": "What is the job of Najomi's mentor?", "ans": "pilot", "reply": "Jojo\n\n**Jojo**", "ok": false}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Kunaba's mentor live?", "ans": "Rizoford", "reply": "The mentor of Kunaba's mentor is Domiri. Domiri's mentor is Vena. Vena lives in ", "ok": false}
+{"level": "10", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "5\n\n5", "ok": false}
+{"level": "10", "type": "older", "q": "Who is older, Noki or Najomi?", "ans": "Noki", "reply": "Noki is 53 years old, and Najomi is 22 years old. Therefore, Noki is", "ok": true}
+{"level": "10", "type": "hop1", "q": "What is Kisupo's job?", "ans": "farmer", "reply": "Kisupo's job is a farmer.", "ok": true}
+{"level": "10", "type": "hop2", "q": "What is the job of Jojo's mentor?", "ans": "potter", "reply": "Vena\n\nVena", "ok": false}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Riha's mentor live?", "ans": "Rizoford", "reply": "Vena lives in Rizoford.\n\nRiha's mentor is Girizo. Girizo's mentor is Vena", "ok": true}
+{"level": "10", "type": "count", "q": "How many people live in Rizoford?", "ans": "5", "reply": "5\n\n5 (Noki, Zojo, Baku, Kidoba, Josuha, Gime, Jojo", "ok": true}
+{"level": "10", "type": "older", "q": "Who is older, Kidoba or Josuha?", "ans": "Josuha", "reply": "Josuha is 38, and Kidoba is 32. Therefore, Josuha is older.\n\nJos", "ok": true}
+{"level": "10", "type": "hop1", "q": "What is Jojo's job?", "ans": "pilot", "reply": "Pilot", "ok": true}
+{"level": "10", "type": "hop2", "q": "What is the job of Noki's mentor?", "ans": "teacher", "reply": "Zojo\n\n**Zojo**", "ok": false}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Gime's mentor live?", "ans": "Lanafeton", "reply": "Josuha lives in Lanafeton.\n\nLanafeton is the city where Josuha lives, and Josuha", "ok": true}
+{"level": "10", "type": "count", "q": "How many people live in Kikiton?", "ans": "3", "reply": "5\n\n**Vena, Gime, Misula, Kunaba, Domiri, Zodo, Vemeri", "ok": false}
+{"level": "10", "type": "older", "q": "Who is older, Najomi or Hamiku?", "ans": "Hamiku", "reply": "Najomi is 22 years old, and Hamiku is 66 years old. Therefore, Hamiku", "ok": true}
+{"level": "10", "type": "hop1", "q": "What is Baku's job?", "ans": "baker", "reply": "Baku's job is a baker.", "ok": true}
+{"level": "10", "type": "hop2", "q": "What is the job of Kuki's mentor?", "ans": "teacher", "reply": "Josuha\n\n**Josuha**", "ok": false}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Kihafe's mentor live?", "ans": "Rizoford", "reply": "Vena\n\nVena lives in Rizoford.", "ok": false}
+{"level": "10", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "Najomi, Noki, and Baku live in Zonoton. That makes 3 people.\n\n3", "ok": true}
+{"level": "10", "type": "older", "q": "Who is older, Kisupo or Domiri?", "ans": "Domiri", "reply": "Domiri is 54, and Kisupo is 21. Therefore, Domiri is older.\n\nDom", "ok": true}
+{"level": "10", "type": "hop1", "q": "What is Mizo's job?", "ans": "teacher", "reply": "Mizo's job is a teacher.", "ok": true}
+{"level": "10", "type": "hop2", "q": "What is the job of Dojodo's mentor?", "ans": "farmer", "reply": "Mepoku\n\nMepoku", "ok": false}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Mizo's mentor live?", "ans": "Pojoburg", "reply": "The mentor of Mizo's mentor is Rifeba.\nRifeba's mentor is Mepoku.\n", "ok": false}
+{"level": "10", "type": "count", "q": "How many people live in Habahaford?", "ans": "4", "reply": "9\n\n**Answer:** 9", "ok": false}
+{"level": "10", "type": "older", "q": "Who is older, Gikizo or Vela?", "ans": "Gikizo", "reply": "Vela is 35, and Gikizo is 48. Therefore, Gikizo is older.", "ok": true}
+{"level": "10", "type": "hop1", "q": "What is Dojodo's job?", "ans": "tailor", "reply": "Dojodo's job is a tailor.", "ok": true}
+{"level": "10", "type": "hop2", "q": "What is the job of Bazono's mentor?", "ans": "baker", "reply": "Bazono's mentor is Zobave, and Zobave works as a baker.\n\nAnswer: Baker", "ok": true}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Haluzo's mentor live?", "ans": "Pojoburg", "reply": "Lano lives in Dojoburg.\nLano's mentor is Zobave.\nZobave lives in Po", "ok": false}
+{"level": "10", "type": "count", "q": "How many people live in Pojoburg?", "ans": "5", "reply": "5", "ok": true}
+{"level": "10", "type": "older", "q": "Who is older, Ferive or Haluzo?", "ans": "Ferive", "reply": "Ferive is 74 years old and Haluzo is 73 years old. Therefore, Ferive is", "ok": true}
+{"level": "10", "type": "hop1", "q": "What is Rifeba's job?", "ans": "painter", "reply": "Rifeba's job is a painter.", "ok": true}
+{"level": "10", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "painter", "reply": "Rifeba\n\n**Rifeba**", "ok": false}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Vela's mentor live?", "ans": "Pojoburg", "reply": "The mentor of Vela's mentor is Bazono. Bazono lives in Pojoburg.\n\nPojob", "ok": true}
+{"level": "10", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "Lano, Nakufe, Fevena, Bazono, Jopoku, Zozo, and Feluna are", "ok": false}
+{"level": "10", "type": "older", "q": "Who is older, Dodo or Jopoku?", "ans": "Jopoku", "reply": "Jopoku is older.\n\nJopoku is 76 years old, while Dodo is 54", "ok": true}
+{"level": "10", "type": "hop1", "q": "What is Bazono's job?", "ans": "baker", "reply": "Bazono's job is a baker.", "ok": true}
+{"level": "10", "type": "hop2", "q": "What is the job of Dodo's mentor?", "ans": "farmer", "reply": "Bado\n\nBado works as a farmer.", "ok": false}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Haluzo's mentor live?", "ans": "Pojoburg", "reply": "Lano's mentor is Zobave.\nZobave lives in Pojoburg.\n\nThe answer is Pojob", "ok": false}
+{"level": "10", "type": "count", "q": "How many people live in Baveford?", "ans": "2", "reply": "Rifeba, Mizo, and Lano live in Baveford. That makes 3 people.\n\n3", "ok": false}
+{"level": "10", "type": "older", "q": "Who is older, Dojodo or Kupogi?", "ans": "Dojodo", "reply": "Dojodo is 37, and Kupogi is 31. Therefore, Dojodo is older.", "ok": true}
+{"level": "10", "type": "hop1", "q": "What is Dojodo's job?", "ans": "tailor", "reply": "Dojodo works as a tailor.", "ok": true}
+{"level": "10", "type": "hop2", "q": "What is the job of Lagiba's mentor?", "ans": "pilot", "reply": "Haluzo.", "ok": false}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Bado's mentor live?", "ans": "Dojoburg", "reply": "Haluzo's mentor is Lano.\nLano lives in Dojoburg.\nTherefore, the mentor of", "ok": false}
+{"level": "10", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "9\n\nPeople living in Dojoburg:\n1. Nakufe\n2. Bazono\n3. L", "ok": false}
+{"level": "10", "type": "older", "q": "Who is older, Nohapo or Gikizo?", "ans": "Nohapo", "reply": "Nohapo is 61 years old, and Gikizo is 48 years old. Therefore, N", "ok": true}
+{"level": "10", "type": "hop1", "q": "What is Rina's job?", "ans": "sailor", "reply": "Rina's job is a sailor.", "ok": true}
+{"level": "10", "type": "hop2", "q": "What is the job of Fevena's mentor?", "ans": "potter", "reply": "Gilu\n\nGilu works as a potter, so Fevena's mentor is a potter. However, the", "ok": false}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Rina's mentor live?", "ans": "Pohajoton", "reply": "Lagiba lives in Pohajoton.\n\nAnswer: Pohajoton", "ok": true}
+{"level": "10", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "5\n\n5 (Lano, Nakufe, Zozo, Bazono, Feluna, Gikizo,", "ok": true}
+{"level": "10", "type": "older", "q": "Who is older, Bazono or Gife?", "ans": "Bazono", "reply": "Bazono is 27 years old, and Gife is 23 years old. Therefore, Bazon", "ok": true}
+{"level": "30", "type": "hop1", "q": "What is Hakido's job?", "ans": "teacher", "reply": "Hakido's job is a teacher.", "ok": true}
+{"level": "30", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "pilot", "reply": "Mizo's mentor is Kitana, and Kitana works as a pilot.\n\nPilot", "ok": true}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Suta's mentor live?", "ans": "Ririford", "reply": "The mentor of Suta's mentor is Gila.\nGila lives in Navekuburg.\nWait", "ok": false}
+{"level": "30", "type": "count", "q": "How many people live in Tabataburg?", "ans": "3", "reply": "Based on the text provided, the following people live in Tabataburg:\n1.  Tagi\n2.", "ok": false}
+{"level": "30", "type": "older", "q": "Who is older, Tasuno or Tagi?", "ans": "Tasuno", "reply": "Tasuno is 66 years old, and Tagi is 30 years old. Therefore, Tasuno", "ok": true}
+{"level": "30", "type": "hop1", "q": "What is Nalu's job?", "ans": "sailor", "reply": "Nalu's job is a tailor.", "ok": false}
+{"level": "30", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "pilot", "reply": "Kitana's job is a pilot, but the question asks for the job of Mizo's mentor. Wai", "ok": true}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Naluha's mentor live?", "ans": "Navekuburg", "reply": "The mentor of Naluha's mentor is Nokuzo's mentor, which is Kitana. Kitana lives ", "ok": false}
+{"level": "30", "type": "count", "q": "How many people live in Ririford?", "ans": "4", "reply": "To find the number of people living in Ririford, let's list the individuals ment", "ok": false}
+{"level": "30", "type": "older", "q": "Who is older, Metaba or Mizo?", "ans": "Metaba", "reply": "Metaba is 76 years old, and Mizo is 55 years old. Therefore, Metaba is", "ok": true}
+{"level": "30", "type": "hop1", "q": "What is Lukujo's job?", "ans": "miner", "reply": "Lukujo's job is a miner.", "ok": true}
+{"level": "30", "type": "hop2", "q": "What is the job of Nalu's mentor?", "ans": "painter", "reply": "Naluha's mentor is Nokuzo. However, the question asks for the job of Nalu's ment", "ok": false}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Meripo's mentor live?", "ans": "Navekuburg", "reply": "The mentor of Meripo's mentor is Pomipo.\nPomipo's mentor is Kitana.\nKitana", "ok": false}
+{"level": "30", "type": "count", "q": "How many people live in Navekuburg?", "ans": "5", "reply": "To find the number of people living in Navekuburg, I need to list all the indivi", "ok": false}
+{"level": "30", "type": "older", "q": "Who is older, Naluha or Tagi?", "ans": "Naluha", "reply": "Naluha is 49 years old, and Tagi is 30 years old. Therefore, Nalu", "ok": true}
+{"level": "30", "type": "hop1", "q": "What is Lukujo's job?", "ans": "miner", "reply": "Lukujo works as a miner.", "ok": true}
+{"level": "30", "type": "hop2", "q": "What is the job of Metaba's mentor?", "ans": "baker", "reply": "Jodo\n\nJodo", "ok": false}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Milu's mentor live?", "ans": "Gidoford", "reply": "The mentor of Milu's mentor is Suta. Suta lives in Tabataburg.\n\nTabataburg", "ok": false}
+{"level": "30", "type": "count", "q": "How many people live in Nodosuford?", "ans": "4", "reply": "Nodosuford contains the following people:\n1.  Mena\n2.  Nalu\n3.", "ok": false}
+{"level": "30", "type": "older", "q": "Who is older, Mizo or Feta?", "ans": "Mizo", "reply": "Feta is 25 years old, and Suta is 57 years old. Since Feta's mentor", "ok": false}
+{"level": "30", "type": "hop1", "q": "What is Pomipo's job?", "ans": "painter", "reply": "Pomipo's job is a painter.", "ok": true}
+{"level": "30", "type": "hop2", "q": "What is the job of Tasuno's mentor?", "ans": "sailor", "reply": "Jodo\n\nJodo works as a sailor.", "ok": false}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Mena's mentor live?", "ans": "Ririford", "reply": "The mentor of Mena's mentor is Jodo. Jodo lives in Tafeford (wait, let's check", "ok": false}
+{"level": "30", "type": "count", "q": "How many people live in Ririford?", "ans": "4", "reply": "Based on the text provided, the people living in Ririford are:\n1.  Jodo\n2", "ok": false}
+{"level": "30", "type": "older", "q": "Who is older, Laku or Lukujo?", "ans": "Laku", "reply": "Laku is 54 years old, and Lukujo is 53 years old. Therefore, Laku", "ok": true}
+{"level": "30", "type": "hop1", "q": "What is Metaba's job?", "ans": "teacher", "reply": "Metaba's job is a teacher.", "ok": true}
+{"level": "30", "type": "hop2", "q": "What is the job of Laku's mentor?", "ans": "baker", "reply": "Laku's mentor is Kukimi, and the job of Kukimi is a baker.\n\nAnswer: Baker", "ok": true}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Lukujo's mentor live?", "ans": "Gidoford", "reply": "The mentor of Lukujo's mentor is Milu. Milu's mentor is Suta. Suta lives in", "ok": false}
+{"level": "30", "type": "count", "q": "How many people live in Nodosuford?", "ans": "4", "reply": "Nodosuford is home to the following people:\n1. Tasuno\n2. Naluha\n3", "ok": false}
+{"level": "30", "type": "older", "q": "Who is older, Milu or Jodo?", "ans": "Jodo", "reply": "Jodo is 47 years old, and Milu is 26 years old. Therefore, Jodo is", "ok": true}
+{"level": "30", "type": "hop1", "q": "What is Kizo's job?", "ans": "doctor", "reply": "Kizo works as a doctor.", "ok": true}
+{"level": "30", "type": "hop2", "q": "What is the job of Surife's mentor?", "ans": "teacher", "reply": "The job of Surife's mentor is **Kilu**.", "ok": false}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Gino's mentor live?", "ans": "Nagiburg", "reply": "The mentor of Gino's mentor is Joki. Joki's mentor is Veveme. Veveme lives", "ok": false}
+{"level": "30", "type": "count", "q": "How many people live in Kizoford?", "ans": "2", "reply": "Kizo lives in Kizoford and Kizo's mentor is Nado (who lives in Zonoburg", "ok": false}
+{"level": "30", "type": "older", "q": "Who is older, Bapo or Dobado?", "ans": "Bapo", "reply": "Bapo is 51 years old and Dobado is 21 years old. Therefore, Bapo is older", "ok": true}
+{"level": "30", "type": "hop1", "q": "What is Kilu's job?", "ans": "teacher", "reply": "Kilu's job is a teacher.", "ok": true}
+{"level": "30", "type": "hop2", "q": "What is the job of Kizo's mentor?", "ans": "tailor", "reply": "Kizo's mentor is Nado.\n\nNado's job is a tailor.\n\nWait, the question asks for", "ok": false}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Nokiba's mentor live?", "ans": "Nagiburg", "reply": "The mentor of Nokiba's mentor is Joki. Joki lives in Nagiburg.\n\nAnswer: Nagib", "ok": true}
+{"level": "30", "type": "count", "q": "How many people live in Zonoburg?", "ans": "5", "reply": "To find the number of people living in Zonoburg, let's list the individuals ment", "ok": false}
+{"level": "30", "type": "older", "q": "Who is older, Kumeri or Vekulu?", "ans": "Vekulu", "reply": "Vekulu is 72 years old, and Kumeri is 37 years old. Therefore, V", "ok": true}
+{"level": "30", "type": "hop1", "q": "What is Nomi's job?", "ans": "farmer", "reply": "Nomi's job is a farmer.", "ok": true}
+{"level": "30", "type": "hop2", "q": "What is the job of Mena's mentor?", "ans": "tailor", "reply": "Mena's mentor is Dobado.\n\nDobado's job is not mentioned in the text.\n\nHowever,", "ok": false}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Gino's mentor live?", "ans": "Nagiburg", "reply": "The mentor of Gino's mentor is Joki. Joki lives in... wait, let's check the text", "ok": false}
+{"level": "30", "type": "count", "q": "How many people live in Kizoford?", "ans": "2", "reply": "To find the number of people living in Kizoford, we need to identify all the ind", "ok": false}
+{"level": "30", "type": "older", "q": "Who is older, Kigina or Fegi?", "ans": "Fegi", "reply": "Fegi is 69 years old, and Kigina is 24 years old. Therefore, Fegi", "ok": true}
+{"level": "30", "type": "hop1", "q": "What is Vezo's job?", "ans": "potter", "reply": "Vezo's job is a potter.", "ok": true}
+{"level": "30", "type": "hop2", "q": "What is the job of Bapo's mentor?", "ans": "farmer", "reply": "Bapo's mentor is Jojo.\n\nJojo works as a farmer.\n\nAnswer: Farmer\n</think>\n\nFar", "ok": false}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Fegi's mentor live?", "ans": "Zonoburg", "reply": "The mentor of Fegi's mentor is Mena.\nMena's mentor is Nado.\nNado lives", "ok": false}
+{"level": "30", "type": "count", "q": "How many people live in Hanoton?", "ans": "5", "reply": "To find the number of people living in Hanoton, let's list the individuals menti", "ok": false}
+{"level": "30", "type": "older", "q": "Who is older, Gino or Kigina?", "ans": "Gino", "reply": "Gino is 79 years old, and Kigina is 24 years old. Therefore, Gino", "ok": true}
+{"level": "30", "type": "hop1", "q": "What is Mihajo's job?", "ans": "doctor", "reply": "Mihajo works as a doctor.", "ok": true}
+{"level": "30", "type": "hop2", "q": "What is the job of Joki's mentor?", "ans": "teacher", "reply": "Veveme\n\nVeveme", "ok": false}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Nokiba's mentor live?", "ans": "Nagiburg", "reply": "The mentor of Nokiba's mentor is Joki.\nJoki lives in Hanoton.\nTherefore, the cit", "ok": false}
+{"level": "30", "type": "count", "q": "How many people live in Hanoton?", "ans": "5", "reply": "To find the number of people living in Hanoton, let's list the individuals menti", "ok": false}
+{"level": "30", "type": "older", "q": "Who is older, Jojo or Jota?", "ans": "Jojo", "reply": "Jota is 52 years old, and Jojo is 64 years old. Therefore, Jojo is", "ok": true}
+{"level": "30", "type": "hop1", "q": "What is Kizo's job?", "ans": "doctor", "reply": "Kizo's job is a doctor.", "ok": true}
+{"level": "30", "type": "hop2", "q": "What is the job of Vezo's mentor?", "ans": "doctor", "reply": "Vezo's mentor is Gino.\n\nGino works as a doctor.\n\nAnswer: Doctor", "ok": false}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Bapo's mentor live?", "ans": "Hanoton", "reply": "The mentor of Bapo's mentor is Jojo.\nJojo's mentor is Kumeri.\nKumer", "ok": false}
+{"level": "30", "type": "count", "q": "How many people live in Fekiton?", "ans": "2", "reply": "To find the number of people living in Fekiton, we need to list the individuals ", "ok": false}
+{"level": "30", "type": "older", "q": "Who is older, Vekulu or Joki?", "ans": "Vekulu", "reply": "Joki is 48 years old, and Vekulu is 72 years old. Therefore, Vek", "ok": true}
+{"level": "30", "type": "hop1", "q": "What is Lumefe's job?", "ans": "baker", "reply": "Lumefe works as a baker.", "ok": true}
+{"level": "30", "type": "hop2", "q": "What is the job of Melata's mentor?", "ans": "painter", "reply": "Milu's mentor is Milu, but the question asks for the job of Melata's mentor. Wai", "ok": false}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Sumime's mentor live?", "ans": "Hahaburg", "reply": "The mentor of Sumime's mentor is Mita.\nMita lives in Lupoton.\n\nAnswer: Lupoton", "ok": false}
+{"level": "30", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "Based on the text provided:\n1.  **Dosudo** lives in **Lupoton**.\n2.", "ok": false}
+{"level": "30", "type": "older", "q": "Who is older, Kutari or Popo?", "ans": "Kutari", "reply": "Popo is 42 years old, and Kutari is 65 years old. Therefore, Kutari is", "ok": true}
+{"level": "30", "type": "hop1", "q": "What is Lumefe's job?", "ans": "baker", "reply": "Lumefe's job is a baker.", "ok": true}
+{"level": "30", "type": "hop2", "q": "What is the job of Sudolu's mentor?", "ans": "miner", "reply": "Rigi\n\nRigi works as a miner.", "ok": false}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Suhaki's mentor live?", "ans": "Dokuburg", "reply": "The mentor of Suhaki's mentor is Sumime.\nSumime's mentor is Mita.\nMita lives", "ok": false}
+{"level": "30", "type": "count", "q": "How many people live in Hahaburg?", "ans": "4", "reply": "Based on the text provided, the following people live in Hahaburg:\n1.  **Jola**", "ok": false}
+{"level": "30", "type": "older", "q": "Who is older, Sumime or Jola?", "ans": "Sumime", "reply": "Jola is 32 years old, and Sumime is 44 years old. Therefore, Sumime is", "ok": true}
+{"level": "30", "type": "hop1", "q": "What is Jopona's job?", "ans": "doctor", "reply": "Jopona's job is a doctor.", "ok": true}
+{"level": "30", "type": "hop2", "q": "What is the job of Kutari's mentor?", "ans": "painter", "reply": "The job of Kutari's mentor is a farmer.\n\n**Farmer**", "ok": false}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Sumime's mentor live?", "ans": "Hahaburg", "reply": "The mentor of Sumime's mentor is Mita. Mita lives in Basubaford.\n\nAnswer: Bas", "ok": false}
+{"level": "30", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "Based on the text provided:\n1.  **Melata** lives in Lupoton.\n2.  **", "ok": false}
+{"level": "30", "type": "older", "q": "Who is older, Sumime or Jopona?", "ans": "Sumime", "reply": "Jopona is 36 years old, and Sumime is 44 years old. Therefore, Sumime", "ok": true}
+{"level": "30", "type": "hop1", "q": "What is Givedo's job?", "ans": "doctor", "reply": "Givedo works as a doctor.", "ok": true}
+{"level": "30", "type": "hop2", "q": "What is the job of Jopona's mentor?", "ans": "baker", "reply": "Pome\n\n**Pome**", "ok": false}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Nala's mentor live?", "ans": "Dokuburg", "reply": "The mentor of Nala's mentor is Dove.\nNala's mentor is Dove.\nDove's mentor is", "ok": false}
+{"level": "30", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "Dove lives in Dokuburg.\nDosudo lives in Lupoton.\nMelata lives in Lupoton.", "ok": false}
+{"level": "30", "type": "older", "q": "Who is older, Pome or Gihado?", "ans": "Pome", "reply": "Pome is 64 years old. Gihado is 28 years old. Therefore, Pome is", "ok": true}
+{"level": "30", "type": "hop1", "q": "What is Sumime's job?", "ans": "doctor", "reply": "Sumime works as a doctor.", "ok": true}
+{"level": "30", "type": "hop2", "q": "What is the job of Dove's mentor?", "ans": "baker", "reply": "The job of Dove's mentor is Popo.\n\nPopo works as a baker.\n\nAnswer: Popo", "ok": false}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Sudolu's mentor live?", "ans": "Hahaburg", "reply": "The mentor of Sudolu's mentor is Rigi.\nRigi lives in Basubaford.\nTherefore,", "ok": false}
+{"level": "30", "type": "count", "q": "How many people live in Jogipoton?", "ans": "4", "reply": "To find the number of people living in Jogipoton, let's list the individuals men", "ok": false}
+{"level": "30", "type": "older", "q": "Who is older, Noki or Pome?", "ans": "Pome", "reply": "Noki is 25 years old, and Pome is 64 years old. Therefore, Pome is", "ok": true}
+{"level": "30", "type": "hop1", "q": "What is Nala's job?", "ans": "tailor", "reply": "Nala's job is a tailor.", "ok": true}
+{"level": "30", "type": "hop2", "q": "What is the job of Suba's mentor?", "ans": "doctor", "reply": "The job of Suba's mentor is a doctor.", "ok": true}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Jozola's mentor live?", "ans": "Basubaford", "reply": "The mentor of Jozola's mentor is Melata. Melata owns a cat and lives in... wait,", "ok": false}
+{"level": "30", "type": "count", "q": "How many people live in Dokuburg?", "ans": "5", "reply": "Dokuburg has the following residents:\n1. Dove\n2. Dove (listed twice, but distinc", "ok": false}
+{"level": "30", "type": "older", "q": "Who is older, Sudolu or Sumime?", "ans": "Sudolu", "reply": "Sudolu is 75 years old and Sumime is 44 years old. Therefore, Sudolu is", "ok": true}
+{"level": "30", "type": "hop1", "q": "What is Kisupo's job?", "ans": "farmer", "reply": "Kisupo's job is a farmer.", "ok": true}
+{"level": "30", "type": "hop2", "q": "What is the job of Najomi's mentor?", "ans": "pilot", "reply": "Najomi's mentor is Jojo. Jojo works as a pilot. Therefore, the job of Najomi's", "ok": true}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Noki's mentor live?", "ans": "Lanafeton", "reply": "The mentor of Noki's mentor is Domiri.\nDomiri lives in Rizoford.\nThe answer is", "ok": false}
+{"level": "30", "type": "count", "q": "How many people live in Bafeton?", "ans": "3", "reply": "To find the number of people living in Bafeton, let's list the individuals menti", "ok": false}
+{"level": "30", "type": "older", "q": "Who is older, Kisupo or Joha?", "ans": "Joha", "reply": "Joha is 55 years old, and Kisupo is 21 years old. Therefore, Joha is", "ok": true}
+{"level": "30", "type": "hop1", "q": "What is Baku's job?", "ans": "baker", "reply": "Baku's job is a baker.", "ok": true}
+{"level": "30", "type": "hop2", "q": "What is the job of Zodo's mentor?", "ans": "sailor", "reply": "Vena\n\nVena", "ok": false}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Kihafe's mentor live?", "ans": "Rizoford", "reply": "The mentor of Kihafe is Joha.\nJoha lives in Lanafeton.\nTherefore, the city", "ok": false}
+{"level": "30", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "Noki, Najomi, Baku, and Misula live in Zonoton. Wait, let me check the", "ok": false}
+{"level": "30", "type": "older", "q": "Who is older, Riha or Vemeri?", "ans": "Riha", "reply": "Vemeri is 29 years old, and Riha is 33 years old. Therefore, Riha", "ok": true}
+{"level": "30", "type": "hop1", "q": "What is Kihafe's job?", "ans": "tailor", "reply": "Kihafe's job is a tailor.", "ok": true}
+{"level": "30", "type": "hop2", "q": "What is the job of Najomi's mentor?", "ans": "pilot", "reply": "The job of Najomi's mentor is Jojo.\n\nWait, let me re-read the text carefully.\n\"", "ok": false}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Kunaba's mentor live?", "ans": "Rizoford", "reply": "The mentor of Kunaba is Domiri.\nThe mentor of Domiri is Vena.\nVena lives in", "ok": false}
+{"level": "30", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "To find the number of people living in Zonoton, let's list the individuals menti", "ok": false}
+{"level": "30", "type": "older", "q": "Who is older, Noki or Najomi?", "ans": "Noki", "reply": "Noki is 53 years old, and Najomi is 22 years old. Therefore, Noki is", "ok": true}
+{"level": "30", "type": "hop1", "q": "What is Kisupo's job?", "ans": "farmer", "reply": "Kisupo's job is a farmer.", "ok": true}
+{"level": "30", "type": "hop2", "q": "What is the job of Jojo's mentor?", "ans": "potter", "reply": "Vena\n\n**Vena**", "ok": false}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Riha's mentor live?", "ans": "Rizoford", "reply": "The mentor of Riha's mentor is Girizo's mentor, which is Vena. Vena lives in Riz", "ok": false}
+{"level": "30", "type": "count", "q": "How many people live in Rizoford?", "ans": "5", "reply": "To find the number of people living in Rizoford, let's list the individuals ment", "ok": false}
+{"level": "30", "type": "older", "q": "Who is older, Kidoba or Josuha?", "ans": "Josuha", "reply": "Josuha is 38, and Kidoba is 32. Therefore, Josuha is older.\n\nJos", "ok": true}
+{"level": "30", "type": "hop1", "q": "What is Jojo's job?", "ans": "pilot", "reply": "Jojo's job is a pilot.", "ok": true}
+{"level": "30", "type": "hop2", "q": "What is the job of Noki's mentor?", "ans": "teacher", "reply": "Noki's mentor is Zojo.\nZojo works as a teacher.\nThe job of Noki's mentor", "ok": false}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Gime's mentor live?", "ans": "Lanafeton", "reply": "The mentor of Gime's mentor is Kuki.\nKuki lives in Rizoford.\nWait, let", "ok": false}
+{"level": "30", "type": "count", "q": "How many people live in Kikiton?", "ans": "3", "reply": "Based on the text provided:\n1.  **Kihafe** lives in Kikiton.\n2.", "ok": false}
+{"level": "30", "type": "older", "q": "Who is older, Najomi or Hamiku?", "ans": "Hamiku", "reply": "Najomi is 22 years old, and Hamiku is 66 years old. Therefore, Hamiku", "ok": true}
+{"level": "30", "type": "hop1", "q": "What is Baku's job?", "ans": "baker", "reply": "Baku's job is a baker.", "ok": true}
+{"level": "30", "type": "hop2", "q": "What is the job of Kuki's mentor?", "ans": "teacher", "reply": "The job of Kuki's mentor is Josuha.", "ok": false}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Kihafe's mentor live?", "ans": "Rizoford", "reply": "The mentor of Kihafe's mentor is Dovezo. Dovezo lives in Lanafeton.\n\nLanaf", "ok": false}
+{"level": "30", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "Based on the text provided:\n- Noki lives in Zonoton.\n- Baku lives in Zon", "ok": false}
+{"level": "30", "type": "older", "q": "Who is older, Kisupo or Domiri?", "ans": "Domiri", "reply": "Domiri is 54 years old, and Kisupo is 21 years old. Therefore, Domiri is", "ok": true}
+{"level": "30", "type": "hop1", "q": "What is Mizo's job?", "ans": "teacher", "reply": "Mizo's job is a teacher.", "ok": true}
+{"level": "30", "type": "hop2", "q": "What is the job of Dojodo's mentor?", "ans": "farmer", "reply": "The job of Dojodo's mentor is Mepoku. Wait, the question asks for the job, not t", "ok": false}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Mizo's mentor live?", "ans": "Pojoburg", "reply": "The mentor of Mizo's mentor is Rifeba.\nRifeba's mentor is Mepoku.\n", "ok": false}
+{"level": "30", "type": "count", "q": "How many people live in Habahaford?", "ans": "4", "reply": "To find the number of people living in Habahaford, let's list the individuals me", "ok": false}
+{"level": "30", "type": "older", "q": "Who is older, Gikizo or Vela?", "ans": "Gikizo", "reply": "Vela is 35 years old, and Gikizo is 48 years old. Therefore, Gik", "ok": true}
+{"level": "30", "type": "hop1", "q": "What is Dojodo's job?", "ans": "tailor", "reply": "Dojodo works as a tailor.", "ok": true}
+{"level": "30", "type": "hop2", "q": "What is the job of Bazono's mentor?", "ans": "baker", "reply": "Bazono's mentor is Zobave. Therefore, Zobave's job is a baker.\n\nAnswer: Baker", "ok": true}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Haluzo's mentor live?", "ans": "Pojoburg", "reply": "The mentor of Haluzo's mentor is Lano.\nLano's mentor is Zobave.\nZob", "ok": false}
+{"level": "30", "type": "count", "q": "How many people live in Pojoburg?", "ans": "5", "reply": "To find the number of people living in Pojoburg, let's list the individuals ment", "ok": false}
+{"level": "30", "type": "older", "q": "Who is older, Ferive or Haluzo?", "ans": "Ferive", "reply": "Haluzo is 73 years old, and Ferive is 74 years old. Therefore, Ferive", "ok": true}
+{"level": "30", "type": "hop1", "q": "What is Rifeba's job?", "ans": "painter", "reply": "Rifeba's job is a painter.", "ok": true}
+{"level": "30", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "painter", "reply": "Rifeba's mentor is Mepoku, and Mizo's mentor is Rifeba. Therefore, the job", "ok": false}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Vela's mentor live?", "ans": "Pojoburg", "reply": "The mentor of Vela's mentor is Bazono.\nBazono lives in Dojoburg.\n\nAnswer", "ok": false}
+{"level": "30", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "To find the number of people living in Dojoburg, let's list all the individuals ", "ok": false}
+{"level": "30", "type": "older", "q": "Who is older, Dodo or Jopoku?", "ans": "Jopoku", "reply": "Jopoku is 76 years old, and Dodo is 54 years old. Therefore, Jop", "ok": true}
+{"level": "30", "type": "hop1", "q": "What is Bazono's job?", "ans": "baker", "reply": "Bazono's job is a baker.", "ok": true}
+{"level": "30", "type": "hop2", "q": "What is the job of Dodo's mentor?", "ans": "farmer", "reply": "The job of Dodo's mentor is Bado.\n\nWait, let me re-check the text.\n\"V", "ok": false}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Haluzo's mentor live?", "ans": "Pojoburg", "reply": "The mentor of Haluzo's mentor is Lano.\nLano's mentor is Zobave.\nZob", "ok": false}
+{"level": "30", "type": "count", "q": "How many people live in Baveford?", "ans": "2", "reply": "Based on the text provided:\n1.  **Mizo** lives in Baveford.\n2. ", "ok": false}
+{"level": "30", "type": "older", "q": "Who is older, Dojodo or Kupogi?", "ans": "Dojodo", "reply": "Dodo is 54 years old, and Kupogi is 31 years old. Therefore, Dojodo", "ok": true}
+{"level": "30", "type": "hop1", "q": "What is Dojodo's job?", "ans": "tailor", "reply": "Dojodo works as a tailor.", "ok": true}
+{"level": "30", "type": "hop2", "q": "What is the job of Lagiba's mentor?", "ans": "pilot", "reply": "The job of Lagiba's mentor is a pilot.\n\nWait, let me check the text again.\n\"Lag", "ok": true}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Bado's mentor live?", "ans": "Dojoburg", "reply": "Lano lives in Dojoburg.\n\nDojoburg is the city where the mentor of Bado's mentor ", "ok": true}
+{"level": "30", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "To find the number of people living in Dojoburg, let's list the individuals ment", "ok": false}
+{"level": "30", "type": "older", "q": "Who is older, Nohapo or Gikizo?", "ans": "Nohapo", "reply": "Nohapo is 61 years old, and Gikizo is 48 years old. Therefore, N", "ok": true}
+{"level": "30", "type": "hop1", "q": "What is Rina's job?", "ans": "sailor", "reply": "Rina's job is a sailor.", "ok": true}
+{"level": "30", "type": "hop2", "q": "What is the job of Fevena's mentor?", "ans": "potter", "reply": "The mentor of Fevena is Gilu, and Gilu's job is a potter. However, the question ", "ok": true}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Rina's mentor live?", "ans": "Pohajoton", "reply": "The mentor of Rina's mentor is Jopoku. Jopoku lives in... wait, the text says \"", "ok": false}
+{"level": "30", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "To find the number of people living in Dojoburg, let's list the individuals ment", "ok": false}
+{"level": "30", "type": "older", "q": "Who is older, Bazono or Gife?", "ans": "Bazono", "reply": "Bazono is 27 years old, and Gife is 23 years old. Therefore, Bazon", "ok": true}
+{"level": "all", "type": "hop1", "q": "What is Hakido's job?", "ans": "teacher", "reply": "Hakido's job is a teacher.", "ok": true}
+{"level": "all", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "pilot", "reply": "The mentor of Mizo is Milu.\nMilo's job is a miner.\n\nWait, let me re", "ok": false}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Suta's mentor live?", "ans": "Ririford", "reply": "The mentor of Suta's mentor is Gila.\nGila lives in Gidoford.\n\nAnswer:", "ok": false}
+{"level": "all", "type": "count", "q": "How many people live in Tabataburg?", "ans": "3", "reply": "To find the number of people living in Tabataburg, I need to scan the text for n", "ok": false}
+{"level": "all", "type": "older", "q": "Who is older, Tasuno or Tagi?", "ans": "Tasuno", "reply": "Tasuno is 66 years old, and Tagi is 30 years old. Therefore, Tasuno", "ok": true}
+{"level": "all", "type": "hop1", "q": "What is Nalu's job?", "ans": "sailor", "reply": "Nalu's job is a sailor.", "ok": true}
+{"level": "all", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "pilot", "reply": "Mizo's mentor is Kitana.\n\nKitana's job is not explicitly stated in the text, but", "ok": false}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Naluha's mentor live?", "ans": "Navekuburg", "reply": "The mentor of Naluha's mentor is Nokuzo.\nNokuzo lives in Ririford", "ok": false}
+{"level": "all", "type": "count", "q": "How many people live in Ririford?", "ans": "4", "reply": "To find the number of people living in Ririford, I need to list all the individu", "ok": false}
+{"level": "all", "type": "older", "q": "Who is older, Metaba or Mizo?", "ans": "Metaba", "reply": "Mizo is 55 years old, and Metaba is 76 years old. Therefore, Metaba is", "ok": true}
+{"level": "all", "type": "hop1", "q": "What is Lukujo's job?", "ans": "miner", "reply": "Lukujo works as a miner.", "ok": true}
+{"level": "all", "type": "hop2", "q": "What is the job of Nalu's mentor?", "ans": "painter", "reply": "Naluha's mentor is Nokuzo. Wait, the question asks for Nalu's mentor. Let me che", "ok": false}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Meripo's mentor live?", "ans": "Navekuburg", "reply": "The mentor of Meripo's mentor is Kitana.\nKitana lives in Navekuburg.\nTherefore", "ok": false}
+{"level": "all", "type": "count", "q": "How many people live in Navekuburg?", "ans": "5", "reply": "To find the number of people living in Navekuburg, we need to list all the indiv", "ok": false}
+{"level": "all", "type": "older", "q": "Who is older, Naluha or Tagi?", "ans": "Naluha", "reply": "Naluha is 49 years old, and Tagi is 30 years old. Therefore, Nalu", "ok": true}
+{"level": "all", "type": "hop1", "q": "What is Lukujo's job?", "ans": "miner", "reply": "Lukujo works as a miner.", "ok": true}
+{"level": "all", "type": "hop2", "q": "What is the job of Metaba's mentor?", "ans": "baker", "reply": "The mentor of Metaba is Kukimi.\nKukimi's job is a baker.\nWait, the question", "ok": false}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Milu's mentor live?", "ans": "Gidoford", "reply": "The mentor of Milu's mentor is the mentor of Milu.\nFrom the text: \"Mizu's mentor", "ok": false}
+{"level": "all", "type": "count", "q": "How many people live in Nodosuford?", "ans": "4", "reply": "To find the number of people living in Nodosuford, we need to list all the indiv", "ok": false}
+{"level": "all", "type": "older", "q": "Who is older, Mizo or Feta?", "ans": "Mizo", "reply": "Mizo is 55 years old, and Feta is 25 years old. Therefore, Mizo is", "ok": true}
+{"level": "all", "type": "hop1", "q": "What is Pomipo's job?", "ans": "painter", "reply": "Pomipo's job is a painter.", "ok": true}
+{"level": "all", "type": "hop2", "q": "What is the job of Tasuno's mentor?", "ans": "sailor", "reply": "The job of Tasuno's mentor is Farmer.\n\nWait, let me check the text again.\n\"Tasun", "ok": false}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Mena's mentor live?", "ans": "Ririford", "reply": "The mentor of Mena's mentor is Hakido.\nHakido lives in Ririford.\n\nR", "ok": false}
+{"level": "all", "type": "count", "q": "How many people live in Ririford?", "ans": "4", "reply": "To find the number of people living in Ririford, I need to list all the individu", "ok": false}
+{"level": "all", "type": "older", "q": "Who is older, Laku or Lukujo?", "ans": "Laku", "reply": "Laku is 54 years old, and Lukujo is 53 years old. Therefore, Laku", "ok": true}
+{"level": "all", "type": "hop1", "q": "What is Metaba's job?", "ans": "teacher", "reply": "Metaba's job is a painter.", "ok": false}
+{"level": "all", "type": "hop2", "q": "What is the job of Laku's mentor?", "ans": "baker", "reply": "Laku's mentor is Kukimi.\nKukimi's job is not explicitly stated in the text, but ", "ok": false}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Lukujo's mentor live?", "ans": "Gidoford", "reply": "The mentor of Lukujo's mentor is **Kitana**.\nKitana lives in **Navekuburg", "ok": false}
+{"level": "all", "type": "count", "q": "How many people live in Nodosuford?", "ans": "4", "reply": "Based on the text provided, we need to identify the people living in Nodosuford.", "ok": false}
+{"level": "all", "type": "older", "q": "Who is older, Milu or Jodo?", "ans": "Jodo", "reply": "Mena is 22 years old, but Milu is 26 years old. Jodo is 4", "ok": true}
+{"level": "all", "type": "hop1", "q": "What is Kizo's job?", "ans": "doctor", "reply": "Kizo's job is a doctor.", "ok": true}
+{"level": "all", "type": "hop2", "q": "What is the job of Surife's mentor?", "ans": "teacher", "reply": "The job of Surife's mentor is **Bapo**'s mentor? No, wait. Let's find the", "ok": false}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Gino's mentor live?", "ans": "Nagiburg", "reply": "The mentor of Gino's mentor is Joki.\nJoki lives in Hanoton.\n\nAnswer: Hanoton", "ok": false}
+{"level": "all", "type": "count", "q": "How many people live in Kizoford?", "ans": "2", "reply": "To find the number of people living in Kizoford, we need to identify every perso", "ok": false}
+{"level": "all", "type": "older", "q": "Who is older, Bapo or Dobado?", "ans": "Bapo", "reply": "Bapo is 51 years old and Dobado is 21 years old. Therefore, Bapo is older", "ok": true}
+{"level": "all", "type": "hop1", "q": "What is Kilu's job?", "ans": "teacher", "reply": "Kilu's job is a teacher.", "ok": true}
+{"level": "all", "type": "hop2", "q": "What is the job of Kizo's mentor?", "ans": "tailor", "reply": "The mentor of Kizo is Nado. Nado's job is a tailor. However, the question asks f", "ok": true}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Nokiba's mentor live?", "ans": "Nagiburg", "reply": "The mentor of Nokiba's mentor is Rikuku.\nRikuku lives in Zonoburg.\n\n", "ok": false}
+{"level": "all", "type": "count", "q": "How many people live in Zonoburg?", "ans": "5", "reply": "To find the number of people living in Zonoburg, I need to list all the individu", "ok": false}
+{"level": "all", "type": "older", "q": "Who is older, Kumeri or Vekulu?", "ans": "Vekulu", "reply": "Vekulu is 72 years old, and Kumeri is 37 years old. Therefore, V", "ok": true}
+{"level": "all", "type": "hop1", "q": "What is Nomi's job?", "ans": "farmer", "reply": "Nomi's job is a farmer.", "ok": true}
+{"level": "all", "type": "hop2", "q": "What is the job of Mena's mentor?", "ans": "tailor", "reply": "The job of Mena's mentor is **Nado**.\n\n(Note: The text states \"Mena's mentor is", "ok": false}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Gino's mentor live?", "ans": "Nagiburg", "reply": "The mentor of Gino's mentor lives in Zonoburg.\n\n1.  **Gino's mentor:**", "ok": false}
+{"level": "all", "type": "count", "q": "How many people live in Kizoford?", "ans": "2", "reply": "To find the number of people living in Kizoford, we need to identify all the ind", "ok": false}
+{"level": "all", "type": "older", "q": "Who is older, Kigina or Fegi?", "ans": "Fegi", "reply": "Fegi is 69 years old, while Kigina is 24 years old. Therefore, Fegi", "ok": true}
+{"level": "all", "type": "hop1", "q": "What is Vezo's job?", "ans": "potter", "reply": "Vezo's job is a potter.", "ok": true}
+{"level": "all", "type": "hop2", "q": "What is the job of Bapo's mentor?", "ans": "farmer", "reply": "The job of Bapo's mentor is Jojo.", "ok": false}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Fegi's mentor live?", "ans": "Zonoburg", "reply": "The mentor of Fegi's mentor is Mena's mentor, which is Nado. Wait, let's trace t", "ok": false}
+{"level": "all", "type": "count", "q": "How many people live in Hanoton?", "ans": "5", "reply": "To find the number of people living in Hanoton, we need to list all the individu", "ok": false}
+{"level": "all", "type": "older", "q": "Who is older, Gino or Kigina?", "ans": "Gino", "reply": "Gino is 79 years old, and Kigina is 24 years old. Therefore, Gino", "ok": true}
+{"level": "all", "type": "hop1", "q": "What is Mihajo's job?", "ans": "doctor", "reply": "Mihajo's job is a doctor.", "ok": true}
+{"level": "all", "type": "hop2", "q": "What is the job of Joki's mentor?", "ans": "teacher", "reply": "Veveme\n\n**Veveme**", "ok": false}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Nokiba's mentor live?", "ans": "Nagiburg", "reply": "The mentor of Nokiba's mentor is Joki.\nJoki lives in Hanoton.\n\nAnswer: Hanoton", "ok": false}
+{"level": "all", "type": "count", "q": "How many people live in Hanoton?", "ans": "5", "reply": "To find the number of people living in Hanoton, we need to list all the individu", "ok": false}
+{"level": "all", "type": "older", "q": "Who is older, Jojo or Jota?", "ans": "Jojo", "reply": "Jota is 52 years old, and Jojo is 64 years old. Therefore, Jojo is", "ok": true}
+{"level": "all", "type": "hop1", "q": "What is Kizo's job?", "ans": "doctor", "reply": "Kizo's job is a doctor.", "ok": true}
+{"level": "all", "type": "hop2", "q": "What is the job of Vezo's mentor?", "ans": "doctor", "reply": "The job of Vezo's mentor is a **potter**.\n\n(Note: Vezo's mentor is Gino,", "ok": false}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Bapo's mentor live?", "ans": "Hanoton", "reply": "The mentor of Bapo's mentor is Jojo. Jojo lives in Zonoburg.\n\nWait, let", "ok": false}
+{"level": "all", "type": "count", "q": "How many people live in Fekiton?", "ans": "2", "reply": "To find out how many people live in Fekiton, we need to look for the names assoc", "ok": false}
+{"level": "all", "type": "older", "q": "Who is older, Vekulu or Joki?", "ans": "Vekulu", "reply": "Vekulu is 72 years old, and Joki is 48 years old. Therefore, Vek", "ok": true}
+{"level": "all", "type": "hop1", "q": "What is Lumefe's job?", "ans": "baker", "reply": "Lumefe works as a baker.", "ok": true}
+{"level": "all", "type": "hop2", "q": "What is the job of Melata's mentor?", "ans": "painter", "reply": "The job of Melata's mentor is a doctor.\n\n**Answer:** Doctor", "ok": false}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Sumime's mentor live?", "ans": "Hahaburg", "reply": "The mentor of Sumime's mentor is Mita.\nMita lives in Dokuburg.\n\nAnswer: Dok", "ok": false}
+{"level": "all", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "1", "ok": false}
+{"level": "all", "type": "older", "q": "Who is older, Kutari or Popo?", "ans": "Kutari", "reply": "To determine who is older, we need to find the ages of both Kutari and Popo from", "ok": true}
+{"level": "all", "type": "hop1", "q": "What is Lumefe's job?", "ans": "baker", "reply": "Lumefe works as a baker.", "ok": true}
+{"level": "all", "type": "hop2", "q": "What is the job of Sudolu's mentor?", "ans": "miner", "reply": "The mentor of Sudolu is Rigi.\n\nRigi's job is a miner.\n\nAnswer: Miner\n</think>", "ok": false}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Suhaki's mentor live?", "ans": "Dokuburg", "reply": "The mentor of Suhaki's mentor is the mentor of Suhaki.\n1.  **Suhaki's mentor", "ok": false}
+{"level": "all", "type": "count", "q": "How many people live in Hahaburg?", "ans": "4", "reply": "Based on the text provided, here are the people living in Hahaburg:\n1.  **Lum", "ok": false}
+{"level": "all", "type": "older", "q": "Who is older, Sumime or Jola?", "ans": "Sumime", "reply": "To determine who is older, we need to find the ages of both Sumime and Jola from", "ok": true}
+{"level": "all", "type": "hop1", "q": "What is Jopona's job?", "ans": "doctor", "reply": "Jopona works as a doctor.", "ok": true}
+{"level": "all", "type": "hop2", "q": "What is the job of Kutari's mentor?", "ans": "painter", "reply": "The mentor of Kutari is Milu. Milu works as a painter.\n\nAnswer: Painter", "ok": true}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Sumime's mentor live?", "ans": "Hahaburg", "reply": "The mentor of Sumime's mentor is Pome.\nPome lives in Hahaburg.\n\nAnswer:", "ok": false}
+{"level": "all", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "0", "ok": false}
+{"level": "all", "type": "older", "q": "Who is older, Sumime or Jopona?", "ans": "Sumime", "reply": "Jopona is 36 years old, and Sumime is 44 years old. Therefore, Sumime", "ok": true}
+{"level": "all", "type": "hop1", "q": "What is Givedo's job?", "ans": "doctor", "reply": "Givedo's job is a doctor.", "ok": true}
+{"level": "all", "type": "hop2", "q": "What is the job of Jopona's mentor?", "ans": "baker", "reply": "The job of Jopona's mentor is **Jola**.\n\nWait, let me re-read the text carefully", "ok": false}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Nala's mentor live?", "ans": "Dokuburg", "reply": "The mentor of Nala's mentor is Dove.\nDove lives in Dokuburg.\n\nAnswer: Dokub", "ok": false}
+{"level": "all", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "0", "ok": false}
+{"level": "all", "type": "older", "q": "Who is older, Pome or Gihado?", "ans": "Pome", "reply": "To determine who is older, we need to find their ages from the text.\n\n1.  **Pome", "ok": false}
+{"level": "all", "type": "hop1", "q": "What is Sumime's job?", "ans": "doctor", "reply": "Sumime's job is a doctor.", "ok": true}
+{"level": "all", "type": "hop2", "q": "What is the job of Dove's mentor?", "ans": "baker", "reply": "The mentor of Dove is Popo.\nPopo's job is not explicitly stated as a specific pr", "ok": false}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Sudolu's mentor live?", "ans": "Hahaburg", "reply": "The mentor of Sudolu's mentor is Rigi.\nRigi lives in Basubaford.\n\nAnswer:", "ok": false}
+{"level": "all", "type": "count", "q": "How many people live in Jogipoton?", "ans": "4", "reply": "To find the number of people living in Jogipoton, we need to list all the indivi", "ok": false}
+{"level": "all", "type": "older", "q": "Who is older, Noki or Pome?", "ans": "Pome", "reply": "Pome is 64 years old, and Noki is 25 years old. Therefore, Pome is", "ok": true}
+{"level": "all", "type": "hop1", "q": "What is Nala's job?", "ans": "tailor", "reply": "Nala's job is a tailor.", "ok": true}
+{"level": "all", "type": "hop2", "q": "What is the job of Suba's mentor?", "ans": "doctor", "reply": "The job of Suba's mentor is Givedo.\n\nGivedo works as a doctor.\nWait,", "ok": false}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Jozola's mentor live?", "ans": "Basubaford", "reply": "The mentor of Jozola's mentor is the mentor of Jozola's mentor.\n1.  **J", "ok": false}
+{"level": "all", "type": "count", "q": "How many people live in Dokuburg?", "ans": "5", "reply": "To find the number of people living in Dokuburg, we need to list all the individ", "ok": false}
+{"level": "all", "type": "older", "q": "Who is older, Sudolu or Sumime?", "ans": "Sudolu", "reply": "Sudolu is 75 years old, and Sumime is 44 years old. Therefore, Sudolu", "ok": true}
+{"level": "all", "type": "hop1", "q": "What is Kisupo's job?", "ans": "farmer", "reply": "Kisupo's job is a farmer.", "ok": true}
+{"level": "all", "type": "hop2", "q": "What is the job of Najomi's mentor?", "ans": "pilot", "reply": "The job of Najomi's mentor is a painter.\n\n(Note: From the text, Najomi's mentor ", "ok": false}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Noki's mentor live?", "ans": "Lanafeton", "reply": "The mentor of Noki's mentor is Zojo.\nZojo lives in Rizoford.\n\nRizof", "ok": false}
+{"level": "all", "type": "count", "q": "How many people live in Bafeton?", "ans": "3", "reply": "To find the number of people living in Bafeton, we need to list all the individu", "ok": false}
+{"level": "all", "type": "older", "q": "Who is older, Kisupo or Joha?", "ans": "Joha", "reply": "Joha is 55 years old, and Kisupo is 21 years old. Therefore, Joha is", "ok": true}
+{"level": "all", "type": "hop1", "q": "What is Baku's job?", "ans": "baker", "reply": "Baku's job is a baker.", "ok": true}
+{"level": "all", "type": "hop2", "q": "What is the job of Zodo's mentor?", "ans": "sailor", "reply": "The mentor of Zodo is Batave.\nBatave works as a sailor.\nTherefore, the job of Z", "ok": false}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Kihafe's mentor live?", "ans": "Rizoford", "reply": "The mentor of Kihafe's mentor is Domiri.\nDomiri lives in Rizoford.\n\nRiz", "ok": false}
+{"level": "all", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "Based on the text provided, here are the people living in Zonoton:\n1.  **Najomi", "ok": false}
+{"level": "all", "type": "older", "q": "Who is older, Riha or Vemeri?", "ans": "Riha", "reply": "Vemeri is 29 years old, and Riha is 33 years old. Therefore, Riha", "ok": true}
+{"level": "all", "type": "hop1", "q": "What is Kihafe's job?", "ans": "tailor", "reply": "Kihafe works as a tailor.", "ok": true}
+{"level": "all", "type": "hop2", "q": "What is the job of Najomi's mentor?", "ans": "pilot", "reply": "The job of Najomi's mentor is **Jojo**.\n\n(Note: The text states \"Najomi's mentor", "ok": false}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Kunaba's mentor live?", "ans": "Rizoford", "reply": "The mentor of Kunaba's mentor is Domiri.\nDomiri lives in Rizoford.\nTherefore, th", "ok": false}
+{"level": "all", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "Based on the text provided, there are two people living in Zonoton:\n1.  **Najomi", "ok": false}
+{"level": "all", "type": "older", "q": "Who is older, Noki or Najomi?", "ans": "Noki", "reply": "Noki is 53 years old, and Najomi is 22 years old. Therefore, Noki is", "ok": true}
+{"level": "all", "type": "hop1", "q": "What is Kisupo's job?", "ans": "farmer", "reply": "Kisupo works as a farmer.", "ok": true}
+{"level": "all", "type": "hop2", "q": "What is the job of Jojo's mentor?", "ans": "potter", "reply": "Vena\n\n**Vena**", "ok": false}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Riha's mentor live?", "ans": "Rizoford", "reply": "The mentor of Riha's mentor is Josuha.\nJosuha lives in Lanafeton.\nTherefore, the", "ok": false}
+{"level": "all", "type": "count", "q": "How many people live in Rizoford?", "ans": "5", "reply": "To find the number of people living in Rizoford, we need to list all the individ", "ok": false}
+{"level": "all", "type": "older", "q": "Who is older, Kidoba or Josuha?", "ans": "Josuha", "reply": "Josuha is older.\n\n**Josuha**", "ok": true}
+{"level": "all", "type": "hop1", "q": "What is Jojo's job?", "ans": "pilot", "reply": "Jojo works as a pilot.", "ok": true}
+{"level": "all", "type": "hop2", "q": "What is the job of Noki's mentor?", "ans": "teacher", "reply": "The mentor of Noki is Zojo, and Zojo works as a teacher. Therefore, the job of N", "ok": true}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Gime's mentor live?", "ans": "Lanafeton", "reply": "The mentor of Gime's mentor is Vena.\nVena lives in Rizoford.\n\nRizof", "ok": false}
+{"level": "all", "type": "count", "q": "How many people live in Kikiton?", "ans": "3", "reply": "To find the number of people living in Kikiton, we need to list all the individu", "ok": false}
+{"level": "all", "type": "older", "q": "Who is older, Najomi or Hamiku?", "ans": "Hamiku", "reply": "Hamiku is 66 years old, and Najomi is 22 years old. Therefore, Hamiku is", "ok": true}
+{"level": "all", "type": "hop1", "q": "What is Baku's job?", "ans": "baker", "reply": "Baku's job is a baker.", "ok": true}
+{"level": "all", "type": "hop2", "q": "What is the job of Kuki's mentor?", "ans": "teacher", "reply": "Vena", "ok": false}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Kihafe's mentor live?", "ans": "Rizoford", "reply": "The mentor of Kihafe's mentor is the mentor of Kihafe.\nFirst, find Kihafe's", "ok": false}
+{"level": "all", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "Based on the text provided, there are **3** people living in Zonoton:\n1.  Baku", "ok": true}
+{"level": "all", "type": "older", "q": "Who is older, Kisupo or Domiri?", "ans": "Domiri", "reply": "The age of Kisupo is given as 21 years old.\nThe age of Domiri is given as ", "ok": false}
+{"level": "all", "type": "hop1", "q": "What is Mizo's job?", "ans": "teacher", "reply": "Mizo's job is a teacher.", "ok": true}
+{"level": "all", "type": "hop2", "q": "What is the job of Dojodo's mentor?", "ans": "farmer", "reply": "The job of Dojodo's mentor is **Mepoku**.\n\n(Note: The text states \"Dojodo", "ok": false}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Mizo's mentor live?", "ans": "Pojoburg", "reply": "The mentor of Mizo's mentor is the mentor of Mizo.\n1.  **Mizo's mentor:**", "ok": false}
+{"level": "all", "type": "count", "q": "How many people live in Habahaford?", "ans": "4", "reply": "To find the number of people living in Habahaford, we need to list all the indiv", "ok": false}
+{"level": "all", "type": "older", "q": "Who is older, Gikizo or Vela?", "ans": "Gikizo", "reply": "To determine who is older, we need to find the ages of both Gikizo and Vela from", "ok": true}
+{"level": "all", "type": "hop1", "q": "What is Dojodo's job?", "ans": "tailor", "reply": "Dojodo's job is a tailor.", "ok": true}
+{"level": "all", "type": "hop2", "q": "What is the job of Bazono's mentor?", "ans": "baker", "reply": "Bazono's mentor is Zobave.\nZobave works as a baker.\nThe job of Bazon", "ok": false}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Haluzo's mentor live?", "ans": "Pojoburg", "reply": "The mentor of Haluzo's mentor is Lano.\nLano lives in Dojoburg.\n\nAnswer:", "ok": false}
+{"level": "all", "type": "count", "q": "How many people live in Pojoburg?", "ans": "5", "reply": "To find the number of people living in Pojoburg, we need to list all the individ", "ok": false}
+{"level": "all", "type": "older", "q": "Who is older, Ferive or Haluzo?", "ans": "Ferive", "reply": "Haluzo is 73 years old, and Ferive is 74 years old. Therefore, Ferive", "ok": true}
+{"level": "all", "type": "hop1", "q": "What is Rifeba's job?", "ans": "painter", "reply": "Rifeba's job is a painter.", "ok": true}
+{"level": "all", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "painter", "reply": "The job of Mizo's mentor is a teacher.\n\n**Teacher**", "ok": false}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Vela's mentor live?", "ans": "Pojoburg", "reply": "The mentor of Vela's mentor is the mentor of Vela's mentor.\n1.  **Vela's", "ok": false}
+{"level": "all", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "To find the number of people living in Dojoburg, we need to list all the individ", "ok": false}
+{"level": "all", "type": "older", "q": "Who is older, Dodo or Jopoku?", "ans": "Jopoku", "reply": "Jopoku is 76 years old, and Dodo is 54 years old. Therefore, Jop", "ok": true}
+{"level": "all", "type": "hop1", "q": "What is Bazono's job?", "ans": "baker", "reply": "Bazono's job is a baker.", "ok": true}
+{"level": "all", "type": "hop2", "q": "What is the job of Dodo's mentor?", "ans": "farmer", "reply": "The job of Dodo's mentor is **Bado**.\n\n(Note: The text states \"Dodo's mentor is", "ok": false}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Haluzo's mentor live?", "ans": "Pojoburg", "reply": "The mentor of Haluzo's mentor is the mentor of Haluzo.\n1.  **Haluzo", "ok": false}
+{"level": "all", "type": "count", "q": "How many people live in Baveford?", "ans": "2", "reply": "0", "ok": false}
+{"level": "all", "type": "older", "q": "Who is older, Dojodo or Kupogi?", "ans": "Dojodo", "reply": "To determine who is older, we need to find the ages of both Dojodo and Kupogi fr", "ok": true}
+{"level": "all", "type": "hop1", "q": "What is Dojodo's job?", "ans": "tailor", "reply": "Dojodo's job is a tailor.", "ok": true}
+{"level": "all", "type": "hop2", "q": "What is the job of Lagiba's mentor?", "ans": "pilot", "reply": "Lagiba's mentor is Haluzo.\nHaluzo works as a pilot.\nWait, let me", "ok": false}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Bado's mentor live?", "ans": "Dojoburg", "reply": "The mentor of Bado's mentor is Haluzo.\nHaluzo lives in **Pohajoton**.", "ok": false}
+{"level": "all", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "To find the number of people living in Dojoburg, we need to list all the individ", "ok": false}
+{"level": "all", "type": "older", "q": "Who is older, Nohapo or Gikizo?", "ans": "Nohapo", "reply": "To determine who is older, we need to find their ages from the text.\n\n1.  **Noha", "ok": false}
+{"level": "all", "type": "hop1", "q": "What is Rina's job?", "ans": "sailor", "reply": "Rina's job is a sailor.", "ok": true}
+{"level": "all", "type": "hop2", "q": "What is the job of Fevena's mentor?", "ans": "potter", "reply": "The job of Fevena's mentor is **Farmer**.\n\n(Note: The text states \"Fevena's ment", "ok": false}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Rina's mentor live?", "ans": "Pohajoton", "reply": "The mentor of Rina's mentor is Jopoku.\nJopoku lives in Pojoburg.\n\nThe", "ok": false}
+{"level": "all", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "To find the number of people living in Dojoburg, we need to list all the individ", "ok": false}
+{"level": "all", "type": "older", "q": "Who is older, Bazono or Gife?", "ans": "Bazono", "reply": "To determine who is older, we need to find their ages from the text.\n\n1.  **Bazo", "ok": false}
