@@ -1,427 +1,119 @@
-<div align="center">
+# BitNet-X
 
-# bitnet.cpp
+**bitnet.cpp running natively on Apple Silicon, plus a research track on making small ternary models smarter.**
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-![version](https://img.shields.io/badge/version-1.0-blue)
-[![Hugging Face](https://img.shields.io/badge/HuggingFace-Collection-orange?logo=huggingface)](https://huggingface.co/collections/microsoft/bitnet)
-[![Technical Report](https://img.shields.io/badge/Technical-Report-red?logo=arxiv)](https://arxiv.org/abs/2502.11880)
-[![Demo](https://img.shields.io/badge/Online-Demo-green?logo=microsoft)](https://demo-bitnet-h0h8hcfqeqhrf5gf.canadacentral-01.azurewebsites.net/)
-[![GPU Kernel](https://img.shields.io/badge/GPU-Kernel-6F42C1?logo=github)](https://github.com/microsoft/BitNet/blob/main/gpu/README.md)
+BitNet-X is a fork of [microsoft/BitNet](https://github.com/microsoft/BitNet) (bitnet.cpp). It started as a port of
+bitnet.cpp to Apple Silicon and grew into two tracks:
 
-</div>
+* **Engine**: correctness fixes for arm64 and x86, and Metal GPU kernels for the ternary `I2_S` format, so the official
+  [BitNet b1.58 2B-4T](https://huggingface.co/microsoft/bitnet-b1.58-2B-4T-gguf) model runs on the Mac GPU.
+* **Research**: why a 2B ternary model fails where it fails, measured with automatic checking, and what fixes it
+  (see [Research](#research) below).
 
-<div align="left">
+The original upstream README is kept in [docs/UPSTREAM_README.md](docs/UPSTREAM_README.md).
 
-<h3>📰 News</h3>
+## Engine
 
-<strong>07/23/2026:</strong> 📣 We released <a href="https://github.com/microsoft/VibeASR.cpp"><strong>VibeASR.cpp</strong></a> — a real-time multilingual ASR inference engine on CPU using BitNet I2_S quantization, achieving RTF < 1 with very few threads on x86 (AVX2) and ARM (NEON) platforms. [<a href="https://github.com/microsoft/VibeASR.cpp">Code</a>] [<a href="https://huggingface.co/microsoft/VibeVoice-ASR-BitNet">Models</a>] [<a href="https://arxiv.org/abs/2607.21075">Report</a>] ![NEW](https://img.shields.io/badge/NEW-red)
+All changes to the pinned `3rdparty/llama.cpp` are patch files in [`patches/llama.cpp`](patches/llama.cpp), applied
+automatically when `cmake` configures the build. Each patch has a test in [`tests/`](tests) that fails without it.
 
-<strong>07/20/2026:</strong> 📣 We released <a href="https://huggingface.co/microsoft/BitNet-embedding-0.6B"><strong>BitNet-embedding-0.6B</strong></a> and <a href="https://huggingface.co/microsoft/BitNet-embedding-270M"><strong>BitNet-embedding-270M</strong></a> on Hugging Face — the first 1-bit embedding models that deliver competitive embedding quality with significantly faster inference on CPUs.
-- **1.42x to 2.28x speedup** over F16 on BitNet-embedding-0.6B prefill (8 threads)
-- **1.32x to 1.74x speedup** over F16 on BitNet-embedding-270M prefill (8 threads)
-- Supports I2_S conversion with optimized kernels on x86 CPUs
-- Lossless inference with 2 bits per weight
+| patch | what it fixes or adds |
+|---|---|
+| 0001 | macOS link: `quantize_i2_s` / `dequantize_row_i2_s` moved to ggml-base |
+| 0002 | I2_S dot product: canonical 128×32 layout, NEON path |
+| 0003 | I2_S GEMM fallback for activation columns |
+| 0004 | bitnet-b1.58 FFN uses squared ReLU, not SiLU (upstream issue #588) |
+| 0005 | default pre-tokenizer `llama-bpe` when the GGUF has none (upstream issue #684) |
+| 0006 | Metal: report I2_S matmul as unsupported instead of aborting (`-ngl > 0` crashed) |
+| 0007 | BLAS: same for I2_S (crash on prompts of 32+ tokens) |
+| 0008 | `quantize_i2_s` packing layout |
+| 0009 | ggml-cpu `src1_cont` without llamafile |
+| 0010 | **Metal kernels for I2_S** (int8 mat-vec on the GPU) |
+| 0011 | Metal bit-serial popcount kernels (×3 prefill, ×1.3 decode over 0010) |
+| 0012 | **Metal matrix prefill** for I2_S (`kernel_mul_mm`, ×3 prefill over 0011; `GGML_METAL_I2S_NO_MM=1` disables it) |
 
-07/16/2026: 📣 Released [BitNet Embeddings 0.6B/270M: I2_S Conversion and Inference Optimization](docs/bitnet-embeddings-i2s-guide.md) — detailed guide for converting and running BitNet embedding models with optimized I2_S kernels.
+### Speed (`llama-bench -p 512 -n 64 -r 3`, official `ggml-model-i2_s.gguf`)
 
-01/15/2026: 📣 Released [BitNet CPU Inference Optimization](https://github.com/microsoft/BitNet/blob/main/src/README.md) — parallel kernel implementations with configurable tiling and embedding quantization support, achieving **1.15x to 2.1x** additional speedup over the original implementation.
+| platform | build | threads | prefill pp512, tok/s | decode tg64, tok/s |
+|---|---|---|---|---|
+| M1 Pro, Metal GPU | BitNet-X, patches 0001–0012 | 4 | **710** | **53.0** |
+| M1 Pro, Metal GPU | up to 0011 (bit-serial) | 4 | 236 | 52.5 |
+| M1 Pro, Metal GPU | up to 0010 (int8) | 4 | 75 | 40.0 |
+| M1 Pro, CPU | BitNet-X | 4 | 45 | 27 |
+| Ryzen 9 9900X, CPU (Linux) | BitNet-X | 4 / 8 / 12 | 284 / 508 / 668 | 38.7 / 39.6 / 39.3 |
 
-05/20/2025: 📣 Released [BitNet Official GPU inference kernel](https://github.com/microsoft/BitNet/blob/main/gpu/README.md) — extending 1-bit inference beyond CPUs.
+Measured by one operator on one day on machines with background load; re-measure on an idle machine before quoting.
+Decode on the Mac reads about 1.18 GB per token (≈63 GB/s, about 31 % of the 200 GB/s peak), so there is headroom.
 
-04/14/2025: 📣 Released [BitNet Official 2B Parameter Model](https://huggingface.co/microsoft/BitNet-b1.58-2B-4T) on Hugging Face — the first official BitNet b1.58 model trained with 4T tokens.
+### Correctness
 
-02/18/2025: 📑 [Bitnet.cpp: Efficient Edge Inference for Ternary LLMs](https://arxiv.org/abs/2502.11880) — system-level paper on bitnet.cpp's architecture and design.
+Perplexity on `tests/data/ppl_small.txt` (`llama-perplexity -c 256`): Metal (all three kernel paths) **6.4292**,
+x86 CPU **6.4323**. The unpatched upstream on x86 gives **71.8** (numerically wrong output: "The capital of France
+is" → "a small city, and the capital of France is a small city…"); BitNet-X answers "Paris. Paris is a city…".
+Which of patches 0001–0009 fixes the x86 result has not been isolated yet.
 
-11/08/2024: 📑 [BitNet a4.8: 4-bit Activations for 1-bit LLMs](https://arxiv.org/abs/2411.04965) — enabling 4-bit activations for further efficiency gains.
-
-10/21/2024: 📑 [1-bit AI Infra: Part 1.1, Fast and Lossless BitNet b1.58 Inference on CPUs](https://arxiv.org/abs/2410.16144) — the technical report behind bitnet.cpp.
-
-10/17/2024: 📣 bitnet.cpp 1.0 released.
-
-03/21/2024: 📑 [The-Era-of-1-bit-LLMs: Training Tips, Code, FAQ](https://github.com/microsoft/unilm/blob/master/bitnet/The-Era-of-1-bit-LLMs__Training_Tips_Code_FAQ.pdf)
-
-02/27/2024: 📑 [The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits](https://arxiv.org/abs/2402.17764) — the foundational paper introducing BitNet b1.58.
-
-10/17/2023: 📑 [BitNet: Scaling 1-bit Transformers for Large Language Models](https://arxiv.org/abs/2310.11453) — the original BitNet paper.
-
-</div>
-
-## Overview
-
-bitnet.cpp is the official inference framework for 1-bit LLMs (e.g., BitNet b1.58). It offers a suite of optimized kernels that support **fast** and **lossless** inference of 1.58-bit models on **CPU** and **GPU** (NPU support coming next).
-
-Try it out via this [online demo](https://demo-bitnet-h0h8hcfqeqhrf5gf.canadacentral-01.azurewebsites.net/), or build and run it on your own [CPU](https://github.com/microsoft/BitNet?tab=readme-ov-file#build-from-source) or [GPU](https://github.com/microsoft/BitNet/blob/main/gpu/README.md).
-
-bitnet.cpp achieves speedups of **1.37x** to **5.07x** on ARM CPUs, with larger models experiencing greater performance gains. Additionally, it reduces energy consumption by **55.4%** to **70.0%**, further boosting overall efficiency. On x86 CPUs, speedups range from **2.37x** to **6.17x** with energy reductions between **71.9%** to **82.2%**. Furthermore, bitnet.cpp can run a 100B BitNet b1.58 model on a single CPU, achieving speeds comparable to human reading (5-7 tokens per second), significantly enhancing the potential for running LLMs on local devices. Please refer to the [technical report](https://arxiv.org/abs/2410.16144) for more details.
-
-<img src="./assets/performance.png" alt="performance_comparison" width="800"/>
-
-## Model Releases
-
-### 1. [BitNet-b1.58-2B-4T](https://huggingface.co/microsoft/BitNet-b1.58-2B-4T) - 1-bit Large Language Model
-
-**BitNet-b1.58-2B-4T** is the first official BitNet b1.58 model with **2.4B parameters**, trained on **4 trillion tokens**. It is a ternary (1.58-bit) language model that delivers competitive performance with full-precision models of similar size while enabling significantly faster and more energy-efficient inference.
-
-- **Fast CPU Inference**: Achieves up to **6.17x speedup** on x86 CPUs and **5.07x** on ARM CPUs compared to full-precision models.
-- **Energy Efficient**: Reduces energy consumption by up to **82.2%** on x86 and **70.0%** on ARM.
-- **GPU Support**: Official GPU inference kernel available for accelerated deployment.
-- **Chat-Ready**: Supports conversational mode for interactive use.
-
-[🤗 Hugging Face](https://huggingface.co/microsoft/BitNet-b1.58-2B-4T) | [🔗 Online Demo](https://demo-bitnet-h0h8hcfqeqhrf5gf.canadacentral-01.azurewebsites.net/) | [📄 Technical Report](https://arxiv.org/abs/2410.16144)
-
-<img src="./assets/bitnet_b1.58_2b_benchmark.png" alt="BitNet b1.58 2B Benchmark" width="600"/>
-
-### 2. [BitNet-embedding-0.6B](https://huggingface.co/microsoft/BitNet-embedding-0.6B) - 1-bit Embedding Model
-
-**BitNet-embedding-0.6B** is a **0.6B-parameter** 1-bit embedding model that achieves competitive embedding quality with significantly faster CPU inference. It is the first model to demonstrate that ternary weights can deliver strong performance on embedding tasks.
-
-- **1.42x to 2.28x speedup** over F16 on prefill (8 threads, x86)
-- **Lossless Quality**: Competitive embedding quality with 2 bits per weight
-- **I2_S Kernel**: Supports optimized I2_S conversion on x86 CPUs
-
-[🤗 Hugging Face](https://huggingface.co/microsoft/BitNet-embedding-0.6B) | [📄 I2_S Guide](docs/bitnet-embeddings-i2s-guide.md)
-
-<img src="./assets/embedding_prefill_0.6B.png" alt="BitNet Embedding 0.6B Prefill Performance" width="600"/>
-
-### 3. [BitNet-embedding-270M](https://huggingface.co/microsoft/BitNet-embedding-270M) - Lightweight 1-bit Embedding Model
-
-**BitNet-embedding-270M** is a compact **270M-parameter** 1-bit embedding model designed for resource-constrained environments, offering fast inference with minimal memory footprint.
-
-- **1.32x to 1.74x speedup** over F16 on prefill (8 threads, x86)
-- **Lossless Quality**: Competitive embedding quality with 2 bits per weight
-- **Lightweight**: Only 270M parameters for edge deployment scenarios
-
-[🤗 Hugging Face](https://huggingface.co/microsoft/BitNet-embedding-270M) | [📄 I2_S Guide](docs/bitnet-embeddings-i2s-guide.md)
-
-<img src="./assets/embedding_prefill_270M.png" alt="BitNet Embedding 270M Prefill Performance" width="600"/>
-
-
-## Supported Models
-
-<table>
-    <tr>
-        <th rowspan="2">Model</th>
-        <th rowspan="2">Parameters</th>
-        <th rowspan="2">CPU</th>
-        <th colspan="3">Kernel</th>
-    </tr>
-    <tr>
-        <th>I2_S</th>
-        <th>TL1</th>
-        <th>TL2</th>
-    </tr>
-    <tr>
-        <th colspan="6" style="text-align:left;">Official Models</th>
-    </tr>
-    <tr>
-        <td rowspan="2"><a href="https://huggingface.co/microsoft/BitNet-b1.58-2B-4T">BitNet-b1.58-2B-4T</a></td>
-        <td rowspan="2">2.4B</td>
-        <td>x86</td>
-        <td>&#9989;</td>
-        <td>&#10060;</td>
-        <td>&#9989;</td>
-    </tr>
-    <tr>
-        <td>ARM</td>
-        <td>&#9989;</td>
-        <td>&#9989;</td>
-        <td>&#10060;</td>
-    </tr>
-    <tr>
-        <td rowspan="2"><a href="https://huggingface.co/microsoft/BitNet-embedding-0.6B">BitNet-embedding-0.6B</a></td>
-        <td rowspan="2">0.6B</td>
-        <td>x86</td>
-        <td>&#9989;</td>
-        <td>&#10060;</td>
-        <td>&#10060;</td>
-    </tr>
-    <tr>
-        <td>ARM</td>
-        <td>&#10060;</td>
-        <td>&#10060;</td>
-        <td>&#10060;</td>
-    </tr>
-    <tr>
-        <td rowspan="2"><a href="https://huggingface.co/microsoft/BitNet-embedding-270M">BitNet-embedding-270M</a></td>
-        <td rowspan="2">270M</td>
-        <td>x86</td>
-        <td>&#9989;</td>
-        <td>&#10060;</td>
-        <td>&#10060;</td>
-    </tr>
-    <tr>
-        <td>ARM</td>
-        <td>&#10060;</td>
-        <td>&#10060;</td>
-        <td>&#10060;</td>
-    </tr>
-    <tr>
-        <th colspan="6" style="text-align:left;">Community Models</th>
-    </tr>
-    <tr>
-        <td rowspan="2"><a href="https://huggingface.co/1bitLLM/bitnet_b1_58-large">bitnet_b1_58-large</a></td>
-        <td rowspan="2">0.7B</td>
-        <td>x86</td>
-        <td>&#9989;</td>
-        <td>&#10060;</td>
-        <td>&#9989;</td>
-    </tr>
-    <tr>
-        <td>ARM</td>
-        <td>&#9989;</td>
-        <td>&#9989;</td>
-        <td>&#10060;</td>
-    </tr>
-    <tr>
-        <td rowspan="2"><a href="https://huggingface.co/1bitLLM/bitnet_b1_58-3B">bitnet_b1_58-3B</a></td>
-        <td rowspan="2">3.3B</td>
-        <td>x86</td>
-        <td>&#10060;</td>
-        <td>&#10060;</td>
-        <td>&#9989;</td>
-    </tr>
-    <tr>
-        <td>ARM</td>
-        <td>&#10060;</td>
-        <td>&#9989;</td>
-        <td>&#10060;</td>
-    </tr>
-    <tr>
-        <td rowspan="2"><a href="https://huggingface.co/HF1BitLLM/Llama3-8B-1.58-100B-tokens">Llama3-8B-1.58-100B-tokens</a></td>
-        <td rowspan="2">8.0B</td>
-        <td>x86</td>
-        <td>&#9989;</td>
-        <td>&#10060;</td>
-        <td>&#9989;</td>
-    </tr>
-    <tr>
-        <td>ARM</td>
-        <td>&#9989;</td>
-        <td>&#9989;</td>
-        <td>&#10060;</td>
-    </tr>
-    <tr>
-        <td rowspan="2"><a href="https://huggingface.co/collections/tiiuae/falcon3-67605ae03578be86e4e87026">Falcon3 Family</a></td>
-        <td rowspan="2">1B-10B</td>
-        <td>x86</td>
-        <td>&#9989;</td>
-        <td>&#10060;</td>
-        <td>&#9989;</td>
-    </tr>
-    <tr>
-        <td>ARM</td>
-        <td>&#9989;</td>
-        <td>&#9989;</td>
-        <td>&#10060;</td>
-    </tr>
-    <tr>
-        <td rowspan="2"><a href="https://huggingface.co/collections/tiiuae/falcon-edge-series-6804fd13344d6d8a8fa71130">Falcon-E Family</a></td>
-        <td rowspan="2">1B-3B</td>
-        <td>x86</td>
-        <td>&#9989;</td>
-        <td>&#10060;</td>
-        <td>&#9989;</td>
-    </tr>
-    <tr>
-        <td>ARM</td>
-        <td>&#9989;</td>
-        <td>&#9989;</td>
-        <td>&#10060;</td>
-    </tr>
-</table>
-
-❗️**We use existing 1-bit LLMs available on [Hugging Face](https://huggingface.co/) to demonstrate the inference capabilities of bitnet.cpp. We hope the release of bitnet.cpp will inspire the development of 1-bit LLMs in large-scale settings in terms of model size and training tokens.**
-
-## Installation
-
-### Requirements
-- python>=3.10
-- cmake>=3.22
-- clang>=18
-    - For Windows users, install [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/). In the installer, toggle on at least the following options(this also automatically installs the required additional tools like CMake):
-        -  Desktop-development with C++
-        -  C++-CMake Tools for Windows
-        -  Git for Windows
-        -  C++-Clang Compiler for Windows
-        -  MS-Build Support for LLVM-Toolset (clang)
-    - For Debian/Ubuntu users, you can download with [Automatic installation script](https://apt.llvm.org/)
-
-        `bash -c "$(wget -O - https://apt.llvm.org/llvm.sh)"`
-- conda (highly recommend)
-
-### Build from source
-
-> [!IMPORTANT]
-> If you are using Windows, please remember to always use a Developer Command Prompt / PowerShell for VS2022 for the following commands. Please refer to the FAQs below if you see any issues.
-
-1. Clone the repo
-```bash
-git clone --recursive https://github.com/microsoft/BitNet.git
-cd BitNet
-```
-2. Install the dependencies
-```bash
-# (Recommended) Create a new conda environment
-conda create -n bitnet-cpp python=3.10
-conda activate bitnet-cpp
-
-pip install -r requirements.txt
-```
-3. Build the project
-```bash
-# Manually download the model and run with local path
-huggingface-cli download microsoft/BitNet-b1.58-2B-4T-gguf --local-dir models/BitNet-b1.58-2B-4T
-python setup_env.py -md models/BitNet-b1.58-2B-4T -q i2_s
-
-```
-<pre>
-usage: setup_env.py [-h] [--hf-repo {1bitLLM/bitnet_b1_58-large,1bitLLM/bitnet_b1_58-3B,HF1BitLLM/Llama3-8B-1.58-100B-tokens,tiiuae/Falcon3-1B-Instruct-1.58bit,tiiuae/Falcon3-3B-Instruct-1.58bit,tiiuae/Falcon3-7B-Instruct-1.58bit,tiiuae/Falcon3-10B-Instruct-1.58bit}] [--model-dir MODEL_DIR] [--log-dir LOG_DIR] [--quant-type {i2_s,tl1}] [--quant-embd]
-                    [--use-pretuned]
-
-Setup the environment for running inference
-
-optional arguments:
-  -h, --help            show this help message and exit
-  --hf-repo {1bitLLM/bitnet_b1_58-large,1bitLLM/bitnet_b1_58-3B,HF1BitLLM/Llama3-8B-1.58-100B-tokens,tiiuae/Falcon3-1B-Instruct-1.58bit,tiiuae/Falcon3-3B-Instruct-1.58bit,tiiuae/Falcon3-7B-Instruct-1.58bit,tiiuae/Falcon3-10B-Instruct-1.58bit}, -hr {1bitLLM/bitnet_b1_58-large,1bitLLM/bitnet_b1_58-3B,HF1BitLLM/Llama3-8B-1.58-100B-tokens,tiiuae/Falcon3-1B-Instruct-1.58bit,tiiuae/Falcon3-3B-Instruct-1.58bit,tiiuae/Falcon3-7B-Instruct-1.58bit,tiiuae/Falcon3-10B-Instruct-1.58bit}
-                        Model used for inference
-  --model-dir MODEL_DIR, -md MODEL_DIR
-                        Directory to save/load the model
-  --log-dir LOG_DIR, -ld LOG_DIR
-                        Directory to save the logging info
-  --quant-type {i2_s,tl1}, -q {i2_s,tl1}
-                        Quantization type
-  --quant-embd          Quantize the embeddings to f16
-  --use-pretuned, -p    Use the pretuned kernel parameters
-</pre>
-
-## Usage
-### Basic usage
-```bash
-# Run inference with the quantized model
-python run_inference.py -m models/BitNet-b1.58-2B-4T/ggml-model-i2_s.gguf -p "You are a helpful assistant" -cnv
-```
-<pre>
-usage: run_inference.py [-h] [-m MODEL] [-n N_PREDICT] -p PROMPT [-t THREADS] [-c CTX_SIZE] [-temp TEMPERATURE] [-cnv]
-
-Run inference
-
-optional arguments:
-  -h, --help            show this help message and exit
-  -m MODEL, --model MODEL
-                        Path to model file
-  -n N_PREDICT, --n-predict N_PREDICT
-                        Number of tokens to predict when generating text
-  -p PROMPT, --prompt PROMPT
-                        Prompt to generate text from
-  -t THREADS, --threads THREADS
-                        Number of threads to use
-  -c CTX_SIZE, --ctx-size CTX_SIZE
-                        Size of the prompt context
-  -temp TEMPERATURE, --temperature TEMPERATURE
-                        Temperature, a hyperparameter that controls the randomness of the generated text
-  -cnv, --conversation  Whether to enable chat mode or not (for instruct models.)
-                        (When this option is turned on, the prompt specified by -p will be used as the system prompt.)
-</pre>
-
-### Demo
-
-A demo of bitnet.cpp running a BitNet b1.58 3B model on Apple M2:
-
-https://github.com/user-attachments/assets/7f46b736-edec-4828-b809-4be780a3e5b1
-
-### Benchmark
-We provide scripts to run the inference benchmark providing a model.
-
-```  
-usage: e2e_benchmark.py -m MODEL [-n N_TOKEN] [-p N_PROMPT] [-t THREADS]  
-   
-Setup the environment for running the inference  
-   
-required arguments:  
-  -m MODEL, --model MODEL  
-                        Path to the model file. 
-   
-optional arguments:  
-  -h, --help  
-                        Show this help message and exit. 
-  -n N_TOKEN, --n-token N_TOKEN  
-                        Number of generated tokens. 
-  -p N_PROMPT, --n-prompt N_PROMPT  
-                        Prompt to generate text from. 
-  -t THREADS, --threads THREADS  
-                        Number of threads to use. 
-```  
-   
-Here's a brief explanation of each argument:  
-   
-- `-m`, `--model`: The path to the model file. This is a required argument that must be provided when running the script.  
-- `-n`, `--n-token`: The number of tokens to generate during the inference. It is an optional argument with a default value of 128.  
-- `-p`, `--n-prompt`: The number of prompt tokens to use for generating text. This is an optional argument with a default value of 512.  
-- `-t`, `--threads`: The number of threads to use for running the inference. It is an optional argument with a default value of 2.  
-- `-h`, `--help`: Show the help message and exit. Use this argument to display usage information.  
-   
-For example:  
-   
-```sh  
-python utils/e2e_benchmark.py -m /path/to/model -n 200 -p 256 -t 4  
-```  
-   
-This command would run the inference benchmark using the model located at `/path/to/model`, generating 200 tokens from a 256 token prompt, utilizing 4 threads.  
-
-For the model layout that do not supported by any public model, we provide scripts to generate a dummy model with the given model layout, and run the benchmark on your machine:
+### Build and run (macOS, Apple Silicon)
 
 ```bash
-python utils/generate-dummy-bitnet-model.py models/bitnet_b1_58-large --outfile models/dummy-bitnet-125m.tl1.gguf --outtype tl1 --model-size 125M
-
-# Run benchmark with the generated model, use -m to specify the model path, -p to specify the prompt processed, -n to specify the number of token to generate
-python utils/e2e_benchmark.py -m models/dummy-bitnet-125m.tl1.gguf -p 512 -n 128
+git clone --recursive https://github.com/t0b1kent/BitNet-X && cd BitNet-X
+cmake -S . -B build -DBITNET_ARM_TL1=OFF -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++ \
+      -DLLAMA_BUILD_TOOLS=ON -DLLAMA_BUILD_EXAMPLES=ON -DLLAMA_BUILD_COMMON=ON -DLLAMA_BUILD_SERVER=ON
+cmake --build build -j --target llama-cli llama-server llama-bench llama-perplexity
+# model: https://huggingface.co/microsoft/bitnet-b1.58-2B-4T-gguf  (ggml-model-i2_s.gguf)
+build/bin/llama-cli -m ggml-model-i2_s.gguf -ngl 99 -p "The capital of France is" -n 32
 ```
 
-### Convert from `.safetensors` Checkpoints
+Prebuilt macOS arm64 binaries are attached to the [releases](https://github.com/t0b1kent/BitNet-X/releases).
 
-```sh
-# Prepare the .safetensors model file
-huggingface-cli download microsoft/bitnet-b1.58-2B-4T-bf16 --local-dir ./models/bitnet-b1.58-2B-4T-bf16
+**Chat format.** The chat template embedded in the official GGUF (`Human: … BITNETAssistant:` followed by an extra
+end token) does not match the original model; through `/v1/chat/completions` the model loses the format. Use the
+original format with `/completion`: `System: …<|eot_id|>User: …<|eot_id|>Assistant: `.
 
-# Convert to gguf model
-python ./utils/convert-helper-bitnet.py ./models/bitnet-b1.58-2B-4T-bf16
+### Tests
+
+```bash
+scripts/run_tests.sh --no-build          # unit tests, about 10 s
+BITNET_GGUF=/path/ggml-model-i2_s.gguf BITNET_BF16=/path/bf16-dir scripts/run_tests.sh   # everything
 ```
 
-## Acknowledgements
+Unit tests compile the real engine sources; integration tests check generation, perplexity and that the Metal
+matrix path gives the same output and perplexity as the other paths. Details: [tests/README.md](tests/README.md).
 
-This project is based on the [llama.cpp](https://github.com/ggerganov/llama.cpp) framework. We would like to thank all the authors for their contributions to the open-source community. Also, bitnet.cpp's kernels are built on top of the Lookup Table methodologies pioneered in [T-MAC](https://github.com/microsoft/T-MAC/). For inference of general low-bit LLMs beyond ternary models, we recommend using T-MAC.
+## Research
 
-### FAQ (Frequently Asked Questions)📌 
+Question: why can a small model not hold the strength of a big one, and what puts that strength into it. Everything
+is measured with automatic checking (generated tasks, sandboxed grader, private tests, a sealed test set), with
+confidence intervals and the failure modes checked by reading the outputs. Full write-up, in Russian, with all
+numbers, caveats and sources: [docs/research/RESEARCH_PLAN.md](docs/research/RESEARCH_PLAN.md). Code and raw results:
+[`research/`](research).
 
-#### Q1: The build dies with errors building llama.cpp due to issues with std::chrono in log.cpp?
+Main findings so far (toy tasks; one fact syntax; see the write-up for the limits):
 
-**A:**
-This is an issue introduced in recent version of llama.cpp. Please refer to this [commit](https://github.com/tinglou/llama.cpp/commit/4e3db1e3d78cc1bcd22bcb3af54bd2a4628dd323) in the [discussion](https://github.com/abetlen/llama-cpp-python/issues/1942) to fix this issue.
+* **Training recipe, not the ternary format, limits BitNet.** On the same 100 code tasks, Ternary Bonsai 2 4B
+  (PrismML, ternary, made from Qwen3.5-4B; same file size as BitNet, 1.15 GB, same decode speed) solves 76 % vs 37 %
+  for BitNet 2B-4T (+39 pp, 95 % CI +15…+65 by task family). Bonsai 2B, with a third fewer non-embedding
+  parameters, is not worse than BitNet.
+* **Reasoning over given facts is fine; selecting facts is not.** BitNet answers 91 % of 1–3-step questions about a
+  made-up world when given only the needed facts, 39 % when given all 117 facts of the world. Three extra facts cost
+  14 pp, ten cost 32 pp.
+* **Inside the model:** a few attention heads in layers 14–17 (about 1 % of 600) do the retrieval. With 3 extra
+  facts they put 95 % of their fact-attention on the needed facts, with 117 facts 31 %: softmax spreads the rest
+  over a hundred irrelevant facts. With an awkward wording the right answer exists at layer 27 and the last two layers
+  override it ("none"): the knowledge is there, the instruction is applied wrongly.
+* **Counting over 117 facts** fails for every model (0–23 %). Per-fact judging with exact adding fixes most of it;
+  **reading the facts once into a table** (the model parses each fact and each question, code runs the query) gives
+  **150/150** on all question types for BitNet and both Bonsai models, 91–99 % on paraphrased questions. The table
+  is ≈0.7 KB versus ≈72 MB of attention cache for the same facts as text.
+* **Ternary weights are already used almost fully:** 1.56 bits of entropy per weight out of the log₂3 = 1.585
+  ceiling. More useful knowledge per byte has to come from what training puts into the weights and from moving
+  arbitrary facts into exact-access memory, not from packing more bits per weight.
 
-#### Q2: How to build with clang in conda environment on windows?
+Next: training on a Mac with MLX (a trainable ternary BitNet that matches the engine's perplexity is in
+[`research/train/bx_qat.py`](research/train/bx_qat.py)): consistency across wordings, learned fact selection, and a
+native read-write memory for small on-device models.
 
-**A:** 
-Before building the project, verify your clang installation and access to Visual Studio tools by running:
-```
-clang -v
-```
+## Credits and license
 
-This command checks that you are using the correct version of clang and that the Visual Studio tools are available. If you see an error message such as:
-```
-'clang' is not recognized as an internal or external command, operable program or batch file.
-```
-
-It indicates that your command line window is not properly initialized for Visual Studio tools.
-
-• If you are using Command Prompt, run:
-```
-"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\Tools\VsDevCmd.bat" -startdir=none -arch=x64 -host_arch=x64
-```
-
-• If you are using Windows PowerShell, run the following commands:
-```
-Import-Module "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\Tools\Microsoft.VisualStudio.DevShell.dll" Enter-VsDevShell 3f0e31ad -SkipAutomaticLocation -DevCmdArguments "-arch=x64 -host_arch=x64"
-```
-
-These steps will initialize your environment and allow you to use the correct Visual Studio tools.
+Fork of [microsoft/BitNet](https://github.com/microsoft/BitNet) (MIT) and [llama.cpp](https://github.com/ggml-org/llama.cpp)
+(MIT); see [LICENSE](LICENSE). Model weights are not part of this repository. Ternary Bonsai models
+([PrismML](https://prismml.com), Apache-2.0) were used only for comparison and are not redistributed.

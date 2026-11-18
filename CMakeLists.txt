@@ -38,6 +38,24 @@ endif()
 
 find_package(Threads REQUIRED)
 
+# BitNet-X: fixes to the pinned llama.cpp submodule are kept as patch files in
+# patches/llama.cpp and applied to the submodule working tree (idempotent).
+option(BITNETX_APPLY_PATCHES "bitnet.cpp: apply patches/llama.cpp/*.patch to the llama.cpp submodule at configure time" ON)
+if (BITNETX_APPLY_PATCHES)
+    find_program(BITNETX_BASH bash)
+    if (BITNETX_BASH)
+        execute_process(
+            COMMAND ${BITNETX_BASH} ${CMAKE_CURRENT_SOURCE_DIR}/scripts/apply_patches.sh
+            RESULT_VARIABLE BITNETX_PATCH_RC)
+        if (NOT BITNETX_PATCH_RC EQUAL 0)
+            message(FATAL_ERROR "scripts/apply_patches.sh failed (${BITNETX_PATCH_RC}); "
+                                "fix the submodule state or configure with -DBITNETX_APPLY_PATCHES=OFF")
+        endif()
+    else()
+        message(WARNING "bash not found: patches/llama.cpp/*.patch were NOT applied to the llama.cpp submodule")
+    endif()
+endif()
+
 add_subdirectory(src)
 set(LLAMA_BUILD_SERVER ON CACHE BOOL "Build llama.cpp server" FORCE)
 add_subdirectory(3rdparty/llama.cpp)

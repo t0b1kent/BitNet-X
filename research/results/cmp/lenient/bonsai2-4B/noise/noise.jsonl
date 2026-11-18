@@ -1,0 +1,750 @@
+{"level": "0", "type": "hop1", "q": "What is Hakido's job?", "ans": "teacher", "reply": "Teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "pilot", "reply": "Pilot", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Suta's mentor live?", "ans": "Ririford", "reply": "Ririford", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "0", "type": "count", "q": "How many people live in Tabataburg?", "ans": "3", "reply": "3", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "older", "q": "Who is older, Tasuno or Tagi?", "ans": "Tasuno", "reply": "Tasuno", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "0", "type": "hop1", "q": "What is Nalu's job?", "ans": "sailor", "reply": "Sailor", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "0", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "pilot", "reply": "Pilot", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Naluha's mentor live?", "ans": "Navekuburg", "reply": "Navekuburg", "ok": true, "ctoks": 6, "finish": "stop"}
+{"level": "0", "type": "count", "q": "How many people live in Ririford?", "ans": "4", "reply": "4", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "older", "q": "Who is older, Metaba or Mizo?", "ans": "Metaba", "reply": "Metaba", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop1", "q": "What is Lukujo's job?", "ans": "miner", "reply": "Miner", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop2", "q": "What is the job of Nalu's mentor?", "ans": "painter", "reply": "Painter", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Meripo's mentor live?", "ans": "Navekuburg", "reply": "Navekuburg", "ok": true, "ctoks": 6, "finish": "stop"}
+{"level": "0", "type": "count", "q": "How many people live in Navekuburg?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "older", "q": "Who is older, Naluha or Tagi?", "ans": "Naluha", "reply": "Naluha", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "0", "type": "hop1", "q": "What is Lukujo's job?", "ans": "miner", "reply": "Miner", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop2", "q": "What is the job of Metaba's mentor?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Milu's mentor live?", "ans": "Gidoford", "reply": "Gidoford", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "0", "type": "count", "q": "How many people live in Nodosuford?", "ans": "4", "reply": "4", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "older", "q": "Who is older, Mizo or Feta?", "ans": "Mizo", "reply": "Mizo", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop1", "q": "What is Pomipo's job?", "ans": "painter", "reply": "Painter", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "hop2", "q": "What is the job of Tasuno's mentor?", "ans": "sailor", "reply": "Sailor", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Mena's mentor live?", "ans": "Ririford", "reply": "Ririford", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "0", "type": "count", "q": "How many people live in Ririford?", "ans": "4", "reply": "4", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "older", "q": "Who is older, Laku or Lukujo?", "ans": "Laku", "reply": "Laku", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop1", "q": "What is Metaba's job?", "ans": "teacher", "reply": "Teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "hop2", "q": "What is the job of Laku's mentor?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Lukujo's mentor live?", "ans": "Gidoford", "reply": "Gidoford", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "0", "type": "count", "q": "How many people live in Nodosuford?", "ans": "4", "reply": "4", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "older", "q": "Who is older, Milu or Jodo?", "ans": "Jodo", "reply": "Jodo", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop1", "q": "What is Kizo's job?", "ans": "doctor", "reply": "Doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "hop2", "q": "What is the job of Surife's mentor?", "ans": "teacher", "reply": "Teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Gino's mentor live?", "ans": "Nagiburg", "reply": "Nagiburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "0", "type": "count", "q": "How many people live in Kizoford?", "ans": "2", "reply": "2", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "older", "q": "Who is older, Bapo or Dobado?", "ans": "Bapo", "reply": "Bapo", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop1", "q": "What is Kilu's job?", "ans": "teacher", "reply": "Teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "hop2", "q": "What is the job of Kizo's mentor?", "ans": "tailor", "reply": "Tailor", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Nokiba's mentor live?", "ans": "Nagiburg", "reply": "Nagiburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "0", "type": "count", "q": "How many people live in Zonoburg?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "older", "q": "Who is older, Kumeri or Vekulu?", "ans": "Vekulu", "reply": "Vekulu", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "0", "type": "hop1", "q": "What is Nomi's job?", "ans": "farmer", "reply": "Farmer", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop2", "q": "What is the job of Mena's mentor?", "ans": "tailor", "reply": "Tailor", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Gino's mentor live?", "ans": "Nagiburg", "reply": "Nagiburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "0", "type": "count", "q": "How many people live in Kizoford?", "ans": "2", "reply": "2", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "older", "q": "Who is older, Kigina or Fegi?", "ans": "Fegi", "reply": "Fegi", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop1", "q": "What is Vezo's job?", "ans": "potter", "reply": "Potter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop2", "q": "What is the job of Bapo's mentor?", "ans": "farmer", "reply": "Farmer", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Fegi's mentor live?", "ans": "Zonoburg", "reply": "Zonoburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "0", "type": "count", "q": "How many people live in Hanoton?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "older", "q": "Who is older, Gino or Kigina?", "ans": "Gino", "reply": "Gino", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop1", "q": "What is Mihajo's job?", "ans": "doctor", "reply": "Doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "hop2", "q": "What is the job of Joki's mentor?", "ans": "teacher", "reply": "Teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Nokiba's mentor live?", "ans": "Nagiburg", "reply": "Nagiburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "0", "type": "count", "q": "How many people live in Hanoton?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "older", "q": "Who is older, Jojo or Jota?", "ans": "Jojo", "reply": "Jojo", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop1", "q": "What is Kizo's job?", "ans": "doctor", "reply": "Doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "hop2", "q": "What is the job of Vezo's mentor?", "ans": "doctor", "reply": "Doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Bapo's mentor live?", "ans": "Hanoton", "reply": "Hanoton", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "count", "q": "How many people live in Fekiton?", "ans": "2", "reply": "2", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "older", "q": "Who is older, Vekulu or Joki?", "ans": "Vekulu", "reply": "Vekulu", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "0", "type": "hop1", "q": "What is Lumefe's job?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop2", "q": "What is the job of Melata's mentor?", "ans": "painter", "reply": "Painter", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Sumime's mentor live?", "ans": "Hahaburg", "reply": "Hahaburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "0", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "2", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "older", "q": "Who is older, Kutari or Popo?", "ans": "Kutari", "reply": "Kutari", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "0", "type": "hop1", "q": "What is Lumefe's job?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop2", "q": "What is the job of Sudolu's mentor?", "ans": "miner", "reply": "Miner", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Suhaki's mentor live?", "ans": "Dokuburg", "reply": "Dokuburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "0", "type": "count", "q": "How many people live in Hahaburg?", "ans": "4", "reply": "4", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "older", "q": "Who is older, Sumime or Jola?", "ans": "Sumime", "reply": "Sumime", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop1", "q": "What is Jopona's job?", "ans": "doctor", "reply": "Doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "hop2", "q": "What is the job of Kutari's mentor?", "ans": "painter", "reply": "Painter", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Sumime's mentor live?", "ans": "Hahaburg", "reply": "Hahaburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "0", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "2", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "older", "q": "Who is older, Sumime or Jopona?", "ans": "Sumime", "reply": "Sumime", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop1", "q": "What is Givedo's job?", "ans": "doctor", "reply": "Doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "hop2", "q": "What is the job of Jopona's mentor?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Nala's mentor live?", "ans": "Dokuburg", "reply": "Dokuburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "0", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "2", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "older", "q": "Who is older, Pome or Gihado?", "ans": "Pome", "reply": "Pome", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop1", "q": "What is Sumime's job?", "ans": "doctor", "reply": "Doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "hop2", "q": "What is the job of Dove's mentor?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Sudolu's mentor live?", "ans": "Hahaburg", "reply": "Hahaburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "0", "type": "count", "q": "How many people live in Jogipoton?", "ans": "4", "reply": "4", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "older", "q": "Who is older, Noki or Pome?", "ans": "Pome", "reply": "Pome", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop1", "q": "What is Nala's job?", "ans": "tailor", "reply": "Tailor", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop2", "q": "What is the job of Suba's mentor?", "ans": "doctor", "reply": "Doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Jozola's mentor live?", "ans": "Basubaford", "reply": "Basubaford", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "0", "type": "count", "q": "How many people live in Dokuburg?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "older", "q": "Who is older, Sudolu or Sumime?", "ans": "Sudolu", "reply": "Sudolu", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "0", "type": "hop1", "q": "What is Kisupo's job?", "ans": "farmer", "reply": "Farmer", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop2", "q": "What is the job of Najomi's mentor?", "ans": "pilot", "reply": "Pilot", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Noki's mentor live?", "ans": "Lanafeton", "reply": "Lanafeton", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "0", "type": "count", "q": "How many people live in Bafeton?", "ans": "3", "reply": "3", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "older", "q": "Who is older, Kisupo or Joha?", "ans": "Joha", "reply": "Joha", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop1", "q": "What is Baku's job?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop2", "q": "What is the job of Zodo's mentor?", "ans": "sailor", "reply": "Sailor", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Kihafe's mentor live?", "ans": "Rizoford", "reply": "Rizoford", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "0", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "3", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "older", "q": "Who is older, Riha or Vemeri?", "ans": "Riha", "reply": "Riha", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop1", "q": "What is Kihafe's job?", "ans": "tailor", "reply": "Tailor", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop2", "q": "What is the job of Najomi's mentor?", "ans": "pilot", "reply": "Pilot", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Kunaba's mentor live?", "ans": "Rizoford", "reply": "Rizoford", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "0", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "3", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "older", "q": "Who is older, Noki or Najomi?", "ans": "Noki", "reply": "Noki", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop1", "q": "What is Kisupo's job?", "ans": "farmer", "reply": "Farmer", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop2", "q": "What is the job of Jojo's mentor?", "ans": "potter", "reply": "Potter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Riha's mentor live?", "ans": "Rizoford", "reply": "Rizoford", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "0", "type": "count", "q": "How many people live in Rizoford?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "older", "q": "Who is older, Kidoba or Josuha?", "ans": "Josuha", "reply": "Josuha", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop1", "q": "What is Jojo's job?", "ans": "pilot", "reply": "Pilot", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop2", "q": "What is the job of Noki's mentor?", "ans": "teacher", "reply": "Teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Gime's mentor live?", "ans": "Lanafeton", "reply": "Lanafeton", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "0", "type": "count", "q": "How many people live in Kikiton?", "ans": "3", "reply": "3", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "older", "q": "Who is older, Najomi or Hamiku?", "ans": "Hamiku", "reply": "Hamiku", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop1", "q": "What is Baku's job?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop2", "q": "What is the job of Kuki's mentor?", "ans": "teacher", "reply": "Teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Kihafe's mentor live?", "ans": "Rizoford", "reply": "Rizoford", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "0", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "3", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "older", "q": "Who is older, Kisupo or Domiri?", "ans": "Domiri", "reply": "Domiri", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop1", "q": "What is Mizo's job?", "ans": "teacher", "reply": "Teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "hop2", "q": "What is the job of Dojodo's mentor?", "ans": "farmer", "reply": "Farmer", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Mizo's mentor live?", "ans": "Pojoburg", "reply": "Pojoburg", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "0", "type": "count", "q": "How many people live in Habahaford?", "ans": "4", "reply": "4", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "older", "q": "Who is older, Gikizo or Vela?", "ans": "Gikizo", "reply": "Gikizo", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "0", "type": "hop1", "q": "What is Dojodo's job?", "ans": "tailor", "reply": "Tailor", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop2", "q": "What is the job of Bazono's mentor?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Haluzo's mentor live?", "ans": "Pojoburg", "reply": "Pojoburg", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "0", "type": "count", "q": "How many people live in Pojoburg?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "older", "q": "Who is older, Ferive or Haluzo?", "ans": "Ferive", "reply": "Ferive", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop1", "q": "What is Rifeba's job?", "ans": "painter", "reply": "Painter", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "painter", "reply": "Painter", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Vela's mentor live?", "ans": "Pojoburg", "reply": "Pojoburg", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "0", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "older", "q": "Who is older, Dodo or Jopoku?", "ans": "Jopoku", "reply": "Jopoku", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "0", "type": "hop1", "q": "What is Bazono's job?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop2", "q": "What is the job of Dodo's mentor?", "ans": "farmer", "reply": "Farmer", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Haluzo's mentor live?", "ans": "Pojoburg", "reply": "Pojoburg", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "0", "type": "count", "q": "How many people live in Baveford?", "ans": "2", "reply": "2", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "older", "q": "Who is older, Dojodo or Kupogi?", "ans": "Dojodo", "reply": "Dojodo", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "0", "type": "hop1", "q": "What is Dojodo's job?", "ans": "tailor", "reply": "Tailor", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop2", "q": "What is the job of Lagiba's mentor?", "ans": "pilot", "reply": "Pilot", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Bado's mentor live?", "ans": "Dojoburg", "reply": "Dojoburg", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "0", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "older", "q": "Who is older, Nohapo or Gikizo?", "ans": "Nohapo", "reply": "Nohapo", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "0", "type": "hop1", "q": "What is Rina's job?", "ans": "sailor", "reply": "Sailor", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "0", "type": "hop2", "q": "What is the job of Fevena's mentor?", "ans": "potter", "reply": "Potter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "0", "type": "hop3", "q": "In which city does the mentor of Rina's mentor live?", "ans": "Pohajoton", "reply": "Pohajoton", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "0", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "0", "type": "older", "q": "Who is older, Bazono or Gife?", "ans": "Bazono", "reply": "Bazono", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "3", "type": "hop1", "q": "What is Hakido's job?", "ans": "teacher", "reply": "teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "pilot", "reply": "Pilot", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Suta's mentor live?", "ans": "Ririford", "reply": "Ririford", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "3", "type": "count", "q": "How many people live in Tabataburg?", "ans": "3", "reply": "4", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "older", "q": "Who is older, Tasuno or Tagi?", "ans": "Tasuno", "reply": "Tasuno", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "3", "type": "hop1", "q": "What is Nalu's job?", "ans": "sailor", "reply": "Sailor", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "3", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "pilot", "reply": "Pilot", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Naluha's mentor live?", "ans": "Navekuburg", "reply": "Nokuzo", "ok": false, "ctoks": 5, "finish": "stop"}
+{"level": "3", "type": "count", "q": "How many people live in Ririford?", "ans": "4", "reply": "4", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "older", "q": "Who is older, Metaba or Mizo?", "ans": "Metaba", "reply": "Metaba", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop1", "q": "What is Lukujo's job?", "ans": "miner", "reply": "miner", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "hop2", "q": "What is the job of Nalu's mentor?", "ans": "painter", "reply": "painter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Meripo's mentor live?", "ans": "Navekuburg", "reply": "Navekuburg", "ok": true, "ctoks": 6, "finish": "stop"}
+{"level": "3", "type": "count", "q": "How many people live in Navekuburg?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "older", "q": "Who is older, Naluha or Tagi?", "ans": "Naluha", "reply": "Naluha", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "3", "type": "hop1", "q": "What is Lukujo's job?", "ans": "miner", "reply": "miner", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "hop2", "q": "What is the job of Metaba's mentor?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Milu's mentor live?", "ans": "Gidoford", "reply": "Gidoford", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "3", "type": "count", "q": "How many people live in Nodosuford?", "ans": "4", "reply": "5", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "older", "q": "Who is older, Mizo or Feta?", "ans": "Mizo", "reply": "Mizo", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop1", "q": "What is Pomipo's job?", "ans": "painter", "reply": "painter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop2", "q": "What is the job of Tasuno's mentor?", "ans": "sailor", "reply": "sailor", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Mena's mentor live?", "ans": "Ririford", "reply": "Ririford", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "3", "type": "count", "q": "How many people live in Ririford?", "ans": "4", "reply": "5", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "older", "q": "Who is older, Laku or Lukujo?", "ans": "Laku", "reply": "Laku", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop1", "q": "What is Metaba's job?", "ans": "teacher", "reply": "Teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "hop2", "q": "What is the job of Laku's mentor?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Lukujo's mentor live?", "ans": "Gidoford", "reply": "Gidoford", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "3", "type": "count", "q": "How many people live in Nodosuford?", "ans": "4", "reply": "4", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "older", "q": "Who is older, Milu or Jodo?", "ans": "Jodo", "reply": "Jodo", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop1", "q": "What is Kizo's job?", "ans": "doctor", "reply": "Doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "hop2", "q": "What is the job of Surife's mentor?", "ans": "teacher", "reply": "Teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Gino's mentor live?", "ans": "Nagiburg", "reply": "Nagiburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "3", "type": "count", "q": "How many people live in Kizoford?", "ans": "2", "reply": "2", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "older", "q": "Who is older, Bapo or Dobado?", "ans": "Bapo", "reply": "Bapo", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop1", "q": "What is Kilu's job?", "ans": "teacher", "reply": "teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "hop2", "q": "What is the job of Kizo's mentor?", "ans": "tailor", "reply": "tailor", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Nokiba's mentor live?", "ans": "Nagiburg", "reply": "Nagiburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "3", "type": "count", "q": "How many people live in Zonoburg?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "older", "q": "Who is older, Kumeri or Vekulu?", "ans": "Vekulu", "reply": "Vekulu", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "3", "type": "hop1", "q": "What is Nomi's job?", "ans": "farmer", "reply": "farmer", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop2", "q": "What is the job of Mena's mentor?", "ans": "tailor", "reply": "tailor", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Gino's mentor live?", "ans": "Nagiburg", "reply": "Nagiburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "3", "type": "count", "q": "How many people live in Kizoford?", "ans": "2", "reply": "2", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "older", "q": "Who is older, Kigina or Fegi?", "ans": "Fegi", "reply": "Fegi", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop1", "q": "What is Vezo's job?", "ans": "potter", "reply": "Potter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop2", "q": "What is the job of Bapo's mentor?", "ans": "farmer", "reply": "Farmer", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Fegi's mentor live?", "ans": "Zonoburg", "reply": "Zonoburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "3", "type": "count", "q": "How many people live in Hanoton?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "older", "q": "Who is older, Gino or Kigina?", "ans": "Gino", "reply": "Gino", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop1", "q": "What is Mihajo's job?", "ans": "doctor", "reply": "Doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "hop2", "q": "What is the job of Joki's mentor?", "ans": "teacher", "reply": "teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Nokiba's mentor live?", "ans": "Nagiburg", "reply": "Nagiburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "3", "type": "count", "q": "How many people live in Hanoton?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "older", "q": "Who is older, Jojo or Jota?", "ans": "Jojo", "reply": "Jojo", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop1", "q": "What is Kizo's job?", "ans": "doctor", "reply": "Doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "hop2", "q": "What is the job of Vezo's mentor?", "ans": "doctor", "reply": "Doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Bapo's mentor live?", "ans": "Hanoton", "reply": "Hanoton", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "count", "q": "How many people live in Fekiton?", "ans": "2", "reply": "2", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "older", "q": "Who is older, Vekulu or Joki?", "ans": "Vekulu", "reply": "Vekulu", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "3", "type": "hop1", "q": "What is Lumefe's job?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop2", "q": "What is the job of Melata's mentor?", "ans": "painter", "reply": "painter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Sumime's mentor live?", "ans": "Hahaburg", "reply": "Hahaburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "3", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "2", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "older", "q": "Who is older, Kutari or Popo?", "ans": "Kutari", "reply": "Kutari", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "3", "type": "hop1", "q": "What is Lumefe's job?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop2", "q": "What is the job of Sudolu's mentor?", "ans": "miner", "reply": "miner", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Suhaki's mentor live?", "ans": "Dokuburg", "reply": "Dokuburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "3", "type": "count", "q": "How many people live in Hahaburg?", "ans": "4", "reply": "4", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "older", "q": "Who is older, Sumime or Jola?", "ans": "Sumime", "reply": "Sumime", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop1", "q": "What is Jopona's job?", "ans": "doctor", "reply": "doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "hop2", "q": "What is the job of Kutari's mentor?", "ans": "painter", "reply": "painter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Sumime's mentor live?", "ans": "Hahaburg", "reply": "Hahaburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "3", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "2", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "older", "q": "Who is older, Sumime or Jopona?", "ans": "Sumime", "reply": "Sumime", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop1", "q": "What is Givedo's job?", "ans": "doctor", "reply": "doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "hop2", "q": "What is the job of Jopona's mentor?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Nala's mentor live?", "ans": "Dokuburg", "reply": "Dokuburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "3", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "2", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "older", "q": "Who is older, Pome or Gihado?", "ans": "Pome", "reply": "Pome", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop1", "q": "What is Sumime's job?", "ans": "doctor", "reply": "doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "hop2", "q": "What is the job of Dove's mentor?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Sudolu's mentor live?", "ans": "Hahaburg", "reply": "Hahaburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "3", "type": "count", "q": "How many people live in Jogipoton?", "ans": "4", "reply": "5", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "older", "q": "Who is older, Noki or Pome?", "ans": "Pome", "reply": "Pome", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop1", "q": "What is Nala's job?", "ans": "tailor", "reply": "tailor", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop2", "q": "What is the job of Suba's mentor?", "ans": "doctor", "reply": "Doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Jozola's mentor live?", "ans": "Basubaford", "reply": "Basubaford", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "3", "type": "count", "q": "How many people live in Dokuburg?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "older", "q": "Who is older, Sudolu or Sumime?", "ans": "Sudolu", "reply": "Sudolu", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "3", "type": "hop1", "q": "What is Kisupo's job?", "ans": "farmer", "reply": "farmer", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop2", "q": "What is the job of Najomi's mentor?", "ans": "pilot", "reply": "Pilot", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Noki's mentor live?", "ans": "Lanafeton", "reply": "Lanafeton", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "3", "type": "count", "q": "How many people live in Bafeton?", "ans": "3", "reply": "3", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "older", "q": "Who is older, Kisupo or Joha?", "ans": "Joha", "reply": "Joha", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop1", "q": "What is Baku's job?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop2", "q": "What is the job of Zodo's mentor?", "ans": "sailor", "reply": "Sailor", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Kihafe's mentor live?", "ans": "Rizoford", "reply": "Rizoford", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "3", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "3", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "older", "q": "Who is older, Riha or Vemeri?", "ans": "Riha", "reply": "Riha", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop1", "q": "What is Kihafe's job?", "ans": "tailor", "reply": "tailor", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop2", "q": "What is the job of Najomi's mentor?", "ans": "pilot", "reply": "Pilot", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Kunaba's mentor live?", "ans": "Rizoford", "reply": "Rizoford", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "3", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "3", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "older", "q": "Who is older, Noki or Najomi?", "ans": "Noki", "reply": "Noki", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop1", "q": "What is Kisupo's job?", "ans": "farmer", "reply": "farmer", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop2", "q": "What is the job of Jojo's mentor?", "ans": "potter", "reply": "potter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Riha's mentor live?", "ans": "Rizoford", "reply": "Rizoford", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "3", "type": "count", "q": "How many people live in Rizoford?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "older", "q": "Who is older, Kidoba or Josuha?", "ans": "Josuha", "reply": "Kidoba", "ok": false, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop1", "q": "What is Jojo's job?", "ans": "pilot", "reply": "Pilot", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop2", "q": "What is the job of Noki's mentor?", "ans": "teacher", "reply": "Teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Gime's mentor live?", "ans": "Lanafeton", "reply": "Lanafeton", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "3", "type": "count", "q": "How many people live in Kikiton?", "ans": "3", "reply": "3", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "older", "q": "Who is older, Najomi or Hamiku?", "ans": "Hamiku", "reply": "Hamiku", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop1", "q": "What is Baku's job?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop2", "q": "What is the job of Kuki's mentor?", "ans": "teacher", "reply": "teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Kihafe's mentor live?", "ans": "Rizoford", "reply": "Rizoford", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "3", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "3", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "older", "q": "Who is older, Kisupo or Domiri?", "ans": "Domiri", "reply": "Domiri", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop1", "q": "What is Mizo's job?", "ans": "teacher", "reply": "Teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "hop2", "q": "What is the job of Dojodo's mentor?", "ans": "farmer", "reply": "Farmer", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Mizo's mentor live?", "ans": "Pojoburg", "reply": "Pojoburg", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "3", "type": "count", "q": "How many people live in Habahaford?", "ans": "4", "reply": "4", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "older", "q": "Who is older, Gikizo or Vela?", "ans": "Gikizo", "reply": "Gikizo", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "3", "type": "hop1", "q": "What is Dojodo's job?", "ans": "tailor", "reply": "tailor", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop2", "q": "What is the job of Bazono's mentor?", "ans": "baker", "reply": "baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Haluzo's mentor live?", "ans": "Pojoburg", "reply": "Pojoburg", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "3", "type": "count", "q": "How many people live in Pojoburg?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "older", "q": "Who is older, Ferive or Haluzo?", "ans": "Ferive", "reply": "Ferive", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop1", "q": "What is Rifeba's job?", "ans": "painter", "reply": "painter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "painter", "reply": "painter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Vela's mentor live?", "ans": "Pojoburg", "reply": "Pojoburg", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "3", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "6", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "older", "q": "Who is older, Dodo or Jopoku?", "ans": "Jopoku", "reply": "Jopoku", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "3", "type": "hop1", "q": "What is Bazono's job?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop2", "q": "What is the job of Dodo's mentor?", "ans": "farmer", "reply": "farmer", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Haluzo's mentor live?", "ans": "Pojoburg", "reply": "Pojoburg", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "3", "type": "count", "q": "How many people live in Baveford?", "ans": "2", "reply": "2", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "older", "q": "Who is older, Dojodo or Kupogi?", "ans": "Dojodo", "reply": "Dojodo", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "3", "type": "hop1", "q": "What is Dojodo's job?", "ans": "tailor", "reply": "Tailor", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop2", "q": "What is the job of Lagiba's mentor?", "ans": "pilot", "reply": "Pilot", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Bado's mentor live?", "ans": "Dojoburg", "reply": "Dojoburg", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "3", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "older", "q": "Who is older, Nohapo or Gikizo?", "ans": "Nohapo", "reply": "Nohapo", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "3", "type": "hop1", "q": "What is Rina's job?", "ans": "sailor", "reply": "Sailor", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "3", "type": "hop2", "q": "What is the job of Fevena's mentor?", "ans": "potter", "reply": "Potter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "3", "type": "hop3", "q": "In which city does the mentor of Rina's mentor live?", "ans": "Pohajoton", "reply": "Pohajoton", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "3", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "3", "type": "older", "q": "Who is older, Bazono or Gife?", "ans": "Bazono", "reply": "Bazono", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "10", "type": "hop1", "q": "What is Hakido's job?", "ans": "teacher", "reply": "teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "pilot", "reply": "Kitana", "ok": false, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Suta's mentor live?", "ans": "Ririford", "reply": "Gidoford", "ok": false, "ctoks": 5, "finish": "stop"}
+{"level": "10", "type": "count", "q": "How many people live in Tabataburg?", "ans": "3", "reply": "3", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "older", "q": "Who is older, Tasuno or Tagi?", "ans": "Tasuno", "reply": "Tasuno", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "10", "type": "hop1", "q": "What is Nalu's job?", "ans": "sailor", "reply": "Sailor", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "10", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "pilot", "reply": "Pilot", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Naluha's mentor live?", "ans": "Navekuburg", "reply": "Navekuburg", "ok": true, "ctoks": 6, "finish": "stop"}
+{"level": "10", "type": "count", "q": "How many people live in Ririford?", "ans": "4", "reply": "4", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "older", "q": "Who is older, Metaba or Mizo?", "ans": "Metaba", "reply": "Metaba", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop1", "q": "What is Lukujo's job?", "ans": "miner", "reply": "miner", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "hop2", "q": "What is the job of Nalu's mentor?", "ans": "painter", "reply": "Painter", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Meripo's mentor live?", "ans": "Navekuburg", "reply": "Navekuburg", "ok": true, "ctoks": 6, "finish": "stop"}
+{"level": "10", "type": "count", "q": "How many people live in Navekuburg?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "older", "q": "Who is older, Naluha or Tagi?", "ans": "Naluha", "reply": "Naluha", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "10", "type": "hop1", "q": "What is Lukujo's job?", "ans": "miner", "reply": "miner", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "hop2", "q": "What is the job of Metaba's mentor?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Milu's mentor live?", "ans": "Gidoford", "reply": "Gidoford", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "10", "type": "count", "q": "How many people live in Nodosuford?", "ans": "4", "reply": "4", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "older", "q": "Who is older, Mizo or Feta?", "ans": "Mizo", "reply": "Mizo", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop1", "q": "What is Pomipo's job?", "ans": "painter", "reply": "painter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop2", "q": "What is the job of Tasuno's mentor?", "ans": "sailor", "reply": "Sailor", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Mena's mentor live?", "ans": "Ririford", "reply": "Ririford", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "10", "type": "count", "q": "How many people live in Ririford?", "ans": "4", "reply": "4", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "older", "q": "Who is older, Laku or Lukujo?", "ans": "Laku", "reply": "Lukujo", "ok": false, "ctoks": 4, "finish": "stop"}
+{"level": "10", "type": "hop1", "q": "What is Metaba's job?", "ans": "teacher", "reply": "teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "hop2", "q": "What is the job of Laku's mentor?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Lukujo's mentor live?", "ans": "Gidoford", "reply": "Gidoford", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "10", "type": "count", "q": "How many people live in Nodosuford?", "ans": "4", "reply": "4", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "older", "q": "Who is older, Milu or Jodo?", "ans": "Jodo", "reply": "Jodo", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop1", "q": "What is Kizo's job?", "ans": "doctor", "reply": "doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "hop2", "q": "What is the job of Surife's mentor?", "ans": "teacher", "reply": "Teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Gino's mentor live?", "ans": "Nagiburg", "reply": "Nagiburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "10", "type": "count", "q": "How many people live in Kizoford?", "ans": "2", "reply": "2", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "older", "q": "Who is older, Bapo or Dobado?", "ans": "Bapo", "reply": "Bapo", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop1", "q": "What is Kilu's job?", "ans": "teacher", "reply": "teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "hop2", "q": "What is the job of Kizo's mentor?", "ans": "tailor", "reply": "Tailor", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Nokiba's mentor live?", "ans": "Nagiburg", "reply": "Nagiburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "10", "type": "count", "q": "How many people live in Zonoburg?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "older", "q": "Who is older, Kumeri or Vekulu?", "ans": "Vekulu", "reply": "Vekulu", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "10", "type": "hop1", "q": "What is Nomi's job?", "ans": "farmer", "reply": "farmer", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop2", "q": "What is the job of Mena's mentor?", "ans": "tailor", "reply": "tailor", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Gino's mentor live?", "ans": "Nagiburg", "reply": "Nagiburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "10", "type": "count", "q": "How many people live in Kizoford?", "ans": "2", "reply": "2", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "older", "q": "Who is older, Kigina or Fegi?", "ans": "Fegi", "reply": "Fegi", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop1", "q": "What is Vezo's job?", "ans": "potter", "reply": "potter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop2", "q": "What is the job of Bapo's mentor?", "ans": "farmer", "reply": "farmer", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Fegi's mentor live?", "ans": "Zonoburg", "reply": "Fekiton", "ok": false, "ctoks": 4, "finish": "stop"}
+{"level": "10", "type": "count", "q": "How many people live in Hanoton?", "ans": "5", "reply": "4", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "older", "q": "Who is older, Gino or Kigina?", "ans": "Gino", "reply": "Gino", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop1", "q": "What is Mihajo's job?", "ans": "doctor", "reply": "Doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "hop2", "q": "What is the job of Joki's mentor?", "ans": "teacher", "reply": "Teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Nokiba's mentor live?", "ans": "Nagiburg", "reply": "Nagiburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "10", "type": "count", "q": "How many people live in Hanoton?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "older", "q": "Who is older, Jojo or Jota?", "ans": "Jojo", "reply": "Jojo", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop1", "q": "What is Kizo's job?", "ans": "doctor", "reply": "doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "hop2", "q": "What is the job of Vezo's mentor?", "ans": "doctor", "reply": "doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Bapo's mentor live?", "ans": "Hanoton", "reply": "Hanoton", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "count", "q": "How many people live in Fekiton?", "ans": "2", "reply": "2", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "older", "q": "Who is older, Vekulu or Joki?", "ans": "Vekulu", "reply": "Vekulu", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "10", "type": "hop1", "q": "What is Lumefe's job?", "ans": "baker", "reply": "baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop2", "q": "What is the job of Melata's mentor?", "ans": "painter", "reply": "painter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Sumime's mentor live?", "ans": "Hahaburg", "reply": "Hahaburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "10", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "2", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "older", "q": "Who is older, Kutari or Popo?", "ans": "Kutari", "reply": "Kutari", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "10", "type": "hop1", "q": "What is Lumefe's job?", "ans": "baker", "reply": "baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop2", "q": "What is the job of Sudolu's mentor?", "ans": "miner", "reply": "Painter", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Suhaki's mentor live?", "ans": "Dokuburg", "reply": "Dokuburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "10", "type": "count", "q": "How many people live in Hahaburg?", "ans": "4", "reply": "4", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "older", "q": "Who is older, Sumime or Jola?", "ans": "Sumime", "reply": "Sumime", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop1", "q": "What is Jopona's job?", "ans": "doctor", "reply": "doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "hop2", "q": "What is the job of Kutari's mentor?", "ans": "painter", "reply": "Painter", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Sumime's mentor live?", "ans": "Hahaburg", "reply": "Basubaford", "ok": false, "ctoks": 5, "finish": "stop"}
+{"level": "10", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "2", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "older", "q": "Who is older, Sumime or Jopona?", "ans": "Sumime", "reply": "Sumime", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop1", "q": "What is Givedo's job?", "ans": "doctor", "reply": "doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "hop2", "q": "What is the job of Jopona's mentor?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Nala's mentor live?", "ans": "Dokuburg", "reply": "Dokuburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "10", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "3", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "older", "q": "Who is older, Pome or Gihado?", "ans": "Pome", "reply": "Pome", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop1", "q": "What is Sumime's job?", "ans": "doctor", "reply": "doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "hop2", "q": "What is the job of Dove's mentor?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Sudolu's mentor live?", "ans": "Hahaburg", "reply": "Basubaford", "ok": false, "ctoks": 5, "finish": "stop"}
+{"level": "10", "type": "count", "q": "How many people live in Jogipoton?", "ans": "4", "reply": "4", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "older", "q": "Who is older, Noki or Pome?", "ans": "Pome", "reply": "Pome", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop1", "q": "What is Nala's job?", "ans": "tailor", "reply": "tailor", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop2", "q": "What is the job of Suba's mentor?", "ans": "doctor", "reply": "Doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Jozola's mentor live?", "ans": "Basubaford", "reply": "Basubaford", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "10", "type": "count", "q": "How many people live in Dokuburg?", "ans": "5", "reply": "4", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "older", "q": "Who is older, Sudolu or Sumime?", "ans": "Sudolu", "reply": "Sudolu", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "10", "type": "hop1", "q": "What is Kisupo's job?", "ans": "farmer", "reply": "farmer", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop2", "q": "What is the job of Najomi's mentor?", "ans": "pilot", "reply": "pilot", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Noki's mentor live?", "ans": "Lanafeton", "reply": "Lanafeton", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "10", "type": "count", "q": "How many people live in Bafeton?", "ans": "3", "reply": "3", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "older", "q": "Who is older, Kisupo or Joha?", "ans": "Joha", "reply": "Joha", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop1", "q": "What is Baku's job?", "ans": "baker", "reply": "baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop2", "q": "What is the job of Zodo's mentor?", "ans": "sailor", "reply": "Sailor", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Kihafe's mentor live?", "ans": "Rizoford", "reply": "Rizoford", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "10", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "3", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "older", "q": "Who is older, Riha or Vemeri?", "ans": "Riha", "reply": "Riha", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop1", "q": "What is Kihafe's job?", "ans": "tailor", "reply": "tailor", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop2", "q": "What is the job of Najomi's mentor?", "ans": "pilot", "reply": "Pilot", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Kunaba's mentor live?", "ans": "Rizoford", "reply": "Rizoford", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "10", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "3", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "older", "q": "Who is older, Noki or Najomi?", "ans": "Noki", "reply": "Noki", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop1", "q": "What is Kisupo's job?", "ans": "farmer", "reply": "farmer", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop2", "q": "What is the job of Jojo's mentor?", "ans": "potter", "reply": "potter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Riha's mentor live?", "ans": "Rizoford", "reply": "Rizoford", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "10", "type": "count", "q": "How many people live in Rizoford?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "older", "q": "Who is older, Kidoba or Josuha?", "ans": "Josuha", "reply": "Kidoba", "ok": false, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop1", "q": "What is Jojo's job?", "ans": "pilot", "reply": "pilot", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop2", "q": "What is the job of Noki's mentor?", "ans": "teacher", "reply": "Teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Gime's mentor live?", "ans": "Lanafeton", "reply": "Lanafeton", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "10", "type": "count", "q": "How many people live in Kikiton?", "ans": "3", "reply": "3", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "older", "q": "Who is older, Najomi or Hamiku?", "ans": "Hamiku", "reply": "Hamiku", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop1", "q": "What is Baku's job?", "ans": "baker", "reply": "baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop2", "q": "What is the job of Kuki's mentor?", "ans": "teacher", "reply": "Teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Kihafe's mentor live?", "ans": "Rizoford", "reply": "Lanafeton", "ok": false, "ctoks": 4, "finish": "stop"}
+{"level": "10", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "3", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "older", "q": "Who is older, Kisupo or Domiri?", "ans": "Domiri", "reply": "Domiri", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop1", "q": "What is Mizo's job?", "ans": "teacher", "reply": "teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "hop2", "q": "What is the job of Dojodo's mentor?", "ans": "farmer", "reply": "farmer", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Mizo's mentor live?", "ans": "Pojoburg", "reply": "Pojoburg", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "10", "type": "count", "q": "How many people live in Habahaford?", "ans": "4", "reply": "4", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "older", "q": "Who is older, Gikizo or Vela?", "ans": "Gikizo", "reply": "Gikizo", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "10", "type": "hop1", "q": "What is Dojodo's job?", "ans": "tailor", "reply": "tailor", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop2", "q": "What is the job of Bazono's mentor?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Haluzo's mentor live?", "ans": "Pojoburg", "reply": "Dojoburg", "ok": false, "ctoks": 4, "finish": "stop"}
+{"level": "10", "type": "count", "q": "How many people live in Pojoburg?", "ans": "5", "reply": "4", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "older", "q": "Who is older, Ferive or Haluzo?", "ans": "Ferive", "reply": "Ferive", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop1", "q": "What is Rifeba's job?", "ans": "painter", "reply": "painter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "painter", "reply": "painter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Vela's mentor live?", "ans": "Pojoburg", "reply": "Pojoburg", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "10", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "older", "q": "Who is older, Dodo or Jopoku?", "ans": "Jopoku", "reply": "Jopoku", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "10", "type": "hop1", "q": "What is Bazono's job?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop2", "q": "What is the job of Dodo's mentor?", "ans": "farmer", "reply": "farmer", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Haluzo's mentor live?", "ans": "Pojoburg", "reply": "Pojoburg", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "10", "type": "count", "q": "How many people live in Baveford?", "ans": "2", "reply": "2", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "older", "q": "Who is older, Dojodo or Kupogi?", "ans": "Dojodo", "reply": "Dojodo", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "10", "type": "hop1", "q": "What is Dojodo's job?", "ans": "tailor", "reply": "tailor", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop2", "q": "What is the job of Lagiba's mentor?", "ans": "pilot", "reply": "pilot", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Bado's mentor live?", "ans": "Dojoburg", "reply": "Dojoburg", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "10", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "older", "q": "Who is older, Nohapo or Gikizo?", "ans": "Nohapo", "reply": "Nohapo", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "10", "type": "hop1", "q": "What is Rina's job?", "ans": "sailor", "reply": "Sailor", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "10", "type": "hop2", "q": "What is the job of Fevena's mentor?", "ans": "potter", "reply": "Gilu", "ok": false, "ctoks": 3, "finish": "stop"}
+{"level": "10", "type": "hop3", "q": "In which city does the mentor of Rina's mentor live?", "ans": "Pohajoton", "reply": "Pohajoton", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "10", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "4", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "10", "type": "older", "q": "Who is older, Bazono or Gife?", "ans": "Bazono", "reply": "Bazono", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "30", "type": "hop1", "q": "What is Hakido's job?", "ans": "teacher", "reply": "teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "pilot", "reply": "Pilot", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Suta's mentor live?", "ans": "Ririford", "reply": "Navekuburg", "ok": false, "ctoks": 6, "finish": "stop"}
+{"level": "30", "type": "count", "q": "How many people live in Tabataburg?", "ans": "3", "reply": "2", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "older", "q": "Who is older, Tasuno or Tagi?", "ans": "Tasuno", "reply": "Tasuno", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "30", "type": "hop1", "q": "What is Nalu's job?", "ans": "sailor", "reply": "tailor", "ok": false, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "pilot", "reply": "Kitana", "ok": false, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Naluha's mentor live?", "ans": "Navekuburg", "reply": "Navekuburg", "ok": true, "ctoks": 6, "finish": "stop"}
+{"level": "30", "type": "count", "q": "How many people live in Ririford?", "ans": "4", "reply": "3", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "older", "q": "Who is older, Metaba or Mizo?", "ans": "Metaba", "reply": "Metaba", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop1", "q": "What is Lukujo's job?", "ans": "miner", "reply": "miner", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "hop2", "q": "What is the job of Nalu's mentor?", "ans": "painter", "reply": "painter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Meripo's mentor live?", "ans": "Navekuburg", "reply": "Navekuburg", "ok": true, "ctoks": 6, "finish": "stop"}
+{"level": "30", "type": "count", "q": "How many people live in Navekuburg?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "older", "q": "Who is older, Naluha or Tagi?", "ans": "Naluha", "reply": "Naluha", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "30", "type": "hop1", "q": "What is Lukujo's job?", "ans": "miner", "reply": "miner", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "hop2", "q": "What is the job of Metaba's mentor?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Milu's mentor live?", "ans": "Gidoford", "reply": "Tabataburg", "ok": false, "ctoks": 4, "finish": "stop"}
+{"level": "30", "type": "count", "q": "How many people live in Nodosuford?", "ans": "4", "reply": "4", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "older", "q": "Who is older, Mizo or Feta?", "ans": "Mizo", "reply": "Mizo", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop1", "q": "What is Pomipo's job?", "ans": "painter", "reply": "painter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop2", "q": "What is the job of Tasuno's mentor?", "ans": "sailor", "reply": "sailor", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Mena's mentor live?", "ans": "Ririford", "reply": "Tabataburg", "ok": false, "ctoks": 4, "finish": "stop"}
+{"level": "30", "type": "count", "q": "How many people live in Ririford?", "ans": "4", "reply": "3", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "older", "q": "Who is older, Laku or Lukujo?", "ans": "Laku", "reply": "Laku", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop1", "q": "What is Metaba's job?", "ans": "teacher", "reply": "teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "hop2", "q": "What is the job of Laku's mentor?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Lukujo's mentor live?", "ans": "Gidoford", "reply": "Gidoford", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "30", "type": "count", "q": "How many people live in Nodosuford?", "ans": "4", "reply": "3", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "older", "q": "Who is older, Milu or Jodo?", "ans": "Jodo", "reply": "Jodo", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop1", "q": "What is Kizo's job?", "ans": "doctor", "reply": "doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "hop2", "q": "What is the job of Surife's mentor?", "ans": "teacher", "reply": "Teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Gino's mentor live?", "ans": "Nagiburg", "reply": "Nagiburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "30", "type": "count", "q": "How many people live in Kizoford?", "ans": "2", "reply": "2", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "older", "q": "Who is older, Bapo or Dobado?", "ans": "Bapo", "reply": "Bapo", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop1", "q": "What is Kilu's job?", "ans": "teacher", "reply": "teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "hop2", "q": "What is the job of Kizo's mentor?", "ans": "tailor", "reply": "Tailor", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Nokiba's mentor live?", "ans": "Nagiburg", "reply": "Nagiburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "30", "type": "count", "q": "How many people live in Zonoburg?", "ans": "5", "reply": "3", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "older", "q": "Who is older, Kumeri or Vekulu?", "ans": "Vekulu", "reply": "Kumeri", "ok": false, "ctoks": 4, "finish": "stop"}
+{"level": "30", "type": "hop1", "q": "What is Nomi's job?", "ans": "farmer", "reply": "farmer", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop2", "q": "What is the job of Mena's mentor?", "ans": "tailor", "reply": "Tailor", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Gino's mentor live?", "ans": "Nagiburg", "reply": "Nagiburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "30", "type": "count", "q": "How many people live in Kizoford?", "ans": "2", "reply": "1", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "older", "q": "Who is older, Kigina or Fegi?", "ans": "Fegi", "reply": "Fegi", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop1", "q": "What is Vezo's job?", "ans": "potter", "reply": "potter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop2", "q": "What is the job of Bapo's mentor?", "ans": "farmer", "reply": "painter", "ok": false, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Fegi's mentor live?", "ans": "Zonoburg", "reply": "Nagiburg", "ok": false, "ctoks": 5, "finish": "stop"}
+{"level": "30", "type": "count", "q": "How many people live in Hanoton?", "ans": "5", "reply": "4", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "older", "q": "Who is older, Gino or Kigina?", "ans": "Gino", "reply": "Gino", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop1", "q": "What is Mihajo's job?", "ans": "doctor", "reply": "doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "hop2", "q": "What is the job of Joki's mentor?", "ans": "teacher", "reply": "Teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Nokiba's mentor live?", "ans": "Nagiburg", "reply": "Hanoton", "ok": false, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "count", "q": "How many people live in Hanoton?", "ans": "5", "reply": "4", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "older", "q": "Who is older, Jojo or Jota?", "ans": "Jojo", "reply": "Jojo", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop1", "q": "What is Kizo's job?", "ans": "doctor", "reply": "doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "hop2", "q": "What is the job of Vezo's mentor?", "ans": "doctor", "reply": "Gino", "ok": false, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Bapo's mentor live?", "ans": "Hanoton", "reply": "Nagiburg", "ok": false, "ctoks": 5, "finish": "stop"}
+{"level": "30", "type": "count", "q": "How many people live in Fekiton?", "ans": "2", "reply": "2", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "older", "q": "Who is older, Vekulu or Joki?", "ans": "Vekulu", "reply": "Vekulu", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "30", "type": "hop1", "q": "What is Lumefe's job?", "ans": "baker", "reply": "baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop2", "q": "What is the job of Melata's mentor?", "ans": "painter", "reply": "painter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Sumime's mentor live?", "ans": "Hahaburg", "reply": "Lupoton", "ok": false, "ctoks": 4, "finish": "stop"}
+{"level": "30", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "2", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "older", "q": "Who is older, Kutari or Popo?", "ans": "Kutari", "reply": "Kutari", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "30", "type": "hop1", "q": "What is Lumefe's job?", "ans": "baker", "reply": "baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop2", "q": "What is the job of Sudolu's mentor?", "ans": "miner", "reply": "Miner", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Suhaki's mentor live?", "ans": "Dokuburg", "reply": "Hahaburg", "ok": false, "ctoks": 5, "finish": "stop"}
+{"level": "30", "type": "count", "q": "How many people live in Hahaburg?", "ans": "4", "reply": "3", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "older", "q": "Who is older, Sumime or Jola?", "ans": "Sumime", "reply": "Sumime", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop1", "q": "What is Jopona's job?", "ans": "doctor", "reply": "doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "hop2", "q": "What is the job of Kutari's mentor?", "ans": "painter", "reply": "painter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Sumime's mentor live?", "ans": "Hahaburg", "reply": "Hahaburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "30", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "2", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "older", "q": "Who is older, Sumime or Jopona?", "ans": "Sumime", "reply": "Sumime", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop1", "q": "What is Givedo's job?", "ans": "doctor", "reply": "doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "hop2", "q": "What is the job of Jopona's mentor?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Nala's mentor live?", "ans": "Dokuburg", "reply": "Dokuburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "30", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "2", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "older", "q": "Who is older, Pome or Gihado?", "ans": "Pome", "reply": "Pome", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop1", "q": "What is Sumime's job?", "ans": "doctor", "reply": "doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "hop2", "q": "What is the job of Dove's mentor?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Sudolu's mentor live?", "ans": "Hahaburg", "reply": "Basubaford", "ok": false, "ctoks": 5, "finish": "stop"}
+{"level": "30", "type": "count", "q": "How many people live in Jogipoton?", "ans": "4", "reply": "3", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "older", "q": "Who is older, Noki or Pome?", "ans": "Pome", "reply": "Pome", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop1", "q": "What is Nala's job?", "ans": "tailor", "reply": "tailor", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop2", "q": "What is the job of Suba's mentor?", "ans": "doctor", "reply": "doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Jozola's mentor live?", "ans": "Basubaford", "reply": "Dokuburg", "ok": false, "ctoks": 5, "finish": "stop"}
+{"level": "30", "type": "count", "q": "How many people live in Dokuburg?", "ans": "5", "reply": "4", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "older", "q": "Who is older, Sudolu or Sumime?", "ans": "Sudolu", "reply": "Sudolu", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "30", "type": "hop1", "q": "What is Kisupo's job?", "ans": "farmer", "reply": "farmer", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop2", "q": "What is the job of Najomi's mentor?", "ans": "pilot", "reply": "pilot", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Noki's mentor live?", "ans": "Lanafeton", "reply": "Zonoton", "ok": false, "ctoks": 4, "finish": "stop"}
+{"level": "30", "type": "count", "q": "How many people live in Bafeton?", "ans": "3", "reply": "3", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "older", "q": "Who is older, Kisupo or Joha?", "ans": "Joha", "reply": "Joha", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop1", "q": "What is Baku's job?", "ans": "baker", "reply": "baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop2", "q": "What is the job of Zodo's mentor?", "ans": "sailor", "reply": "Sailor", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Kihafe's mentor live?", "ans": "Rizoford", "reply": "Lanafeton", "ok": false, "ctoks": 5, "finish": "stop"}
+{"level": "30", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "2", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "older", "q": "Who is older, Riha or Vemeri?", "ans": "Riha", "reply": "Riha", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop1", "q": "What is Kihafe's job?", "ans": "tailor", "reply": "tailor", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop2", "q": "What is the job of Najomi's mentor?", "ans": "pilot", "reply": "Pilot", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Kunaba's mentor live?", "ans": "Rizoford", "reply": "Bafeton", "ok": false, "ctoks": 4, "finish": "stop"}
+{"level": "30", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "3", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "older", "q": "Who is older, Noki or Najomi?", "ans": "Noki", "reply": "Noki", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop1", "q": "What is Kisupo's job?", "ans": "farmer", "reply": "farmer", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop2", "q": "What is the job of Jojo's mentor?", "ans": "potter", "reply": "potter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Riha's mentor live?", "ans": "Rizoford", "reply": "Rizoford", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "30", "type": "count", "q": "How many people live in Rizoford?", "ans": "5", "reply": "4", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "older", "q": "Who is older, Kidoba or Josuha?", "ans": "Josuha", "reply": "Kidoba", "ok": false, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop1", "q": "What is Jojo's job?", "ans": "pilot", "reply": "pilot", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop2", "q": "What is the job of Noki's mentor?", "ans": "teacher", "reply": "Teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Gime's mentor live?", "ans": "Lanafeton", "reply": "Bafeton", "ok": false, "ctoks": 4, "finish": "stop"}
+{"level": "30", "type": "count", "q": "How many people live in Kikiton?", "ans": "3", "reply": "3", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "older", "q": "Who is older, Najomi or Hamiku?", "ans": "Hamiku", "reply": "Hamiku", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop1", "q": "What is Baku's job?", "ans": "baker", "reply": "baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop2", "q": "What is the job of Kuki's mentor?", "ans": "teacher", "reply": "Teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Kihafe's mentor live?", "ans": "Rizoford", "reply": "Rizoford", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "30", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "3", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "older", "q": "Who is older, Kisupo or Domiri?", "ans": "Domiri", "reply": "Domiri", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop1", "q": "What is Mizo's job?", "ans": "teacher", "reply": "teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "hop2", "q": "What is the job of Dojodo's mentor?", "ans": "farmer", "reply": "Farmer", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Mizo's mentor live?", "ans": "Pojoburg", "reply": "Kusuford", "ok": false, "ctoks": 5, "finish": "stop"}
+{"level": "30", "type": "count", "q": "How many people live in Habahaford?", "ans": "4", "reply": "4", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "older", "q": "Who is older, Gikizo or Vela?", "ans": "Gikizo", "reply": "Gikizo", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "30", "type": "hop1", "q": "What is Dojodo's job?", "ans": "tailor", "reply": "tailor", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop2", "q": "What is the job of Bazono's mentor?", "ans": "baker", "reply": "baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Haluzo's mentor live?", "ans": "Pojoburg", "reply": "Pojoburg", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "30", "type": "count", "q": "How many people live in Pojoburg?", "ans": "5", "reply": "4", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "older", "q": "Who is older, Ferive or Haluzo?", "ans": "Ferive", "reply": "Ferive", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop1", "q": "What is Rifeba's job?", "ans": "painter", "reply": "painter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "painter", "reply": "painter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Vela's mentor live?", "ans": "Pojoburg", "reply": "Dojoburg", "ok": false, "ctoks": 4, "finish": "stop"}
+{"level": "30", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "4", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "older", "q": "Who is older, Dodo or Jopoku?", "ans": "Jopoku", "reply": "Dodo", "ok": false, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop1", "q": "What is Bazono's job?", "ans": "baker", "reply": "baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop2", "q": "What is the job of Dodo's mentor?", "ans": "farmer", "reply": "painter", "ok": false, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Haluzo's mentor live?", "ans": "Pojoburg", "reply": "Pojoburg", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "30", "type": "count", "q": "How many people live in Baveford?", "ans": "2", "reply": "2", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "older", "q": "Who is older, Dojodo or Kupogi?", "ans": "Dojodo", "reply": "Dojodo", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "30", "type": "hop1", "q": "What is Dojodo's job?", "ans": "tailor", "reply": "tailor", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop2", "q": "What is the job of Lagiba's mentor?", "ans": "pilot", "reply": "Haluzo", "ok": false, "ctoks": 4, "finish": "stop"}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Bado's mentor live?", "ans": "Dojoburg", "reply": "Dojoburg", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "30", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "4", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "older", "q": "Who is older, Nohapo or Gikizo?", "ans": "Nohapo", "reply": "Nohapo", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "30", "type": "hop1", "q": "What is Rina's job?", "ans": "sailor", "reply": "sailor", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "30", "type": "hop2", "q": "What is the job of Fevena's mentor?", "ans": "potter", "reply": "Potter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "30", "type": "hop3", "q": "In which city does the mentor of Rina's mentor live?", "ans": "Pohajoton", "reply": "Pohajoton", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "30", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "3", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "30", "type": "older", "q": "Who is older, Bazono or Gife?", "ans": "Bazono", "reply": "Bazono", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "all", "type": "hop1", "q": "What is Hakido's job?", "ans": "teacher", "reply": "teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "pilot", "reply": "Baker", "ok": false, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Suta's mentor live?", "ans": "Ririford", "reply": "Gidoford", "ok": false, "ctoks": 5, "finish": "stop"}
+{"level": "all", "type": "count", "q": "How many people live in Tabataburg?", "ans": "3", "reply": "2", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "older", "q": "Who is older, Tasuno or Tagi?", "ans": "Tasuno", "reply": "Tasuno", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "all", "type": "hop1", "q": "What is Nalu's job?", "ans": "sailor", "reply": "sailor", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "all", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "pilot", "reply": "Kitana", "ok": false, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Naluha's mentor live?", "ans": "Navekuburg", "reply": "Ririford", "ok": false, "ctoks": 5, "finish": "stop"}
+{"level": "all", "type": "count", "q": "How many people live in Ririford?", "ans": "4", "reply": "3", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "older", "q": "Who is older, Metaba or Mizo?", "ans": "Metaba", "reply": "Metaba", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop1", "q": "What is Lukujo's job?", "ans": "miner", "reply": "miner", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "hop2", "q": "What is the job of Nalu's mentor?", "ans": "painter", "reply": "Suta", "ok": false, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Meripo's mentor live?", "ans": "Navekuburg", "reply": "Nodosuford", "ok": false, "ctoks": 5, "finish": "stop"}
+{"level": "all", "type": "count", "q": "How many people live in Navekuburg?", "ans": "5", "reply": "3", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "older", "q": "Who is older, Naluha or Tagi?", "ans": "Naluha", "reply": "Naluha", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "all", "type": "hop1", "q": "What is Lukujo's job?", "ans": "miner", "reply": "miner", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "hop2", "q": "What is the job of Metaba's mentor?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Milu's mentor live?", "ans": "Gidoford", "reply": "Gidoford", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "all", "type": "count", "q": "How many people live in Nodosuford?", "ans": "4", "reply": "3", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "older", "q": "Who is older, Mizo or Feta?", "ans": "Mizo", "reply": "Mizo", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop1", "q": "What is Pomipo's job?", "ans": "painter", "reply": "painter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop2", "q": "What is the job of Tasuno's mentor?", "ans": "sailor", "reply": "sailor", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Mena's mentor live?", "ans": "Ririford", "reply": "Ririford", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "all", "type": "count", "q": "How many people live in Ririford?", "ans": "4", "reply": "3", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "older", "q": "Who is older, Laku or Lukujo?", "ans": "Laku", "reply": "Laku", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop1", "q": "What is Metaba's job?", "ans": "teacher", "reply": "teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "hop2", "q": "What is the job of Laku's mentor?", "ans": "baker", "reply": "Kukimi", "ok": false, "ctoks": 4, "finish": "stop"}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Lukujo's mentor live?", "ans": "Gidoford", "reply": "Navekuburg", "ok": false, "ctoks": 6, "finish": "stop"}
+{"level": "all", "type": "count", "q": "How many people live in Nodosuford?", "ans": "4", "reply": "3", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "older", "q": "Who is older, Milu or Jodo?", "ans": "Jodo", "reply": "Jodo", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop1", "q": "What is Kizo's job?", "ans": "doctor", "reply": "doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "hop2", "q": "What is the job of Surife's mentor?", "ans": "teacher", "reply": "teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Gino's mentor live?", "ans": "Nagiburg", "reply": "Hanoton", "ok": false, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "count", "q": "How many people live in Kizoford?", "ans": "2", "reply": "1", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "older", "q": "Who is older, Bapo or Dobado?", "ans": "Bapo", "reply": "Bapo", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop1", "q": "What is Kilu's job?", "ans": "teacher", "reply": "teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "hop2", "q": "What is the job of Kizo's mentor?", "ans": "tailor", "reply": "doctor", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Nokiba's mentor live?", "ans": "Nagiburg", "reply": "Hanoton", "ok": false, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "count", "q": "How many people live in Zonoburg?", "ans": "5", "reply": "3", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "older", "q": "Who is older, Kumeri or Vekulu?", "ans": "Vekulu", "reply": "Vekulu", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "all", "type": "hop1", "q": "What is Nomi's job?", "ans": "farmer", "reply": "farmer", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop2", "q": "What is the job of Mena's mentor?", "ans": "tailor", "reply": "tailor", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Gino's mentor live?", "ans": "Nagiburg", "reply": "Hanoton", "ok": false, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "count", "q": "How many people live in Kizoford?", "ans": "2", "reply": "1", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "older", "q": "Who is older, Kigina or Fegi?", "ans": "Fegi", "reply": "Fegi", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop1", "q": "What is Vezo's job?", "ans": "potter", "reply": "potter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop2", "q": "What is the job of Bapo's mentor?", "ans": "farmer", "reply": "painter", "ok": false, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Fegi's mentor live?", "ans": "Zonoburg", "reply": "Fekiton", "ok": false, "ctoks": 4, "finish": "stop"}
+{"level": "all", "type": "count", "q": "How many people live in Hanoton?", "ans": "5", "reply": "3", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "older", "q": "Who is older, Gino or Kigina?", "ans": "Gino", "reply": "Gino", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop1", "q": "What is Mihajo's job?", "ans": "doctor", "reply": "doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "hop2", "q": "What is the job of Joki's mentor?", "ans": "teacher", "reply": "Teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Nokiba's mentor live?", "ans": "Nagiburg", "reply": "Hanoton", "ok": false, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "count", "q": "How many people live in Hanoton?", "ans": "5", "reply": "3", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "older", "q": "Who is older, Jojo or Jota?", "ans": "Jojo", "reply": "Jojo", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop1", "q": "What is Kizo's job?", "ans": "doctor", "reply": "doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "hop2", "q": "What is the job of Vezo's mentor?", "ans": "doctor", "reply": "painter", "ok": false, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Bapo's mentor live?", "ans": "Hanoton", "reply": "Fekiton", "ok": false, "ctoks": 4, "finish": "stop"}
+{"level": "all", "type": "count", "q": "How many people live in Fekiton?", "ans": "2", "reply": "1", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "older", "q": "Who is older, Vekulu or Joki?", "ans": "Vekulu", "reply": "Vekulu", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "all", "type": "hop1", "q": "What is Lumefe's job?", "ans": "baker", "reply": "baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop2", "q": "What is the job of Melata's mentor?", "ans": "painter", "reply": "painter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Sumime's mentor live?", "ans": "Hahaburg", "reply": "Hahaburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "all", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "1", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "older", "q": "Who is older, Kutari or Popo?", "ans": "Kutari", "reply": "Popo", "ok": false, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop1", "q": "What is Lumefe's job?", "ans": "baker", "reply": "baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop2", "q": "What is the job of Sudolu's mentor?", "ans": "miner", "reply": "miner", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Suhaki's mentor live?", "ans": "Dokuburg", "reply": "Hahaburg", "ok": false, "ctoks": 5, "finish": "stop"}
+{"level": "all", "type": "count", "q": "How many people live in Hahaburg?", "ans": "4", "reply": "3", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "older", "q": "Who is older, Sumime or Jola?", "ans": "Sumime", "reply": "Sumime", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop1", "q": "What is Jopona's job?", "ans": "doctor", "reply": "doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "hop2", "q": "What is the job of Kutari's mentor?", "ans": "painter", "reply": "painter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Sumime's mentor live?", "ans": "Hahaburg", "reply": "Hahaburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "all", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "1", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "older", "q": "Who is older, Sumime or Jopona?", "ans": "Sumime", "reply": "Sumime", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop1", "q": "What is Givedo's job?", "ans": "doctor", "reply": "doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "hop2", "q": "What is the job of Jopona's mentor?", "ans": "baker", "reply": "doctor", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Nala's mentor live?", "ans": "Dokuburg", "reply": "Hahaburg", "ok": false, "ctoks": 5, "finish": "stop"}
+{"level": "all", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "1", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "older", "q": "Who is older, Pome or Gihado?", "ans": "Pome", "reply": "Pome", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop1", "q": "What is Sumime's job?", "ans": "doctor", "reply": "doctor", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "hop2", "q": "What is the job of Dove's mentor?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Sudolu's mentor live?", "ans": "Hahaburg", "reply": "Hahaburg", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "all", "type": "count", "q": "How many people live in Jogipoton?", "ans": "4", "reply": "3", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "older", "q": "Who is older, Noki or Pome?", "ans": "Pome", "reply": "Pome", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop1", "q": "What is Nala's job?", "ans": "tailor", "reply": "tailor", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop2", "q": "What is the job of Suba's mentor?", "ans": "doctor", "reply": "miner", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Jozola's mentor live?", "ans": "Basubaford", "reply": "Hahaburg", "ok": false, "ctoks": 5, "finish": "stop"}
+{"level": "all", "type": "count", "q": "How many people live in Dokuburg?", "ans": "5", "reply": "3", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "older", "q": "Who is older, Sudolu or Sumime?", "ans": "Sudolu", "reply": "Sudolu", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "all", "type": "hop1", "q": "What is Kisupo's job?", "ans": "farmer", "reply": "farmer", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop2", "q": "What is the job of Najomi's mentor?", "ans": "pilot", "reply": "Jojo", "ok": false, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Noki's mentor live?", "ans": "Lanafeton", "reply": "Rizoford", "ok": false, "ctoks": 5, "finish": "stop"}
+{"level": "all", "type": "count", "q": "How many people live in Bafeton?", "ans": "3", "reply": "1", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "older", "q": "Who is older, Kisupo or Joha?", "ans": "Joha", "reply": "Joha", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop1", "q": "What is Baku's job?", "ans": "baker", "reply": "baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop2", "q": "What is the job of Zodo's mentor?", "ans": "sailor", "reply": "sailor", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Kihafe's mentor live?", "ans": "Rizoford", "reply": "Rizoford", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "all", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "3", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "older", "q": "Who is older, Riha or Vemeri?", "ans": "Riha", "reply": "Riha", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop1", "q": "What is Kihafe's job?", "ans": "tailor", "reply": "tailor", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop2", "q": "What is the job of Najomi's mentor?", "ans": "pilot", "reply": "painter", "ok": false, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Kunaba's mentor live?", "ans": "Rizoford", "reply": "Lanafeton", "ok": false, "ctoks": 5, "finish": "stop"}
+{"level": "all", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "1", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "older", "q": "Who is older, Noki or Najomi?", "ans": "Noki", "reply": "Noki", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop1", "q": "What is Kisupo's job?", "ans": "farmer", "reply": "farmer", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop2", "q": "What is the job of Jojo's mentor?", "ans": "potter", "reply": "potter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Riha's mentor live?", "ans": "Rizoford", "reply": "Bafeton", "ok": false, "ctoks": 4, "finish": "stop"}
+{"level": "all", "type": "count", "q": "How many people live in Rizoford?", "ans": "5", "reply": "3", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "older", "q": "Who is older, Kidoba or Josuha?", "ans": "Josuha", "reply": "Kidoba", "ok": false, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop1", "q": "What is Jojo's job?", "ans": "pilot", "reply": "pilot", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop2", "q": "What is the job of Noki's mentor?", "ans": "teacher", "reply": "teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Gime's mentor live?", "ans": "Lanafeton", "reply": "Rizoford", "ok": false, "ctoks": 5, "finish": "stop"}
+{"level": "all", "type": "count", "q": "How many people live in Kikiton?", "ans": "3", "reply": "1", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "older", "q": "Who is older, Najomi or Hamiku?", "ans": "Hamiku", "reply": "Najomi", "ok": false, "ctoks": 4, "finish": "stop"}
+{"level": "all", "type": "hop1", "q": "What is Baku's job?", "ans": "baker", "reply": "baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop2", "q": "What is the job of Kuki's mentor?", "ans": "teacher", "reply": "Teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Kihafe's mentor live?", "ans": "Rizoford", "reply": "Bafeton", "ok": false, "ctoks": 4, "finish": "stop"}
+{"level": "all", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "2", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "older", "q": "Who is older, Kisupo or Domiri?", "ans": "Domiri", "reply": "Domiri", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop1", "q": "What is Mizo's job?", "ans": "teacher", "reply": "teacher", "ok": true, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "hop2", "q": "What is the job of Dojodo's mentor?", "ans": "farmer", "reply": "tailor", "ok": false, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Mizo's mentor live?", "ans": "Pojoburg", "reply": "Baveford", "ok": false, "ctoks": 4, "finish": "stop"}
+{"level": "all", "type": "count", "q": "How many people live in Habahaford?", "ans": "4", "reply": "1", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "older", "q": "Who is older, Gikizo or Vela?", "ans": "Gikizo", "reply": "Gikizo", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "all", "type": "hop1", "q": "What is Dojodo's job?", "ans": "tailor", "reply": "tailor", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop2", "q": "What is the job of Bazono's mentor?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Haluzo's mentor live?", "ans": "Pojoburg", "reply": "Pohajoton", "ok": false, "ctoks": 5, "finish": "stop"}
+{"level": "all", "type": "count", "q": "How many people live in Pojoburg?", "ans": "5", "reply": "4", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "older", "q": "Who is older, Ferive or Haluzo?", "ans": "Ferive", "reply": "Ferive", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop1", "q": "What is Rifeba's job?", "ans": "painter", "reply": "painter", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "painter", "reply": "tailor", "ok": false, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Vela's mentor live?", "ans": "Pojoburg", "reply": "Pojoburg", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "all", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "3", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "older", "q": "Who is older, Dodo or Jopoku?", "ans": "Jopoku", "reply": "Jopoku", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "all", "type": "hop1", "q": "What is Bazono's job?", "ans": "baker", "reply": "baker", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop2", "q": "What is the job of Dodo's mentor?", "ans": "farmer", "reply": "Baker", "ok": false, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Haluzo's mentor live?", "ans": "Pojoburg", "reply": "Pohajoton", "ok": false, "ctoks": 5, "finish": "stop"}
+{"level": "all", "type": "count", "q": "How many people live in Baveford?", "ans": "2", "reply": "1", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "older", "q": "Who is older, Dojodo or Kupogi?", "ans": "Dojodo", "reply": "Dojodo", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "all", "type": "hop1", "q": "What is Dojodo's job?", "ans": "tailor", "reply": "tailor", "ok": true, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop2", "q": "What is the job of Lagiba's mentor?", "ans": "pilot", "reply": "teacher", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Bado's mentor live?", "ans": "Dojoburg", "reply": "Pohajoton", "ok": false, "ctoks": 5, "finish": "stop"}
+{"level": "all", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "3", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "older", "q": "Who is older, Nohapo or Gikizo?", "ans": "Nohapo", "reply": "Nohapo", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "all", "type": "hop1", "q": "What is Rina's job?", "ans": "sailor", "reply": "sailor", "ok": true, "ctoks": 4, "finish": "stop"}
+{"level": "all", "type": "hop2", "q": "What is the job of Fevena's mentor?", "ans": "potter", "reply": "Gilu", "ok": false, "ctoks": 3, "finish": "stop"}
+{"level": "all", "type": "hop3", "q": "In which city does the mentor of Rina's mentor live?", "ans": "Pohajoton", "reply": "Pohajoton", "ok": true, "ctoks": 5, "finish": "stop"}
+{"level": "all", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "3", "ok": false, "ctoks": 2, "finish": "stop"}
+{"level": "all", "type": "older", "q": "Who is older, Bazono or Gife?", "ans": "Bazono", "reply": "Bazono", "ok": true, "ctoks": 4, "finish": "stop"}

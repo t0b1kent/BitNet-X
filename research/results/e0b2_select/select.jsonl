@@ -1,0 +1,450 @@
+{"method": "lexical", "type": "hop1", "q": "What is Hakido's job?", "ans": "teacher", "reply": "Teacher", "ok": true, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "pilot", "reply": "Kitana", "ok": false, "ctoks": 3, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop3", "q": "In which city does the mentor of Suta's mentor live?", "ans": "Ririford", "reply": "Gidoford", "ok": false, "ctoks": 5, "n_selected": 6, "recall": 0.0}
+{"method": "lexical", "type": "count", "q": "How many people live in Tabataburg?", "ans": "3", "reply": "4", "ok": false, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "older", "q": "Who is older, Tasuno or Tagi?", "ans": "Tasuno", "reply": "Tasuno", "ok": true, "ctoks": 4, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop1", "q": "What is Nalu's job?", "ans": "sailor", "reply": "Sailor", "ok": true, "ctoks": 4, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "pilot", "reply": "Kitana", "ok": false, "ctoks": 3, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop3", "q": "In which city does the mentor of Naluha's mentor live?", "ans": "Navekuburg", "reply": "Nodosuford", "ok": false, "ctoks": 5, "n_selected": 6, "recall": 0.3333333333333333}
+{"method": "lexical", "type": "count", "q": "How many people live in Ririford?", "ans": "4", "reply": "4", "ok": true, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "older", "q": "Who is older, Metaba or Mizo?", "ans": "Metaba", "reply": "Mizo", "ok": false, "ctoks": 3, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop1", "q": "What is Lukujo's job?", "ans": "miner", "reply": "Miner", "ok": true, "ctoks": 3, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop2", "q": "What is the job of Nalu's mentor?", "ans": "painter", "reply": "Zojota", "ok": false, "ctoks": 4, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop3", "q": "In which city does the mentor of Meripo's mentor live?", "ans": "Navekuburg", "reply": "Navekuburg", "ok": true, "ctoks": 6, "n_selected": 6, "recall": 0.3333333333333333}
+{"method": "lexical", "type": "count", "q": "How many people live in Navekuburg?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "older", "q": "Who is older, Naluha or Tagi?", "ans": "Naluha", "reply": "Tagi", "ok": false, "ctoks": 3, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop1", "q": "What is Lukujo's job?", "ans": "miner", "reply": "Miner", "ok": true, "ctoks": 3, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop2", "q": "What is the job of Metaba's mentor?", "ans": "baker", "reply": "Kukimi", "ok": false, "ctoks": 4, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop3", "q": "In which city does the mentor of Milu's mentor live?", "ans": "Gidoford", "reply": "Nodosuford", "ok": false, "ctoks": 5, "n_selected": 6, "recall": 0.3333333333333333}
+{"method": "lexical", "type": "count", "q": "How many people live in Nodosuford?", "ans": "4", "reply": "4", "ok": true, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "older", "q": "Who is older, Mizo or Feta?", "ans": "Mizo", "reply": "Feta is older.", "ok": false, "ctoks": 6, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop1", "q": "What is Pomipo's job?", "ans": "painter", "reply": "painter", "ok": true, "ctoks": 3, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop2", "q": "What is the job of Tasuno's mentor?", "ans": "sailor", "reply": "Jodo.", "ok": false, "ctoks": 4, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop3", "q": "In which city does the mentor of Mena's mentor live?", "ans": "Ririford", "reply": "Ririford", "ok": true, "ctoks": 5, "n_selected": 6, "recall": 0.3333333333333333}
+{"method": "lexical", "type": "count", "q": "How many people live in Ririford?", "ans": "4", "reply": "4", "ok": true, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "older", "q": "Who is older, Laku or Lukujo?", "ans": "Laku", "reply": "Laku", "ok": true, "ctoks": 3, "n_selected": 6, "recall": 0.0}
+{"method": "lexical", "type": "hop1", "q": "What is Metaba's job?", "ans": "teacher", "reply": "Metaba is a teacher.", "ok": true, "ctoks": 7, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop2", "q": "What is the job of Laku's mentor?", "ans": "baker", "reply": "Pilot", "ok": false, "ctoks": 3, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop3", "q": "In which city does the mentor of Lukujo's mentor live?", "ans": "Gidoford", "reply": "Gidoford", "ok": true, "ctoks": 5, "n_selected": 6, "recall": 0.3333333333333333}
+{"method": "lexical", "type": "count", "q": "How many people live in Nodosuford?", "ans": "4", "reply": "4", "ok": true, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "older", "q": "Who is older, Milu or Jodo?", "ans": "Jodo", "reply": "Jodo", "ok": true, "ctoks": 3, "n_selected": 6, "recall": 0.0}
+{"method": "lexical", "type": "hop1", "q": "What is Kizo's job?", "ans": "doctor", "reply": "Doctor", "ok": true, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop2", "q": "What is the job of Surife's mentor?", "ans": "teacher", "reply": "Kilu", "ok": false, "ctoks": 4, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop3", "q": "In which city does the mentor of Gino's mentor live?", "ans": "Nagiburg", "reply": "Zonoburg", "ok": false, "ctoks": 5, "n_selected": 6, "recall": 0.3333333333333333}
+{"method": "lexical", "type": "count", "q": "How many people live in Kizoford?", "ans": "2", "reply": "2", "ok": true, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "older", "q": "Who is older, Bapo or Dobado?", "ans": "Bapo", "reply": "Bapo is older.", "ok": true, "ctoks": 6, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop1", "q": "What is Kilu's job?", "ans": "teacher", "reply": "Teacher", "ok": true, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop2", "q": "What is the job of Kizo's mentor?", "ans": "tailor", "reply": "Doctor", "ok": false, "ctoks": 2, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop3", "q": "In which city does the mentor of Nokiba's mentor live?", "ans": "Nagiburg", "reply": "Zonoburg", "ok": false, "ctoks": 5, "n_selected": 6, "recall": 0.3333333333333333}
+{"method": "lexical", "type": "count", "q": "How many people live in Zonoburg?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "older", "q": "Who is older, Kumeri or Vekulu?", "ans": "Vekulu", "reply": "Kumeri", "ok": false, "ctoks": 4, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop1", "q": "What is Nomi's job?", "ans": "farmer", "reply": "Farmer", "ok": true, "ctoks": 3, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop2", "q": "What is the job of Mena's mentor?", "ans": "tailor", "reply": "Farmer", "ok": false, "ctoks": 3, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop3", "q": "In which city does the mentor of Gino's mentor live?", "ans": "Nagiburg", "reply": "Zonoburg", "ok": false, "ctoks": 5, "n_selected": 6, "recall": 0.3333333333333333}
+{"method": "lexical", "type": "count", "q": "How many people live in Kizoford?", "ans": "2", "reply": "2", "ok": true, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "older", "q": "Who is older, Kigina or Fegi?", "ans": "Fegi", "reply": "Fegi is older.", "ok": true, "ctoks": 7, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop1", "q": "What is Vezo's job?", "ans": "potter", "reply": "Potter", "ok": true, "ctoks": 3, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop2", "q": "What is the job of Bapo's mentor?", "ans": "farmer", "reply": "Jojo", "ok": false, "ctoks": 3, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop3", "q": "In which city does the mentor of Fegi's mentor live?", "ans": "Zonoburg", "reply": "Nagiburg", "ok": false, "ctoks": 5, "n_selected": 6, "recall": 0.3333333333333333}
+{"method": "lexical", "type": "count", "q": "How many people live in Hanoton?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "older", "q": "Who is older, Gino or Kigina?", "ans": "Gino", "reply": "Gino is older.", "ok": true, "ctoks": 6, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop1", "q": "What is Mihajo's job?", "ans": "doctor", "reply": "Mihajo is a doctor.", "ok": true, "ctoks": 8, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop2", "q": "What is the job of Joki's mentor?", "ans": "teacher", "reply": "pilot", "ok": false, "ctoks": 3, "n_selected": 6, "recall": 0.0}
+{"method": "lexical", "type": "hop3", "q": "In which city does the mentor of Nokiba's mentor live?", "ans": "Nagiburg", "reply": "Nagiburg", "ok": true, "ctoks": 5, "n_selected": 6, "recall": 0.3333333333333333}
+{"method": "lexical", "type": "count", "q": "How many people live in Hanoton?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "older", "q": "Who is older, Jojo or Jota?", "ans": "Jojo", "reply": "Jota", "ok": false, "ctoks": 3, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop1", "q": "What is Kizo's job?", "ans": "doctor", "reply": "Doctor", "ok": true, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop2", "q": "What is the job of Vezo's mentor?", "ans": "doctor", "reply": "Gino", "ok": false, "ctoks": 3, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop3", "q": "In which city does the mentor of Bapo's mentor live?", "ans": "Hanoton", "reply": "Fekiton", "ok": false, "ctoks": 4, "n_selected": 6, "recall": 0.3333333333333333}
+{"method": "lexical", "type": "count", "q": "How many people live in Fekiton?", "ans": "2", "reply": "2", "ok": true, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "older", "q": "Who is older, Vekulu or Joki?", "ans": "Vekulu", "reply": "Joki", "ok": false, "ctoks": 3, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop1", "q": "What is Lumefe's job?", "ans": "baker", "reply": "Lumefe is a baker.", "ok": true, "ctoks": 8, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop2", "q": "What is the job of Melata's mentor?", "ans": "painter", "reply": "Doctor", "ok": false, "ctoks": 2, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop3", "q": "In which city does the mentor of Sumime's mentor live?", "ans": "Hahaburg", "reply": "Hahaburg", "ok": true, "ctoks": 5, "n_selected": 6, "recall": 0.3333333333333333}
+{"method": "lexical", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "Three", "ok": false, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "older", "q": "Who is older, Kutari or Popo?", "ans": "Kutari", "reply": "Popo", "ok": false, "ctoks": 3, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop1", "q": "What is Lumefe's job?", "ans": "baker", "reply": "Lumefe is a baker.", "ok": true, "ctoks": 8, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop2", "q": "What is the job of Sudolu's mentor?", "ans": "miner", "reply": "Rigi", "ok": false, "ctoks": 3, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop3", "q": "In which city does the mentor of Suhaki's mentor live?", "ans": "Dokuburg", "reply": "Kiveton", "ok": false, "ctoks": 4, "n_selected": 6, "recall": 0.3333333333333333}
+{"method": "lexical", "type": "count", "q": "How many people live in Hahaburg?", "ans": "4", "reply": "5", "ok": false, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "older", "q": "Who is older, Sumime or Jola?", "ans": "Sumime", "reply": "Jola is older.", "ok": false, "ctoks": 6, "n_selected": 6, "recall": 0.0}
+{"method": "lexical", "type": "hop1", "q": "What is Jopona's job?", "ans": "doctor", "reply": "Jopona is a doctor.", "ok": true, "ctoks": 8, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop2", "q": "What is the job of Kutari's mentor?", "ans": "painter", "reply": "Milu.", "ok": false, "ctoks": 4, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop3", "q": "In which city does the mentor of Sumime's mentor live?", "ans": "Hahaburg", "reply": "Hahaburg", "ok": true, "ctoks": 5, "n_selected": 6, "recall": 0.3333333333333333}
+{"method": "lexical", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "Three", "ok": false, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "older", "q": "Who is older, Sumime or Jopona?", "ans": "Sumime", "reply": "Jopona", "ok": false, "ctoks": 4, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop1", "q": "What is Givedo's job?", "ans": "doctor", "reply": "Givedo is a doctor.", "ok": true, "ctoks": 8, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop2", "q": "What is the job of Jopona's mentor?", "ans": "baker", "reply": "Popo", "ok": false, "ctoks": 3, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop3", "q": "In which city does the mentor of Nala's mentor live?", "ans": "Dokuburg", "reply": "Kiveton", "ok": false, "ctoks": 4, "n_selected": 6, "recall": 0.3333333333333333}
+{"method": "lexical", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "Three", "ok": false, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "older", "q": "Who is older, Pome or Gihado?", "ans": "Pome", "reply": "Pome is older.", "ok": true, "ctoks": 6, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop1", "q": "What is Sumime's job?", "ans": "doctor", "reply": "Doctor", "ok": true, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop2", "q": "What is the job of Dove's mentor?", "ans": "baker", "reply": "Popo", "ok": false, "ctoks": 3, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop3", "q": "In which city does the mentor of Sudolu's mentor live?", "ans": "Hahaburg", "reply": "Basubaford", "ok": false, "ctoks": 5, "n_selected": 6, "recall": 0.3333333333333333}
+{"method": "lexical", "type": "count", "q": "How many people live in Jogipoton?", "ans": "4", "reply": "Four", "ok": true, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "older", "q": "Who is older, Noki or Pome?", "ans": "Pome", "reply": "Pome", "ok": true, "ctoks": 3, "n_selected": 6, "recall": 0.0}
+{"method": "lexical", "type": "hop1", "q": "What is Nala's job?", "ans": "tailor", "reply": "Tailor", "ok": true, "ctoks": 3, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop2", "q": "What is the job of Suba's mentor?", "ans": "doctor", "reply": "Givedo", "ok": false, "ctoks": 4, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop3", "q": "In which city does the mentor of Jozola's mentor live?", "ans": "Basubaford", "reply": "Dokuburg", "ok": false, "ctoks": 5, "n_selected": 6, "recall": 0.3333333333333333}
+{"method": "lexical", "type": "count", "q": "How many people live in Dokuburg?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "older", "q": "Who is older, Sudolu or Sumime?", "ans": "Sudolu", "reply": "Sudolu is older.", "ok": true, "ctoks": 7, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop1", "q": "What is Kisupo's job?", "ans": "farmer", "reply": "Kisupo works as a farmer.", "ok": true, "ctoks": 9, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop2", "q": "What is the job of Najomi's mentor?", "ans": "pilot", "reply": "Jojo", "ok": false, "ctoks": 3, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop3", "q": "In which city does the mentor of Noki's mentor live?", "ans": "Lanafeton", "reply": "Zonoton", "ok": false, "ctoks": 4, "n_selected": 6, "recall": 0.3333333333333333}
+{"method": "lexical", "type": "count", "q": "How many people live in Bafeton?", "ans": "3", "reply": "3", "ok": true, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "older", "q": "Who is older, Kisupo or Joha?", "ans": "Joha", "reply": "Joha", "ok": true, "ctoks": 3, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop1", "q": "What is Baku's job?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop2", "q": "What is the job of Zodo's mentor?", "ans": "sailor", "reply": "Batave", "ok": false, "ctoks": 3, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop3", "q": "In which city does the mentor of Kihafe's mentor live?", "ans": "Rizoford", "reply": "Kiteton", "ok": false, "ctoks": 3, "n_selected": 6, "recall": 0.3333333333333333}
+{"method": "lexical", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "3", "ok": true, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "older", "q": "Who is older, Riha or Vemeri?", "ans": "Riha", "reply": "Vemeri is older.", "ok": false, "ctoks": 7, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop1", "q": "What is Kihafe's job?", "ans": "tailor", "reply": "Tailor", "ok": true, "ctoks": 3, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop2", "q": "What is the job of Najomi's mentor?", "ans": "pilot", "reply": "Jojo", "ok": false, "ctoks": 3, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop3", "q": "In which city does the mentor of Kunaba's mentor live?", "ans": "Rizoford", "reply": "Gilafeton", "ok": false, "ctoks": 4, "n_selected": 6, "recall": 0.3333333333333333}
+{"method": "lexical", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "3", "ok": true, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "older", "q": "Who is older, Noki or Najomi?", "ans": "Noki", "reply": "Najomi", "ok": false, "ctoks": 4, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop1", "q": "What is Kisupo's job?", "ans": "farmer", "reply": "Kisupo works as a farmer.", "ok": true, "ctoks": 9, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop2", "q": "What is the job of Jojo's mentor?", "ans": "potter", "reply": "Pilot", "ok": false, "ctoks": 3, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop3", "q": "In which city does the mentor of Riha's mentor live?", "ans": "Rizoford", "reply": "Lanafeton", "ok": false, "ctoks": 5, "n_selected": 6, "recall": 0.3333333333333333}
+{"method": "lexical", "type": "count", "q": "How many people live in Rizoford?", "ans": "5", "reply": "6", "ok": false, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "older", "q": "Who is older, Kidoba or Josuha?", "ans": "Josuha", "reply": "Josuha is older.", "ok": true, "ctoks": 7, "n_selected": 6, "recall": 0.0}
+{"method": "lexical", "type": "hop1", "q": "What is Jojo's job?", "ans": "pilot", "reply": "Pilot", "ok": true, "ctoks": 3, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop2", "q": "What is the job of Noki's mentor?", "ans": "teacher", "reply": "Zojo", "ok": false, "ctoks": 4, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop3", "q": "In which city does the mentor of Gime's mentor live?", "ans": "Lanafeton", "reply": "Kitikoton", "ok": false, "ctoks": 4, "n_selected": 6, "recall": 0.3333333333333333}
+{"method": "lexical", "type": "count", "q": "How many people live in Kikiton?", "ans": "3", "reply": "Three people live in Kikiton.", "ok": true, "ctoks": 9, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "older", "q": "Who is older, Najomi or Hamiku?", "ans": "Hamiku", "reply": "Najomi is older.", "ok": false, "ctoks": 7, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop1", "q": "What is Baku's job?", "ans": "baker", "reply": "Baker", "ok": true, "ctoks": 3, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop2", "q": "What is the job of Kuki's mentor?", "ans": "teacher", "reply": "Pilot", "ok": false, "ctoks": 3, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop3", "q": "In which city does the mentor of Kihafe's mentor live?", "ans": "Rizoford", "reply": "Kiteton", "ok": false, "ctoks": 3, "n_selected": 6, "recall": 0.3333333333333333}
+{"method": "lexical", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "3", "ok": true, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "older", "q": "Who is older, Kisupo or Domiri?", "ans": "Domiri", "reply": "Kisupo is older.", "ok": false, "ctoks": 7, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop1", "q": "What is Mizo's job?", "ans": "teacher", "reply": "Mizo is a teacher.", "ok": true, "ctoks": 7, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop2", "q": "What is the job of Dojodo's mentor?", "ans": "farmer", "reply": "Mepoku is a tailor.", "ok": false, "ctoks": 8, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop3", "q": "In which city does the mentor of Mizo's mentor live?", "ans": "Pojoburg", "reply": "Baveford", "ok": false, "ctoks": 4, "n_selected": 6, "recall": 0.3333333333333333}
+{"method": "lexical", "type": "count", "q": "How many people live in Habahaford?", "ans": "4", "reply": "4", "ok": true, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "older", "q": "Who is older, Gikizo or Vela?", "ans": "Gikizo", "reply": "Gikizo is older.", "ok": true, "ctoks": 7, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop1", "q": "What is Dojodo's job?", "ans": "tailor", "reply": "Tailor", "ok": true, "ctoks": 3, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop2", "q": "What is the job of Bazono's mentor?", "ans": "baker", "reply": "Bazono's mentor is Zobave.", "ok": false, "ctoks": 11, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop3", "q": "In which city does the mentor of Haluzo's mentor live?", "ans": "Pojoburg", "reply": "Pohajoton", "ok": false, "ctoks": 5, "n_selected": 6, "recall": 0.0}
+{"method": "lexical", "type": "count", "q": "How many people live in Pojoburg?", "ans": "5", "reply": "6", "ok": false, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "older", "q": "Who is older, Ferive or Haluzo?", "ans": "Ferive", "reply": "Ferive", "ok": true, "ctoks": 4, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop1", "q": "What is Rifeba's job?", "ans": "painter", "reply": "Painter", "ok": true, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "painter", "reply": "Mizo's mentor is Rifeba.", "ok": false, "ctoks": 10, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop3", "q": "In which city does the mentor of Vela's mentor live?", "ans": "Pojoburg", "reply": "Pojoburg", "ok": true, "ctoks": 4, "n_selected": 6, "recall": 0.0}
+{"method": "lexical", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "older", "q": "Who is older, Dodo or Jopoku?", "ans": "Jopoku", "reply": "Jopoku", "ok": true, "ctoks": 4, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop1", "q": "What is Bazono's job?", "ans": "baker", "reply": "Bazono is a baker.", "ok": true, "ctoks": 8, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop2", "q": "What is the job of Dodo's mentor?", "ans": "farmer", "reply": "Bado", "ok": false, "ctoks": 3, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop3", "q": "In which city does the mentor of Haluzo's mentor live?", "ans": "Pojoburg", "reply": "Pohajoton", "ok": false, "ctoks": 5, "n_selected": 6, "recall": 0.0}
+{"method": "lexical", "type": "count", "q": "How many people live in Baveford?", "ans": "2", "reply": "3", "ok": false, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "older", "q": "Who is older, Dojodo or Kupogi?", "ans": "Dojodo", "reply": "Kupogi", "ok": false, "ctoks": 4, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop1", "q": "What is Dojodo's job?", "ans": "tailor", "reply": "Tailor", "ok": true, "ctoks": 3, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop2", "q": "What is the job of Lagiba's mentor?", "ans": "pilot", "reply": "Teacher", "ok": false, "ctoks": 2, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop3", "q": "In which city does the mentor of Bado's mentor live?", "ans": "Dojoburg", "reply": "Pohajoton", "ok": false, "ctoks": 5, "n_selected": 6, "recall": 0.3333333333333333}
+{"method": "lexical", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "older", "q": "Who is older, Nohapo or Gikizo?", "ans": "Nohapo", "reply": "Gikizo", "ok": false, "ctoks": 4, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop1", "q": "What is Rina's job?", "ans": "sailor", "reply": "sailor", "ok": true, "ctoks": 4, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "hop2", "q": "What is the job of Fevena's mentor?", "ans": "potter", "reply": "The job of Fevena's mentor is not mentioned in the provided information.", "ok": false, "ctoks": 17, "n_selected": 6, "recall": 0.5}
+{"method": "lexical", "type": "hop3", "q": "In which city does the mentor of Rina's mentor live?", "ans": "Pohajoton", "reply": "Kusuford", "ok": false, "ctoks": 5, "n_selected": 6, "recall": 0.3333333333333333}
+{"method": "lexical", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "5", "ok": true, "ctoks": 2, "n_selected": 6, "recall": 1.0}
+{"method": "lexical", "type": "older", "q": "Who is older, Bazono or Gife?", "ans": "Bazono", "reply": "Gife", "ok": false, "ctoks": 3, "n_selected": 6, "recall": 0.5}
+{"method": "lookup", "type": "hop1", "q": "What is Hakido's job?", "ans": "teacher", "reply": "Hakido is a teacher.", "ok": true, "ctoks": 10, "n_selected": 6, "lookups": 0, "recall": 1.0}
+{"method": "lookup", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "pilot", "reply": "Kitana", "ok": false, "ctoks": 12, "n_selected": 12, "lookups": 1, "recall": 1.0}
+{"method": "lookup", "type": "hop3", "q": "In which city does the mentor of Suta's mentor live?", "ans": "Ririford", "reply": "Gidoford", "ok": false, "ctoks": 35, "n_selected": 16, "lookups": 3, "recall": 0.6666666666666666}
+{"method": "lookup", "type": "count", "q": "How many people live in Tabataburg?", "ans": "3", "reply": "3", "ok": true, "ctoks": 30, "n_selected": 3, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "older", "q": "Who is older, Tasuno or Tagi?", "ans": "Tasuno", "reply": "Tasuno is older.", "ok": true, "ctoks": 79, "n_selected": 10, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop1", "q": "What is Nalu's job?", "ans": "sailor", "reply": "Nalu is a sailor.", "ok": true, "ctoks": 10, "n_selected": 5, "lookups": 0, "recall": 1.0}
+{"method": "lookup", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "pilot", "reply": "Kitana", "ok": false, "ctoks": 12, "n_selected": 12, "lookups": 1, "recall": 1.0}
+{"method": "lookup", "type": "hop3", "q": "In which city does the mentor of Naluha's mentor live?", "ans": "Navekuburg", "reply": "Nodosuford", "ok": false, "ctoks": 35, "n_selected": 12, "lookups": 3, "recall": 0.3333333333333333}
+{"method": "lookup", "type": "count", "q": "How many people live in Ririford?", "ans": "4", "reply": "3", "ok": false, "ctoks": 34, "n_selected": 4, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "older", "q": "Who is older, Metaba or Mizo?", "ans": "Metaba", "reply": "Metaba is older than Mizo.", "ok": true, "ctoks": 12, "n_selected": 10, "lookups": 0, "recall": 1.0}
+{"method": "lookup", "type": "hop1", "q": "What is Lukujo's job?", "ans": "miner", "reply": "Miner", "ok": true, "ctoks": 35, "n_selected": 9, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop2", "q": "What is the job of Nalu's mentor?", "ans": "painter", "reply": "Zojota is a painter.", "ok": true, "ctoks": 18, "n_selected": 10, "lookups": 1, "recall": 1.0}
+{"method": "lookup", "type": "hop3", "q": "In which city does the mentor of Meripo's mentor live?", "ans": "Navekuburg", "reply": "Navekuburg", "ok": true, "ctoks": 24, "n_selected": 17, "lookups": 2, "recall": 1.0}
+{"method": "lookup", "type": "count", "q": "How many people live in Navekuburg?", "ans": "5", "reply": "5 people live in Navekuburg.", "ok": true, "ctoks": 15, "n_selected": 5, "lookups": 0, "recall": 1.0}
+{"method": "lookup", "type": "older", "q": "Who is older, Naluha or Tagi?", "ans": "Naluha", "reply": "Naluha is older than Tagi.", "ok": true, "ctoks": 88, "n_selected": 13, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop1", "q": "What is Lukujo's job?", "ans": "miner", "reply": "Miner", "ok": true, "ctoks": 35, "n_selected": 9, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop2", "q": "What is the job of Metaba's mentor?", "ans": "baker", "reply": "Kukimi works as a baker.", "ok": true, "ctoks": 19, "n_selected": 11, "lookups": 1, "recall": 1.0}
+{"method": "lookup", "type": "hop3", "q": "In which city does the mentor of Milu's mentor live?", "ans": "Gidoford", "reply": "Nodosuford", "ok": false, "ctoks": 35, "n_selected": 14, "lookups": 3, "recall": 0.3333333333333333}
+{"method": "lookup", "type": "count", "q": "How many people live in Nodosuford?", "ans": "4", "reply": "4", "ok": true, "ctoks": 34, "n_selected": 4, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "older", "q": "Who is older, Mizo or Feta?", "ans": "Mizo", "reply": "Mizo is older than Feta.", "ok": true, "ctoks": 12, "n_selected": 10, "lookups": 0, "recall": 1.0}
+{"method": "lookup", "type": "hop1", "q": "What is Pomipo's job?", "ans": "painter", "reply": "Pomipo is a painter.", "ok": true, "ctoks": 10, "n_selected": 6, "lookups": 0, "recall": 1.0}
+{"method": "lookup", "type": "hop2", "q": "What is the job of Tasuno's mentor?", "ans": "sailor", "reply": "Jodo works as a sailor.", "ok": true, "ctoks": 26, "n_selected": 14, "lookups": 2, "recall": 1.0}
+{"method": "lookup", "type": "hop3", "q": "In which city does the mentor of Mena's mentor live?", "ans": "Ririford", "reply": "Ririford", "ok": true, "ctoks": 29, "n_selected": 10, "lookups": 3, "recall": 0.6666666666666666}
+{"method": "lookup", "type": "count", "q": "How many people live in Ririford?", "ans": "4", "reply": "3", "ok": false, "ctoks": 34, "n_selected": 4, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "older", "q": "Who is older, Laku or Lukujo?", "ans": "Laku", "reply": "Laku is older.", "ok": true, "ctoks": 38, "n_selected": 13, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop1", "q": "What is Metaba's job?", "ans": "teacher", "reply": "Metaba is a teacher.", "ok": true, "ctoks": 10, "n_selected": 5, "lookups": 0, "recall": 1.0}
+{"method": "lookup", "type": "hop2", "q": "What is the job of Laku's mentor?", "ans": "baker", "reply": "Kukimi", "ok": false, "ctoks": 14, "n_selected": 11, "lookups": 1, "recall": 1.0}
+{"method": "lookup", "type": "hop3", "q": "In which city does the mentor of Lukujo's mentor live?", "ans": "Gidoford", "reply": "Gidoford", "ok": true, "ctoks": 31, "n_selected": 15, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "count", "q": "How many people live in Nodosuford?", "ans": "4", "reply": "4", "ok": true, "ctoks": 34, "n_selected": 4, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "older", "q": "Who is older, Milu or Jodo?", "ans": "Jodo", "reply": "Jodo", "ok": true, "ctoks": 27, "n_selected": 14, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop1", "q": "What is Kizo's job?", "ans": "doctor", "reply": "Kizo is a doctor.", "ok": true, "ctoks": 10, "n_selected": 7, "lookups": 0, "recall": 1.0}
+{"method": "lookup", "type": "hop2", "q": "What is the job of Surife's mentor?", "ans": "teacher", "reply": "Teacher", "ok": true, "ctoks": 26, "n_selected": 9, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop3", "q": "In which city does the mentor of Gino's mentor live?", "ans": "Nagiburg", "reply": "Zonoburg", "ok": false, "ctoks": 36, "n_selected": 15, "lookups": 3, "recall": 0.3333333333333333}
+{"method": "lookup", "type": "count", "q": "How many people live in Kizoford?", "ans": "2", "reply": "Two", "ok": true, "ctoks": 44, "n_selected": 6, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "older", "q": "Who is older, Bapo or Dobado?", "ans": "Bapo", "reply": "Bapo is older.", "ok": true, "ctoks": 79, "n_selected": 13, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop1", "q": "What is Kilu's job?", "ans": "teacher", "reply": "Kilu is a teacher.", "ok": true, "ctoks": 10, "n_selected": 5, "lookups": 0, "recall": 1.0}
+{"method": "lookup", "type": "hop2", "q": "What is the job of Kizo's mentor?", "ans": "tailor", "reply": "Nado", "ok": false, "ctoks": 29, "n_selected": 14, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop3", "q": "In which city does the mentor of Nokiba's mentor live?", "ans": "Nagiburg", "reply": "Hanoton", "ok": false, "ctoks": 30, "n_selected": 19, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "count", "q": "How many people live in Zonoburg?", "ans": "5", "reply": "5", "ok": true, "ctoks": 47, "n_selected": 10, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "older", "q": "Who is older, Kumeri or Vekulu?", "ans": "Vekulu", "reply": "Vekulu is older.", "ok": true, "ctoks": 35, "n_selected": 11, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop1", "q": "What is Nomi's job?", "ans": "farmer", "reply": "Nomi is a farmer.", "ok": true, "ctoks": 10, "n_selected": 6, "lookups": 0, "recall": 1.0}
+{"method": "lookup", "type": "hop2", "q": "What is the job of Mena's mentor?", "ans": "tailor", "reply": "Mena's mentor is Nado.", "ok": false, "ctoks": 36, "n_selected": 13, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop3", "q": "In which city does the mentor of Gino's mentor live?", "ans": "Nagiburg", "reply": "Zonoburg", "ok": false, "ctoks": 36, "n_selected": 15, "lookups": 3, "recall": 0.3333333333333333}
+{"method": "lookup", "type": "count", "q": "How many people live in Kizoford?", "ans": "2", "reply": "Two", "ok": true, "ctoks": 44, "n_selected": 6, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "older", "q": "Who is older, Kigina or Fegi?", "ans": "Fegi", "reply": "Fegi is older.", "ok": true, "ctoks": 49, "n_selected": 19, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop1", "q": "What is Vezo's job?", "ans": "potter", "reply": "Vezo is a potter.", "ok": true, "ctoks": 12, "n_selected": 5, "lookups": 0, "recall": 1.0}
+{"method": "lookup", "type": "hop2", "q": "What is the job of Bapo's mentor?", "ans": "farmer", "reply": "Kumeri", "ok": false, "ctoks": 28, "n_selected": 10, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop3", "q": "In which city does the mentor of Fegi's mentor live?", "ans": "Zonoburg", "reply": "Fekiton", "ok": false, "ctoks": 31, "n_selected": 20, "lookups": 3, "recall": 0.6666666666666666}
+{"method": "lookup", "type": "count", "q": "How many people live in Hanoton?", "ans": "5", "reply": "4", "ok": false, "ctoks": 26, "n_selected": 5, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "older", "q": "Who is older, Gino or Kigina?", "ans": "Gino", "reply": "Gino is older than Kigina.", "ok": true, "ctoks": 32, "n_selected": 11, "lookups": 1, "recall": 1.0}
+{"method": "lookup", "type": "hop1", "q": "What is Mihajo's job?", "ans": "doctor", "reply": "Mihajo is a doctor.", "ok": true, "ctoks": 11, "n_selected": 5, "lookups": 0, "recall": 1.0}
+{"method": "lookup", "type": "hop2", "q": "What is the job of Joki's mentor?", "ans": "teacher", "reply": "Veveme is Joki's mentor.", "ok": false, "ctoks": 13, "n_selected": 7, "lookups": 0, "recall": 0.5}
+{"method": "lookup", "type": "hop3", "q": "In which city does the mentor of Nokiba's mentor live?", "ans": "Nagiburg", "reply": "Hanoton", "ok": false, "ctoks": 30, "n_selected": 19, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "count", "q": "How many people live in Hanoton?", "ans": "5", "reply": "4", "ok": false, "ctoks": 26, "n_selected": 5, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "older", "q": "Who is older, Jojo or Jota?", "ans": "Jojo", "reply": "Jota is older.", "ok": false, "ctoks": 43, "n_selected": 19, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop1", "q": "What is Kizo's job?", "ans": "doctor", "reply": "Kizo is a doctor.", "ok": true, "ctoks": 10, "n_selected": 7, "lookups": 0, "recall": 1.0}
+{"method": "lookup", "type": "hop2", "q": "What is the job of Vezo's mentor?", "ans": "doctor", "reply": "Joki", "ok": false, "ctoks": 12, "n_selected": 10, "lookups": 1, "recall": 1.0}
+{"method": "lookup", "type": "hop3", "q": "In which city does the mentor of Bapo's mentor live?", "ans": "Hanoton", "reply": "Zonoburg", "ok": false, "ctoks": 29, "n_selected": 10, "lookups": 3, "recall": 0.6666666666666666}
+{"method": "lookup", "type": "count", "q": "How many people live in Fekiton?", "ans": "2", "reply": "Two", "ok": true, "ctoks": 26, "n_selected": 7, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "older", "q": "Who is older, Vekulu or Joki?", "ans": "Vekulu", "reply": "Joki is older than Vekulu.", "ok": true, "ctoks": 13, "n_selected": 12, "lookups": 0, "recall": 1.0}
+{"method": "lookup", "type": "hop1", "q": "What is Lumefe's job?", "ans": "baker", "reply": "Lumefe is a baker.", "ok": true, "ctoks": 10, "n_selected": 5, "lookups": 0, "recall": 1.0}
+{"method": "lookup", "type": "hop2", "q": "What is the job of Melata's mentor?", "ans": "painter", "reply": "painter", "ok": true, "ctoks": 27, "n_selected": 17, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop3", "q": "In which city does the mentor of Sumime's mentor live?", "ans": "Hahaburg", "reply": "Hahaburg", "ok": true, "ctoks": 35, "n_selected": 15, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "Three", "ok": false, "ctoks": 26, "n_selected": 7, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "older", "q": "Who is older, Kutari or Popo?", "ans": "Kutari", "reply": "Popo is older.", "ok": false, "ctoks": 78, "n_selected": 11, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop1", "q": "What is Lumefe's job?", "ans": "baker", "reply": "Lumefe is a baker.", "ok": true, "ctoks": 10, "n_selected": 5, "lookups": 0, "recall": 1.0}
+{"method": "lookup", "type": "hop2", "q": "What is the job of Sudolu's mentor?", "ans": "miner", "reply": "Rigi", "ok": false, "ctoks": 29, "n_selected": 14, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop3", "q": "In which city does the mentor of Suhaki's mentor live?", "ans": "Dokuburg", "reply": "Hahaburg", "ok": false, "ctoks": 31, "n_selected": 13, "lookups": 3, "recall": 0.6666666666666666}
+{"method": "lookup", "type": "count", "q": "How many people live in Hahaburg?", "ans": "4", "reply": "4", "ok": true, "ctoks": 6, "n_selected": 4, "lookups": 0, "recall": 1.0}
+{"method": "lookup", "type": "older", "q": "Who is older, Sumime or Jola?", "ans": "Sumime", "reply": "Jola is older.", "ok": false, "ctoks": 30, "n_selected": 13, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop1", "q": "What is Jopona's job?", "ans": "doctor", "reply": "Jopona is a doctor.", "ok": true, "ctoks": 11, "n_selected": 5, "lookups": 0, "recall": 1.0}
+{"method": "lookup", "type": "hop2", "q": "What is the job of Kutari's mentor?", "ans": "painter", "reply": "Milu", "ok": false, "ctoks": 29, "n_selected": 14, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop3", "q": "In which city does the mentor of Sumime's mentor live?", "ans": "Hahaburg", "reply": "Hahaburg", "ok": true, "ctoks": 35, "n_selected": 15, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "Three", "ok": false, "ctoks": 26, "n_selected": 7, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "older", "q": "Who is older, Sumime or Jopona?", "ans": "Sumime", "reply": "Sumime", "ok": true, "ctoks": 79, "n_selected": 11, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop1", "q": "What is Givedo's job?", "ans": "doctor", "reply": "Givedo is a doctor.", "ok": true, "ctoks": 11, "n_selected": 6, "lookups": 0, "recall": 1.0}
+{"method": "lookup", "type": "hop2", "q": "What is the job of Jopona's mentor?", "ans": "baker", "reply": "Popo is a baker.", "ok": true, "ctoks": 16, "n_selected": 10, "lookups": 1, "recall": 1.0}
+{"method": "lookup", "type": "hop3", "q": "In which city does the mentor of Nala's mentor live?", "ans": "Dokuburg", "reply": "Kiveton", "ok": false, "ctoks": 30, "n_selected": 12, "lookups": 3, "recall": 0.3333333333333333}
+{"method": "lookup", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "Three", "ok": false, "ctoks": 26, "n_selected": 7, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "older", "q": "Who is older, Pome or Gihado?", "ans": "Pome", "reply": "Gihado is older.", "ok": false, "ctoks": 35, "n_selected": 11, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop1", "q": "What is Sumime's job?", "ans": "doctor", "reply": "Sumime is a doctor.", "ok": true, "ctoks": 10, "n_selected": 6, "lookups": 0, "recall": 1.0}
+{"method": "lookup", "type": "hop2", "q": "What is the job of Dove's mentor?", "ans": "baker", "reply": "Dove's mentor is a doctor.", "ok": false, "ctoks": 33, "n_selected": 13, "lookups": 3, "recall": 0.5}
+{"method": "lookup", "type": "hop3", "q": "In which city does the mentor of Sudolu's mentor live?", "ans": "Hahaburg", "reply": "Basubaford", "ok": false, "ctoks": 36, "n_selected": 13, "lookups": 3, "recall": 0.3333333333333333}
+{"method": "lookup", "type": "count", "q": "How many people live in Jogipoton?", "ans": "4", "reply": "Four people live in Jogipoton.", "ok": true, "ctoks": 46, "n_selected": 9, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "older", "q": "Who is older, Noki or Pome?", "ans": "Pome", "reply": "64", "ok": false, "ctoks": 74, "n_selected": 12, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop1", "q": "What is Nala's job?", "ans": "tailor", "reply": "Nala is a tailor.", "ok": true, "ctoks": 10, "n_selected": 5, "lookups": 0, "recall": 1.0}
+{"method": "lookup", "type": "hop2", "q": "What is the job of Suba's mentor?", "ans": "doctor", "reply": "Suba's mentor is Givedo.", "ok": false, "ctoks": 20, "n_selected": 10, "lookups": 1, "recall": 1.0}
+{"method": "lookup", "type": "hop3", "q": "In which city does the mentor of Jozola's mentor live?", "ans": "Basubaford", "reply": "Lupoton", "ok": false, "ctoks": 30, "n_selected": 14, "lookups": 3, "recall": 0.6666666666666666}
+{"method": "lookup", "type": "count", "q": "How many people live in Dokuburg?", "ans": "5", "reply": "Five people live in Dokuburg.", "ok": true, "ctoks": 45, "n_selected": 11, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "older", "q": "Who is older, Sudolu or Sumime?", "ans": "Sudolu", "reply": "Sudolu is older.", "ok": true, "ctoks": 31, "n_selected": 11, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop1", "q": "What is Kisupo's job?", "ans": "farmer", "reply": "Kisupo's job is a farmer.", "ok": true, "ctoks": 12, "n_selected": 5, "lookups": 0, "recall": 1.0}
+{"method": "lookup", "type": "hop2", "q": "What is the job of Najomi's mentor?", "ans": "pilot", "reply": "Jojo", "ok": false, "ctoks": 28, "n_selected": 13, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop3", "q": "In which city does the mentor of Noki's mentor live?", "ans": "Lanafeton", "reply": "Zonoton", "ok": false, "ctoks": 31, "n_selected": 11, "lookups": 3, "recall": 0.3333333333333333}
+{"method": "lookup", "type": "count", "q": "How many people live in Bafeton?", "ans": "3", "reply": "3", "ok": true, "ctoks": 36, "n_selected": 8, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "older", "q": "Who is older, Kisupo or Joha?", "ans": "Joha", "reply": "55", "ok": false, "ctoks": 74, "n_selected": 11, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop1", "q": "What is Baku's job?", "ans": "baker", "reply": "Baku's job is a baker.", "ok": true, "ctoks": 33, "n_selected": 5, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop2", "q": "What is the job of Zodo's mentor?", "ans": "sailor", "reply": "Batave", "ok": false, "ctoks": 12, "n_selected": 10, "lookups": 1, "recall": 1.0}
+{"method": "lookup", "type": "hop3", "q": "In which city does the mentor of Kihafe's mentor live?", "ans": "Rizoford", "reply": "Kikiton", "ok": false, "ctoks": 31, "n_selected": 11, "lookups": 3, "recall": 0.3333333333333333}
+{"method": "lookup", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "Three", "ok": true, "ctoks": 38, "n_selected": 7, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "older", "q": "Who is older, Riha or Vemeri?", "ans": "Riha", "reply": "Riha is older.", "ok": true, "ctoks": 78, "n_selected": 17, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop1", "q": "What is Kihafe's job?", "ans": "tailor", "reply": "Tailor", "ok": true, "ctoks": 13, "n_selected": 7, "lookups": 1, "recall": 1.0}
+{"method": "lookup", "type": "hop2", "q": "What is the job of Najomi's mentor?", "ans": "pilot", "reply": "Jojo", "ok": false, "ctoks": 28, "n_selected": 13, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop3", "q": "In which city does the mentor of Kunaba's mentor live?", "ans": "Rizoford", "reply": "Rizoford", "ok": true, "ctoks": 32, "n_selected": 12, "lookups": 3, "recall": 0.6666666666666666}
+{"method": "lookup", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "Three", "ok": true, "ctoks": 38, "n_selected": 7, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "older", "q": "Who is older, Noki or Najomi?", "ans": "Noki", "reply": "Noki is older.", "ok": true, "ctoks": 34, "n_selected": 11, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop1", "q": "What is Kisupo's job?", "ans": "farmer", "reply": "Kisupo's job is a farmer.", "ok": true, "ctoks": 12, "n_selected": 5, "lookups": 0, "recall": 1.0}
+{"method": "lookup", "type": "hop2", "q": "What is the job of Jojo's mentor?", "ans": "potter", "reply": "Jojo's mentor is Vena.", "ok": false, "ctoks": 12, "n_selected": 7, "lookups": 0, "recall": 0.5}
+{"method": "lookup", "type": "hop3", "q": "In which city does the mentor of Riha's mentor live?", "ans": "Rizoford", "reply": "Bafeton", "ok": false, "ctoks": 29, "n_selected": 16, "lookups": 3, "recall": 0.6666666666666666}
+{"method": "lookup", "type": "count", "q": "How many people live in Rizoford?", "ans": "5", "reply": "4", "ok": false, "ctoks": 34, "n_selected": 5, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "older", "q": "Who is older, Kidoba or Josuha?", "ans": "Josuha", "reply": "Kidoba is older than Josuha.", "ok": true, "ctoks": 13, "n_selected": 12, "lookups": 0, "recall": 1.0}
+{"method": "lookup", "type": "hop1", "q": "What is Jojo's job?", "ans": "pilot", "reply": "Jojo is a pilot.", "ok": true, "ctoks": 10, "n_selected": 7, "lookups": 0, "recall": 1.0}
+{"method": "lookup", "type": "hop2", "q": "What is the job of Noki's mentor?", "ans": "teacher", "reply": "Noki's mentor is Zojo.", "ok": false, "ctoks": 19, "n_selected": 11, "lookups": 1, "recall": 1.0}
+{"method": "lookup", "type": "hop3", "q": "In which city does the mentor of Gime's mentor live?", "ans": "Lanafeton", "reply": "Kitikon", "ok": false, "ctoks": 32, "n_selected": 7, "lookups": 3, "recall": 0.3333333333333333}
+{"method": "lookup", "type": "count", "q": "How many people live in Kikiton?", "ans": "3", "reply": "Three people live in Kikiton.", "ok": true, "ctoks": 45, "n_selected": 7, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "older", "q": "Who is older, Najomi or Hamiku?", "ans": "Hamiku", "reply": "Hamiku is older than Najomi.", "ok": true, "ctoks": 12, "n_selected": 10, "lookups": 0, "recall": 1.0}
+{"method": "lookup", "type": "hop1", "q": "What is Baku's job?", "ans": "baker", "reply": "Baku's job is a baker.", "ok": true, "ctoks": 33, "n_selected": 5, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop2", "q": "What is the job of Kuki's mentor?", "ans": "teacher", "reply": "Teacher", "ok": true, "ctoks": 30, "n_selected": 11, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop3", "q": "In which city does the mentor of Kihafe's mentor live?", "ans": "Rizoford", "reply": "Kikiton", "ok": false, "ctoks": 31, "n_selected": 11, "lookups": 3, "recall": 0.3333333333333333}
+{"method": "lookup", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "Three", "ok": true, "ctoks": 38, "n_selected": 7, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "older", "q": "Who is older, Kisupo or Domiri?", "ans": "Domiri", "reply": "Domiri is older than Kisupo.", "ok": true, "ctoks": 12, "n_selected": 12, "lookups": 0, "recall": 1.0}
+{"method": "lookup", "type": "hop1", "q": "What is Mizo's job?", "ans": "teacher", "reply": "Teacher", "ok": true, "ctoks": 27, "n_selected": 6, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop2", "q": "What is the job of Dojodo's mentor?", "ans": "farmer", "reply": "farmer", "ok": true, "ctoks": 32, "n_selected": 17, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop3", "q": "In which city does the mentor of Mizo's mentor live?", "ans": "Pojoburg", "reply": "Baveford", "ok": false, "ctoks": 32, "n_selected": 6, "lookups": 3, "recall": 0.3333333333333333}
+{"method": "lookup", "type": "count", "q": "How many people live in Habahaford?", "ans": "4", "reply": "4", "ok": true, "ctoks": 77, "n_selected": 8, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "older", "q": "Who is older, Gikizo or Vela?", "ans": "Gikizo", "reply": "Gikizo is older than Vela.", "ok": true, "ctoks": 13, "n_selected": 12, "lookups": 0, "recall": 1.0}
+{"method": "lookup", "type": "hop1", "q": "What is Dojodo's job?", "ans": "tailor", "reply": "Dojodo is a tailor.", "ok": true, "ctoks": 11, "n_selected": 5, "lookups": 0, "recall": 1.0}
+{"method": "lookup", "type": "hop2", "q": "What is the job of Bazono's mentor?", "ans": "baker", "reply": "Zobave", "ok": false, "ctoks": 15, "n_selected": 10, "lookups": 1, "recall": 0.5}
+{"method": "lookup", "type": "hop3", "q": "In which city does the mentor of Haluzo's mentor live?", "ans": "Pojoburg", "reply": "Pohajoton", "ok": false, "ctoks": 33, "n_selected": 12, "lookups": 3, "recall": 0.3333333333333333}
+{"method": "lookup", "type": "count", "q": "How many people live in Pojoburg?", "ans": "5", "reply": "6", "ok": false, "ctoks": 44, "n_selected": 11, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "older", "q": "Who is older, Ferive or Haluzo?", "ans": "Ferive", "reply": "74 and 73", "ok": false, "ctoks": 33, "n_selected": 19, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop1", "q": "What is Rifeba's job?", "ans": "painter", "reply": "painter", "ok": true, "ctoks": 31, "n_selected": 7, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "painter", "reply": "Teacher", "ok": false, "ctoks": 39, "n_selected": 11, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop3", "q": "In which city does the mentor of Vela's mentor live?", "ans": "Pojoburg", "reply": "Pojoburg", "ok": true, "ctoks": 28, "n_selected": 11, "lookups": 3, "recall": 0.3333333333333333}
+{"method": "lookup", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "5", "ok": true, "ctoks": 43, "n_selected": 10, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "older", "q": "Who is older, Dodo or Jopoku?", "ans": "Jopoku", "reply": "Jopoku is older.", "ok": true, "ctoks": 35, "n_selected": 11, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop1", "q": "What is Bazono's job?", "ans": "baker", "reply": "Bazono is a baker.", "ok": true, "ctoks": 11, "n_selected": 6, "lookups": 0, "recall": 1.0}
+{"method": "lookup", "type": "hop2", "q": "What is the job of Dodo's mentor?", "ans": "farmer", "reply": "Bado", "ok": false, "ctoks": 12, "n_selected": 11, "lookups": 1, "recall": 1.0}
+{"method": "lookup", "type": "hop3", "q": "In which city does the mentor of Haluzo's mentor live?", "ans": "Pojoburg", "reply": "Pohajoton", "ok": false, "ctoks": 33, "n_selected": 12, "lookups": 3, "recall": 0.3333333333333333}
+{"method": "lookup", "type": "count", "q": "How many people live in Baveford?", "ans": "2", "reply": "Two", "ok": true, "ctoks": 37, "n_selected": 6, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "older", "q": "Who is older, Dojodo or Kupogi?", "ans": "Dojodo", "reply": "Dojodo is older.", "ok": true, "ctoks": 87, "n_selected": 10, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop1", "q": "What is Dojodo's job?", "ans": "tailor", "reply": "Dojodo is a tailor.", "ok": true, "ctoks": 11, "n_selected": 5, "lookups": 0, "recall": 1.0}
+{"method": "lookup", "type": "hop2", "q": "What is the job of Lagiba's mentor?", "ans": "pilot", "reply": "Pilot", "ok": true, "ctoks": 30, "n_selected": 18, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop3", "q": "In which city does the mentor of Bado's mentor live?", "ans": "Dojoburg", "reply": "Pohajoton", "ok": false, "ctoks": 30, "n_selected": 12, "lookups": 3, "recall": 0.3333333333333333}
+{"method": "lookup", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "5", "ok": true, "ctoks": 43, "n_selected": 10, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "older", "q": "Who is older, Nohapo or Gikizo?", "ans": "Nohapo", "reply": "Nohapo is older.", "ok": true, "ctoks": 91, "n_selected": 9, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop1", "q": "What is Rina's job?", "ans": "sailor", "reply": "sailor", "ok": true, "ctoks": 39, "n_selected": 10, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "hop2", "q": "What is the job of Fevena's mentor?", "ans": "potter", "reply": "Gilu's mentor is Ferive.", "ok": false, "ctoks": 18, "n_selected": 10, "lookups": 1, "recall": 1.0}
+{"method": "lookup", "type": "hop3", "q": "In which city does the mentor of Rina's mentor live?", "ans": "Pohajoton", "reply": "Pojoburg", "ok": false, "ctoks": 32, "n_selected": 10, "lookups": 3, "recall": 0.6666666666666666}
+{"method": "lookup", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "5", "ok": true, "ctoks": 43, "n_selected": 10, "lookups": 3, "recall": 1.0}
+{"method": "lookup", "type": "older", "q": "Who is older, Bazono or Gife?", "ans": "Bazono", "reply": "Gife is older.", "ok": false, "ctoks": 84, "n_selected": 14, "lookups": 3, "recall": 1.0}
+{"method": "self", "type": "hop1", "q": "What is Hakido's job?", "ans": "teacher", "reply": "Hakido is a character from the anime series \"Naruto.\"", "ok": false, "ctoks": 24, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "pilot", "reply": "Kitana is a mentor.", "ok": false, "ctoks": 16, "n_selected": 1, "recall": 0.5}
+{"method": "self", "type": "hop3", "q": "In which city does the mentor of Suta's mentor live?", "ans": "Ririford", "reply": "Varanasi", "ok": false, "ctoks": 15, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "count", "q": "How many people live in Tabataburg?", "ans": "3", "reply": "1,200 people.", "ok": false, "ctoks": 15, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "older", "q": "Who is older, Tasuno or Tagi?", "ans": "Tasuno", "reply": "Tasuno is older.", "ok": true, "ctoks": 25, "n_selected": 2, "recall": 1.0}
+{"method": "self", "type": "hop1", "q": "What is Nalu's job?", "ans": "sailor", "reply": "Nalu is a character from the video game \"Final Fantasy XIV.\"", "ok": false, "ctoks": 22, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "pilot", "reply": "Kitana is a mentor.", "ok": false, "ctoks": 16, "n_selected": 1, "recall": 0.5}
+{"method": "self", "type": "hop3", "q": "In which city does the mentor of Naluha's mentor live?", "ans": "Navekuburg", "reply": "Istanbul", "ok": false, "ctoks": 8, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "count", "q": "How many people live in Ririford?", "ans": "4", "reply": "1", "ok": false, "ctoks": 76, "n_selected": 5, "recall": 0.25}
+{"method": "self", "type": "older", "q": "Who is older, Metaba or Mizo?", "ans": "Metaba", "reply": "Metaba is older.", "ok": true, "ctoks": 23, "n_selected": 2, "recall": 1.0}
+{"method": "self", "type": "hop1", "q": "What is Lukujo's job?", "ans": "miner", "reply": "Lukujo is a character from the game \"Monster Hunter: World.\"", "ok": false, "ctoks": 24, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop2", "q": "What is the job of Nalu's mentor?", "ans": "painter", "reply": "Nalu's mentor is a teacher.", "ok": false, "ctoks": 19, "n_selected": 1, "recall": 0.5}
+{"method": "self", "type": "hop3", "q": "In which city does the mentor of Meripo's mentor live?", "ans": "Navekuburg", "reply": "Tokyo", "ok": false, "ctoks": 8, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "count", "q": "How many people live in Navekuburg?", "ans": "5", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ctoks": 33, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "older", "q": "Who is older, Naluha or Tagi?", "ans": "Naluha", "reply": "Naluha", "ok": true, "ctoks": 22, "n_selected": 2, "recall": 1.0}
+{"method": "self", "type": "hop1", "q": "What is Lukujo's job?", "ans": "miner", "reply": "Lukujo is a character from the game \"Monster Hunter: World.\"", "ok": false, "ctoks": 24, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop2", "q": "What is the job of Metaba's mentor?", "ans": "baker", "reply": "Metaba's mentor is Kukimi.", "ok": false, "ctoks": 20, "n_selected": 1, "recall": 0.5}
+{"method": "self", "type": "hop3", "q": "In which city does the mentor of Milu's mentor live?", "ans": "Gidoford", "reply": "Tokyo", "ok": false, "ctoks": 9, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "count", "q": "How many people live in Nodosuford?", "ans": "4", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ctoks": 30, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "older", "q": "Who is older, Mizo or Feta?", "ans": "Mizo", "reply": "Feta is older.", "ok": false, "ctoks": 23, "n_selected": 1, "recall": 0.5}
+{"method": "self", "type": "hop1", "q": "What is Pomipo's job?", "ans": "painter", "reply": "Pomipo is a character from the animated series \"The Simpsons.\"", "ok": false, "ctoks": 23, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop2", "q": "What is the job of Tasuno's mentor?", "ans": "sailor", "reply": "Tasuno's mentor is Jodo.", "ok": false, "ctoks": 20, "n_selected": 1, "recall": 0.5}
+{"method": "self", "type": "hop3", "q": "In which city does the mentor of Mena's mentor live?", "ans": "Ririford", "reply": "Los Angeles", "ok": false, "ctoks": 8, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "count", "q": "How many people live in Ririford?", "ans": "4", "reply": "1", "ok": false, "ctoks": 76, "n_selected": 5, "recall": 0.25}
+{"method": "self", "type": "older", "q": "Who is older, Laku or Lukujo?", "ans": "Laku", "reply": "Laku is older.", "ok": true, "ctoks": 24, "n_selected": 2, "recall": 1.0}
+{"method": "self", "type": "hop1", "q": "What is Metaba's job?", "ans": "teacher", "reply": "Metaba is a pharmaceutical company.", "ok": false, "ctoks": 15, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop2", "q": "What is the job of Laku's mentor?", "ans": "baker", "reply": "The job of Laku's mentor is not specified in the given information.", "ok": false, "ctoks": 25, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop3", "q": "In which city does the mentor of Lukujo's mentor live?", "ans": "Gidoford", "reply": "Tokyo", "ok": false, "ctoks": 8, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "count", "q": "How many people live in Nodosuford?", "ans": "4", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ctoks": 30, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "older", "q": "Who is older, Milu or Jodo?", "ans": "Jodo", "reply": "Jodo", "ok": true, "ctoks": 20, "n_selected": 2, "recall": 1.0}
+{"method": "self", "type": "hop1", "q": "What is Kizo's job?", "ans": "doctor", "reply": "Kizo is a character from the game \"King of Fighters.\"", "ok": false, "ctoks": 21, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop2", "q": "What is the job of Surife's mentor?", "ans": "teacher", "reply": "Surife's mentor is Kilu.", "ok": false, "ctoks": 18, "n_selected": 1, "recall": 0.5}
+{"method": "self", "type": "hop3", "q": "In which city does the mentor of Gino's mentor live?", "ans": "Nagiburg", "reply": "New York", "ok": false, "ctoks": 8, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "count", "q": "How many people live in Kizoford?", "ans": "2", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ctoks": 50, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "older", "q": "Who is older, Bapo or Dobado?", "ans": "Bapo", "reply": "Bapo is older.", "ok": true, "ctoks": 23, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop1", "q": "What is Kilu's job?", "ans": "teacher", "reply": "Teacher", "ok": true, "ctoks": 11, "n_selected": 1, "recall": 1.0}
+{"method": "self", "type": "hop2", "q": "What is the job of Kizo's mentor?", "ans": "tailor", "reply": "Nado's job is Kizo's mentor.", "ok": false, "ctoks": 20, "n_selected": 1, "recall": 0.5}
+{"method": "self", "type": "hop3", "q": "In which city does the mentor of Nokiba's mentor live?", "ans": "Nagiburg", "reply": "Istanbul", "ok": false, "ctoks": 15, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "count", "q": "How many people live in Zonoburg?", "ans": "5", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ctoks": 29, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "older", "q": "Who is older, Kumeri or Vekulu?", "ans": "Vekulu", "reply": "Vekulu is older.", "ok": true, "ctoks": 26, "n_selected": 2, "recall": 1.0}
+{"method": "self", "type": "hop1", "q": "What is Nomi's job?", "ans": "farmer", "reply": "Nomi's job is a dog owner.", "ok": false, "ctoks": 17, "n_selected": 1, "recall": 0.0}
+{"method": "self", "type": "hop2", "q": "What is the job of Mena's mentor?", "ans": "tailor", "reply": "Mena's mentor is Nado.", "ok": false, "ctoks": 18, "n_selected": 1, "recall": 0.5}
+{"method": "self", "type": "hop3", "q": "In which city does the mentor of Gino's mentor live?", "ans": "Nagiburg", "reply": "New York", "ok": false, "ctoks": 8, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "count", "q": "How many people live in Kizoford?", "ans": "2", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ctoks": 50, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "older", "q": "Who is older, Kigina or Fegi?", "ans": "Fegi", "reply": "Fegi is older.", "ok": true, "ctoks": 26, "n_selected": 2, "recall": 1.0}
+{"method": "self", "type": "hop1", "q": "What is Vezo's job?", "ans": "potter", "reply": "Vezo is a character from the video game \"The Legend of Zelda: Breath of the Wild", "ok": false, "ctoks": 31, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop2", "q": "What is the job of Bapo's mentor?", "ans": "farmer", "reply": "The job of Bapo's mentor is to guide and teach Bapo.", "ok": false, "ctoks": 25, "n_selected": 1, "recall": 0.5}
+{"method": "self", "type": "hop3", "q": "In which city does the mentor of Fegi's mentor live?", "ans": "Zonoburg", "reply": "Nagiburg", "ok": false, "ctoks": 15, "n_selected": 1, "recall": 0.0}
+{"method": "self", "type": "count", "q": "How many people live in Hanoton?", "ans": "5", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ctoks": 29, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "older", "q": "Who is older, Gino or Kigina?", "ans": "Gino", "reply": "Gino is older.", "ok": true, "ctoks": 24, "n_selected": 2, "recall": 1.0}
+{"method": "self", "type": "hop1", "q": "What is Mihajo's job?", "ans": "doctor", "reply": "The information provided does not specify Mihajo's job.", "ok": false, "ctoks": 32, "n_selected": 2, "recall": 0.0}
+{"method": "self", "type": "hop2", "q": "What is the job of Joki's mentor?", "ans": "teacher", "reply": "Joki's mentor is a teacher.", "ok": true, "ctoks": 19, "n_selected": 1, "recall": 0.5}
+{"method": "self", "type": "hop3", "q": "In which city does the mentor of Nokiba's mentor live?", "ans": "Nagiburg", "reply": "Istanbul", "ok": false, "ctoks": 15, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "count", "q": "How many people live in Hanoton?", "ans": "5", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ctoks": 29, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "older", "q": "Who is older, Jojo or Jota?", "ans": "Jojo", "reply": "Jota is older.", "ok": false, "ctoks": 15, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop1", "q": "What is Kizo's job?", "ans": "doctor", "reply": "Kizo is a character from the game \"King of Fighters.\"", "ok": false, "ctoks": 21, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop2", "q": "What is the job of Vezo's mentor?", "ans": "doctor", "reply": "The job of Vezo's mentor is to guide and teach Vezo.", "ok": false, "ctoks": 28, "n_selected": 1, "recall": 0.5}
+{"method": "self", "type": "hop3", "q": "In which city does the mentor of Bapo's mentor live?", "ans": "Hanoton", "reply": "Nagiburg", "ok": false, "ctoks": 30, "n_selected": 3, "recall": 0.0}
+{"method": "self", "type": "count", "q": "How many people live in Fekiton?", "ans": "2", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ctoks": 35, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "older", "q": "Who is older, Vekulu or Joki?", "ans": "Vekulu", "reply": "Vekulu is older.", "ok": true, "ctoks": 25, "n_selected": 2, "recall": 1.0}
+{"method": "self", "type": "hop1", "q": "What is Lumefe's job?", "ans": "baker", "reply": "Lumefe's job is a baker.", "ok": true, "ctoks": 19, "n_selected": 1, "recall": 1.0}
+{"method": "self", "type": "hop2", "q": "What is the job of Melata's mentor?", "ans": "painter", "reply": "The job of Melata's mentor is not specified in the given information.", "ok": false, "ctoks": 25, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop3", "q": "In which city does the mentor of Sumime's mentor live?", "ans": "Hahaburg", "reply": "Tokyo", "ok": false, "ctoks": 8, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ctoks": 173, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "older", "q": "Who is older, Kutari or Popo?", "ans": "Kutari", "reply": "Kutari is older.", "ok": true, "ctoks": 25, "n_selected": 2, "recall": 1.0}
+{"method": "self", "type": "hop1", "q": "What is Lumefe's job?", "ans": "baker", "reply": "Lumefe's job is a baker.", "ok": true, "ctoks": 19, "n_selected": 1, "recall": 1.0}
+{"method": "self", "type": "hop2", "q": "What is the job of Sudolu's mentor?", "ans": "miner", "reply": "Sudolu's mentor is Rigi.", "ok": false, "ctoks": 20, "n_selected": 1, "recall": 0.5}
+{"method": "self", "type": "hop3", "q": "In which city does the mentor of Suhaki's mentor live?", "ans": "Dokuburg", "reply": "Tokyo", "ok": false, "ctoks": 14, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "count", "q": "How many people live in Hahaburg?", "ans": "4", "reply": "Jola", "ok": false, "ctoks": 61, "n_selected": 8, "recall": 0.25}
+{"method": "self", "type": "older", "q": "Who is older, Sumime or Jola?", "ans": "Sumime", "reply": "Sumime", "ok": true, "ctoks": 20, "n_selected": 2, "recall": 1.0}
+{"method": "self", "type": "hop1", "q": "What is Jopona's job?", "ans": "doctor", "reply": "Jopona is a character from the animated series \"The Legend of Korra.\"", "ok": false, "ctoks": 27, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop2", "q": "What is the job of Kutari's mentor?", "ans": "painter", "reply": "Milu is a mentor.", "ok": false, "ctoks": 17, "n_selected": 1, "recall": 0.5}
+{"method": "self", "type": "hop3", "q": "In which city does the mentor of Sumime's mentor live?", "ans": "Hahaburg", "reply": "Tokyo", "ok": false, "ctoks": 8, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ctoks": 173, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "older", "q": "Who is older, Sumime or Jopona?", "ans": "Sumime", "reply": "Sumime", "ok": true, "ctoks": 21, "n_selected": 2, "recall": 1.0}
+{"method": "self", "type": "hop1", "q": "What is Givedo's job?", "ans": "doctor", "reply": "Givedo is a character in the game \"The Elder Scrolls V: Skyrim.\"", "ok": false, "ctoks": 26, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop2", "q": "What is the job of Jopona's mentor?", "ans": "baker", "reply": "Popo's job is a mentor.", "ok": false, "ctoks": 19, "n_selected": 1, "recall": 0.5}
+{"method": "self", "type": "hop3", "q": "In which city does the mentor of Nala's mentor live?", "ans": "Dokuburg", "reply": "Mumbai", "ok": false, "ctoks": 8, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "count", "q": "How many people live in Lupoton?", "ans": "2", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ctoks": 173, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "older", "q": "Who is older, Pome or Gihado?", "ans": "Pome", "reply": "Pome is older.", "ok": true, "ctoks": 24, "n_selected": 2, "recall": 1.0}
+{"method": "self", "type": "hop1", "q": "What is Sumime's job?", "ans": "doctor", "reply": "Sumime is a character in the anime series \"K-On!\" and she is a member of the K-O", "ok": false, "ctoks": 31, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop2", "q": "What is the job of Dove's mentor?", "ans": "baker", "reply": "The job of Dove's mentor is not specified in the given information.", "ok": false, "ctoks": 24, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop3", "q": "In which city does the mentor of Sudolu's mentor live?", "ans": "Hahaburg", "reply": "Istanbul", "ok": false, "ctoks": 8, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "count", "q": "How many people live in Jogipoton?", "ans": "4", "reply": "Givedo", "ok": false, "ctoks": 164, "n_selected": 16, "recall": 0.25}
+{"method": "self", "type": "older", "q": "Who is older, Noki or Pome?", "ans": "Pome", "reply": "Pome is older.", "ok": true, "ctoks": 23, "n_selected": 2, "recall": 1.0}
+{"method": "self", "type": "hop1", "q": "What is Nala's job?", "ans": "tailor", "reply": "Tailor", "ok": true, "ctoks": 58, "n_selected": 3, "recall": 1.0}
+{"method": "self", "type": "hop2", "q": "What is the job of Suba's mentor?", "ans": "doctor", "reply": "Suba's mentor is a teacher.", "ok": false, "ctoks": 19, "n_selected": 1, "recall": 0.5}
+{"method": "self", "type": "hop3", "q": "In which city does the mentor of Jozola's mentor live?", "ans": "Basubaford", "reply": "New York", "ok": false, "ctoks": 8, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "count", "q": "How many people live in Dokuburg?", "ans": "5", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ctoks": 32, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "older", "q": "Who is older, Sudolu or Sumime?", "ans": "Sudolu", "reply": "Sumime is older.", "ok": false, "ctoks": 24, "n_selected": 1, "recall": 0.5}
+{"method": "self", "type": "hop1", "q": "What is Kisupo's job?", "ans": "farmer", "reply": "Kisupo is a fox spirit in the anime \"Sword Art Online.\"", "ok": false, "ctoks": 25, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop2", "q": "What is the job of Najomi's mentor?", "ans": "pilot", "reply": "The job of Najomi's mentor is to guide and teach her.", "ok": false, "ctoks": 25, "n_selected": 1, "recall": 0.5}
+{"method": "self", "type": "hop3", "q": "In which city does the mentor of Noki's mentor live?", "ans": "Lanafeton", "reply": "Tokyo", "ok": false, "ctoks": 7, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "count", "q": "How many people live in Bafeton?", "ans": "3", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ctoks": 36, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "older", "q": "Who is older, Kisupo or Joha?", "ans": "Joha", "reply": "Joha", "ok": true, "ctoks": 21, "n_selected": 2, "recall": 1.0}
+{"method": "self", "type": "hop1", "q": "What is Baku's job?", "ans": "baker", "reply": "Baku is a character from the anime and manga series \"Gundam Build Fighters\" and ", "ok": false, "ctoks": 31, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop2", "q": "What is the job of Zodo's mentor?", "ans": "sailor", "reply": "Batave", "ok": false, "ctoks": 12, "n_selected": 1, "recall": 0.5}
+{"method": "self", "type": "hop3", "q": "In which city does the mentor of Kihafe's mentor live?", "ans": "Rizoford", "reply": "Istanbul", "ok": false, "ctoks": 8, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ctoks": 173, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "older", "q": "Who is older, Riha or Vemeri?", "ans": "Riha", "reply": "Riha is older.", "ok": true, "ctoks": 26, "n_selected": 2, "recall": 1.0}
+{"method": "self", "type": "hop1", "q": "What is Kihafe's job?", "ans": "tailor", "reply": "Kihafe is a coffee shop.", "ok": false, "ctoks": 17, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop2", "q": "What is the job of Najomi's mentor?", "ans": "pilot", "reply": "The job of Najomi's mentor is to guide and teach her.", "ok": false, "ctoks": 25, "n_selected": 1, "recall": 0.5}
+{"method": "self", "type": "hop3", "q": "In which city does the mentor of Kunaba's mentor live?", "ans": "Rizoford", "reply": "Tokyo", "ok": false, "ctoks": 15, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ctoks": 173, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "older", "q": "Who is older, Noki or Najomi?", "ans": "Noki", "reply": "Noki is older.", "ok": true, "ctoks": 23, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop1", "q": "What is Kisupo's job?", "ans": "farmer", "reply": "Kisupo is a fox spirit in the anime \"Sword Art Online.\"", "ok": false, "ctoks": 25, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop2", "q": "What is the job of Jojo's mentor?", "ans": "potter", "reply": "Jojo's mentor is Vena.", "ok": false, "ctoks": 18, "n_selected": 1, "recall": 0.5}
+{"method": "self", "type": "hop3", "q": "In which city does the mentor of Riha's mentor live?", "ans": "Rizoford", "reply": "Istanbul", "ok": false, "ctoks": 8, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "count", "q": "How many people live in Rizoford?", "ans": "5", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ctoks": 26, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "older", "q": "Who is older, Kidoba or Josuha?", "ans": "Josuha", "reply": "Kidoba is older.", "ok": false, "ctoks": 23, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop1", "q": "What is Jojo's job?", "ans": "pilot", "reply": "Pilot", "ok": true, "ctoks": 11, "n_selected": 1, "recall": 1.0}
+{"method": "self", "type": "hop2", "q": "What is the job of Noki's mentor?", "ans": "teacher", "reply": "Noki's mentor is Zojo.", "ok": false, "ctoks": 18, "n_selected": 1, "recall": 0.5}
+{"method": "self", "type": "hop3", "q": "In which city does the mentor of Gime's mentor live?", "ans": "Lanafeton", "reply": "Tokyo", "ok": false, "ctoks": 15, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "count", "q": "How many people live in Kikiton?", "ans": "3", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ctoks": 24, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "older", "q": "Who is older, Najomi or Hamiku?", "ans": "Hamiku", "reply": "Hamiku is older.", "ok": true, "ctoks": 24, "n_selected": 2, "recall": 1.0}
+{"method": "self", "type": "hop1", "q": "What is Baku's job?", "ans": "baker", "reply": "Baku is a character from the anime and manga series \"Gundam Build Fighters\" and ", "ok": false, "ctoks": 31, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop2", "q": "What is the job of Kuki's mentor?", "ans": "teacher", "reply": "The job of Kuki's mentor is not specified in the given information.", "ok": false, "ctoks": 25, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop3", "q": "In which city does the mentor of Kihafe's mentor live?", "ans": "Rizoford", "reply": "Istanbul", "ok": false, "ctoks": 8, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "count", "q": "How many people live in Zonoton?", "ans": "3", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ctoks": 173, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "older", "q": "Who is older, Kisupo or Domiri?", "ans": "Domiri", "reply": "Domiri is older.", "ok": true, "ctoks": 23, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop1", "q": "What is Mizo's job?", "ans": "teacher", "reply": "Mizo is a language spoken by the Mizo people in Mizoram, India.", "ok": false, "ctoks": 25, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop2", "q": "What is the job of Dojodo's mentor?", "ans": "farmer", "reply": "The job of Dojodo's mentor is to guide and support Dojodo in their journey to be", "ok": false, "ctoks": 28, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop3", "q": "In which city does the mentor of Mizo's mentor live?", "ans": "Pojoburg", "reply": "Pojoburg", "ok": true, "ctoks": 14, "n_selected": 1, "recall": 0.3333333333333333}
+{"method": "self", "type": "count", "q": "How many people live in Habahaford?", "ans": "4", "reply": "The information provided does not include the number of people living in Habahaf", "ok": false, "ctoks": 58, "n_selected": 4, "recall": 0.0}
+{"method": "self", "type": "older", "q": "Who is older, Gikizo or Vela?", "ans": "Gikizo", "reply": "Gikizo is older.", "ok": true, "ctoks": 25, "n_selected": 2, "recall": 1.0}
+{"method": "self", "type": "hop1", "q": "What is Dojodo's job?", "ans": "tailor", "reply": "Dojodo is a Japanese sumo wrestler.", "ok": false, "ctoks": 19, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop2", "q": "What is the job of Bazono's mentor?", "ans": "baker", "reply": "The job of Bazono's mentor is not specified in the given information.", "ok": false, "ctoks": 21, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop3", "q": "In which city does the mentor of Haluzo's mentor live?", "ans": "Pojoburg", "reply": "Dojoburg", "ok": false, "ctoks": 13, "n_selected": 1, "recall": 0.0}
+{"method": "self", "type": "count", "q": "How many people live in Pojoburg?", "ans": "5", "reply": "As of the latest data, Pojoburg, which is a suburb of Johannesburg, South Africa", "ok": false, "ctoks": 42, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "older", "q": "Who is older, Ferive or Haluzo?", "ans": "Ferive", "reply": "Ferive", "ok": true, "ctoks": 23, "n_selected": 2, "recall": 1.0}
+{"method": "self", "type": "hop1", "q": "What is Rifeba's job?", "ans": "painter", "reply": "Assistant.", "ok": false, "ctoks": 11, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop2", "q": "What is the job of Mizo's mentor?", "ans": "painter", "reply": "Mizo's mentor is Rifeba.", "ok": false, "ctoks": 20, "n_selected": 1, "recall": 0.5}
+{"method": "self", "type": "hop3", "q": "In which city does the mentor of Vela's mentor live?", "ans": "Pojoburg", "reply": "Pojoburg", "ok": true, "ctoks": 14, "n_selected": 1, "recall": 0.0}
+{"method": "self", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ctoks": 43, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "older", "q": "Who is older, Dodo or Jopoku?", "ans": "Jopoku", "reply": "Jopoku", "ok": true, "ctoks": 22, "n_selected": 2, "recall": 1.0}
+{"method": "self", "type": "hop1", "q": "What is Bazono's job?", "ans": "baker", "reply": "Bazono is a character from the anime \"My Hero Academia.\" He is a student at U.A.", "ok": false, "ctoks": 32, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop2", "q": "What is the job of Dodo's mentor?", "ans": "farmer", "reply": "Bado", "ok": false, "ctoks": 12, "n_selected": 1, "recall": 0.5}
+{"method": "self", "type": "hop3", "q": "In which city does the mentor of Haluzo's mentor live?", "ans": "Pojoburg", "reply": "Dojoburg", "ok": false, "ctoks": 13, "n_selected": 1, "recall": 0.0}
+{"method": "self", "type": "count", "q": "How many people live in Baveford?", "ans": "2", "reply": "The information provided does not include the number of people living in Bavefor", "ok": false, "ctoks": 57, "n_selected": 4, "recall": 0.5}
+{"method": "self", "type": "older", "q": "Who is older, Dojodo or Kupogi?", "ans": "Dojodo", "reply": "Dojodo is older.", "ok": true, "ctoks": 26, "n_selected": 2, "recall": 1.0}
+{"method": "self", "type": "hop1", "q": "What is Dojodo's job?", "ans": "tailor", "reply": "Dojodo is a Japanese sumo wrestler.", "ok": false, "ctoks": 19, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop2", "q": "What is the job of Lagiba's mentor?", "ans": "pilot", "reply": "The job of Lagiba's mentor is to guide and teach her.", "ok": false, "ctoks": 26, "n_selected": 1, "recall": 0.5}
+{"method": "self", "type": "hop3", "q": "In which city does the mentor of Bado's mentor live?", "ans": "Dojoburg", "reply": "Istanbul", "ok": false, "ctoks": 6, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ctoks": 43, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "older", "q": "Who is older, Nohapo or Gikizo?", "ans": "Nohapo", "reply": "Nohapo is older.", "ok": true, "ctoks": 26, "n_selected": 2, "recall": 1.0}
+{"method": "self", "type": "hop1", "q": "What is Rina's job?", "ans": "sailor", "reply": "Rina's job is not specified in the given information.", "ok": false, "ctoks": 20, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "hop2", "q": "What is the job of Fevena's mentor?", "ans": "potter", "reply": "The job of Fevena's mentor is to guide and teach her.", "ok": false, "ctoks": 26, "n_selected": 1, "recall": 0.5}
+{"method": "self", "type": "hop3", "q": "In which city does the mentor of Rina's mentor live?", "ans": "Pohajoton", "reply": "Tokyo", "ok": false, "ctoks": 13, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "count", "q": "How many people live in Dojoburg?", "ans": "5", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ctoks": 43, "n_selected": 0, "recall": 0.0}
+{"method": "self", "type": "older", "q": "Who is older, Bazono or Gife?", "ans": "Bazono", "reply": "Bazono is older.", "ok": true, "ctoks": 25, "n_selected": 2, "recall": 1.0}

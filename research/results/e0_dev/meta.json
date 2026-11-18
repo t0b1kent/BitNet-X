@@ -1,0 +1,13 @@
+{
+  "started": "2026-11-17 18:56:51",
+  "tasks_file": "../tasks/dev_100.jsonl",
+  "n_tasks": 100,
+  "repo_commit": "99f1f8ef9927ed7b68a2df9ed5b241baa54ad2c8",
+  "load_at_start": [
+    5.1884765625,
+    5.4716796875,
+    5.2158203125
+  ],
+  "server_port": 8099,
+  "python": "3.12.8"
+}

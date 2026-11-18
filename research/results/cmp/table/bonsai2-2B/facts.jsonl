@@ -1,0 +1,585 @@
+{"world": 0, "fact": "Nalu's mentor is Zojota.", "raw": "{\n  \"person\": \"Nalu\",\n  \"attr\": \"mentor\",\n  \"value\": \"Zojota\"\n}", "ok": true}
+{"world": 0, "fact": "Nalu works as a sailor.", "raw": "{\n  \"person\": \"Nalu\",\n  \"attr\": \"job\",\n  \"value\": \"sailor\"\n}", "ok": true}
+{"world": 0, "fact": "Jodo works as a sailor.", "raw": "{\n  \"person\": \"Jodo\",\n  \"attr\": \"job\",\n  \"value\": \"sailor\"\n}", "ok": true}
+{"world": 0, "fact": "Jonoba is 42 years old.", "raw": "{\n  \"person\": \"Jonoba\",\n  \"attr\": \"age\",\n  \"value\": \"42\"\n}", "ok": true}
+{"world": 0, "fact": "Naluha works as a tailor.", "raw": "{\n  \"person\": \"Naluha\",\n  \"attr\": \"job\",\n  \"value\": \"tailor\"\n}", "ok": true}
+{"world": 0, "fact": "Mizo owns a dog.", "raw": "{\n  \"person\": \"Mizo\",\n  \"attr\": \"pet\",\n  \"value\": \"dog\"\n}", "ok": true}
+{"world": 0, "fact": "Doveta is 52 years old.", "raw": "{\n  \"person\": \"Doveta\",\n  \"attr\": \"age\",\n  \"value\": \"52\"\n}", "ok": true}
+{"world": 0, "fact": "Mizo works as a miner.", "raw": "{\n  \"person\": \"Mizo\",\n  \"attr\": \"job\",\n  \"value\": \"miner\"\n}", "ok": true}
+{"world": 0, "fact": "Kitana lives in Navekuburg.", "raw": "{\n  \"person\": \"Kitana\",\n  \"attr\": \"city\",\n  \"value\": \"Navekuburg\"\n}", "ok": true}
+{"world": 0, "fact": "Laku's mentor is Kukimi.", "raw": "{\n  \"person\": \"Laku\",\n  \"attr\": \"mentor\",\n  \"value\": \"Kukimi\"\n}", "ok": true}
+{"world": 0, "fact": "Tasuno lives in Nodosuford.", "raw": "{\n  \"person\": \"Tasuno\",\n  \"attr\": \"city\",\n  \"value\": \"Nodosuford\"\n}", "ok": true}
+{"world": 0, "fact": "Zojota works as a painter.", "raw": "{\n  \"person\": \"Zojota\",\n  \"attr\": \"job\",\n  \"value\": \"painter\"\n}", "ok": true}
+{"world": 0, "fact": "Sula owns a dog.", "raw": "{\n  \"person\": \"Sula\",\n  \"attr\": \"pet\",\n  \"value\": \"dog\"\n}", "ok": true}
+{"world": 0, "fact": "Tagi's mentor is Meripo.", "raw": "{\n  \"person\": \"Tagi\",\n  \"attr\": \"mentor\",\n  \"value\": \"Meripo\"\n}", "ok": true}
+{"world": 0, "fact": "Nokuzo is 21 years old.", "raw": "{\n  \"person\": \"Nokuzo\",\n  \"attr\": \"age\",\n  \"value\": \"21\"\n}", "ok": true}
+{"world": 0, "fact": "Milu works as a miner.", "raw": "{\n  \"person\": \"Milu\",\n  \"attr\": \"job\",\n  \"value\": \"miner\"\n}", "ok": true}
+{"world": 0, "fact": "Zojota is 70 years old.", "raw": "{\n  \"person\": \"Zojota\",\n  \"attr\": \"age\",\n  \"value\": \"70\"\n}", "ok": true}
+{"world": 0, "fact": "Tasuno is 66 years old.", "raw": "{\n  \"person\": \"Tasuno\",\n  \"attr\": \"age\",\n  \"value\": \"66\"\n}", "ok": true}
+{"world": 0, "fact": "Lukujo's mentor is Milu.", "raw": "{\n  \"person\": \"Lukujo\",\n  \"attr\": \"mentor\",\n  \"value\": \"Milu\"\n}", "ok": true}
+{"world": 0, "fact": "Doveta owns a parrot.", "raw": "{\n  \"person\": \"Doveta\",\n  \"attr\": \"pet\",\n  \"value\": \"parrot\"\n}", "ok": true}
+{"world": 0, "fact": "Milu's mentor is Suta.", "raw": "{\n  \"person\": \"Milu\",\n  \"attr\": \"mentor\",\n  \"value\": \"Suta\"\n}", "ok": true}
+{"world": 0, "fact": "Metaba works as a teacher.", "raw": "{\n  \"person\": \"Metaba\",\n  \"attr\": \"job\",\n  \"value\": \"teacher\"\n}", "ok": true}
+{"world": 0, "fact": "Nalu lives in Nodosuford.", "raw": "{\n  \"person\": \"Nalu\",\n  \"attr\": \"city\",\n  \"value\": \"Nodosuford\"\n}", "ok": true}
+{"world": 0, "fact": "Milu lives in Nodosuford.", "raw": "{\n  \"person\": \"Milu\",\n  \"attr\": \"city\",\n  \"value\": \"Nodosuford\"\n}", "ok": true}
+{"world": 0, "fact": "Zojota's mentor is Jodo.", "raw": "{\n  \"person\": \"Zojota\",\n  \"attr\": \"mentor\",\n  \"value\": \"Jodo\"\n}", "ok": true}
+{"world": 0, "fact": "Tagi owns a turtle.", "raw": "{\n  \"person\": \"Tagi\",\n  \"attr\": \"pet\",\n  \"value\": \"turtle\"\n}", "ok": true}
+{"world": 0, "fact": "Jodo owns a rabbit.", "raw": "{\n  \"person\": \"Jodo\",\n  \"attr\": \"pet\",\n  \"value\": \"rabbit\"\n}", "ok": true}
+{"world": 0, "fact": "Nokuzo works as a miner.", "raw": "{\n  \"person\": \"Nokuzo\",\n  \"attr\": \"job\",\n  \"value\": \"miner\"\n}", "ok": true}
+{"world": 0, "fact": "Zojota owns a cat.", "raw": "{\n  \"person\": \"Zojota\",\n  \"attr\": \"pet\",\n  \"value\": \"cat\"\n}", "ok": true}
+{"world": 0, "fact": "Feta is 25 years old.", "raw": "{\n  \"person\": \"Feta\",\n  \"attr\": \"age\",\n  \"value\": \"25\"\n}", "ok": true}
+{"world": 0, "fact": "Jodo is 47 years old.", "raw": "{\n  \"person\": \"Jodo\",\n  \"attr\": \"age\",\n  \"value\": \"47\"\n}", "ok": true}
+{"world": 0, "fact": "Jonoba's mentor is Milu.", "raw": "{\n  \"person\": \"Jonoba\",\n  \"attr\": \"mentor\",\n  \"value\": \"Milu\"\n}", "ok": true}
+{"world": 0, "fact": "Mena works as a miner.", "raw": "{\n  \"person\": \"Mena\",\n  \"attr\": \"job\",\n  \"value\": \"miner\"\n}", "ok": true}
+{"world": 0, "fact": "Nalu owns a parrot.", "raw": "{\n  \"person\": \"Nalu\",\n  \"attr\": \"pet\",\n  \"value\": \"parrot\"\n}", "ok": true}
+{"world": 0, "fact": "Doveta's mentor is Suta.", "raw": "{\n  \"person\": \"Doveta\",\n  \"attr\": \"mentor\",\n  \"value\": \"Suta\"\n}", "ok": true}
+{"world": 0, "fact": "Naluha lives in Nodosuford.", "raw": "{\n  \"person\": \"Naluha\",\n  \"attr\": \"city\",\n  \"value\": \"Nodosuford\"\n}", "ok": true}
+{"world": 0, "fact": "Laku works as a pilot.", "raw": "{\n  \"person\": \"Laku\",\n  \"attr\": \"job\",\n  \"value\": \"pilot\"\n}", "ok": true}
+{"world": 0, "fact": "Pomipo is 46 years old.", "raw": "{\n  \"person\": \"Pomipo\",\n  \"attr\": \"age\",\n  \"value\": \"46\"\n}", "ok": true}
+{"world": 0, "fact": "Meripo is 29 years old.", "raw": "{\n  \"person\": \"Meripo\",\n  \"attr\": \"age\",\n  \"value\": \"29\"\n}", "ok": true}
+{"world": 0, "fact": "Naluha's mentor is Nokuzo.", "raw": "{\n  \"person\": \"Naluha\",\n  \"attr\": \"mentor\",\n  \"value\": \"Nokuzo\"\n}", "ok": true}
+{"world": 0, "fact": "Gila lives in Gidoford.", "raw": "{\n  \"person\": \"Gila\",\n  \"attr\": \"city\",\n  \"value\": \"Gidoford\"\n}", "ok": true}
+{"world": 0, "fact": "Lukujo lives in Gidoford.", "raw": "{\n  \"person\": \"Lukujo\",\n  \"attr\": \"city\",\n  \"value\": \"Gidoford\"\n}", "ok": true}
+{"world": 0, "fact": "Mena's mentor is Hakido.", "raw": "{\n  \"person\": \"Mena\",\n  \"attr\": \"mentor\",\n  \"value\": \"Hakido\"\n}", "ok": true}
+{"world": 0, "fact": "Feta works as a teacher.", "raw": "{\n  \"person\": \"Feta\",\n  \"attr\": \"job\",\n  \"value\": \"teacher\"\n}", "ok": true}
+{"world": 0, "fact": "Metaba lives in Navekuburg.", "raw": "{\n  \"person\": \"Metaba\",\n  \"attr\": \"city\",\n  \"value\": \"Navekuburg\"\n}", "ok": true}
+{"world": 0, "fact": "Metaba is 76 years old.", "raw": "{\n  \"person\": \"Metaba\",\n  \"attr\": \"age\",\n  \"value\": \"76\"\n}", "ok": true}
+{"world": 0, "fact": "Kukimi works as a baker.", "raw": "{\n  \"person\": \"Kukimi\",\n  \"attr\": \"job\",\n  \"value\": \"baker\"\n}", "ok": true}
+{"world": 0, "fact": "Meripo owns a dog.", "raw": "{\n  \"person\": \"Meripo\",\n  \"attr\": \"pet\",\n  \"value\": \"dog\"\n}", "ok": true}
+{"world": 0, "fact": "Hakido owns a goat.", "raw": "{\n  \"person\": \"Hakido\",\n  \"attr\": \"pet\",\n  \"value\": \"goat\"\n}", "ok": true}
+{"world": 0, "fact": "Jodo lives in Ririford.", "raw": "{\n  \"person\": \"Jodo\",\n  \"attr\": \"city\",\n  \"value\": \"Ririford\"\n}", "ok": true}
+{"world": 0, "fact": "Jonoba lives in Tafeford.", "raw": "{\n  \"person\": \"Jonoba\",\n  \"attr\": \"city\",\n  \"value\": \"Tafeford\"\n}", "ok": true}
+{"world": 0, "fact": "Laku lives in Gidoford.", "raw": "{\n  \"person\": \"Laku\",\n  \"attr\": \"city\",\n  \"value\": \"Gidoford\"\n}", "ok": true}
+{"world": 0, "fact": "Naluha is 49 years old.", "raw": "{\n  \"person\": \"Naluha\",\n  \"attr\": \"age\",\n  \"value\": \"49\"\n}", "ok": true}
+{"world": 0, "fact": "Naluha owns a goat.", "raw": "{\n  \"person\": \"Naluha\",\n  \"attr\": \"pet\",\n  \"value\": \"goat\"\n}", "ok": true}
+{"world": 0, "fact": "Tagi lives in Tabataburg.", "raw": "{\n  \"person\": \"Tagi\",\n  \"attr\": \"city\",\n  \"value\": \"Tabataburg\"\n}", "ok": true}
+{"world": 0, "fact": "Hakido is 33 years old.", "raw": "{\n  \"person\": \"Hakido\",\n  \"attr\": \"age\",\n  \"value\": \"33\"\n}", "ok": true}
+{"world": 0, "fact": "Mizo's mentor is Kitana.", "raw": "{\n  \"person\": \"Mizo\",\n  \"attr\": \"mentor\",\n  \"value\": \"Kitana\"\n}", "ok": true}
+{"world": 0, "fact": "Mena is 22 years old.", "raw": "{\n  \"person\": \"Mena\",\n  \"attr\": \"age\",\n  \"value\": \"22\"\n}", "ok": true}
+{"world": 0, "fact": "Tagi works as a teacher.", "raw": "{\n  \"person\": \"Tagi\",\n  \"attr\": \"job\",\n  \"value\": \"teacher\"\n}", "ok": true}
+{"world": 0, "fact": "Gila's mentor is Jodo.", "raw": "{\n  \"person\": \"Gila\",\n  \"attr\": \"mentor\",\n  \"value\": \"Jodo\"\n}", "ok": true}
+{"world": 0, "fact": "Metaba owns a cat.", "raw": "{\n  \"person\": \"Metaba\",\n  \"attr\": \"pet\",\n  \"value\": \"cat\"\n}", "ok": true}
+{"world": 0, "fact": "Jonoba owns a parrot.", "raw": "{\n  \"person\": \"Jonoba\",\n  \"attr\": \"pet\",\n  \"value\": \"parrot\"\n}", "ok": true}
+{"world": 0, "fact": "Mizo lives in Gidoford.", "raw": "{\n  \"person\": \"Mizo\",\n  \"attr\": \"city\",\n  \"value\": \"Gidoford\"\n}", "ok": true}
+{"world": 0, "fact": "Hakido's mentor is Nokuzo.", "raw": "{\n  \"person\": \"Hakido\",\n  \"attr\": \"mentor\",\n  \"value\": \"Nokuzo\"\n}", "ok": true}
+{"world": 0, "fact": "Lukujo works as a miner.", "raw": "{\n  \"person\": \"Lukujo\",\n  \"attr\": \"job\",\n  \"value\": \"miner\"\n}", "ok": true}
+{"world": 0, "fact": "Meripo's mentor is Pomipo.", "raw": "{\n  \"person\": \"Meripo\",\n  \"attr\": \"mentor\",\n  \"value\": \"Pomipo\"\n}", "ok": true}
+{"world": 0, "fact": "Lukujo is 53 years old.", "raw": "{\n  \"person\": \"Lukujo\",\n  \"attr\": \"age\",\n  \"value\": \"53\"\n}", "ok": true}
+{"world": 0, "fact": "Nokuzo owns a goat.", "raw": "{\n  \"person\": \"Nokuzo\",\n  \"attr\": \"pet\",\n  \"value\": \"goat\"\n}", "ok": true}
+{"world": 0, "fact": "Kukimi owns a parrot.", "raw": "{\n  \"person\": \"Kukimi\",\n  \"attr\": \"pet\",\n  \"value\": \"parrot\"\n}", "ok": true}
+{"world": 0, "fact": "Meripo lives in Navekuburg.", "raw": "{\n  \"person\": \"Meripo\",\n  \"attr\": \"city\",\n  \"value\": \"Navekuburg\"\n}", "ok": true}
+{"world": 0, "fact": "Kitana is 65 years old.", "raw": "{\n  \"person\": \"Kitana\",\n  \"attr\": \"age\",\n  \"value\": \"65\"\n}", "ok": true}
+{"world": 0, "fact": "Suta lives in Gidoford.", "raw": "{\n  \"person\": \"Suta\",\n  \"attr\": \"city\",\n  \"value\": \"Gidoford\"\n}", "ok": true}
+{"world": 0, "fact": "Mena owns a turtle.", "raw": "{\n  \"person\": \"Mena\",\n  \"attr\": \"pet\",\n  \"value\": \"turtle\"\n}", "ok": true}
+{"world": 0, "fact": "Hakido lives in Ririford.", "raw": "{\n  \"person\": \"Hakido\",\n  \"attr\": \"city\",\n  \"value\": \"Ririford\"\n}", "ok": true}
+{"world": 0, "fact": "Jonoba works as a pilot.", "raw": "{\n  \"person\": \"Jonoba\",\n  \"attr\": \"job\",\n  \"value\": \"pilot\"\n}", "ok": true}
+{"world": 0, "fact": "Mizo is 55 years old.", "raw": "{\n  \"person\": \"Mizo\",\n  \"attr\": \"age\",\n  \"value\": \"55\"\n}", "ok": true}
+{"world": 0, "fact": "Sula lives in Tabataburg.", "raw": "{\n  \"person\": \"Sula\",\n  \"attr\": \"city\",\n  \"value\": \"Tabataburg\"\n}", "ok": true}
+{"world": 0, "fact": "Mena lives in Ririford.", "raw": "{\n  \"person\": \"Mena\",\n  \"attr\": \"city\",\n  \"value\": \"Ririford\"\n}", "ok": true}
+{"world": 0, "fact": "Pomipo lives in Tafeford.", "raw": "{\n  \"person\": \"Pomipo\",\n  \"attr\": \"city\",\n  \"value\": \"Tafeford\"\n}", "ok": true}
+{"world": 0, "fact": "Milu is 26 years old.", "raw": "{\n  \"person\": \"Milu\",\n  \"attr\": \"age\",\n  \"value\": \"26\"\n}", "ok": true}
+{"world": 0, "fact": "Gila works as a sailor.", "raw": "{\n  \"person\": \"Gila\",\n  \"attr\": \"job\",\n  \"value\": \"sailor\"\n}", "ok": true}
+{"world": 0, "fact": "Pomipo works as a painter.", "raw": "{\n  \"person\": \"Pomipo\",\n  \"attr\": \"job\",\n  \"value\": \"painter\"\n}", "ok": true}
+{"world": 0, "fact": "Meripo works as a pilot.", "raw": "{\n  \"person\": \"Meripo\",\n  \"attr\": \"job\",\n  \"value\": \"pilot\"\n}", "ok": true}
+{"world": 0, "fact": "Tagi is 30 years old.", "raw": "{\n  \"person\": \"Tagi\",\n  \"attr\": \"age\",\n  \"value\": \"30\"\n}", "ok": true}
+{"world": 0, "fact": "Milu owns a rabbit.", "raw": "{\n  \"person\": \"Milu\",\n  \"attr\": \"pet\",\n  \"value\": \"rabbit\"\n}", "ok": true}
+{"world": 0, "fact": "Pomipo owns a goat.", "raw": "{\n  \"person\": \"Pomipo\",\n  \"attr\": \"pet\",\n  \"value\": \"goat\"\n}", "ok": true}
+{"world": 0, "fact": "Feta owns a dog.", "raw": "{\n  \"person\": \"Feta\",\n  \"attr\": \"pet\",\n  \"value\": \"dog\"\n}", "ok": true}
+{"world": 0, "fact": "Kukimi lives in Tafeford.", "raw": "{\n  \"person\": \"Kukimi\",\n  \"attr\": \"city\",\n  \"value\": \"Tafeford\"\n}", "ok": true}
+{"world": 0, "fact": "Tasuno works as a farmer.", "raw": "{\n  \"person\": \"Tasuno\",\n  \"attr\": \"job\",\n  \"value\": \"farmer\"\n}", "ok": true}
+{"world": 0, "fact": "Tasuno owns a dog.", "raw": "{\n  \"person\": \"Tasuno\",\n  \"attr\": \"pet\",\n  \"value\": \"dog\"\n}", "ok": true}
+{"world": 0, "fact": "Feta's mentor is Suta.", "raw": "{\n  \"person\": \"Feta\",\n  \"attr\": \"mentor\",\n  \"value\": \"Suta\"\n}", "ok": true}
+{"world": 0, "fact": "Gila is 45 years old.", "raw": "{\n  \"person\": \"Gila\",\n  \"attr\": \"age\",\n  \"value\": \"45\"\n}", "ok": true}
+{"world": 0, "fact": "Kukimi is 34 years old.", "raw": "{\n  \"person\": \"Kukimi\",\n  \"attr\": \"age\",\n  \"value\": \"34\"\n}", "ok": true}
+{"world": 0, "fact": "Metaba's mentor is Kukimi.", "raw": "{\n  \"person\": \"Metaba\",\n  \"attr\": \"mentor\",\n  \"value\": \"Kukimi\"\n}", "ok": true}
+{"world": 0, "fact": "Nokuzo lives in Ririford.", "raw": "{\n  \"person\": \"Nokuzo\",\n  \"attr\": \"city\",\n  \"value\": \"Ririford\"\n}", "ok": true}
+{"world": 0, "fact": "Kukimi's mentor is Kitana.", "raw": "{\n  \"person\": \"Kukimi\",\n  \"attr\": \"mentor\",\n  \"value\": \"Kitana\"\n}", "ok": true}
+{"world": 0, "fact": "Feta lives in Navekuburg.", "raw": "{\n  \"person\": \"Feta\",\n  \"attr\": \"city\",\n  \"value\": \"Navekuburg\"\n}", "ok": true}
+{"world": 0, "fact": "Kitana works as a pilot.", "raw": "{\n  \"person\": \"Kitana\",\n  \"attr\": \"job\",\n  \"value\": \"pilot\"\n}", "ok": true}
+{"world": 0, "fact": "Suta is 57 years old.", "raw": "{\n  \"person\": \"Suta\",\n  \"attr\": \"age\",\n  \"value\": \"57\"\n}", "ok": true}
+{"world": 0, "fact": "Nalu is 79 years old.", "raw": "{\n  \"person\": \"Nalu\",\n  \"attr\": \"age\",\n  \"value\": \"79\"\n}", "ok": true}
+{"world": 0, "fact": "Hakido works as a teacher.", "raw": "{\n  \"person\": \"Hakido\",\n  \"attr\": \"job\",\n  \"value\": \"teacher\"\n}", "ok": true}
+{"world": 0, "fact": "Suta owns a cat.", "raw": "{\n  \"person\": \"Suta\",\n  \"attr\": \"pet\",\n  \"value\": \"cat\"\n}", "ok": true}
+{"world": 0, "fact": "Doveta works as a painter.", "raw": "{\n  \"person\": \"Doveta\",\n  \"attr\": \"job\",\n  \"value\": \"painter\"\n}", "ok": true}
+{"world": 0, "fact": "Sula is 75 years old.", "raw": "{\n  \"person\": \"Sula\",\n  \"attr\": \"age\",\n  \"value\": \"75\"\n}", "ok": true}
+{"world": 0, "fact": "Laku owns a cat.", "raw": "{\n  \"person\": \"Laku\",\n  \"attr\": \"pet\",\n  \"value\": \"cat\"\n}", "ok": true}
+{"world": 0, "fact": "Nokuzo's mentor is Kitana.", "raw": "{\n  \"person\": \"Nokuzo\",\n  \"attr\": \"mentor\",\n  \"value\": \"Kitana\"\n}", "ok": true}
+{"world": 0, "fact": "Suta's mentor is Gila.", "raw": "{\n  \"person\": \"Suta\",\n  \"attr\": \"mentor\",\n  \"value\": \"Gila\"\n}", "ok": true}
+{"world": 0, "fact": "Sula works as a painter.", "raw": "{\n  \"person\": \"Sula\",\n  \"attr\": \"job\",\n  \"value\": \"painter\"\n}", "ok": true}
+{"world": 0, "fact": "Tasuno's mentor is Jodo.", "raw": "{\n  \"person\": \"Tasuno\",\n  \"attr\": \"mentor\",\n  \"value\": \"Jodo\"\n}", "ok": true}
+{"world": 0, "fact": "Laku is 54 years old.", "raw": "{\n  \"person\": \"Laku\",\n  \"attr\": \"age\",\n  \"value\": \"54\"\n}", "ok": true}
+{"world": 0, "fact": "Zojota lives in Navekuburg.", "raw": "{\n  \"person\": \"Zojota\",\n  \"attr\": \"city\",\n  \"value\": \"Navekuburg\"\n}", "ok": true}
+{"world": 0, "fact": "Gila owns a cat.", "raw": "{\n  \"person\": \"Gila\",\n  \"attr\": \"pet\",\n  \"value\": \"cat\"\n}", "ok": true}
+{"world": 0, "fact": "Pomipo's mentor is Kitana.", "raw": "{\n  \"person\": \"Pomipo\",\n  \"attr\": \"mentor\",\n  \"value\": \"Kitana\"\n}", "ok": true}
+{"world": 0, "fact": "Doveta lives in Tabataburg.", "raw": "{\n  \"person\": \"Doveta\",\n  \"attr\": \"city\",\n  \"value\": \"Tabataburg\"\n}", "ok": true}
+{"world": 0, "fact": "Lukujo owns a dog.", "raw": "{\n  \"person\": \"Lukujo\",\n  \"attr\": \"pet\",\n  \"value\": \"dog\"\n}", "ok": true}
+{"world": 0, "fact": "Suta works as a pilot.", "raw": "{\n  \"person\": \"Suta\",\n  \"attr\": \"job\",\n  \"value\": \"pilot\"\n}", "ok": true}
+{"world": 0, "fact": "Kitana owns a rabbit.", "raw": "{\n  \"person\": \"Kitana\",\n  \"attr\": \"pet\",\n  \"value\": \"rabbit\"\n}", "ok": true}
+{"world": 1, "fact": "Rikuku lives in Zonoburg.", "raw": "{\n  \"person\": \"Rikuku\",\n  \"attr\": \"city\",\n  \"value\": \"Zonoburg\"\n}", "ok": true}
+{"world": 1, "fact": "Surife owns a cat.", "raw": "{\n  \"person\": \"Surife\",\n  \"attr\": \"pet\",\n  \"value\": \"cat\"\n}", "ok": true}
+{"world": 1, "fact": "Tala works as a painter.", "raw": "{\n  \"person\": \"Tala\",\n  \"attr\": \"job\",\n  \"value\": \"painter\"\n}", "ok": true}
+{"world": 1, "fact": "Bapo works as a painter.", "raw": "{\n  \"person\": \"Bapo\",\n  \"attr\": \"job\",\n  \"value\": \"painter\"\n}", "ok": true}
+{"world": 1, "fact": "Nomi lives in Hanoton.", "raw": "{\n  \"person\": \"Nomi\",\n  \"attr\": \"city\",\n  \"value\": \"Hanoton\"\n}", "ok": true}
+{"world": 1, "fact": "Meku is 32 years old.", "raw": "{\n  \"person\": \"Meku\",\n  \"attr\": \"age\",\n  \"value\": \"32\"\n}", "ok": true}
+{"world": 1, "fact": "Nomi works as a farmer.", "raw": "{\n  \"person\": \"Nomi\",\n  \"attr\": \"job\",\n  \"value\": \"farmer\"\n}", "ok": true}
+{"world": 1, "fact": "Posupo is 26 years old.", "raw": "{\n  \"person\": \"Posupo\",\n  \"attr\": \"age\",\n  \"value\": \"26\"\n}", "ok": true}
+{"world": 1, "fact": "Veveme owns a rabbit.", "raw": "{\n  \"person\": \"Veveme\",\n  \"attr\": \"pet\",\n  \"value\": \"rabbit\"\n}", "ok": true}
+{"world": 1, "fact": "Mihajo works as a doctor.", "raw": "{\n  \"person\": \"Mihajo\",\n  \"attr\": \"job\",\n  \"value\": \"doctor\"\n}", "ok": true}
+{"world": 1, "fact": "Dobado lives in Zonoburg.", "raw": "{\n  \"person\": \"Dobado\",\n  \"attr\": \"city\",\n  \"value\": \"Zonoburg\"\n}", "ok": true}
+{"world": 1, "fact": "Jota owns a dog.", "raw": "{\n  \"person\": \"Jota\",\n  \"attr\": \"pet\",\n  \"value\": \"dog\"\n}", "ok": true}
+{"world": 1, "fact": "Kigina owns a rabbit.", "raw": "{\n  \"person\": \"Kigina\",\n  \"attr\": \"pet\",\n  \"value\": \"rabbit\"\n}", "ok": true}
+{"world": 1, "fact": "Posupo owns a dog.", "raw": "{\n  \"person\": \"Posupo\",\n  \"attr\": \"pet\",\n  \"value\": \"dog\"\n}", "ok": true}
+{"world": 1, "fact": "Gino is 79 years old.", "raw": "{\n  \"person\": \"Gino\",\n  \"attr\": \"age\",\n  \"value\": \"79\"\n}", "ok": true}
+{"world": 1, "fact": "Kumeri owns a dog.", "raw": "{\n  \"person\": \"Kumeri\",\n  \"attr\": \"pet\",\n  \"value\": \"dog\"\n}", "ok": true}
+{"world": 1, "fact": "Posupo works as a miner.", "raw": "{\n  \"person\": \"Posupo\",\n  \"attr\": \"job\",\n  \"value\": \"miner\"\n}", "ok": true}
+{"world": 1, "fact": "Mihajo is 46 years old.", "raw": "{\n  \"person\": \"Mihajo\",\n  \"attr\": \"age\",\n  \"value\": \"46\"\n}", "ok": true}
+{"world": 1, "fact": "Rikuku works as a pilot.", "raw": "{\n  \"person\": \"Rikuku\",\n  \"attr\": \"job\",\n  \"value\": \"pilot\"\n}", "ok": true}
+{"world": 1, "fact": "Nomi's mentor is Kizo.", "raw": "{\n  \"person\": \"Nomi\",\n  \"attr\": \"mentor\",\n  \"value\": \"Kizo\"\n}", "ok": true}
+{"world": 1, "fact": "Vekulu owns a cat.", "raw": "{\n  \"person\": \"Vekulu\",\n  \"attr\": \"pet\",\n  \"value\": \"cat\"\n}", "ok": true}
+{"world": 1, "fact": "Nokiba's mentor is Joki.", "raw": "{\n  \"person\": \"Nokiba\",\n  \"attr\": \"mentor\",\n  \"value\": \"Joki\"\n}", "ok": true}
+{"world": 1, "fact": "Kilu lives in Nagiburg.", "raw": "{\n  \"person\": \"Kilu\",\n  \"attr\": \"city\",\n  \"value\": \"Nagiburg\"\n}", "ok": true}
+{"world": 1, "fact": "Gino owns a cat.", "raw": "{\n  \"person\": \"Gino\",\n  \"attr\": \"pet\",\n  \"value\": \"cat\"\n}", "ok": true}
+{"world": 1, "fact": "Vezo owns a goat.", "raw": "{\n  \"person\": \"Vezo\",\n  \"attr\": \"pet\",\n  \"value\": \"goat\"\n}", "ok": true}
+{"world": 1, "fact": "Vekulu works as a miner.", "raw": "{\n  \"person\": \"Vekulu\",\n  \"attr\": \"job\",\n  \"value\": \"miner\"\n}", "ok": true}
+{"world": 1, "fact": "Joki is 48 years old.", "raw": "{\n  \"person\": \"Joki\",\n  \"attr\": \"age\",\n  \"value\": \"48\"\n}", "ok": true}
+{"world": 1, "fact": "Tala lives in Nagiburg.", "raw": "{\n  \"person\": \"Tala\",\n  \"attr\": \"city\",\n  \"value\": \"Nagiburg\"\n}", "ok": true}
+{"world": 1, "fact": "Bapo owns a parrot.", "raw": "{\n  \"person\": \"Bapo\",\n  \"attr\": \"pet\",\n  \"value\": \"parrot\"\n}", "ok": true}
+{"world": 1, "fact": "Tala is 31 years old.", "raw": "{\n  \"person\": \"Tala\",\n  \"attr\": \"age\",\n  \"value\": \"31\"\n}", "ok": true}
+{"world": 1, "fact": "Jota lives in Nagiburg.", "raw": "{\n  \"person\": \"Jota\",\n  \"attr\": \"city\",\n  \"value\": \"Nagiburg\"\n}", "ok": true}
+{"world": 1, "fact": "Meku owns a rabbit.", "raw": "{\n  \"person\": \"Meku\",\n  \"attr\": \"pet\",\n  \"value\": \"rabbit\"\n}", "ok": true}
+{"world": 1, "fact": "Jojo owns a rabbit.", "raw": "{\n  \"person\": \"Jojo\",\n  \"attr\": \"pet\",\n  \"value\": \"rabbit\"\n}", "ok": true}
+{"world": 1, "fact": "Surife works as a baker.", "raw": "{\n  \"person\": \"Surife\",\n  \"attr\": \"job\",\n  \"value\": \"baker\"\n}", "ok": true}
+{"world": 1, "fact": "Kigina works as a painter.", "raw": "{\n  \"person\": \"Kigina\",\n  \"attr\": \"job\",\n  \"value\": \"painter\"\n}", "ok": true}
+{"world": 1, "fact": "Jota is 52 years old.", "raw": "{\n  \"person\": \"Jota\",\n  \"attr\": \"age\",\n  \"value\": \"52\"\n}", "ok": true}
+{"world": 1, "fact": "Fegi is 69 years old.", "raw": "{\n  \"person\": \"Fegi\",\n  \"attr\": \"age\",\n  \"value\": \"69\"\n}", "ok": true}
+{"world": 1, "fact": "Nado's mentor is Veveme.", "raw": "{\n  \"person\": \"Nado\",\n  \"attr\": \"mentor\",\n  \"value\": \"Veveme\"\n}", "ok": true}
+{"world": 1, "fact": "Joki lives in Hanoton.", "raw": "{\n  \"person\": \"Joki\",\n  \"attr\": \"city\",\n  \"value\": \"Hanoton\"\n}", "ok": true}
+{"world": 1, "fact": "Kigina lives in Hanoton.", "raw": "{\n  \"person\": \"Kigina\",\n  \"attr\": \"city\",\n  \"value\": \"Hanoton\"\n}", "ok": true}
+{"world": 1, "fact": "Veveme works as a teacher.", "raw": "{\n  \"person\": \"Veveme\",\n  \"attr\": \"job\",\n  \"value\": \"teacher\"\n}", "ok": true}
+{"world": 1, "fact": "Nado owns a cat.", "raw": "{\n  \"person\": \"Nado\",\n  \"attr\": \"pet\",\n  \"value\": \"cat\"\n}", "ok": true}
+{"world": 1, "fact": "Mena works as a farmer.", "raw": "{\n  \"person\": \"Mena\",\n  \"attr\": \"job\",\n  \"value\": \"farmer\"\n}", "ok": true}
+{"world": 1, "fact": "Bapo is 51 years old.", "raw": "{\n  \"person\": \"Bapo\",\n  \"attr\": \"age\",\n  \"value\": \"51\"\n}", "ok": true}
+{"world": 1, "fact": "Gino's mentor is Joki.", "raw": "{\n  \"person\": \"Gino\",\n  \"attr\": \"mentor\",\n  \"value\": \"Joki\"\n}", "ok": true}
+{"world": 1, "fact": "Rikuku owns a rabbit.", "raw": "{\n  \"person\": \"Rikuku\",\n  \"attr\": \"pet\",\n  \"value\": \"rabbit\"\n}", "ok": true}
+{"world": 1, "fact": "Mihajo lives in Kizoford.", "raw": "{\n  \"person\": \"Mihajo\",\n  \"attr\": \"city\",\n  \"value\": \"Kizoford\"\n}", "ok": true}
+{"world": 1, "fact": "Gino lives in Zonoburg.", "raw": "{\n  \"person\": \"Gino\",\n  \"attr\": \"city\",\n  \"value\": \"Zonoburg\"\n}", "ok": true}
+{"world": 1, "fact": "Jojo lives in Zonoburg.", "raw": "{\n  \"person\": \"Jojo\",\n  \"attr\": \"city\",\n  \"value\": \"Zonoburg\"\n}", "ok": true}
+{"world": 1, "fact": "Nomi owns a dog.", "raw": "{\n  \"person\": \"Nomi\",\n  \"attr\": \"pet\",\n  \"value\": \"dog\"\n}", "ok": true}
+{"world": 1, "fact": "Dobado is 21 years old.", "raw": "{\n  \"person\": \"Dobado\",\n  \"attr\": \"age\",\n  \"value\": \"21\"\n}", "ok": true}
+{"world": 1, "fact": "Kilu owns a cat.", "raw": "{\n  \"person\": \"Kilu\",\n  \"attr\": \"pet\",\n  \"value\": \"cat\"\n}", "ok": true}
+{"world": 1, "fact": "Rikuku's mentor is Kizo.", "raw": "{\n  \"person\": \"Rikuku\",\n  \"attr\": \"mentor\",\n  \"value\": \"Kizo\"\n}", "ok": true}
+{"world": 1, "fact": "Veveme lives in Nagiburg.", "raw": "{\n  \"person\": \"Veveme\",\n  \"attr\": \"city\",\n  \"value\": \"Nagiburg\"\n}", "ok": true}
+{"world": 1, "fact": "Mena's mentor is Nado.", "raw": "{\n  \"person\": \"Mena\",\n  \"attr\": \"mentor\",\n  \"value\": \"Nado\"\n}", "ok": true}
+{"world": 1, "fact": "Kumeri is 37 years old.", "raw": "{\n  \"person\": \"Kumeri\",\n  \"attr\": \"age\",\n  \"value\": \"37\"\n}", "ok": true}
+{"world": 1, "fact": "Vezo is 30 years old.", "raw": "{\n  \"person\": \"Vezo\",\n  \"attr\": \"age\",\n  \"value\": \"30\"\n}", "ok": true}
+{"world": 1, "fact": "Mena is 75 years old.", "raw": "{\n  \"person\": \"Mena\",\n  \"attr\": \"age\",\n  \"value\": \"75\"\n}", "ok": true}
+{"world": 1, "fact": "Nado is 27 years old.", "raw": "{\n  \"person\": \"Nado\",\n  \"attr\": \"age\",\n  \"value\": \"27\"\n}", "ok": true}
+{"world": 1, "fact": "Kilu is 49 years old.", "raw": "{\n  \"person\": \"Kilu\",\n  \"attr\": \"age\",\n  \"value\": \"49\"\n}", "ok": true}
+{"world": 1, "fact": "Surife lives in Kufeburg.", "raw": "{\n  \"person\": \"Surife\",\n  \"attr\": \"city\",\n  \"value\": \"Kufeburg\"\n}", "ok": true}
+{"world": 1, "fact": "Fegi's mentor is Mena.", "raw": "{\n  \"person\": \"Fegi\",\n  \"attr\": \"mentor\",\n  \"value\": \"Mena\"\n}", "ok": true}
+{"world": 1, "fact": "Jota's mentor is Nomi.", "raw": "{\n  \"person\": \"Jota\",\n  \"attr\": \"mentor\",\n  \"value\": \"Nomi\"\n}", "ok": true}
+{"world": 1, "fact": "Joki owns a turtle.", "raw": "{\n  \"person\": \"Joki\",\n  \"attr\": \"pet\",\n  \"value\": \"turtle\"\n}", "ok": true}
+{"world": 1, "fact": "Kumeri's mentor is Rikuku.", "raw": "{\n  \"person\": \"Kumeri\",\n  \"attr\": \"mentor\",\n  \"value\": \"Rikuku\"\n}", "ok": true}
+{"world": 1, "fact": "Vezo's mentor is Gino.", "raw": "{\n  \"person\": \"Vezo\",\n  \"attr\": \"mentor\",\n  \"value\": \"Gino\"\n}", "ok": true}
+{"world": 1, "fact": "Fegi owns a parrot.", "raw": "{\n  \"person\": \"Fegi\",\n  \"attr\": \"pet\",\n  \"value\": \"parrot\"\n}", "ok": true}
+{"world": 1, "fact": "Jojo works as a farmer.", "raw": "{\n  \"person\": \"Jojo\",\n  \"attr\": \"job\",\n  \"value\": \"farmer\"\n}", "ok": true}
+{"world": 1, "fact": "Dobado's mentor is Veveme.", "raw": "{\n  \"person\": \"Dobado\",\n  \"attr\": \"mentor\",\n  \"value\": \"Veveme\"\n}", "ok": true}
+{"world": 1, "fact": "Nokiba owns a turtle.", "raw": "{\n  \"person\": \"Nokiba\",\n  \"attr\": \"pet\",\n  \"value\": \"turtle\"\n}", "ok": true}
+{"world": 1, "fact": "Dobado works as a sailor.", "raw": "{\n  \"person\": \"Dobado\",\n  \"attr\": \"job\",\n  \"value\": \"sailor\"\n}", "ok": true}
+{"world": 1, "fact": "Mena owns a turtle.", "raw": "{\n  \"person\": \"Mena\",\n  \"attr\": \"pet\",\n  \"value\": \"turtle\"\n}", "ok": true}
+{"world": 1, "fact": "Dobado owns a rabbit.", "raw": "{\n  \"person\": \"Dobado\",\n  \"attr\": \"pet\",\n  \"value\": \"rabbit\"\n}", "ok": true}
+{"world": 1, "fact": "Mihajo's mentor is Dobado.", "raw": "{\n  \"person\": \"Mihajo\",\n  \"attr\": \"mentor\",\n  \"value\": \"Dobado\"\n}", "ok": true}
+{"world": 1, "fact": "Veveme is 57 years old.", "raw": "{\n  \"person\": \"Veveme\",\n  \"attr\": \"age\",\n  \"value\": \"57\"\n}", "ok": true}
+{"world": 1, "fact": "Meku's mentor is Fegi.", "raw": "{\n  \"person\": \"Meku\",\n  \"attr\": \"mentor\",\n  \"value\": \"Fegi\"\n}", "ok": true}
+{"world": 1, "fact": "Mena lives in Fekiton.", "raw": "{\n  \"person\": \"Mena\",\n  \"attr\": \"city\",\n  \"value\": \"Fekiton\"\n}", "ok": true}
+{"world": 1, "fact": "Joki works as a pilot.", "raw": "{\n  \"person\": \"Joki\",\n  \"attr\": \"job\",\n  \"value\": \"pilot\"\n}", "ok": true}
+{"world": 1, "fact": "Vekulu lives in Nagiburg.", "raw": "{\n  \"person\": \"Vekulu\",\n  \"attr\": \"city\",\n  \"value\": \"Nagiburg\"\n}", "ok": true}
+{"world": 1, "fact": "Nomi is 36 years old.", "raw": "{\n  \"person\": \"Nomi\",\n  \"attr\": \"age\",\n  \"value\": \"36\"\n}", "ok": true}
+{"world": 1, "fact": "Kizo works as a doctor.", "raw": "{\n  \"person\": \"Kizo\",\n  \"attr\": \"job\",\n  \"value\": \"doctor\"\n}", "ok": true}
+{"world": 1, "fact": "Nokiba is 70 years old.", "raw": "{\n  \"person\": \"Nokiba\",\n  \"attr\": \"age\",\n  \"value\": \"70\"\n}", "ok": true}
+{"world": 1, "fact": "Kizo lives in Kizoford.", "raw": "{\n  \"person\": \"Kizo\",\n  \"attr\": \"city\",\n  \"value\": \"Kizoford\"\n}", "ok": true}
+{"world": 1, "fact": "Fegi lives in Nagiburg.", "raw": "{\n  \"person\": \"Fegi\",\n  \"attr\": \"city\",\n  \"value\": \"Nagiburg\"\n}", "ok": true}
+{"world": 1, "fact": "Fegi works as a teacher.", "raw": "{\n  \"person\": \"Fegi\",\n  \"attr\": \"job\",\n  \"value\": \"teacher\"\n}", "ok": true}
+{"world": 1, "fact": "Kigina is 24 years old.", "raw": "{\n  \"person\": \"Kigina\",\n  \"attr\": \"age\",\n  \"value\": \"24\"\n}", "ok": true}
+{"world": 1, "fact": "Vezo works as a potter.", "raw": "{\n  \"person\": \"Vezo\",\n  \"attr\": \"job\",\n  \"value\": \"potter\"\n}", "ok": true}
+{"world": 1, "fact": "Jojo is 64 years old.", "raw": "{\n  \"person\": \"Jojo\",\n  \"attr\": \"age\",\n  \"value\": \"64\"\n}", "ok": true}
+{"world": 1, "fact": "Vekulu is 72 years old.", "raw": "{\n  \"person\": \"Vekulu\",\n  \"attr\": \"age\",\n  \"value\": \"72\"\n}", "ok": true}
+{"world": 1, "fact": "Jojo's mentor is Kumeri.", "raw": "{\n  \"person\": \"Jojo\",\n  \"attr\": \"mentor\",\n  \"value\": \"Kumeri\"\n}", "ok": true}
+{"world": 1, "fact": "Mihajo owns a parrot.", "raw": "{\n  \"person\": \"Mihajo\",\n  \"attr\": \"pet\",\n  \"value\": \"parrot\"\n}", "ok": true}
+{"world": 1, "fact": "Kumeri works as a doctor.", "raw": "{\n  \"person\": \"Kumeri\",\n  \"attr\": \"job\",\n  \"value\": \"doctor\"\n}", "ok": true}
+{"world": 1, "fact": "Surife is 60 years old.", "raw": "{\n  \"person\": \"Surife\",\n  \"attr\": \"age\",\n  \"value\": \"60\"\n}", "ok": true}
+{"world": 1, "fact": "Jota works as a pilot.", "raw": "{\n  \"person\": \"Jota\",\n  \"attr\": \"job\",\n  \"value\": \"pilot\"\n}", "ok": true}
+{"world": 1, "fact": "Kigina's mentor is Tala.", "raw": "{\n  \"person\": \"Kigina\",\n  \"attr\": \"mentor\",\n  \"value\": \"Tala\"\n}", "ok": true}
+{"world": 1, "fact": "Kumeri lives in Hanoton.", "raw": "{\n  \"person\": \"Kumeri\",\n  \"attr\": \"city\",\n  \"value\": \"Hanoton\"\n}", "ok": true}
+{"world": 1, "fact": "Bapo's mentor is Jojo.", "raw": "{\n  \"person\": \"Bapo\",\n  \"attr\": \"mentor\",\n  \"value\": \"Jojo\"\n}", "ok": true}
+{"world": 1, "fact": "Bapo lives in Fekiton.", "raw": "{\n  \"person\": \"Bapo\",\n  \"attr\": \"city\",\n  \"value\": \"Fekiton\"\n}", "ok": true}
+{"world": 1, "fact": "Kizo is 77 years old.", "raw": "{\n  \"person\": \"Kizo\",\n  \"attr\": \"age\",\n  \"value\": \"77\"\n}", "ok": true}
+{"world": 1, "fact": "Nado works as a tailor.", "raw": "{\n  \"person\": \"Nado\",\n  \"attr\": \"job\",\n  \"value\": \"tailor\"\n}", "ok": true}
+{"world": 1, "fact": "Posupo's mentor is Dobado.", "raw": "{\n  \"person\": \"Posupo\",\n  \"attr\": \"mentor\",\n  \"value\": \"Dobado\"\n}", "ok": true}
+{"world": 1, "fact": "Kizo's mentor is Nado.", "raw": "{\n  \"person\": \"Kizo\",\n  \"attr\": \"mentor\",\n  \"value\": \"Nado\"\n}", "ok": true}
+{"world": 1, "fact": "Nokiba works as a potter.", "raw": "{\n  \"person\": \"Nokiba\",\n  \"attr\": \"job\",\n  \"value\": \"potter\"\n}", "ok": true}
+{"world": 1, "fact": "Vezo lives in Nagiburg.", "raw": "{\n  \"person\": \"Vezo\",\n  \"attr\": \"city\",\n  \"value\": \"Nagiburg\"\n}", "ok": true}
+{"world": 1, "fact": "Nokiba lives in Nagiburg.", "raw": "{\n  \"person\": \"Nokiba\",\n  \"attr\": \"city\",\n  \"value\": \"Nagiburg\"\n}", "ok": true}
+{"world": 1, "fact": "Meku works as a potter.", "raw": "{\n  \"person\": \"Meku\",\n  \"attr\": \"job\",\n  \"value\": \"potter\"\n}", "ok": true}
+{"world": 1, "fact": "Joki's mentor is Veveme.", "raw": "{\n  \"person\": \"Joki\",\n  \"attr\": \"mentor\",\n  \"value\": \"Veveme\"\n}", "ok": true}
+{"world": 1, "fact": "Kilu works as a teacher.", "raw": "{\n  \"person\": \"Kilu\",\n  \"attr\": \"job\",\n  \"value\": \"teacher\"\n}", "ok": true}
+{"world": 1, "fact": "Posupo lives in Nagiburg.", "raw": "{\n  \"person\": \"Posupo\",\n  \"attr\": \"city\",\n  \"value\": \"Nagiburg\"\n}", "ok": true}
+{"world": 1, "fact": "Surife's mentor is Kilu.", "raw": "{\n  \"person\": \"Surife\",\n  \"attr\": \"mentor\",\n  \"value\": \"Kilu\"\n}", "ok": true}
+{"world": 1, "fact": "Tala's mentor is Vekulu.", "raw": "{\n  \"person\": \"Tala\",\n  \"attr\": \"mentor\",\n  \"value\": \"Vekulu\"\n}", "ok": true}
+{"world": 1, "fact": "Tala owns a cat.", "raw": "{\n  \"person\": \"Tala\",\n  \"attr\": \"pet\",\n  \"value\": \"cat\"\n}", "ok": true}
+{"world": 1, "fact": "Meku lives in Hanoton.", "raw": "{\n  \"person\": \"Meku\",\n  \"attr\": \"city\",\n  \"value\": \"Hanoton\"\n}", "ok": true}
+{"world": 1, "fact": "Gino works as a doctor.", "raw": "{\n  \"person\": \"Gino\",\n  \"attr\": \"job\",\n  \"value\": \"doctor\"\n}", "ok": true}
+{"world": 1, "fact": "Nado lives in Zonoburg.", "raw": "{\n  \"person\": \"Nado\",\n  \"attr\": \"city\",\n  \"value\": \"Zonoburg\"\n}", "ok": true}
+{"world": 1, "fact": "Kizo owns a parrot.", "raw": "{\n  \"person\": \"Kizo\",\n  \"attr\": \"pet\",\n  \"value\": \"parrot\"\n}", "ok": true}
+{"world": 1, "fact": "Rikuku is 55 years old.", "raw": "{\n  \"person\": \"Rikuku\",\n  \"attr\": \"age\",\n  \"value\": \"55\"\n}", "ok": true}
+{"world": 2, "fact": "Suba works as a miner.", "raw": "{\n  \"person\": \"Suba\",\n  \"attr\": \"job\",\n  \"value\": \"miner\"\n}", "ok": true}
+{"world": 2, "fact": "Pome works as a painter.", "raw": "{\n  \"person\": \"Pome\",\n  \"attr\": \"job\",\n  \"value\": \"painter\"\n}", "ok": true}
+{"world": 2, "fact": "Mita lives in Dokuburg.", "raw": "{\n  \"person\": \"Mita\",\n  \"attr\": \"city\",\n  \"value\": \"Dokuburg\"\n}", "ok": true}
+{"world": 2, "fact": "Melata's mentor is Milu.", "raw": "{\n  \"person\": \"Melata\",\n  \"attr\": \"mentor\",\n  \"value\": \"Milu\"\n}", "ok": true}
+{"world": 2, "fact": "Popo works as a baker.", "raw": "{\n  \"person\": \"Popo\",\n  \"attr\": \"job\",\n  \"value\": \"baker\"\n}", "ok": true}
+{"world": 2, "fact": "Fekive's mentor is Noki.", "raw": "{\n  \"person\": \"Fekive\",\n  \"attr\": \"mentor\",\n  \"value\": \"Noki\"\n}", "ok": true}
+{"world": 2, "fact": "Melata is 37 years old.", "raw": "{\n  \"person\": \"Melata\",\n  \"attr\": \"age\",\n  \"value\": \"37\"\n}", "ok": true}
+{"world": 2, "fact": "Noki's mentor is Dove.", "raw": "{\n  \"person\": \"Noki\",\n  \"attr\": \"mentor\",\n  \"value\": \"Dove\"\n}", "ok": true}
+{"world": 2, "fact": "Noki owns a rabbit.", "raw": "{\n  \"person\": \"Noki\",\n  \"attr\": \"pet\",\n  \"value\": \"rabbit\"\n}", "ok": true}
+{"world": 2, "fact": "Sudolu is 75 years old.", "raw": "{\n  \"person\": \"Sudolu\",\n  \"attr\": \"age\",\n  \"value\": \"75\"\n}", "ok": true}
+{"world": 2, "fact": "Lumefe's mentor is Dosudo.", "raw": "{\n  \"person\": \"Lumefe\",\n  \"attr\": \"mentor\",\n  \"value\": \"Dosudo\"\n}", "ok": true}
+{"world": 2, "fact": "Dove is 31 years old.", "raw": "{\n  \"person\": \"Dove\",\n  \"attr\": \"age\",\n  \"value\": \"31\"\n}", "ok": true}
+{"world": 2, "fact": "Rigi owns a cat.", "raw": "{\n  \"person\": \"Rigi\",\n  \"attr\": \"pet\",\n  \"value\": \"cat\"\n}", "ok": true}
+{"world": 2, "fact": "Donagi is 47 years old.", "raw": "{\n  \"person\": \"Donagi\",\n  \"attr\": \"age\",\n  \"value\": \"47\"\n}", "ok": true}
+{"world": 2, "fact": "Jopona is 36 years old.", "raw": "{\n  \"person\": \"Jopona\",\n  \"attr\": \"age\",\n  \"value\": \"36\"\n}", "ok": true}
+{"world": 2, "fact": "Rigi's mentor is Jola.", "raw": "{\n  \"person\": \"Rigi\",\n  \"attr\": \"mentor\",\n  \"value\": \"Jola\"\n}", "ok": true}
+{"world": 2, "fact": "Sumime works as a doctor.", "raw": "{\n  \"person\": \"Sumime\",\n  \"attr\": \"job\",\n  \"value\": \"doctor\"\n}", "ok": true}
+{"world": 2, "fact": "Rigi is 39 years old.", "raw": "{\n  \"person\": \"Rigi\",\n  \"attr\": \"age\",\n  \"value\": \"39\"\n}", "ok": true}
+{"world": 2, "fact": "Jola owns a dog.", "raw": "{\n  \"person\": \"Jola\",\n  \"attr\": \"pet\",\n  \"value\": \"dog\"\n}", "ok": true}
+{"world": 2, "fact": "Jopona lives in Kiveton.", "raw": "{\n  \"person\": \"Jopona\",\n  \"attr\": \"city\",\n  \"value\": \"Kiveton\"\n}", "ok": true}
+{"world": 2, "fact": "Sudolu owns a parrot.", "raw": "{\n  \"person\": \"Sudolu\",\n  \"attr\": \"pet\",\n  \"value\": \"parrot\"\n}", "ok": true}
+{"world": 2, "fact": "Kutari's mentor is Milu.", "raw": "{\n  \"person\": \"Kutari\",\n  \"attr\": \"mentor\",\n  \"value\": \"Milu\"\n}", "ok": true}
+{"world": 2, "fact": "Jopona works as a doctor.", "raw": "{\n  \"person\": \"Jopona\",\n  \"attr\": \"job\",\n  \"value\": \"doctor\"\n}", "ok": true}
+{"world": 2, "fact": "Lumefe works as a baker.", "raw": "{\n  \"person\": \"Lumefe\",\n  \"attr\": \"job\",\n  \"value\": \"baker\"\n}", "ok": true}
+{"world": 2, "fact": "Gizo lives in Dokuburg.", "raw": "{\n  \"person\": \"Gizo\",\n  \"attr\": \"city\",\n  \"value\": \"Dokuburg\"\n}", "ok": true}
+{"world": 2, "fact": "Givedo owns a parrot.", "raw": "{\n  \"person\": \"Givedo\",\n  \"attr\": \"pet\",\n  \"value\": \"parrot\"\n}", "ok": true}
+{"world": 2, "fact": "Sudolu's mentor is Rigi.", "raw": "{\n  \"person\": \"Sudolu\",\n  \"attr\": \"mentor\",\n  \"value\": \"Rigi\"\n}", "ok": true}
+{"world": 2, "fact": "Gihado is 28 years old.", "raw": "{\n  \"person\": \"Gihado\",\n  \"attr\": \"age\",\n  \"value\": \"28\"\n}", "ok": true}
+{"world": 2, "fact": "Suhaki's mentor is Sumime.", "raw": "{\n  \"person\": \"Suhaki\",\n  \"attr\": \"mentor\",\n  \"value\": \"Sumime\"\n}", "ok": true}
+{"world": 2, "fact": "Lumefe is 68 years old.", "raw": "{\n  \"person\": \"Lumefe\",\n  \"attr\": \"age\",\n  \"value\": \"68\"\n}", "ok": true}
+{"world": 2, "fact": "Mita is 38 years old.", "raw": "{\n  \"person\": \"Mita\",\n  \"attr\": \"age\",\n  \"value\": \"38\"\n}", "ok": true}
+{"world": 2, "fact": "Gihado lives in Basubaford.", "raw": "{\n  \"person\": \"Gihado\",\n  \"attr\": \"city\",\n  \"value\": \"Basubaford\"\n}", "ok": true}
+{"world": 2, "fact": "Rigi lives in Basubaford.", "raw": "{\n  \"person\": \"Rigi\",\n  \"attr\": \"city\",\n  \"value\": \"Basubaford\"\n}", "ok": true}
+{"world": 2, "fact": "Noki works as a sailor.", "raw": "{\n  \"person\": \"Noki\",\n  \"attr\": \"job\",\n  \"value\": \"sailor\"\n}", "ok": true}
+{"world": 2, "fact": "Melata owns a cat.", "raw": "{\n  \"person\": \"Melata\",\n  \"attr\": \"pet\",\n  \"value\": \"cat\"\n}", "ok": true}
+{"world": 2, "fact": "Jozola works as a potter.", "raw": "{\n  \"person\": \"Jozola\",\n  \"attr\": \"job\",\n  \"value\": \"potter\"\n}", "ok": true}
+{"world": 2, "fact": "Fekive works as a pilot.", "raw": "{\n  \"person\": \"Fekive\",\n  \"attr\": \"job\",\n  \"value\": \"pilot\"\n}", "ok": true}
+{"world": 2, "fact": "Suba lives in Kiveton.", "raw": "{\n  \"person\": \"Suba\",\n  \"attr\": \"city\",\n  \"value\": \"Kiveton\"\n}", "ok": true}
+{"world": 2, "fact": "Noki lives in Jogipoton.", "raw": "{\n  \"person\": \"Noki\",\n  \"attr\": \"city\",\n  \"value\": \"Jogipoton\"\n}", "ok": true}
+{"world": 2, "fact": "Donagi's mentor is Mita.", "raw": "{\n  \"person\": \"Donagi\",\n  \"attr\": \"mentor\",\n  \"value\": \"Mita\"\n}", "ok": true}
+{"world": 2, "fact": "Jola works as a sailor.", "raw": "{\n  \"person\": \"Jola\",\n  \"attr\": \"job\",\n  \"value\": \"sailor\"\n}", "ok": true}
+{"world": 2, "fact": "Suhaki is 74 years old.", "raw": "{\n  \"person\": \"Suhaki\",\n  \"attr\": \"age\",\n  \"value\": \"74\"\n}", "ok": true}
+{"world": 2, "fact": "Jozola's mentor is Melata.", "raw": "{\n  \"person\": \"Jozola\",\n  \"attr\": \"mentor\",\n  \"value\": \"Melata\"\n}", "ok": true}
+{"world": 2, "fact": "Suba is 34 years old.", "raw": "{\n  \"person\": \"Suba\",\n  \"attr\": \"age\",\n  \"value\": \"34\"\n}", "ok": true}
+{"world": 2, "fact": "Sumime's mentor is Mita.", "raw": "{\n  \"person\": \"Sumime\",\n  \"attr\": \"mentor\",\n  \"value\": \"Mita\"\n}", "ok": true}
+{"world": 2, "fact": "Dosudo works as a teacher.", "raw": "{\n  \"person\": \"Dosudo\",\n  \"attr\": \"job\",\n  \"value\": \"teacher\"\n}", "ok": true}
+{"world": 2, "fact": "Dove owns a rabbit.", "raw": "{\n  \"person\": \"Dove\",\n  \"attr\": \"pet\",\n  \"value\": \"rabbit\"\n}", "ok": true}
+{"world": 2, "fact": "Givedo lives in Jogipoton.", "raw": "{\n  \"person\": \"Givedo\",\n  \"attr\": \"city\",\n  \"value\": \"Jogipoton\"\n}", "ok": true}
+{"world": 2, "fact": "Sumime lives in Hahaburg.", "raw": "{\n  \"person\": \"Sumime\",\n  \"attr\": \"city\",\n  \"value\": \"Hahaburg\"\n}", "ok": true}
+{"world": 2, "fact": "Givedo's mentor is Dove.", "raw": "{\n  \"person\": \"Givedo\",\n  \"attr\": \"mentor\",\n  \"value\": \"Dove\"\n}", "ok": true}
+{"world": 2, "fact": "Dove's mentor is Popo.", "raw": "{\n  \"person\": \"Dove\",\n  \"attr\": \"mentor\",\n  \"value\": \"Popo\"\n}", "ok": true}
+{"world": 2, "fact": "Fekive owns a cat.", "raw": "{\n  \"person\": \"Fekive\",\n  \"attr\": \"pet\",\n  \"value\": \"cat\"\n}", "ok": true}
+{"world": 2, "fact": "Gizo owns a turtle.", "raw": "{\n  \"person\": \"Gizo\",\n  \"attr\": \"pet\",\n  \"value\": \"turtle\"\n}", "ok": true}
+{"world": 2, "fact": "Dosudo owns a goat.", "raw": "{\n  \"person\": \"Dosudo\",\n  \"attr\": \"pet\",\n  \"value\": \"goat\"\n}", "ok": true}
+{"world": 2, "fact": "Donagi works as a sailor.", "raw": "{\n  \"person\": \"Donagi\",\n  \"attr\": \"job\",\n  \"value\": \"sailor\"\n}", "ok": true}
+{"world": 2, "fact": "Gihado owns a rabbit.", "raw": "{\n  \"person\": \"Gihado\",\n  \"attr\": \"pet\",\n  \"value\": \"rabbit\"\n}", "ok": true}
+{"world": 2, "fact": "Milu is 50 years old.", "raw": "{\n  \"person\": \"Milu\",\n  \"attr\": \"age\",\n  \"value\": \"50\"\n}", "ok": true}
+{"world": 2, "fact": "Dosudo lives in Lupoton.", "raw": "{\n  \"person\": \"Dosudo\",\n  \"attr\": \"city\",\n  \"value\": \"Lupoton\"\n}", "ok": true}
+{"world": 2, "fact": "Lumefe lives in Hahaburg.", "raw": "{\n  \"person\": \"Lumefe\",\n  \"attr\": \"city\",\n  \"value\": \"Hahaburg\"\n}", "ok": true}
+{"world": 2, "fact": "Milu owns a goat.", "raw": "{\n  \"person\": \"Milu\",\n  \"attr\": \"pet\",\n  \"value\": \"goat\"\n}", "ok": true}
+{"world": 2, "fact": "Suba's mentor is Givedo.", "raw": "{\n  \"person\": \"Suba\",\n  \"attr\": \"mentor\",\n  \"value\": \"Givedo\"\n}", "ok": true}
+{"world": 2, "fact": "Nala is 70 years old.", "raw": "{\n  \"person\": \"Nala\",\n  \"attr\": \"age\",\n  \"value\": \"70\"\n}", "ok": true}
+{"world": 2, "fact": "Givedo is 66 years old.", "raw": "{\n  \"person\": \"Givedo\",\n  \"attr\": \"age\",\n  \"value\": \"66\"\n}", "ok": true}
+{"world": 2, "fact": "Gizo is 73 years old.", "raw": "{\n  \"person\": \"Gizo\",\n  \"attr\": \"age\",\n  \"value\": \"73\"\n}", "ok": true}
+{"world": 2, "fact": "Noki is 25 years old.", "raw": "{\n  \"person\": \"Noki\",\n  \"attr\": \"age\",\n  \"value\": \"25\"\n}", "ok": true}
+{"world": 2, "fact": "Popo owns a parrot.", "raw": "{\n  \"person\": \"Popo\",\n  \"attr\": \"pet\",\n  \"value\": \"parrot\"\n}", "ok": true}
+{"world": 2, "fact": "Pome is 64 years old.", "raw": "{\n  \"person\": \"Pome\",\n  \"attr\": \"age\",\n  \"value\": \"64\"\n}", "ok": true}
+{"world": 2, "fact": "Nala lives in Kiveton.", "raw": "{\n  \"person\": \"Nala\",\n  \"attr\": \"city\",\n  \"value\": \"Kiveton\"\n}", "ok": true}
+{"world": 2, "fact": "Popo lives in Dokuburg.", "raw": "{\n  \"person\": \"Popo\",\n  \"attr\": \"city\",\n  \"value\": \"Dokuburg\"\n}", "ok": true}
+{"world": 2, "fact": "Popo is 42 years old.", "raw": "{\n  \"person\": \"Popo\",\n  \"attr\": \"age\",\n  \"value\": \"42\"\n}", "ok": true}
+{"world": 2, "fact": "Fekive is 22 years old.", "raw": "{\n  \"person\": \"Fekive\",\n  \"attr\": \"age\",\n  \"value\": \"22\"\n}", "ok": true}
+{"world": 2, "fact": "Rigi works as a miner.", "raw": "{\n  \"person\": \"Rigi\",\n  \"attr\": \"job\",\n  \"value\": \"miner\"\n}", "ok": true}
+{"world": 2, "fact": "Sudolu lives in Basubaford.", "raw": "{\n  \"person\": \"Sudolu\",\n  \"attr\": \"city\",\n  \"value\": \"Basubaford\"\n}", "ok": true}
+{"world": 2, "fact": "Melata lives in Lupoton.", "raw": "{\n  \"person\": \"Melata\",\n  \"attr\": \"city\",\n  \"value\": \"Lupoton\"\n}", "ok": true}
+{"world": 2, "fact": "Sudolu works as a miner.", "raw": "{\n  \"person\": \"Sudolu\",\n  \"attr\": \"job\",\n  \"value\": \"miner\"\n}", "ok": true}
+{"world": 2, "fact": "Kutari works as a farmer.", "raw": "{\n  \"person\": \"Kutari\",\n  \"attr\": \"job\",\n  \"value\": \"farmer\"\n}", "ok": true}
+{"world": 2, "fact": "Milu lives in Basubaford.", "raw": "{\n  \"person\": \"Milu\",\n  \"attr\": \"city\",\n  \"value\": \"Basubaford\"\n}", "ok": true}
+{"world": 2, "fact": "Sumime owns a dog.", "raw": "{\n  \"person\": \"Sumime\",\n  \"attr\": \"pet\",\n  \"value\": \"dog\"\n}", "ok": true}
+{"world": 2, "fact": "Dosudo is 27 years old.", "raw": "{\n  \"person\": \"Dosudo\",\n  \"attr\": \"age\",\n  \"value\": \"27\"\n}", "ok": true}
+{"world": 2, "fact": "Nala owns a cat.", "raw": "{\n  \"person\": \"Nala\",\n  \"attr\": \"pet\",\n  \"value\": \"cat\"\n}", "ok": true}
+{"world": 2, "fact": "Jola's mentor is Dosudo.", "raw": "{\n  \"person\": \"Jola\",\n  \"attr\": \"mentor\",\n  \"value\": \"Dosudo\"\n}", "ok": true}
+{"world": 2, "fact": "Fekive lives in Jogipoton.", "raw": "{\n  \"person\": \"Fekive\",\n  \"attr\": \"city\",\n  \"value\": \"Jogipoton\"\n}", "ok": true}
+{"world": 2, "fact": "Givedo works as a doctor.", "raw": "{\n  \"person\": \"Givedo\",\n  \"attr\": \"job\",\n  \"value\": \"doctor\"\n}", "ok": true}
+{"world": 2, "fact": "Jozola owns a turtle.", "raw": "{\n  \"person\": \"Jozola\",\n  \"attr\": \"pet\",\n  \"value\": \"turtle\"\n}", "ok": true}
+{"world": 2, "fact": "Gihado works as a pilot.", "raw": "{\n  \"person\": \"Gihado\",\n  \"attr\": \"job\",\n  \"value\": \"pilot\"\n}", "ok": true}
+{"world": 2, "fact": "Mita owns a goat.", "raw": "{\n  \"person\": \"Mita\",\n  \"attr\": \"pet\",\n  \"value\": \"goat\"\n}", "ok": true}
+{"world": 2, "fact": "Mita's mentor is Pome.", "raw": "{\n  \"person\": \"Mita\",\n  \"attr\": \"mentor\",\n  \"value\": \"Pome\"\n}", "ok": true}
+{"world": 2, "fact": "Suhaki lives in Kiveton.", "raw": "{\n  \"person\": \"Suhaki\",\n  \"attr\": \"city\",\n  \"value\": \"Kiveton\"\n}", "ok": true}
+{"world": 2, "fact": "Milu works as a painter.", "raw": "{\n  \"person\": \"Milu\",\n  \"attr\": \"job\",\n  \"value\": \"painter\"\n}", "ok": true}
+{"world": 2, "fact": "Gizo works as a pilot.", "raw": "{\n  \"person\": \"Gizo\",\n  \"attr\": \"job\",\n  \"value\": \"pilot\"\n}", "ok": true}
+{"world": 2, "fact": "Donagi owns a rabbit.", "raw": "{\n  \"person\": \"Donagi\",\n  \"attr\": \"pet\",\n  \"value\": \"rabbit\"\n}", "ok": true}
+{"world": 2, "fact": "Suhaki owns a turtle.", "raw": "{\n  \"person\": \"Suhaki\",\n  \"attr\": \"pet\",\n  \"value\": \"turtle\"\n}", "ok": true}
+{"world": 2, "fact": "Jola lives in Hahaburg.", "raw": "{\n  \"person\": \"Jola\",\n  \"attr\": \"city\",\n  \"value\": \"Hahaburg\"\n}", "ok": true}
+{"world": 2, "fact": "Lumefe owns a goat.", "raw": "{\n  \"person\": \"Lumefe\",\n  \"attr\": \"pet\",\n  \"value\": \"goat\"\n}", "ok": true}
+{"world": 2, "fact": "Pome owns a turtle.", "raw": "{\n  \"person\": \"Pome\",\n  \"attr\": \"pet\",\n  \"value\": \"turtle\"\n}", "ok": true}
+{"world": 2, "fact": "Melata works as a doctor.", "raw": "{\n  \"person\": \"Melata\",\n  \"attr\": \"job\",\n  \"value\": \"doctor\"\n}", "ok": true}
+{"world": 2, "fact": "Pome lives in Hahaburg.", "raw": "{\n  \"person\": \"Pome\",\n  \"attr\": \"city\",\n  \"value\": \"Hahaburg\"\n}", "ok": true}
+{"world": 2, "fact": "Jopona owns a cat.", "raw": "{\n  \"person\": \"Jopona\",\n  \"attr\": \"pet\",\n  \"value\": \"cat\"\n}", "ok": true}
+{"world": 2, "fact": "Jopona's mentor is Popo.", "raw": "{\n  \"person\": \"Jopona\",\n  \"attr\": \"mentor\",\n  \"value\": \"Popo\"\n}", "ok": true}
+{"world": 2, "fact": "Jola is 32 years old.", "raw": "{\n  \"person\": \"Jola\",\n  \"attr\": \"age\",\n  \"value\": \"32\"\n}", "ok": true}
+{"world": 2, "fact": "Gihado's mentor is Rigi.", "raw": "{\n  \"person\": \"Gihado\",\n  \"attr\": \"mentor\",\n  \"value\": \"Rigi\"\n}", "ok": true}
+{"world": 2, "fact": "Kutari is 65 years old.", "raw": "{\n  \"person\": \"Kutari\",\n  \"attr\": \"age\",\n  \"value\": \"65\"\n}", "ok": true}
+{"world": 2, "fact": "Dove lives in Dokuburg.", "raw": "{\n  \"person\": \"Dove\",\n  \"attr\": \"city\",\n  \"value\": \"Dokuburg\"\n}", "ok": true}
+{"world": 2, "fact": "Jozola lives in Dokuburg.", "raw": "{\n  \"person\": \"Jozola\",\n  \"attr\": \"city\",\n  \"value\": \"Dokuburg\"\n}", "ok": true}
+{"world": 2, "fact": "Kutari owns a goat.", "raw": "{\n  \"person\": \"Kutari\",\n  \"attr\": \"pet\",\n  \"value\": \"goat\"\n}", "ok": true}
+{"world": 2, "fact": "Nala works as a tailor.", "raw": "{\n  \"person\": \"Nala\",\n  \"attr\": \"job\",\n  \"value\": \"tailor\"\n}", "ok": true}
+{"world": 2, "fact": "Dove works as a doctor.", "raw": "{\n  \"person\": \"Dove\",\n  \"attr\": \"job\",\n  \"value\": \"doctor\"\n}", "ok": true}
+{"world": 2, "fact": "Sumime is 44 years old.", "raw": "{\n  \"person\": \"Sumime\",\n  \"attr\": \"age\",\n  \"value\": \"44\"\n}", "ok": true}
+{"world": 2, "fact": "Kutari lives in Basubaford.", "raw": "{\n  \"person\": \"Kutari\",\n  \"attr\": \"city\",\n  \"value\": \"Basubaford\"\n}", "ok": true}
+{"world": 2, "fact": "Donagi lives in Jogipoton.", "raw": "{\n  \"person\": \"Donagi\",\n  \"attr\": \"city\",\n  \"value\": \"Jogipoton\"\n}", "ok": true}
+{"world": 2, "fact": "Pome's mentor is Jola.", "raw": "{\n  \"person\": \"Pome\",\n  \"attr\": \"mentor\",\n  \"value\": \"Jola\"\n}", "ok": true}
+{"world": 2, "fact": "Suba owns a rabbit.", "raw": "{\n  \"person\": \"Suba\",\n  \"attr\": \"pet\",\n  \"value\": \"rabbit\"\n}", "ok": true}
+{"world": 2, "fact": "Mita works as a painter.", "raw": "{\n  \"person\": \"Mita\",\n  \"attr\": \"job\",\n  \"value\": \"painter\"\n}", "ok": true}
+{"world": 2, "fact": "Suhaki works as a sailor.", "raw": "{\n  \"person\": \"Suhaki\",\n  \"attr\": \"job\",\n  \"value\": \"sailor\"\n}", "ok": true}
+{"world": 2, "fact": "Nala's mentor is Dove.", "raw": "{\n  \"person\": \"Nala\",\n  \"attr\": \"mentor\",\n  \"value\": \"Dove\"\n}", "ok": true}
+{"world": 2, "fact": "Jozola is 24 years old.", "raw": "{\n  \"person\": \"Jozola\",\n  \"attr\": \"age\",\n  \"value\": \"24\"\n}", "ok": true}
+{"world": 2, "fact": "Milu's mentor is Gizo.", "raw": "{\n  \"person\": \"Milu\",\n  \"attr\": \"mentor\",\n  \"value\": \"Gizo\"\n}", "ok": true}
+{"world": 3, "fact": "Joha is 55 years old.", "raw": "{\n  \"person\": \"Joha\",\n  \"attr\": \"age\",\n  \"value\": \"55\"\n}", "ok": true}
+{"world": 3, "fact": "Riha owns a turtle.", "raw": "{\n  \"person\": \"Riha\",\n  \"attr\": \"pet\",\n  \"value\": \"turtle\"\n}", "ok": true}
+{"world": 3, "fact": "Dovezo owns a parrot.", "raw": "{\n  \"person\": \"Dovezo\",\n  \"attr\": \"pet\",\n  \"value\": \"parrot\"\n}", "ok": true}
+{"world": 3, "fact": "Kunaba lives in Gilafeton.", "raw": "{\n  \"person\": \"Kunaba\",\n  \"attr\": \"city\",\n  \"value\": \"Gilafeton\"\n}", "ok": true}
+{"world": 3, "fact": "Kuki's mentor is Josuha.", "raw": "{\n  \"person\": \"Kuki\",\n  \"attr\": \"mentor\",\n  \"value\": \"Josuha\"\n}", "ok": true}
+{"world": 3, "fact": "Girizo is 41 years old.", "raw": "{\n  \"person\": \"Girizo\",\n  \"attr\": \"age\",\n  \"value\": \"41\"\n}", "ok": true}
+{"world": 3, "fact": "Misula works as a potter.", "raw": "{\n  \"person\": \"Misula\",\n  \"attr\": \"job\",\n  \"value\": \"potter\"\n}", "ok": true}
+{"world": 3, "fact": "Josuha works as a teacher.", "raw": "{\n  \"person\": \"Josuha\",\n  \"attr\": \"job\",\n  \"value\": \"teacher\"\n}", "ok": true}
+{"world": 3, "fact": "Hamiku lives in Rizoford.", "raw": "{\n  \"person\": \"Hamiku\",\n  \"attr\": \"city\",\n  \"value\": \"Rizoford\"\n}", "ok": true}
+{"world": 3, "fact": "Jojo lives in Rizoford.", "raw": "{\n  \"person\": \"Jojo\",\n  \"attr\": \"city\",\n  \"value\": \"Rizoford\"\n}", "ok": true}
+{"world": 3, "fact": "Kidoba lives in Lanafeton.", "raw": "{\n  \"person\": \"Kidoba\",\n  \"attr\": \"city\",\n  \"value\": \"Lanafeton\"\n}", "ok": true}
+{"world": 3, "fact": "Kisupo is 21 years old.", "raw": "{\n  \"person\": \"Kisupo\",\n  \"attr\": \"age\",\n  \"value\": \"21\"\n}", "ok": true}
+{"world": 3, "fact": "Kidoba works as a painter.", "raw": "{\n  \"person\": \"Kidoba\",\n  \"attr\": \"job\",\n  \"value\": \"painter\"\n}", "ok": true}
+{"world": 3, "fact": "Girizo lives in Bafeton.", "raw": "{\n  \"person\": \"Girizo\",\n  \"attr\": \"city\",\n  \"value\": \"Bafeton\"\n}", "ok": true}
+{"world": 3, "fact": "Jojo works as a pilot.", "raw": "{\n  \"person\": \"Jojo\",\n  \"attr\": \"job\",\n  \"value\": \"pilot\"\n}", "ok": true}
+{"world": 3, "fact": "Batave owns a cat.", "raw": "{\n  \"person\": \"Batave\",\n  \"attr\": \"pet\",\n  \"value\": \"cat\"\n}", "ok": true}
+{"world": 3, "fact": "Kisupo lives in Bafeton.", "raw": "{\n  \"person\": \"Kisupo\",\n  \"attr\": \"city\",\n  \"value\": \"Bafeton\"\n}", "ok": true}
+{"world": 3, "fact": "Dovezo is 60 years old.", "raw": "{\n  \"person\": \"Dovezo\",\n  \"attr\": \"age\",\n  \"value\": \"60\"\n}", "ok": true}
+{"world": 3, "fact": "Vemeri is 29 years old.", "raw": "{\n  \"person\": \"Vemeri\",\n  \"attr\": \"age\",\n  \"value\": \"29\"\n}", "ok": true}
+{"world": 3, "fact": "Najomi owns a parrot.", "raw": "{\n  \"person\": \"Najomi\",\n  \"attr\": \"pet\",\n  \"value\": \"parrot\"\n}", "ok": true}
+{"world": 3, "fact": "Kisupo's mentor is Dovezo.", "raw": "{\n  \"person\": \"Kisupo\",\n  \"attr\": \"mentor\",\n  \"value\": \"Dovezo\"\n}", "ok": true}
+{"world": 3, "fact": "Misula's mentor is Dovezo.", "raw": "{\n  \"person\": \"Misula\",\n  \"attr\": \"mentor\",\n  \"value\": \"Dovezo\"\n}", "ok": true}
+{"world": 3, "fact": "Zojo is 62 years old.", "raw": "{\n  \"person\": \"Zojo\",\n  \"attr\": \"age\",\n  \"value\": \"62\"\n}", "ok": true}
+{"world": 3, "fact": "Kuki owns a parrot.", "raw": "{\n  \"person\": \"Kuki\",\n  \"attr\": \"pet\",\n  \"value\": \"parrot\"\n}", "ok": true}
+{"world": 3, "fact": "Zojo owns a dog.", "raw": "{\n  \"person\": \"Zojo\",\n  \"attr\": \"pet\",\n  \"value\": \"dog\"\n}", "ok": true}
+{"world": 3, "fact": "Kihafe's mentor is Joha.", "raw": "{\n  \"person\": \"Kihafe\",\n  \"attr\": \"mentor\",\n  \"value\": \"Joha\"\n}", "ok": true}
+{"world": 3, "fact": "Misula owns a goat.", "raw": "{\n  \"person\": \"Misula\",\n  \"attr\": \"pet\",\n  \"value\": \"goat\"\n}", "ok": true}
+{"world": 3, "fact": "Kunaba is 75 years old.", "raw": "{\n  \"person\": \"Kunaba\",\n  \"attr\": \"age\",\n  \"value\": \"75\"\n}", "ok": true}
+{"world": 3, "fact": "Batave is 48 years old.", "raw": "{\n  \"person\": \"Batave\",\n  \"attr\": \"age\",\n  \"value\": \"48\"\n}", "ok": true}
+{"world": 3, "fact": "Kunaba's mentor is Domiri.", "raw": "{\n  \"person\": \"Kunaba\",\n  \"attr\": \"mentor\",\n  \"value\": \"Domiri\"\n}", "ok": true}
+{"world": 3, "fact": "Gime owns a rabbit.", "raw": "{\n  \"person\": \"Gime\",\n  \"attr\": \"pet\",\n  \"value\": \"rabbit\"\n}", "ok": true}
+{"world": 3, "fact": "Domiri owns a turtle.", "raw": "{\n  \"person\": \"Domiri\",\n  \"attr\": \"pet\",\n  \"value\": \"turtle\"\n}", "ok": true}
+{"world": 3, "fact": "Kidoba owns a goat.", "raw": "{\n  \"person\": \"Kidoba\",\n  \"attr\": \"pet\",\n  \"value\": \"goat\"\n}", "ok": true}
+{"world": 3, "fact": "Zodo lives in Lanafeton.", "raw": "{\n  \"person\": \"Zodo\",\n  \"attr\": \"city\",\n  \"value\": \"Lanafeton\"\n}", "ok": true}
+{"world": 3, "fact": "Riha lives in Lanafeton.", "raw": "{\n  \"person\": \"Riha\",\n  \"attr\": \"city\",\n  \"value\": \"Lanafeton\"\n}", "ok": true}
+{"world": 3, "fact": "Kihafe lives in Kikiton.", "raw": "{\n  \"person\": \"Kihafe\",\n  \"attr\": \"city\",\n  \"value\": \"Kikiton\"\n}", "ok": true}
+{"world": 3, "fact": "Vemeri works as a sailor.", "raw": "{\n  \"person\": \"Vemeri\",\n  \"attr\": \"job\",\n  \"value\": \"sailor\"\n}", "ok": true}
+{"world": 3, "fact": "Misula is 39 years old.", "raw": "{\n  \"person\": \"Misula\",\n  \"attr\": \"age\",\n  \"value\": \"39\"\n}", "ok": true}
+{"world": 3, "fact": "Kidoba's mentor is Vena.", "raw": "{\n  \"person\": \"Kidoba\",\n  \"attr\": \"mentor\",\n  \"value\": \"Vena\"\n}", "ok": true}
+{"world": 3, "fact": "Rikudo works as a doctor.", "raw": "{\n  \"person\": \"Rikudo\",\n  \"attr\": \"job\",\n  \"value\": \"doctor\"\n}", "ok": true}
+{"world": 3, "fact": "Baku is 40 years old.", "raw": "{\n  \"person\": \"Baku\",\n  \"attr\": \"age\",\n  \"value\": \"40\"\n}", "ok": true}
+{"world": 3, "fact": "Jojo is 42 years old.", "raw": "{\n  \"person\": \"Jojo\",\n  \"attr\": \"age\",\n  \"value\": \"42\"\n}", "ok": true}
+{"world": 3, "fact": "Domiri works as a teacher.", "raw": "{\n  \"person\": \"Domiri\",\n  \"attr\": \"job\",\n  \"value\": \"teacher\"\n}", "ok": true}
+{"world": 3, "fact": "Zojo works as a teacher.", "raw": "{\n  \"person\": \"Zojo\",\n  \"attr\": \"job\",\n  \"value\": \"teacher\"\n}", "ok": true}
+{"world": 3, "fact": "Kuki works as a pilot.", "raw": "{\n  \"person\": \"Kuki\",\n  \"attr\": \"job\",\n  \"value\": \"pilot\"\n}", "ok": true}
+{"world": 3, "fact": "Girizo owns a rabbit.", "raw": "{\n  \"person\": \"Girizo\",\n  \"attr\": \"pet\",\n  \"value\": \"rabbit\"\n}", "ok": true}
+{"world": 3, "fact": "Kunaba owns a turtle.", "raw": "{\n  \"person\": \"Kunaba\",\n  \"attr\": \"pet\",\n  \"value\": \"turtle\"\n}", "ok": true}
+{"world": 3, "fact": "Kuki is 52 years old.", "raw": "{\n  \"person\": \"Kuki\",\n  \"attr\": \"age\",\n  \"value\": \"52\"\n}", "ok": true}
+{"world": 3, "fact": "Dovezo lives in Lanafeton.", "raw": "{\n  \"person\": \"Dovezo\",\n  \"attr\": \"city\",\n  \"value\": \"Lanafeton\"\n}", "ok": true}
+{"world": 3, "fact": "Hamiku owns a dog.", "raw": "{\n  \"person\": \"Hamiku\",\n  \"attr\": \"pet\",\n  \"value\": \"dog\"\n}", "ok": true}
+{"world": 3, "fact": "Hamiku works as a pilot.", "raw": "{\n  \"person\": \"Hamiku\",\n  \"attr\": \"job\",\n  \"value\": \"pilot\"\n}", "ok": true}
+{"world": 3, "fact": "Josuha owns a cat.", "raw": "{\n  \"person\": \"Josuha\",\n  \"attr\": \"pet\",\n  \"value\": \"cat\"\n}", "ok": true}
+{"world": 3, "fact": "Joha owns a rabbit.", "raw": "{\n  \"person\": \"Joha\",\n  \"attr\": \"pet\",\n  \"value\": \"rabbit\"\n}", "ok": true}
+{"world": 3, "fact": "Rikudo is 51 years old.", "raw": "{\n  \"person\": \"Rikudo\",\n  \"attr\": \"age\",\n  \"value\": \"51\"\n}", "ok": true}
+{"world": 3, "fact": "Gime lives in Kikiton.", "raw": "{\n  \"person\": \"Gime\",\n  \"attr\": \"city\",\n  \"value\": \"Kikiton\"\n}", "ok": true}
+{"world": 3, "fact": "Noki lives in Zonoton.", "raw": "{\n  \"person\": \"Noki\",\n  \"attr\": \"city\",\n  \"value\": \"Zonoton\"\n}", "ok": true}
+{"world": 3, "fact": "Dovezo works as a farmer.", "raw": "{\n  \"person\": \"Dovezo\",\n  \"attr\": \"job\",\n  \"value\": \"farmer\"\n}", "ok": true}
+{"world": 3, "fact": "Jojo owns a goat.", "raw": "{\n  \"person\": \"Jojo\",\n  \"attr\": \"pet\",\n  \"value\": \"goat\"\n}", "ok": true}
+{"world": 3, "fact": "Jojo's mentor is Vena.", "raw": "{\n  \"person\": \"Jojo\",\n  \"attr\": \"mentor\",\n  \"value\": \"Vena\"\n}", "ok": true}
+{"world": 3, "fact": "Zodo's mentor is Batave.", "raw": "{\n  \"person\": \"Zodo\",\n  \"attr\": \"mentor\",\n  \"value\": \"Batave\"\n}", "ok": true}
+{"world": 3, "fact": "Najomi is 22 years old.", "raw": "{\n  \"person\": \"Najomi\",\n  \"attr\": \"age\",\n  \"value\": \"22\"\n}", "ok": true}
+{"world": 3, "fact": "Zodo is 72 years old.", "raw": "{\n  \"person\": \"Zodo\",\n  \"attr\": \"age\",\n  \"value\": \"72\"\n}", "ok": true}
+{"world": 3, "fact": "Riha's mentor is Girizo.", "raw": "{\n  \"person\": \"Riha\",\n  \"attr\": \"mentor\",\n  \"value\": \"Girizo\"\n}", "ok": true}
+{"world": 3, "fact": "Noki works as a teacher.", "raw": "{\n  \"person\": \"Noki\",\n  \"attr\": \"job\",\n  \"value\": \"teacher\"\n}", "ok": true}
+{"world": 3, "fact": "Josuha's mentor is Vena.", "raw": "{\n  \"person\": \"Josuha\",\n  \"attr\": \"mentor\",\n  \"value\": \"Vena\"\n}", "ok": true}
+{"world": 3, "fact": "Najomi works as a painter.", "raw": "{\n  \"person\": \"Najomi\",\n  \"attr\": \"job\",\n  \"value\": \"painter\"\n}", "ok": true}
+{"world": 3, "fact": "Kisupo works as a farmer.", "raw": "{\n  \"person\": \"Kisupo\",\n  \"attr\": \"job\",\n  \"value\": \"farmer\"\n}", "ok": true}
+{"world": 3, "fact": "Baku's mentor is Zojo.", "raw": "{\n  \"person\": \"Baku\",\n  \"attr\": \"mentor\",\n  \"value\": \"Zojo\"\n}", "ok": true}
+{"world": 3, "fact": "Vena lives in Rizoford.", "raw": "{\n  \"person\": \"Vena\",\n  \"attr\": \"city\",\n  \"value\": \"Rizoford\"\n}", "ok": true}
+{"world": 3, "fact": "Zodo works as a painter.", "raw": "{\n  \"person\": \"Zodo\",\n  \"attr\": \"job\",\n  \"value\": \"painter\"\n}", "ok": true}
+{"world": 3, "fact": "Najomi lives in Zonoton.", "raw": "{\n  \"person\": \"Najomi\",\n  \"attr\": \"city\",\n  \"value\": \"Zonoton\"\n}", "ok": true}
+{"world": 3, "fact": "Josuha lives in Lanafeton.", "raw": "{\n  \"person\": \"Josuha\",\n  \"attr\": \"city\",\n  \"value\": \"Lanafeton\"\n}", "ok": true}
+{"world": 3, "fact": "Gime's mentor is Kuki.", "raw": "{\n  \"person\": \"Gime\",\n  \"attr\": \"mentor\",\n  \"value\": \"Kuki\"\n}", "ok": true}
+{"world": 3, "fact": "Girizo's mentor is Vena.", "raw": "{\n  \"person\": \"Girizo\",\n  \"attr\": \"mentor\",\n  \"value\": \"Vena\"\n}", "ok": true}
+{"world": 3, "fact": "Zojo's mentor is Dovezo.", "raw": "{\n  \"person\": \"Zojo\",\n  \"attr\": \"mentor\",\n  \"value\": \"Dovezo\"\n}", "ok": true}
+{"world": 3, "fact": "Vemeri's mentor is Jojo.", "raw": "{\n  \"person\": \"Vemeri\",\n  \"attr\": \"mentor\",\n  \"value\": \"Jojo\"\n}", "ok": true}
+{"world": 3, "fact": "Josuha is 38 years old.", "raw": "{\n  \"person\": \"Josuha\",\n  \"attr\": \"age\",\n  \"value\": \"38\"\n}", "ok": true}
+{"world": 3, "fact": "Domiri lives in Rizoford.", "raw": "{\n  \"person\": \"Domiri\",\n  \"attr\": \"city\",\n  \"value\": \"Rizoford\"\n}", "ok": true}
+{"world": 3, "fact": "Kihafe works as a tailor.", "raw": "{\n  \"person\": \"Kihafe\",\n  \"attr\": \"job\",\n  \"value\": \"tailor\"\n}", "ok": true}
+{"world": 3, "fact": "Domiri's mentor is Vena.", "raw": "{\n  \"person\": \"Domiri\",\n  \"attr\": \"mentor\",\n  \"value\": \"Vena\"\n}", "ok": true}
+{"world": 3, "fact": "Joha works as a potter.", "raw": "{\n  \"person\": \"Joha\",\n  \"attr\": \"job\",\n  \"value\": \"potter\"\n}", "ok": true}
+{"world": 3, "fact": "Baku works as a baker.", "raw": "{\n  \"person\": \"Baku\",\n  \"attr\": \"job\",\n  \"value\": \"baker\"\n}", "ok": true}
+{"world": 3, "fact": "Kuki lives in Lanafeton.", "raw": "{\n  \"person\": \"Kuki\",\n  \"attr\": \"city\",\n  \"value\": \"Lanafeton\"\n}", "ok": true}
+{"world": 3, "fact": "Vena owns a cat.", "raw": "{\n  \"person\": \"Vena\",\n  \"attr\": \"pet\",\n  \"value\": \"cat\"\n}", "ok": true}
+{"world": 3, "fact": "Riha works as a potter.", "raw": "{\n  \"person\": \"Riha\",\n  \"attr\": \"job\",\n  \"value\": \"potter\"\n}", "ok": true}
+{"world": 3, "fact": "Baku owns a dog.", "raw": "{\n  \"person\": \"Baku\",\n  \"attr\": \"pet\",\n  \"value\": \"dog\"\n}", "ok": true}
+{"world": 3, "fact": "Noki is 53 years old.", "raw": "{\n  \"person\": \"Noki\",\n  \"attr\": \"age\",\n  \"value\": \"53\"\n}", "ok": true}
+{"world": 3, "fact": "Misula lives in Bafeton.", "raw": "{\n  \"person\": \"Misula\",\n  \"attr\": \"city\",\n  \"value\": \"Bafeton\"\n}", "ok": true}
+{"world": 3, "fact": "Baku lives in Zonoton.", "raw": "{\n  \"person\": \"Baku\",\n  \"attr\": \"city\",\n  \"value\": \"Zonoton\"\n}", "ok": true}
+{"world": 3, "fact": "Rikudo lives in Lanafeton.", "raw": "{\n  \"person\": \"Rikudo\",\n  \"attr\": \"city\",\n  \"value\": \"Lanafeton\"\n}", "ok": true}
+{"world": 3, "fact": "Kisupo owns a cat.", "raw": "{\n  \"person\": \"Kisupo\",\n  \"attr\": \"pet\",\n  \"value\": \"cat\"\n}", "ok": true}
+{"world": 3, "fact": "Hamiku's mentor is Domiri.", "raw": "{\n  \"person\": \"Hamiku\",\n  \"attr\": \"mentor\",\n  \"value\": \"Domiri\"\n}", "ok": true}
+{"world": 3, "fact": "Noki's mentor is Zojo.", "raw": "{\n  \"person\": \"Noki\",\n  \"attr\": \"mentor\",\n  \"value\": \"Zojo\"\n}", "ok": true}
+{"world": 3, "fact": "Najomi's mentor is Jojo.", "raw": "{\n  \"person\": \"Najomi\",\n  \"attr\": \"mentor\",\n  \"value\": \"Jojo\"\n}", "ok": true}
+{"world": 3, "fact": "Vemeri lives in Kikiton.", "raw": "{\n  \"person\": \"Vemeri\",\n  \"attr\": \"city\",\n  \"value\": \"Kikiton\"\n}", "ok": true}
+{"world": 3, "fact": "Noki owns a turtle.", "raw": "{\n  \"person\": \"Noki\",\n  \"attr\": \"pet\",\n  \"value\": \"turtle\"\n}", "ok": true}
+{"world": 3, "fact": "Joha's mentor is Vena.", "raw": "{\n  \"person\": \"Joha\",\n  \"attr\": \"mentor\",\n  \"value\": \"Vena\"\n}", "ok": true}
+{"world": 3, "fact": "Rikudo owns a goat.", "raw": "{\n  \"person\": \"Rikudo\",\n  \"attr\": \"pet\",\n  \"value\": \"goat\"\n}", "ok": true}
+{"world": 3, "fact": "Domiri is 54 years old.", "raw": "{\n  \"person\": \"Domiri\",\n  \"attr\": \"age\",\n  \"value\": \"54\"\n}", "ok": true}
+{"world": 3, "fact": "Batave works as a sailor.", "raw": "{\n  \"person\": \"Batave\",\n  \"attr\": \"job\",\n  \"value\": \"sailor\"\n}", "ok": true}
+{"world": 3, "fact": "Gime works as a painter.", "raw": "{\n  \"person\": \"Gime\",\n  \"attr\": \"job\",\n  \"value\": \"painter\"\n}", "ok": true}
+{"world": 3, "fact": "Kunaba works as a potter.", "raw": "{\n  \"person\": \"Kunaba\",\n  \"attr\": \"job\",\n  \"value\": \"potter\"\n}", "ok": true}
+{"world": 3, "fact": "Kihafe owns a turtle.", "raw": "{\n  \"person\": \"Kihafe\",\n  \"attr\": \"pet\",\n  \"value\": \"turtle\"\n}", "ok": true}
+{"world": 3, "fact": "Gime is 47 years old.", "raw": "{\n  \"person\": \"Gime\",\n  \"attr\": \"age\",\n  \"value\": \"47\"\n}", "ok": true}
+{"world": 3, "fact": "Vena is 31 years old.", "raw": "{\n  \"person\": \"Vena\",\n  \"attr\": \"age\",\n  \"value\": \"31\"\n}", "ok": true}
+{"world": 3, "fact": "Vemeri owns a cat.", "raw": "{\n  \"person\": \"Vemeri\",\n  \"attr\": \"pet\",\n  \"value\": \"cat\"\n}", "ok": true}
+{"world": 3, "fact": "Kidoba is 32 years old.", "raw": "{\n  \"person\": \"Kidoba\",\n  \"attr\": \"age\",\n  \"value\": \"32\"\n}", "ok": true}
+{"world": 3, "fact": "Hamiku is 66 years old.", "raw": "{\n  \"person\": \"Hamiku\",\n  \"attr\": \"age\",\n  \"value\": \"66\"\n}", "ok": true}
+{"world": 3, "fact": "Batave lives in Gilafeton.", "raw": "{\n  \"person\": \"Batave\",\n  \"attr\": \"city\",\n  \"value\": \"Gilafeton\"\n}", "ok": true}
+{"world": 3, "fact": "Riha is 33 years old.", "raw": "{\n  \"person\": \"Riha\",\n  \"attr\": \"age\",\n  \"value\": \"33\"\n}", "ok": true}
+{"world": 3, "fact": "Vena works as a potter.", "raw": "{\n  \"person\": \"Vena\",\n  \"attr\": \"job\",\n  \"value\": \"potter\"\n}", "ok": true}
+{"world": 3, "fact": "Joha lives in Lanafeton.", "raw": "{\n  \"person\": \"Joha\",\n  \"attr\": \"city\",\n  \"value\": \"Lanafeton\"\n}", "ok": true}
+{"world": 3, "fact": "Zojo lives in Rizoford.", "raw": "{\n  \"person\": \"Zojo\",\n  \"attr\": \"city\",\n  \"value\": \"Rizoford\"\n}", "ok": true}
+{"world": 3, "fact": "Batave's mentor is Kidoba.", "raw": "{\n  \"person\": \"Batave\",\n  \"attr\": \"mentor\",\n  \"value\": \"Kidoba\"\n}", "ok": true}
+{"world": 3, "fact": "Zodo owns a turtle.", "raw": "{\n  \"person\": \"Zodo\",\n  \"attr\": \"pet\",\n  \"value\": \"turtle\"\n}", "ok": true}
+{"world": 3, "fact": "Kihafe is 36 years old.", "raw": "{\n  \"person\": \"Kihafe\",\n  \"attr\": \"age\",\n  \"value\": \"36\"\n}", "ok": true}
+{"world": 3, "fact": "Girizo works as a painter.", "raw": "{\n  \"person\": \"Girizo\",\n  \"attr\": \"job\",\n  \"value\": \"painter\"\n}", "ok": true}
+{"world": 4, "fact": "Kupogi lives in Kusuford.", "raw": "{\n  \"person\": \"Kupogi\",\n  \"attr\": \"city\",\n  \"value\": \"Kusuford\"\n}", "ok": true}
+{"world": 4, "fact": "Nakufe works as a tailor.", "raw": "{\n  \"person\": \"Nakufe\",\n  \"attr\": \"job\",\n  \"value\": \"tailor\"\n}", "ok": true}
+{"world": 4, "fact": "Nakufe is 25 years old.", "raw": "{\n  \"person\": \"Nakufe\",\n  \"attr\": \"age\",\n  \"value\": \"25\"\n}", "ok": true}
+{"world": 4, "fact": "Lagiba owns a parrot.", "raw": "{\n  \"person\": \"Lagiba\",\n  \"attr\": \"pet\",\n  \"value\": \"parrot\"\n}", "ok": true}
+{"world": 4, "fact": "Ferive lives in Pojoburg.", "raw": "{\n  \"person\": \"Ferive\",\n  \"attr\": \"city\",\n  \"value\": \"Pojoburg\"\n}", "ok": true}
+{"world": 4, "fact": "Rina lives in Pohajoton.", "raw": "{\n  \"person\": \"Rina\",\n  \"attr\": \"city\",\n  \"value\": \"Pohajoton\"\n}", "ok": true}
+{"world": 4, "fact": "Bado's mentor is Haluzo.", "raw": "{\n  \"person\": \"Bado\",\n  \"attr\": \"mentor\",\n  \"value\": \"Haluzo\"\n}", "ok": true}
+{"world": 4, "fact": "Nakufe's mentor is Vela.", "raw": "{\n  \"person\": \"Nakufe\",\n  \"attr\": \"mentor\",\n  \"value\": \"Vela\"\n}", "ok": true}
+{"world": 4, "fact": "Rina's mentor is Jopoku.", "raw": "{\n  \"person\": \"Rina\",\n  \"attr\": \"mentor\",\n  \"value\": \"Jopoku\"\n}", "ok": true}
+{"world": 4, "fact": "Haluzo is 73 years old.", "raw": "{\n  \"person\": \"Haluzo\",\n  \"attr\": \"age\",\n  \"value\": \"73\"\n}", "ok": true}
+{"world": 4, "fact": "Jopoku works as a sailor.", "raw": "{\n  \"person\": \"Jopoku\",\n  \"attr\": \"job\",\n  \"value\": \"sailor\"\n}", "ok": true}
+{"world": 4, "fact": "Fevena owns a dog.", "raw": "{\n  \"person\": \"Fevena\",\n  \"attr\": \"pet\",\n  \"value\": \"dog\"\n}", "ok": true}
+{"world": 4, "fact": "Zozo is 32 years old.", "raw": "{\n  \"person\": \"Zozo\",\n  \"attr\": \"age\",\n  \"value\": \"32\"\n}", "ok": true}
+{"world": 4, "fact": "Dodo works as a baker.", "raw": "{\n  \"person\": \"Dodo\",\n  \"attr\": \"job\",\n  \"value\": \"baker\"\n}", "ok": true}
+{"world": 4, "fact": "Feluna's mentor is Mepoku.", "raw": "{\n  \"person\": \"Feluna\",\n  \"attr\": \"mentor\",\n  \"value\": \"Mepoku\"\n}", "ok": true}
+{"world": 4, "fact": "Mizo owns a turtle.", "raw": "{\n  \"person\": \"Mizo\",\n  \"attr\": \"pet\",\n  \"value\": \"turtle\"\n}", "ok": true}
+{"world": 4, "fact": "Gikizo works as a doctor.", "raw": "{\n  \"person\": \"Gikizo\",\n  \"attr\": \"job\",\n  \"value\": \"doctor\"\n}", "ok": true}
+{"world": 4, "fact": "Feluna works as a doctor.", "raw": "{\n  \"person\": \"Feluna\",\n  \"attr\": \"job\",\n  \"value\": \"doctor\"\n}", "ok": true}
+{"world": 4, "fact": "Rina owns a rabbit.", "raw": "{\n  \"person\": \"Rina\",\n  \"attr\": \"pet\",\n  \"value\": \"rabbit\"\n}", "ok": true}
+{"world": 4, "fact": "Zobave lives in Pojoburg.", "raw": "{\n  \"person\": \"Zobave\",\n  \"attr\": \"city\",\n  \"value\": \"Pojoburg\"\n}", "ok": true}
+{"world": 4, "fact": "Gikizo is 48 years old.", "raw": "{\n  \"person\": \"Gikizo\",\n  \"attr\": \"age\",\n  \"value\": \"48\"\n}", "ok": true}
+{"world": 4, "fact": "Dodo lives in Habahaford.", "raw": "{\n  \"person\": \"Dodo\",\n  \"attr\": \"city\",\n  \"value\": \"Habahaford\"\n}", "ok": true}
+{"world": 4, "fact": "Zobave is 46 years old.", "raw": "{\n  \"person\": \"Zobave\",\n  \"attr\": \"age\",\n  \"value\": \"46\"\n}", "ok": true}
+{"world": 4, "fact": "Dodo's mentor is Bado.", "raw": "{\n  \"person\": \"Dodo\",\n  \"attr\": \"mentor\",\n  \"value\": \"Bado\"\n}", "ok": true}
+{"world": 4, "fact": "Vela owns a dog.", "raw": "{\n  \"person\": \"Vela\",\n  \"attr\": \"pet\",\n  \"value\": \"dog\"\n}", "ok": true}
+{"world": 4, "fact": "Zozo's mentor is Vela.", "raw": "{\n  \"person\": \"Zozo\",\n  \"attr\": \"mentor\",\n  \"value\": \"Vela\"\n}", "ok": true}
+{"world": 4, "fact": "Bazono lives in Dojoburg.", "raw": "{\n  \"person\": \"Bazono\",\n  \"attr\": \"city\",\n  \"value\": \"Dojoburg\"\n}", "ok": true}
+{"world": 4, "fact": "Kupogi works as a tailor.", "raw": "{\n  \"person\": \"Kupogi\",\n  \"attr\": \"job\",\n  \"value\": \"tailor\"\n}", "ok": true}
+{"world": 4, "fact": "Nakufe lives in Dojoburg.", "raw": "{\n  \"person\": \"Nakufe\",\n  \"attr\": \"city\",\n  \"value\": \"Dojoburg\"\n}", "ok": true}
+{"world": 4, "fact": "Jopoku is 76 years old.", "raw": "{\n  \"person\": \"Jopoku\",\n  \"attr\": \"age\",\n  \"value\": \"76\"\n}", "ok": true}
+{"world": 4, "fact": "Nohapo lives in Pohajoton.", "raw": "{\n  \"person\": \"Nohapo\",\n  \"attr\": \"city\",\n  \"value\": \"Pohajoton\"\n}", "ok": true}
+{"world": 4, "fact": "Mepoku lives in Pojoburg.", "raw": "{\n  \"person\": \"Mepoku\",\n  \"attr\": \"city\",\n  \"value\": \"Pojoburg\"\n}", "ok": true}
+{"world": 4, "fact": "Zobave works as a baker.", "raw": "{\n  \"person\": \"Zobave\",\n  \"attr\": \"job\",\n  \"value\": \"baker\"\n}", "ok": true}
+{"world": 4, "fact": "Jopoku's mentor is Lagiba.", "raw": "{\n  \"person\": \"Jopoku\",\n  \"attr\": \"mentor\",\n  \"value\": \"Lagiba\"\n}", "ok": true}
+{"world": 4, "fact": "Nakufe owns a parrot.", "raw": "{\n  \"person\": \"Nakufe\",\n  \"attr\": \"pet\",\n  \"value\": \"parrot\"\n}", "ok": true}
+{"world": 4, "fact": "Nohapo owns a rabbit.", "raw": "{\n  \"person\": \"Nohapo\",\n  \"attr\": \"pet\",\n  \"value\": \"rabbit\"\n}", "ok": true}
+{"world": 4, "fact": "Gife works as a teacher.", "raw": "{\n  \"person\": \"Gife\",\n  \"attr\": \"job\",\n  \"value\": \"teacher\"\n}", "ok": true}
+{"world": 4, "fact": "Fevena is 29 years old.", "raw": "{\n  \"person\": \"Fevena\",\n  \"attr\": \"age\",\n  \"value\": \"29\"\n}", "ok": true}
+{"world": 4, "fact": "Lagiba is 56 years old.", "raw": "{\n  \"person\": \"Lagiba\",\n  \"attr\": \"age\",\n  \"value\": \"56\"\n}", "ok": true}
+{"world": 4, "fact": "Gilu works as a potter.", "raw": "{\n  \"person\": \"Gilu\",\n  \"attr\": \"job\",\n  \"value\": \"potter\"\n}", "ok": true}
+{"world": 4, "fact": "Vela is 35 years old.", "raw": "{\n  \"person\": \"Vela\",\n  \"attr\": \"age\",\n  \"value\": \"35\"\n}", "ok": true}
+{"world": 4, "fact": "Lano owns a parrot.", "raw": "{\n  \"person\": \"Lano\",\n  \"attr\": \"pet\",\n  \"value\": \"parrot\"\n}", "ok": true}
+{"world": 4, "fact": "Dojodo works as a tailor.", "raw": "{\n  \"person\": \"Dojodo\",\n  \"attr\": \"job\",\n  \"value\": \"tailor\"\n}", "ok": true}
+{"world": 4, "fact": "Vela works as a teacher.", "raw": "{\n  \"person\": \"Vela\",\n  \"attr\": \"job\",\n  \"value\": \"teacher\"\n}", "ok": true}
+{"world": 4, "fact": "Gife owns a turtle.", "raw": "{\n  \"person\": \"Gife\",\n  \"attr\": \"pet\",\n  \"value\": \"turtle\"\n}", "ok": true}
+{"world": 4, "fact": "Gife's mentor is Rifeba.", "raw": "{\n  \"person\": \"Gife\",\n  \"attr\": \"mentor\",\n  \"value\": \"Rifeba\"\n}", "ok": true}
+{"world": 4, "fact": "Zobave owns a rabbit.", "raw": "{\n  \"person\": \"Zobave\",\n  \"attr\": \"pet\",\n  \"value\": \"rabbit\"\n}", "ok": true}
+{"world": 4, "fact": "Rifeba works as a painter.", "raw": "{\n  \"person\": \"Rifeba\",\n  \"attr\": \"job\",\n  \"value\": \"painter\"\n}", "ok": true}
+{"world": 4, "fact": "Gife lives in Habahaford.", "raw": "{\n  \"person\": \"Gife\",\n  \"attr\": \"city\",\n  \"value\": \"Habahaford\"\n}", "ok": true}
+{"world": 4, "fact": "Mizo lives in Baveford.", "raw": "{\n  \"person\": \"Mizo\",\n  \"attr\": \"city\",\n  \"value\": \"Baveford\"\n}", "ok": true}
+{"world": 4, "fact": "Rifeba lives in Baveford.", "raw": "{\n  \"person\": \"Rifeba\",\n  \"attr\": \"city\",\n  \"value\": \"Baveford\"\n}", "ok": true}
+{"world": 4, "fact": "Gilu's mentor is Ferive.", "raw": "{\n  \"person\": \"Gilu\",\n  \"attr\": \"mentor\",\n  \"value\": \"Ferive\"\n}", "ok": true}
+{"world": 4, "fact": "Gikizo owns a dog.", "raw": "{\n  \"person\": \"Gikizo\",\n  \"attr\": \"pet\",\n  \"value\": \"dog\"\n}", "ok": true}
+{"world": 4, "fact": "Gikizo's mentor is Bado.", "raw": "{\n  \"person\": \"Gikizo\",\n  \"attr\": \"mentor\",\n  \"value\": \"Bado\"\n}", "ok": true}
+{"world": 4, "fact": "Fevena works as a farmer.", "raw": "{\n  \"person\": \"Fevena\",\n  \"attr\": \"job\",\n  \"value\": \"farmer\"\n}", "ok": true}
+{"world": 4, "fact": "Gife is 23 years old.", "raw": "{\n  \"person\": \"Gife\",\n  \"attr\": \"age\",\n  \"value\": \"23\"\n}", "ok": true}
+{"world": 4, "fact": "Rina is 68 years old.", "raw": "{\n  \"person\": \"Rina\",\n  \"attr\": \"age\",\n  \"value\": \"68\"\n}", "ok": true}
+{"world": 4, "fact": "Bado lives in Pohajoton.", "raw": "{\n  \"person\": \"Bado\",\n  \"attr\": \"city\",\n  \"value\": \"Pohajoton\"\n}", "ok": true}
+{"world": 4, "fact": "Haluzo owns a parrot.", "raw": "{\n  \"person\": \"Haluzo\",\n  \"attr\": \"pet\",\n  \"value\": \"parrot\"\n}", "ok": true}
+{"world": 4, "fact": "Bazono owns a cat.", "raw": "{\n  \"person\": \"Bazono\",\n  \"attr\": \"pet\",\n  \"value\": \"cat\"\n}", "ok": true}
+{"world": 4, "fact": "Gilu owns a rabbit.", "raw": "{\n  \"person\": \"Gilu\",\n  \"attr\": \"pet\",\n  \"value\": \"rabbit\"\n}", "ok": true}
+{"world": 4, "fact": "Bazono works as a baker.", "raw": "{\n  \"person\": \"Bazono\",\n  \"attr\": \"job\",\n  \"value\": \"baker\"\n}", "ok": true}
+{"world": 4, "fact": "Jopoku lives in Pojoburg.", "raw": "{\n  \"person\": \"Jopoku\",\n  \"attr\": \"city\",\n  \"value\": \"Pojoburg\"\n}", "ok": true}
+{"world": 4, "fact": "Dojodo lives in Pohajoton.", "raw": "{\n  \"person\": \"Dojodo\",\n  \"attr\": \"city\",\n  \"value\": \"Pohajoton\"\n}", "ok": true}
+{"world": 4, "fact": "Mizo works as a teacher.", "raw": "{\n  \"person\": \"Mizo\",\n  \"attr\": \"job\",\n  \"value\": \"teacher\"\n}", "ok": true}
+{"world": 4, "fact": "Gilu is 51 years old.", "raw": "{\n  \"person\": \"Gilu\",\n  \"attr\": \"age\",\n  \"value\": \"51\"\n}", "ok": true}
+{"world": 4, "fact": "Rifeba owns a parrot.", "raw": "{\n  \"person\": \"Rifeba\",\n  \"attr\": \"pet\",\n  \"value\": \"parrot\"\n}", "ok": true}
+{"world": 4, "fact": "Fevena's mentor is Gilu.", "raw": "{\n  \"person\": \"Fevena\",\n  \"attr\": \"mentor\",\n  \"value\": \"Gilu\"\n}", "ok": true}
+{"world": 4, "fact": "Dojodo's mentor is Mepoku.", "raw": "{\n  \"person\": \"Dojodo\",\n  \"attr\": \"mentor\",\n  \"value\": \"Mepoku\"\n}", "ok": true}
+{"world": 4, "fact": "Vela lives in Pojoburg.", "raw": "{\n  \"person\": \"Vela\",\n  \"attr\": \"city\",\n  \"value\": \"Pojoburg\"\n}", "ok": true}
+{"world": 4, "fact": "Kupogi is 31 years old.", "raw": "{\n  \"person\": \"Kupogi\",\n  \"attr\": \"age\",\n  \"value\": \"31\"\n}", "ok": true}
+{"world": 4, "fact": "Fevena lives in Dojoburg.", "raw": "{\n  \"person\": \"Fevena\",\n  \"attr\": \"city\",\n  \"value\": \"Dojoburg\"\n}", "ok": true}
+{"world": 4, "fact": "Haluzo lives in Pohajoton.", "raw": "{\n  \"person\": \"Haluzo\",\n  \"attr\": \"city\",\n  \"value\": \"Pohajoton\"\n}", "ok": true}
+{"world": 4, "fact": "Lano lives in Dojoburg.", "raw": "{\n  \"person\": \"Lano\",\n  \"attr\": \"city\",\n  \"value\": \"Dojoburg\"\n}", "ok": true}
+{"world": 4, "fact": "Nohapo works as a miner.", "raw": "{\n  \"person\": \"Nohapo\",\n  \"attr\": \"job\",\n  \"value\": \"miner\"\n}", "ok": true}
+{"world": 4, "fact": "Lano works as a miner.", "raw": "{\n  \"person\": \"Lano\",\n  \"attr\": \"job\",\n  \"value\": \"miner\"\n}", "ok": true}
+{"world": 4, "fact": "Gilu lives in Kusuford.", "raw": "{\n  \"person\": \"Gilu\",\n  \"attr\": \"city\",\n  \"value\": \"Kusuford\"\n}", "ok": true}
+{"world": 4, "fact": "Lagiba works as a teacher.", "raw": "{\n  \"person\": \"Lagiba\",\n  \"attr\": \"job\",\n  \"value\": \"teacher\"\n}", "ok": true}
+{"world": 4, "fact": "Lagiba lives in Pohajoton.", "raw": "{\n  \"person\": \"Lagiba\",\n  \"attr\": \"city\",\n  \"value\": \"Pohajoton\"\n}", "ok": true}
+{"world": 4, "fact": "Bado works as a farmer.", "raw": "{\n  \"person\": \"Bado\",\n  \"attr\": \"job\",\n  \"value\": \"farmer\"\n}", "ok": true}
+{"world": 4, "fact": "Jopoku owns a cat.", "raw": "{\n  \"person\": \"Jopoku\",\n  \"attr\": \"pet\",\n  \"value\": \"cat\"\n}", "ok": true}
+{"world": 4, "fact": "Mepoku works as a farmer.", "raw": "{\n  \"person\": \"Mepoku\",\n  \"attr\": \"job\",\n  \"value\": \"farmer\"\n}", "ok": true}
+{"world": 4, "fact": "Ferive's mentor is Mepoku.", "raw": "{\n  \"person\": \"Ferive\",\n  \"attr\": \"mentor\",\n  \"value\": \"Mepoku\"\n}", "ok": true}
+{"world": 4, "fact": "Bado owns a rabbit.", "raw": "{\n  \"person\": \"Bado\",\n  \"attr\": \"pet\",\n  \"value\": \"rabbit\"\n}", "ok": true}
+{"world": 4, "fact": "Feluna lives in Habahaford.", "raw": "{\n  \"person\": \"Feluna\",\n  \"attr\": \"city\",\n  \"value\": \"Habahaford\"\n}", "ok": true}
+{"world": 4, "fact": "Zozo lives in Dojoburg.", "raw": "{\n  \"person\": \"Zozo\",\n  \"attr\": \"city\",\n  \"value\": \"Dojoburg\"\n}", "ok": true}
+{"world": 4, "fact": "Bado is 66 years old.", "raw": "{\n  \"person\": \"Bado\",\n  \"attr\": \"age\",\n  \"value\": \"66\"\n}", "ok": true}
+{"world": 4, "fact": "Haluzo works as a pilot.", "raw": "{\n  \"person\": \"Haluzo\",\n  \"attr\": \"job\",\n  \"value\": \"pilot\"\n}", "ok": true}
+{"world": 4, "fact": "Rifeba is 26 years old.", "raw": "{\n  \"person\": \"Rifeba\",\n  \"attr\": \"age\",\n  \"value\": \"26\"\n}", "ok": true}
+{"world": 4, "fact": "Nohapo is 61 years old.", "raw": "{\n  \"person\": \"Nohapo\",\n  \"attr\": \"age\",\n  \"value\": \"61\"\n}", "ok": true}
+{"world": 4, "fact": "Dojodo is 37 years old.", "raw": "{\n  \"person\": \"Dojodo\",\n  \"attr\": \"age\",\n  \"value\": \"37\"\n}", "ok": true}
+{"world": 4, "fact": "Feluna is 40 years old.", "raw": "{\n  \"person\": \"Feluna\",\n  \"attr\": \"age\",\n  \"value\": \"40\"\n}", "ok": true}
+{"world": 4, "fact": "Ferive works as a miner.", "raw": "{\n  \"person\": \"Ferive\",\n  \"attr\": \"job\",\n  \"value\": \"miner\"\n}", "ok": true}
+{"world": 4, "fact": "Lano is 58 years old.", "raw": "{\n  \"person\": \"Lano\",\n  \"attr\": \"age\",\n  \"value\": \"58\"\n}", "ok": true}
+{"world": 4, "fact": "Bazono's mentor is Zobave.", "raw": "{\n  \"person\": \"Bazono\",\n  \"attr\": \"mentor\",\n  \"value\": \"Zobave\"\n}", "ok": true}
+{"world": 4, "fact": "Feluna owns a cat.", "raw": "{\n  \"person\": \"Feluna\",\n  \"attr\": \"pet\",\n  \"value\": \"cat\"\n}", "ok": true}
+{"world": 4, "fact": "Lagiba's mentor is Haluzo.", "raw": "{\n  \"person\": \"Lagiba\",\n  \"attr\": \"mentor\",\n  \"value\": \"Haluzo\"\n}", "ok": true}
+{"world": 4, "fact": "Zozo owns a cat.", "raw": "{\n  \"person\": \"Zozo\",\n  \"attr\": \"pet\",\n  \"value\": \"cat\"\n}", "ok": true}
+{"world": 4, "fact": "Ferive is 74 years old.", "raw": "{\n  \"person\": \"Ferive\",\n  \"attr\": \"age\",\n  \"value\": \"74\"\n}", "ok": true}
+{"world": 4, "fact": "Rina works as a sailor.", "raw": "{\n  \"person\": \"Rina\",\n  \"attr\": \"job\",\n  \"value\": \"sailor\"\n}", "ok": true}
+{"world": 4, "fact": "Dodo owns a rabbit.", "raw": "{\n  \"person\": \"Dodo\",\n  \"attr\": \"pet\",\n  \"value\": \"rabbit\"\n}", "ok": true}
+{"world": 4, "fact": "Haluzo's mentor is Lano.", "raw": "{\n  \"person\": \"Haluzo\",\n  \"attr\": \"mentor\",\n  \"value\": \"Lano\"\n}", "ok": true}
+{"world": 4, "fact": "Lano's mentor is Zobave.", "raw": "{\n  \"person\": \"Lano\",\n  \"attr\": \"mentor\",\n  \"value\": \"Zobave\"\n}", "ok": true}
+{"world": 4, "fact": "Bazono is 27 years old.", "raw": "{\n  \"person\": \"Bazono\",\n  \"attr\": \"age\",\n  \"value\": \"27\"\n}", "ok": true}
+{"world": 4, "fact": "Kupogi's mentor is Ferive.", "raw": "{\n  \"person\": \"Kupogi\",\n  \"attr\": \"mentor\",\n  \"value\": \"Ferive\"\n}", "ok": true}
+{"world": 4, "fact": "Mepoku is 64 years old.", "raw": "{\n  \"person\": \"Mepoku\",\n  \"attr\": \"age\",\n  \"value\": \"64\"\n}", "ok": true}
+{"world": 4, "fact": "Mizo's mentor is Rifeba.", "raw": "{\n  \"person\": \"Mizo\",\n  \"attr\": \"mentor\",\n  \"value\": \"Rifeba\"\n}", "ok": true}
+{"world": 4, "fact": "Dodo is 54 years old.", "raw": "{\n  \"person\": \"Dodo\",\n  \"attr\": \"age\",\n  \"value\": \"54\"\n}", "ok": true}
+{"world": 4, "fact": "Rifeba's mentor is Mepoku.", "raw": "{\n  \"person\": \"Rifeba\",\n  \"attr\": \"mentor\",\n  \"value\": \"Mepoku\"\n}", "ok": true}
+{"world": 4, "fact": "Dojodo owns a parrot.", "raw": "{\n  \"person\": \"Dojodo\",\n  \"attr\": \"pet\",\n  \"value\": \"parrot\"\n}", "ok": true}
+{"world": 4, "fact": "Mepoku owns a cat.", "raw": "{\n  \"person\": \"Mepoku\",\n  \"attr\": \"pet\",\n  \"value\": \"cat\"\n}", "ok": true}
+{"world": 4, "fact": "Gikizo lives in Habahaford.", "raw": "{\n  \"person\": \"Gikizo\",\n  \"attr\": \"city\",\n  \"value\": \"Habahaford\"\n}", "ok": true}
+{"world": 4, "fact": "Mizo is 24 years old.", "raw": "{\n  \"person\": \"Mizo\",\n  \"attr\": \"age\",\n  \"value\": \"24\"\n}", "ok": true}
+{"world": 4, "fact": "Vela's mentor is Bazono.", "raw": "{\n  \"person\": \"Vela\",\n  \"attr\": \"mentor\",\n  \"value\": \"Bazono\"\n}", "ok": true}
+{"world": 4, "fact": "Zozo works as a painter.", "raw": "{\n  \"person\": \"Zozo\",\n  \"attr\": \"job\",\n  \"value\": \"painter\"\n}", "ok": true}
+{"world": 4, "fact": "Ferive owns a dog.", "raw": "{\n  \"person\": \"Ferive\",\n  \"attr\": \"pet\",\n  \"value\": \"dog\"\n}", "ok": true}
+{"world": 4, "fact": "Kupogi owns a rabbit.", "raw": "{\n  \"person\": \"Kupogi\",\n  \"attr\": \"pet\",\n  \"value\": \"rabbit\"\n}", "ok": true}

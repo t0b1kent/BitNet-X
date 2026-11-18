@@ -1,0 +1,450 @@
+{"cond": "closed", "type": "hop1", "world": 0, "q": "What is Hakido's job?", "ans": "teacher", "reply": "Hakido is a character from the anime series \"Naruto.\"", "ok": false, "ptoks": 32}
+{"cond": "closed", "type": "hop2", "world": 0, "q": "What is the job of Mizo's mentor?", "ans": "pilot", "reply": "The job of Mizo's mentor is not specified in the given information.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "hop3", "world": 0, "q": "In which city does the mentor of Suta's mentor live?", "ans": "Ririford", "reply": "Pataliputra", "ok": false, "ptoks": 38}
+{"cond": "closed", "type": "count", "world": 0, "q": "How many people live in Tabataburg?", "ans": "3", "reply": "1,200 people.", "ok": false, "ptoks": 34}
+{"cond": "closed", "type": "older", "world": 0, "q": "Who is older, Tasuno or Tagi?", "ans": "Tasuno", "reply": "Tasuno is older.", "ok": true, "ptoks": 35}
+{"cond": "closed", "type": "hop1", "world": 0, "q": "What is Nalu's job?", "ans": "sailor", "reply": "Nalu is a character from the video game \"Final Fantasy XIV.\"", "ok": false, "ptoks": 32}
+{"cond": "closed", "type": "hop2", "world": 0, "q": "What is the job of Mizo's mentor?", "ans": "pilot", "reply": "The job of Mizo's mentor is not specified in the given information.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "hop3", "world": 0, "q": "In which city does the mentor of Naluha's mentor live?", "ans": "Navekuburg", "reply": "Istanbul", "ok": false, "ptoks": 39}
+{"cond": "closed", "type": "count", "world": 0, "q": "How many people live in Ririford?", "ans": "4", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "older", "world": 0, "q": "Who is older, Metaba or Mizo?", "ans": "Metaba", "reply": "Metaba is older.", "ok": true, "ptoks": 35}
+{"cond": "closed", "type": "hop1", "world": 0, "q": "What is Lukujo's job?", "ans": "miner", "reply": "Lukujo is a character from the game \"Monster Hunter: World.\"", "ok": false, "ptoks": 33}
+{"cond": "closed", "type": "hop2", "world": 0, "q": "What is the job of Nalu's mentor?", "ans": "painter", "reply": "The job of Nalu's mentor is not specified in the given information.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "hop3", "world": 0, "q": "In which city does the mentor of Meripo's mentor live?", "ans": "Navekuburg", "reply": "Tokyo", "ok": false, "ptoks": 38}
+{"cond": "closed", "type": "count", "world": 0, "q": "How many people live in Navekuburg?", "ans": "5", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ptoks": 36}
+{"cond": "closed", "type": "older", "world": 0, "q": "Who is older, Naluha or Tagi?", "ans": "Naluha", "reply": "Naluha is older.", "ok": true, "ptoks": 36}
+{"cond": "closed", "type": "hop1", "world": 0, "q": "What is Lukujo's job?", "ans": "miner", "reply": "Lukujo is a character from the game \"Monster Hunter: World.\"", "ok": false, "ptoks": 33}
+{"cond": "closed", "type": "hop2", "world": 0, "q": "What is the job of Metaba's mentor?", "ans": "baker", "reply": "The job of Metaba's mentor is to guide and support Metaba in their professional development and career growth.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "hop3", "world": 0, "q": "In which city does the mentor of Milu's mentor live?", "ans": "Gidoford", "reply": "Tokyo", "ok": false, "ptoks": 38}
+{"cond": "closed", "type": "count", "world": 0, "q": "How many people live in Nodosuford?", "ans": "4", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "older", "world": 0, "q": "Who is older, Mizo or Feta?", "ans": "Mizo", "reply": "Mizo", "ok": true, "ptoks": 35}
+{"cond": "closed", "type": "hop1", "world": 0, "q": "What is Pomipo's job?", "ans": "painter", "reply": "Pomipo is a character from the animated series \"The Simpsons.\"", "ok": false, "ptoks": 32}
+{"cond": "closed", "type": "hop2", "world": 0, "q": "What is the job of Tasuno's mentor?", "ans": "sailor", "reply": "The job of Tasuno's mentor is not specified in the provided information.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "hop3", "world": 0, "q": "In which city does the mentor of Mena's mentor live?", "ans": "Ririford", "reply": "Los Angeles", "ok": false, "ptoks": 38}
+{"cond": "closed", "type": "count", "world": 0, "q": "How many people live in Ririford?", "ans": "4", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "older", "world": 0, "q": "Who is older, Laku or Lukujo?", "ans": "Laku", "reply": "Laku is older.", "ok": true, "ptoks": 36}
+{"cond": "closed", "type": "hop1", "world": 0, "q": "What is Metaba's job?", "ans": "teacher", "reply": "Metaba is a pharmaceutical company.", "ok": false, "ptoks": 32}
+{"cond": "closed", "type": "hop2", "world": 0, "q": "What is the job of Laku's mentor?", "ans": "baker", "reply": "The job of Laku's mentor is not specified in the given information.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "hop3", "world": 0, "q": "In which city does the mentor of Lukujo's mentor live?", "ans": "Gidoford", "reply": "Tokyo", "ok": false, "ptoks": 39}
+{"cond": "closed", "type": "count", "world": 0, "q": "How many people live in Nodosuford?", "ans": "4", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "older", "world": 0, "q": "Who is older, Milu or Jodo?", "ans": "Jodo", "reply": "Jodo is older.", "ok": true, "ptoks": 35}
+{"cond": "closed", "type": "hop1", "world": 1, "q": "What is Kizo's job?", "ans": "doctor", "reply": "Kizo is a character from the game \"King of Fighters.\"", "ok": false, "ptoks": 32}
+{"cond": "closed", "type": "hop2", "world": 1, "q": "What is the job of Surife's mentor?", "ans": "teacher", "reply": "The job of Surife's mentor is to guide and support Surife in their learning and development.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "hop3", "world": 1, "q": "In which city does the mentor of Gino's mentor live?", "ans": "Nagiburg", "reply": "New York", "ok": false, "ptoks": 38}
+{"cond": "closed", "type": "count", "world": 1, "q": "How many people live in Kizoford?", "ans": "2", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "older", "world": 1, "q": "Who is older, Bapo or Dobado?", "ans": "Bapo", "reply": "Bapo is older.", "ok": true, "ptoks": 35}
+{"cond": "closed", "type": "hop1", "world": 1, "q": "What is Kilu's job?", "ans": "teacher", "reply": "Assistant: Assistant.", "ok": false, "ptoks": 32}
+{"cond": "closed", "type": "hop2", "world": 1, "q": "What is the job of Kizo's mentor?", "ans": "tailor", "reply": "The job of Kizo's mentor is not specified in the given information.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "hop3", "world": 1, "q": "In which city does the mentor of Nokiba's mentor live?", "ans": "Nagiburg", "reply": "Istanbul", "ok": false, "ptoks": 39}
+{"cond": "closed", "type": "count", "world": 1, "q": "How many people live in Zonoburg?", "ans": "5", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "older", "world": 1, "q": "Who is older, Kumeri or Vekulu?", "ans": "Vekulu", "reply": "Kumeri is older.", "ok": false, "ptoks": 37}
+{"cond": "closed", "type": "hop1", "world": 1, "q": "What is Nomi's job?", "ans": "farmer", "reply": "Nomi is a character in the animated film \"Inside Out.\"", "ok": false, "ptoks": 32}
+{"cond": "closed", "type": "hop2", "world": 1, "q": "What is the job of Mena's mentor?", "ans": "tailor", "reply": "The job of Mena's mentor is to guide and support her in her professional development.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "hop3", "world": 1, "q": "In which city does the mentor of Gino's mentor live?", "ans": "Nagiburg", "reply": "New York", "ok": false, "ptoks": 38}
+{"cond": "closed", "type": "count", "world": 1, "q": "How many people live in Kizoford?", "ans": "2", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "older", "world": 1, "q": "Who is older, Kigina or Fegi?", "ans": "Fegi", "reply": "Kigina is older.", "ok": false, "ptoks": 37}
+{"cond": "closed", "type": "hop1", "world": 1, "q": "What is Vezo's job?", "ans": "potter", "reply": "Vezo is a character from the video game \"The Legend of Zelda: Breath of the Wild.\"", "ok": false, "ptoks": 33}
+{"cond": "closed", "type": "hop2", "world": 1, "q": "What is the job of Bapo's mentor?", "ans": "farmer", "reply": "The job of Bapo's mentor is not specified in the given information.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "hop3", "world": 1, "q": "In which city does the mentor of Fegi's mentor live?", "ans": "Zonoburg", "reply": "Paris", "ok": false, "ptoks": 39}
+{"cond": "closed", "type": "count", "world": 1, "q": "How many people live in Hanoton?", "ans": "5", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ptoks": 33}
+{"cond": "closed", "type": "older", "world": 1, "q": "Who is older, Gino or Kigina?", "ans": "Gino", "reply": "Gino is older.", "ok": true, "ptoks": 36}
+{"cond": "closed", "type": "hop1", "world": 1, "q": "What is Mihajo's job?", "ans": "doctor", "reply": "Mihajo is a character from the anime \"My Hero Academia.\"", "ok": false, "ptoks": 33}
+{"cond": "closed", "type": "hop2", "world": 1, "q": "What is the job of Joki's mentor?", "ans": "teacher", "reply": "The job of Joki's mentor is to guide and support her in her professional development.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "hop3", "world": 1, "q": "In which city does the mentor of Nokiba's mentor live?", "ans": "Nagiburg", "reply": "Istanbul", "ok": false, "ptoks": 39}
+{"cond": "closed", "type": "count", "world": 1, "q": "How many people live in Hanoton?", "ans": "5", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ptoks": 33}
+{"cond": "closed", "type": "older", "world": 1, "q": "Who is older, Jojo or Jota?", "ans": "Jojo", "reply": "Jota is older.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "hop1", "world": 1, "q": "What is Kizo's job?", "ans": "doctor", "reply": "Kizo is a character from the game \"King of Fighters.\"", "ok": false, "ptoks": 32}
+{"cond": "closed", "type": "hop2", "world": 1, "q": "What is the job of Vezo's mentor?", "ans": "doctor", "reply": "The job of Vezo's mentor is not specified in the given information.", "ok": false, "ptoks": 36}
+{"cond": "closed", "type": "hop3", "world": 1, "q": "In which city does the mentor of Bapo's mentor live?", "ans": "Hanoton", "reply": "Istanbul", "ok": false, "ptoks": 38}
+{"cond": "closed", "type": "count", "world": 1, "q": "How many people live in Fekiton?", "ans": "2", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ptoks": 34}
+{"cond": "closed", "type": "older", "world": 1, "q": "Who is older, Vekulu or Joki?", "ans": "Vekulu", "reply": "Joki is older.", "ok": false, "ptoks": 36}
+{"cond": "closed", "type": "hop1", "world": 2, "q": "What is Lumefe's job?", "ans": "baker", "reply": "Lumefe is a character in the game \"The Legend of Zelda: Breath of the Wild.\"", "ok": false, "ptoks": 32}
+{"cond": "closed", "type": "hop2", "world": 2, "q": "What is the job of Melata's mentor?", "ans": "painter", "reply": "The job of Melata's mentor is not specified in the given information.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "hop3", "world": 2, "q": "In which city does the mentor of Sumime's mentor live?", "ans": "Hahaburg", "reply": "Tokyo", "ok": false, "ptoks": 38}
+{"cond": "closed", "type": "count", "world": 2, "q": "How many people live in Lupoton?", "ans": "2", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ptoks": 33}
+{"cond": "closed", "type": "older", "world": 2, "q": "Who is older, Kutari or Popo?", "ans": "Kutari", "reply": "Popo", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "hop1", "world": 2, "q": "What is Lumefe's job?", "ans": "baker", "reply": "Lumefe is a character in the game \"The Legend of Zelda: Breath of the Wild.\"", "ok": false, "ptoks": 32}
+{"cond": "closed", "type": "hop2", "world": 2, "q": "What is the job of Sudolu's mentor?", "ans": "miner", "reply": "The job of Sudolu's mentor is not specified in the provided information.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "hop3", "world": 2, "q": "In which city does the mentor of Suhaki's mentor live?", "ans": "Dokuburg", "reply": "Tokyo", "ok": false, "ptoks": 39}
+{"cond": "closed", "type": "count", "world": 2, "q": "How many people live in Hahaburg?", "ans": "4", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "older", "world": 2, "q": "Who is older, Sumime or Jola?", "ans": "Sumime", "reply": "Sumime is older.", "ok": true, "ptoks": 35}
+{"cond": "closed", "type": "hop1", "world": 2, "q": "What is Jopona's job?", "ans": "doctor", "reply": "Jopona is a character from the animated series \"The Legend of Korra.\"", "ok": false, "ptoks": 33}
+{"cond": "closed", "type": "hop2", "world": 2, "q": "What is the job of Kutari's mentor?", "ans": "painter", "reply": "The job of Kutari's mentor is not specified in the provided information.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "hop3", "world": 2, "q": "In which city does the mentor of Sumime's mentor live?", "ans": "Hahaburg", "reply": "Tokyo", "ok": false, "ptoks": 38}
+{"cond": "closed", "type": "count", "world": 2, "q": "How many people live in Lupoton?", "ans": "2", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ptoks": 33}
+{"cond": "closed", "type": "older", "world": 2, "q": "Who is older, Sumime or Jopona?", "ans": "Sumime", "reply": "Sumime is older.", "ok": true, "ptoks": 36}
+{"cond": "closed", "type": "hop1", "world": 2, "q": "What is Givedo's job?", "ans": "doctor", "reply": "Givedo is a character in the game \"The Elder Scrolls V: Skyrim.\"", "ok": false, "ptoks": 33}
+{"cond": "closed", "type": "hop2", "world": 2, "q": "What is the job of Jopona's mentor?", "ans": "baker", "reply": "The job of Jopona's mentor is not specified in the given information.", "ok": false, "ptoks": 36}
+{"cond": "closed", "type": "hop3", "world": 2, "q": "In which city does the mentor of Nala's mentor live?", "ans": "Dokuburg", "reply": "Mumbai", "ok": false, "ptoks": 38}
+{"cond": "closed", "type": "count", "world": 2, "q": "How many people live in Lupoton?", "ans": "2", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ptoks": 33}
+{"cond": "closed", "type": "older", "world": 2, "q": "Who is older, Pome or Gihado?", "ans": "Pome", "reply": "Gihado is older.", "ok": false, "ptoks": 36}
+{"cond": "closed", "type": "hop1", "world": 2, "q": "What is Sumime's job?", "ans": "doctor", "reply": "Sumime is a character in the anime series \"K-On!\" and she is a member of the K-On! club", "ok": false, "ptoks": 32}
+{"cond": "closed", "type": "hop2", "world": 2, "q": "What is the job of Dove's mentor?", "ans": "baker", "reply": "The job of Dove's mentor is not specified in the given information.", "ok": false, "ptoks": 34}
+{"cond": "closed", "type": "hop3", "world": 2, "q": "In which city does the mentor of Sudolu's mentor live?", "ans": "Hahaburg", "reply": "Istanbul", "ok": false, "ptoks": 38}
+{"cond": "closed", "type": "count", "world": 2, "q": "How many people live in Jogipoton?", "ans": "4", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ptoks": 34}
+{"cond": "closed", "type": "older", "world": 2, "q": "Who is older, Noki or Pome?", "ans": "Pome", "reply": "Noki is older.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "hop1", "world": 2, "q": "What is Nala's job?", "ans": "tailor", "reply": "Nala is a lioness in the movie \"The Lion King.\"", "ok": false, "ptoks": 32}
+{"cond": "closed", "type": "hop2", "world": 2, "q": "What is the job of Suba's mentor?", "ans": "doctor", "reply": "The job of Suba's mentor is not specified in the given information.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "hop3", "world": 2, "q": "In which city does the mentor of Jozola's mentor live?", "ans": "Basubaford", "reply": "New York", "ok": false, "ptoks": 39}
+{"cond": "closed", "type": "count", "world": 2, "q": "How many people live in Dokuburg?", "ans": "5", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ptoks": 34}
+{"cond": "closed", "type": "older", "world": 2, "q": "Who is older, Sudolu or Sumime?", "ans": "Sudolu", "reply": "Sumime is older.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "hop1", "world": 3, "q": "What is Kisupo's job?", "ans": "farmer", "reply": "Kisupo is a fox spirit in the anime \"Sword Art Online.\"", "ok": false, "ptoks": 32}
+{"cond": "closed", "type": "hop2", "world": 3, "q": "What is the job of Najomi's mentor?", "ans": "pilot", "reply": "The job of Najomi's mentor is not specified in the given information.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "hop3", "world": 3, "q": "In which city does the mentor of Noki's mentor live?", "ans": "Lanafeton", "reply": "Tokyo", "ok": false, "ptoks": 38}
+{"cond": "closed", "type": "count", "world": 3, "q": "How many people live in Bafeton?", "ans": "3", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ptoks": 34}
+{"cond": "closed", "type": "older", "world": 3, "q": "Who is older, Kisupo or Joha?", "ans": "Joha", "reply": "Kisupo is older.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "hop1", "world": 3, "q": "What is Baku's job?", "ans": "baker", "reply": "Baku is a character from the anime and manga series \"Gundam Build Fighters\" and its various adaptations.", "ok": false, "ptoks": 32}
+{"cond": "closed", "type": "hop2", "world": 3, "q": "What is the job of Zodo's mentor?", "ans": "sailor", "reply": "The job of Zodo's mentor is not specified in the provided information.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "hop3", "world": 3, "q": "In which city does the mentor of Kihafe's mentor live?", "ans": "Rizoford", "reply": "Istanbul", "ok": false, "ptoks": 39}
+{"cond": "closed", "type": "count", "world": 3, "q": "How many people live in Zonoton?", "ans": "3", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ptoks": 34}
+{"cond": "closed", "type": "older", "world": 3, "q": "Who is older, Riha or Vemeri?", "ans": "Riha", "reply": "I don't have enough information to determine who is older between Riha and Vemeri.", "ok": true, "ptoks": 36}
+{"cond": "closed", "type": "hop1", "world": 3, "q": "What is Kihafe's job?", "ans": "tailor", "reply": "Kihafe is a coffee shop.", "ok": false, "ptoks": 33}
+{"cond": "closed", "type": "hop2", "world": 3, "q": "What is the job of Najomi's mentor?", "ans": "pilot", "reply": "The job of Najomi's mentor is not specified in the given information.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "hop3", "world": 3, "q": "In which city does the mentor of Kunaba's mentor live?", "ans": "Rizoford", "reply": "Tokyo", "ok": false, "ptoks": 38}
+{"cond": "closed", "type": "count", "world": 3, "q": "How many people live in Zonoton?", "ans": "3", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ptoks": 34}
+{"cond": "closed", "type": "older", "world": 3, "q": "Who is older, Noki or Najomi?", "ans": "Noki", "reply": "Noki is older.", "ok": true, "ptoks": 35}
+{"cond": "closed", "type": "hop1", "world": 3, "q": "What is Kisupo's job?", "ans": "farmer", "reply": "Kisupo is a fox spirit in the anime \"Sword Art Online.\"", "ok": false, "ptoks": 32}
+{"cond": "closed", "type": "hop2", "world": 3, "q": "What is the job of Jojo's mentor?", "ans": "potter", "reply": "The job of Jojo's mentor is not specified in the provided information.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "hop3", "world": 3, "q": "In which city does the mentor of Riha's mentor live?", "ans": "Rizoford", "reply": "Istanbul", "ok": false, "ptoks": 38}
+{"cond": "closed", "type": "count", "world": 3, "q": "How many people live in Rizoford?", "ans": "5", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "older", "world": 3, "q": "Who is older, Kidoba or Josuha?", "ans": "Josuha", "reply": "Kidoba is older.", "ok": false, "ptoks": 36}
+{"cond": "closed", "type": "hop1", "world": 3, "q": "What is Jojo's job?", "ans": "pilot", "reply": "Jojo's Bizarre Adventure character is a bounty hunter.", "ok": false, "ptoks": 32}
+{"cond": "closed", "type": "hop2", "world": 3, "q": "What is the job of Noki's mentor?", "ans": "teacher", "reply": "The job of Noki's mentor is not specified in the given information.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "hop3", "world": 3, "q": "In which city does the mentor of Gime's mentor live?", "ans": "Lanafeton", "reply": "Tokyo", "ok": false, "ptoks": 38}
+{"cond": "closed", "type": "count", "world": 3, "q": "How many people live in Kikiton?", "ans": "3", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ptoks": 34}
+{"cond": "closed", "type": "older", "world": 3, "q": "Who is older, Najomi or Hamiku?", "ans": "Hamiku", "reply": "Najomi is older.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "hop1", "world": 3, "q": "What is Baku's job?", "ans": "baker", "reply": "Baku is a character from the anime and manga series \"Gundam Build Fighters\" and its various adaptations.", "ok": false, "ptoks": 32}
+{"cond": "closed", "type": "hop2", "world": 3, "q": "What is the job of Kuki's mentor?", "ans": "teacher", "reply": "The job of Kuki's mentor is not specified in the given information.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "hop3", "world": 3, "q": "In which city does the mentor of Kihafe's mentor live?", "ans": "Rizoford", "reply": "Istanbul", "ok": false, "ptoks": 39}
+{"cond": "closed", "type": "count", "world": 3, "q": "How many people live in Zonoton?", "ans": "3", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ptoks": 34}
+{"cond": "closed", "type": "older", "world": 3, "q": "Who is older, Kisupo or Domiri?", "ans": "Domiri", "reply": "Domiri is older.", "ok": true, "ptoks": 35}
+{"cond": "closed", "type": "hop1", "world": 4, "q": "What is Mizo's job?", "ans": "teacher", "reply": "Mizo is a language spoken by the Mizo people in Mizoram, India.", "ok": false, "ptoks": 32}
+{"cond": "closed", "type": "hop2", "world": 4, "q": "What is the job of Dojodo's mentor?", "ans": "farmer", "reply": "The job of Dojodo's mentor is to guide and support Dojodo in their journey to become a skilled warrior", "ok": false, "ptoks": 36}
+{"cond": "closed", "type": "hop3", "world": 4, "q": "In which city does the mentor of Mizo's mentor live?", "ans": "Pojoburg", "reply": "Shimla", "ok": false, "ptoks": 38}
+{"cond": "closed", "type": "count", "world": 4, "q": "How many people live in Habahaford?", "ans": "4", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "older", "world": 4, "q": "Who is older, Gikizo or Vela?", "ans": "Gikizo", "reply": "Gikizo is older.", "ok": true, "ptoks": 36}
+{"cond": "closed", "type": "hop1", "world": 4, "q": "What is Dojodo's job?", "ans": "tailor", "reply": "Dojodo is a Japanese sumo wrestler.", "ok": false, "ptoks": 33}
+{"cond": "closed", "type": "hop2", "world": 4, "q": "What is the job of Bazono's mentor?", "ans": "baker", "reply": "The job of Bazono's mentor is not specified in the given information.", "ok": false, "ptoks": 36}
+{"cond": "closed", "type": "hop3", "world": 4, "q": "In which city does the mentor of Haluzo's mentor live?", "ans": "Pojoburg", "reply": "Istanbul", "ok": false, "ptoks": 39}
+{"cond": "closed", "type": "count", "world": 4, "q": "How many people live in Pojoburg?", "ans": "5", "reply": "As of the latest data, Pojoburg, which is a suburb of Johannesburg, South Africa, has a population of", "ok": false, "ptoks": 34}
+{"cond": "closed", "type": "older", "world": 4, "q": "Who is older, Ferive or Haluzo?", "ans": "Ferive", "reply": "Haluzo is older.", "ok": false, "ptoks": 36}
+{"cond": "closed", "type": "hop1", "world": 4, "q": "What is Rifeba's job?", "ans": "painter", "reply": "Assistant.", "ok": false, "ptoks": 33}
+{"cond": "closed", "type": "hop2", "world": 4, "q": "What is the job of Mizo's mentor?", "ans": "painter", "reply": "The job of Mizo's mentor is not specified in the given information.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "hop3", "world": 4, "q": "In which city does the mentor of Vela's mentor live?", "ans": "Pojoburg", "reply": "Istanbul", "ok": false, "ptoks": 38}
+{"cond": "closed", "type": "count", "world": 4, "q": "How many people live in Dojoburg?", "ans": "5", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ptoks": 34}
+{"cond": "closed", "type": "older", "world": 4, "q": "Who is older, Dodo or Jopoku?", "ans": "Jopoku", "reply": "Dodo is older.", "ok": false, "ptoks": 36}
+{"cond": "closed", "type": "hop1", "world": 4, "q": "What is Bazono's job?", "ans": "baker", "reply": "Bazono is a character from the anime \"My Hero Academia.\" He is a student at U.A. High", "ok": false, "ptoks": 33}
+{"cond": "closed", "type": "hop2", "world": 4, "q": "What is the job of Dodo's mentor?", "ans": "farmer", "reply": "The job of Dodo's mentor is not specified in the given information.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "hop3", "world": 4, "q": "In which city does the mentor of Haluzo's mentor live?", "ans": "Pojoburg", "reply": "Istanbul", "ok": false, "ptoks": 39}
+{"cond": "closed", "type": "count", "world": 4, "q": "How many people live in Baveford?", "ans": "2", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ptoks": 34}
+{"cond": "closed", "type": "older", "world": 4, "q": "Who is older, Dojodo or Kupogi?", "ans": "Dojodo", "reply": "Kupogi is older.", "ok": false, "ptoks": 36}
+{"cond": "closed", "type": "hop1", "world": 4, "q": "What is Dojodo's job?", "ans": "tailor", "reply": "Dojodo is a Japanese sumo wrestler.", "ok": false, "ptoks": 33}
+{"cond": "closed", "type": "hop2", "world": 4, "q": "What is the job of Lagiba's mentor?", "ans": "pilot", "reply": "The job of Lagiba's mentor is not specified in the provided information.", "ok": false, "ptoks": 35}
+{"cond": "closed", "type": "hop3", "world": 4, "q": "In which city does the mentor of Bado's mentor live?", "ans": "Dojoburg", "reply": "Istanbul", "ok": false, "ptoks": 38}
+{"cond": "closed", "type": "count", "world": 4, "q": "How many people live in Dojoburg?", "ans": "5", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ptoks": 34}
+{"cond": "closed", "type": "older", "world": 4, "q": "Who is older, Nohapo or Gikizo?", "ans": "Nohapo", "reply": "Nohapo is older.", "ok": true, "ptoks": 37}
+{"cond": "closed", "type": "hop1", "world": 4, "q": "What is Rina's job?", "ans": "sailor", "reply": "Rina's job is not specified in the given information.", "ok": false, "ptoks": 32}
+{"cond": "closed", "type": "hop2", "world": 4, "q": "What is the job of Fevena's mentor?", "ans": "potter", "reply": "The job of Fevena's mentor is not specified in the given information.", "ok": false, "ptoks": 36}
+{"cond": "closed", "type": "hop3", "world": 4, "q": "In which city does the mentor of Rina's mentor live?", "ans": "Pohajoton", "reply": "Tokyo", "ok": false, "ptoks": 38}
+{"cond": "closed", "type": "count", "world": 4, "q": "How many people live in Dojoburg?", "ans": "5", "reply": "I'm sorry, but I don't have that information.", "ok": false, "ptoks": 34}
+{"cond": "closed", "type": "older", "world": 4, "q": "Who is older, Bazono or Gife?", "ans": "Bazono", "reply": "Gife", "ok": false, "ptoks": 36}
+{"cond": "oracle", "type": "hop1", "world": 0, "q": "What is Hakido's job?", "ans": "teacher", "reply": "Teacher", "ok": true, "ptoks": 39}
+{"cond": "oracle", "type": "hop2", "world": 0, "q": "What is the job of Mizo's mentor?", "ans": "pilot", "reply": "Kitana works as a pilot.", "ok": true, "ptoks": 50}
+{"cond": "oracle", "type": "hop3", "world": 0, "q": "In which city does the mentor of Suta's mentor live?", "ans": "Ririford", "reply": "Ririford", "ok": true, "ptoks": 63}
+{"cond": "oracle", "type": "count", "world": 0, "q": "How many people live in Tabataburg?", "ans": "3", "reply": "3", "ok": true, "ptoks": 59}
+{"cond": "oracle", "type": "older", "world": 0, "q": "Who is older, Tasuno or Tagi?", "ans": "Tasuno", "reply": "Tasuno is older.", "ok": true, "ptoks": 51}
+{"cond": "oracle", "type": "hop1", "world": 0, "q": "What is Nalu's job?", "ans": "sailor", "reply": "Sailor", "ok": true, "ptoks": 39}
+{"cond": "oracle", "type": "hop2", "world": 0, "q": "What is the job of Mizo's mentor?", "ans": "pilot", "reply": "Kitana works as a pilot.", "ok": true, "ptoks": 50}
+{"cond": "oracle", "type": "hop3", "world": 0, "q": "In which city does the mentor of Naluha's mentor live?", "ans": "Navekuburg", "reply": "Navekuburg", "ok": true, "ptoks": 70}
+{"cond": "oracle", "type": "count", "world": 0, "q": "How many people live in Ririford?", "ans": "4", "reply": "3", "ok": false, "ptoks": 74}
+{"cond": "oracle", "type": "older", "world": 0, "q": "Who is older, Metaba or Mizo?", "ans": "Metaba", "reply": "Metaba is older.", "ok": true, "ptoks": 51}
+{"cond": "oracle", "type": "hop1", "world": 0, "q": "What is Lukujo's job?", "ans": "miner", "reply": "Miner", "ok": true, "ptoks": 41}
+{"cond": "oracle", "type": "hop2", "world": 0, "q": "What is the job of Nalu's mentor?", "ans": "painter", "reply": "Zojota works as a painter.", "ok": true, "ptoks": 52}
+{"cond": "oracle", "type": "hop3", "world": 0, "q": "In which city does the mentor of Meripo's mentor live?", "ans": "Navekuburg", "reply": "Navekuburg", "ok": true, "ptoks": 65}
+{"cond": "oracle", "type": "count", "world": 0, "q": "How many people live in Navekuburg?", "ans": "5", "reply": "5", "ok": true, "ptoks": 87}
+{"cond": "oracle", "type": "older", "world": 0, "q": "Who is older, Naluha or Tagi?", "ans": "Naluha", "reply": "Naluha", "ok": true, "ptoks": 53}
+{"cond": "oracle", "type": "hop1", "world": 0, "q": "What is Lukujo's job?", "ans": "miner", "reply": "Miner", "ok": true, "ptoks": 41}
+{"cond": "oracle", "type": "hop2", "world": 0, "q": "What is the job of Metaba's mentor?", "ans": "baker", "reply": "Kukimi works as a baker.", "ok": true, "ptoks": 52}
+{"cond": "oracle", "type": "hop3", "world": 0, "q": "In which city does the mentor of Milu's mentor live?", "ans": "Gidoford", "reply": "Gidoford", "ok": true, "ptoks": 63}
+{"cond": "oracle", "type": "count", "world": 0, "q": "How many people live in Nodosuford?", "ans": "4", "reply": "4", "ok": true, "ptoks": 73}
+{"cond": "oracle", "type": "older", "world": 0, "q": "Who is older, Mizo or Feta?", "ans": "Mizo", "reply": "Mizo is older.", "ok": true, "ptoks": 51}
+{"cond": "oracle", "type": "hop1", "world": 0, "q": "What is Pomipo's job?", "ans": "painter", "reply": "Pomipo's job is a painter.", "ok": true, "ptoks": 39}
+{"cond": "oracle", "type": "hop2", "world": 0, "q": "What is the job of Tasuno's mentor?", "ans": "sailor", "reply": "Jodo works as a sailor.", "ok": true, "ptoks": 50}
+{"cond": "oracle", "type": "hop3", "world": 0, "q": "In which city does the mentor of Mena's mentor live?", "ans": "Ririford", "reply": "Ririford", "ok": true, "ptoks": 68}
+{"cond": "oracle", "type": "count", "world": 0, "q": "How many people live in Ririford?", "ans": "4", "reply": "3", "ok": false, "ptoks": 74}
+{"cond": "oracle", "type": "older", "world": 0, "q": "Who is older, Laku or Lukujo?", "ans": "Laku", "reply": "Laku is older.", "ok": true, "ptoks": 53}
+{"cond": "oracle", "type": "hop1", "world": 0, "q": "What is Metaba's job?", "ans": "teacher", "reply": "Metaba's job is a teacher.", "ok": true, "ptoks": 39}
+{"cond": "oracle", "type": "hop2", "world": 0, "q": "What is the job of Laku's mentor?", "ans": "baker", "reply": "Kukimi works as a baker.", "ok": true, "ptoks": 52}
+{"cond": "oracle", "type": "hop3", "world": 0, "q": "In which city does the mentor of Lukujo's mentor live?", "ans": "Gidoford", "reply": "Gidoford", "ok": true, "ptoks": 65}
+{"cond": "oracle", "type": "count", "world": 0, "q": "How many people live in Nodosuford?", "ans": "4", "reply": "4", "ok": true, "ptoks": 73}
+{"cond": "oracle", "type": "older", "world": 0, "q": "Who is older, Milu or Jodo?", "ans": "Jodo", "reply": "Jodo is older.", "ok": true, "ptoks": 51}
+{"cond": "oracle", "type": "hop1", "world": 1, "q": "What is Kizo's job?", "ans": "doctor", "reply": "Kizo's job is a doctor.", "ok": true, "ptoks": 39}
+{"cond": "oracle", "type": "hop2", "world": 1, "q": "What is the job of Surife's mentor?", "ans": "teacher", "reply": "Kilu works as a teacher.", "ok": true, "ptoks": 51}
+{"cond": "oracle", "type": "hop3", "world": 1, "q": "In which city does the mentor of Gino's mentor live?", "ans": "Nagiburg", "reply": "Nagiburg", "ok": true, "ptoks": 64}
+{"cond": "oracle", "type": "count", "world": 1, "q": "How many people live in Kizoford?", "ans": "2", "reply": "Two", "ok": true, "ptoks": 54}
+{"cond": "oracle", "type": "older", "world": 1, "q": "Who is older, Bapo or Dobado?", "ans": "Bapo", "reply": "Bapo is older.", "ok": true, "ptoks": 52}
+{"cond": "oracle", "type": "hop1", "world": 1, "q": "What is Kilu's job?", "ans": "teacher", "reply": "Teacher", "ok": true, "ptoks": 39}
+{"cond": "oracle", "type": "hop2", "world": 1, "q": "What is the job of Kizo's mentor?", "ans": "tailor", "reply": "Tailor", "ok": true, "ptoks": 50}
+{"cond": "oracle", "type": "hop3", "world": 1, "q": "In which city does the mentor of Nokiba's mentor live?", "ans": "Nagiburg", "reply": "Nagiburg", "ok": true, "ptoks": 66}
+{"cond": "oracle", "type": "count", "world": 1, "q": "How many people live in Zonoburg?", "ans": "5", "reply": "5", "ok": true, "ptoks": 82}
+{"cond": "oracle", "type": "older", "world": 1, "q": "Who is older, Kumeri or Vekulu?", "ans": "Vekulu", "reply": "Vekulu is older.", "ok": true, "ptoks": 55}
+{"cond": "oracle", "type": "hop1", "world": 1, "q": "What is Nomi's job?", "ans": "farmer", "reply": "Nomi's job is a farmer.", "ok": true, "ptoks": 39}
+{"cond": "oracle", "type": "hop2", "world": 1, "q": "What is the job of Mena's mentor?", "ans": "tailor", "reply": "Tailor", "ok": true, "ptoks": 50}
+{"cond": "oracle", "type": "hop3", "world": 1, "q": "In which city does the mentor of Gino's mentor live?", "ans": "Nagiburg", "reply": "Nagiburg", "ok": true, "ptoks": 64}
+{"cond": "oracle", "type": "count", "world": 1, "q": "How many people live in Kizoford?", "ans": "2", "reply": "2", "ok": true, "ptoks": 54}
+{"cond": "oracle", "type": "older", "world": 1, "q": "Who is older, Kigina or Fegi?", "ans": "Fegi", "reply": "Fegi is older.", "ok": true, "ptoks": 55}
+{"cond": "oracle", "type": "hop1", "world": 1, "q": "What is Vezo's job?", "ans": "potter", "reply": "Potter", "ok": true, "ptoks": 42}
+{"cond": "oracle", "type": "hop2", "world": 1, "q": "What is the job of Bapo's mentor?", "ans": "farmer", "reply": "Jojo works as a farmer.", "ok": true, "ptoks": 50}
+{"cond": "oracle", "type": "hop3", "world": 1, "q": "In which city does the mentor of Fegi's mentor live?", "ans": "Zonoburg", "reply": "Zonoburg", "ok": true, "ptoks": 65}
+{"cond": "oracle", "type": "count", "world": 1, "q": "How many people live in Hanoton?", "ans": "5", "reply": "4", "ok": false, "ptoks": 71}
+{"cond": "oracle", "type": "older", "world": 1, "q": "Who is older, Gino or Kigina?", "ans": "Gino", "reply": "Gino is older.", "ok": true, "ptoks": 53}
+{"cond": "oracle", "type": "hop1", "world": 1, "q": "What is Mihajo's job?", "ans": "doctor", "reply": "Mihajo's job is a doctor.", "ok": true, "ptoks": 41}
+{"cond": "oracle", "type": "hop2", "world": 1, "q": "What is the job of Joki's mentor?", "ans": "teacher", "reply": "Teacher", "ok": true, "ptoks": 52}
+{"cond": "oracle", "type": "hop3", "world": 1, "q": "In which city does the mentor of Nokiba's mentor live?", "ans": "Nagiburg", "reply": "Nagiburg", "ok": true, "ptoks": 66}
+{"cond": "oracle", "type": "count", "world": 1, "q": "How many people live in Hanoton?", "ans": "5", "reply": "4", "ok": false, "ptoks": 71}
+{"cond": "oracle", "type": "older", "world": 1, "q": "Who is older, Jojo or Jota?", "ans": "Jojo", "reply": "Jojo is older.", "ok": true, "ptoks": 51}
+{"cond": "oracle", "type": "hop1", "world": 1, "q": "What is Kizo's job?", "ans": "doctor", "reply": "Kizo's job is a doctor.", "ok": true, "ptoks": 39}
+{"cond": "oracle", "type": "hop2", "world": 1, "q": "What is the job of Vezo's mentor?", "ans": "doctor", "reply": "Gino works as a doctor.", "ok": true, "ptoks": 52}
+{"cond": "oracle", "type": "hop3", "world": 1, "q": "In which city does the mentor of Bapo's mentor live?", "ans": "Hanoton", "reply": "Hanoton", "ok": true, "ptoks": 63}
+{"cond": "oracle", "type": "count", "world": 1, "q": "How many people live in Fekiton?", "ans": "2", "reply": "Two", "ok": true, "ptoks": 50}
+{"cond": "oracle", "type": "older", "world": 1, "q": "Who is older, Vekulu or Joki?", "ans": "Vekulu", "reply": "Vekulu", "ok": true, "ptoks": 53}
+{"cond": "oracle", "type": "hop1", "world": 2, "q": "What is Lumefe's job?", "ans": "baker", "reply": "Lumefe's job is a baker.", "ok": true, "ptoks": 39}
+{"cond": "oracle", "type": "hop2", "world": 2, "q": "What is the job of Melata's mentor?", "ans": "painter", "reply": "Painter", "ok": true, "ptoks": 50}
+{"cond": "oracle", "type": "hop3", "world": 2, "q": "In which city does the mentor of Sumime's mentor live?", "ans": "Hahaburg", "reply": "Hahaburg", "ok": true, "ptoks": 63}
+{"cond": "oracle", "type": "count", "world": 2, "q": "How many people live in Lupoton?", "ans": "2", "reply": "Two", "ok": true, "ptoks": 47}
+{"cond": "oracle", "type": "older", "world": 2, "q": "Who is older, Kutari or Popo?", "ans": "Kutari", "reply": "Kutari is older.", "ok": true, "ptoks": 51}
+{"cond": "oracle", "type": "hop1", "world": 2, "q": "What is Lumefe's job?", "ans": "baker", "reply": "Lumefe's job is a baker.", "ok": true, "ptoks": 39}
+{"cond": "oracle", "type": "hop2", "world": 2, "q": "What is the job of Sudolu's mentor?", "ans": "miner", "reply": "Miner", "ok": true, "ptoks": 50}
+{"cond": "oracle", "type": "hop3", "world": 2, "q": "In which city does the mentor of Suhaki's mentor live?", "ans": "Dokuburg", "reply": "Dokuburg", "ok": true, "ptoks": 64}
+{"cond": "oracle", "type": "count", "world": 2, "q": "How many people live in Hahaburg?", "ans": "4", "reply": "3", "ok": false, "ptoks": 72}
+{"cond": "oracle", "type": "older", "world": 2, "q": "Who is older, Sumime or Jola?", "ans": "Sumime", "reply": "Sumime", "ok": true, "ptoks": 51}
+{"cond": "oracle", "type": "hop1", "world": 2, "q": "What is Jopona's job?", "ans": "doctor", "reply": "Jopona's job is a doctor.", "ok": true, "ptoks": 41}
+{"cond": "oracle", "type": "hop2", "world": 2, "q": "What is the job of Kutari's mentor?", "ans": "painter", "reply": "Milu works as a painter.", "ok": true, "ptoks": 50}
+{"cond": "oracle", "type": "hop3", "world": 2, "q": "In which city does the mentor of Sumime's mentor live?", "ans": "Hahaburg", "reply": "Hahaburg", "ok": true, "ptoks": 63}
+{"cond": "oracle", "type": "count", "world": 2, "q": "How many people live in Lupoton?", "ans": "2", "reply": "Two", "ok": true, "ptoks": 47}
+{"cond": "oracle", "type": "older", "world": 2, "q": "Who is older, Sumime or Jopona?", "ans": "Sumime", "reply": "Sumime", "ok": true, "ptoks": 53}
+{"cond": "oracle", "type": "hop1", "world": 2, "q": "What is Givedo's job?", "ans": "doctor", "reply": "Givedo's job is a doctor.", "ok": true, "ptoks": 41}
+{"cond": "oracle", "type": "hop2", "world": 2, "q": "What is the job of Jopona's mentor?", "ans": "baker", "reply": "Popo works as a baker.", "ok": true, "ptoks": 52}
+{"cond": "oracle", "type": "hop3", "world": 2, "q": "In which city does the mentor of Nala's mentor live?", "ans": "Dokuburg", "reply": "Dokuburg", "ok": true, "ptoks": 61}
+{"cond": "oracle", "type": "count", "world": 2, "q": "How many people live in Lupoton?", "ans": "2", "reply": "Two", "ok": true, "ptoks": 47}
+{"cond": "oracle", "type": "older", "world": 2, "q": "Who is older, Pome or Gihado?", "ans": "Pome", "reply": "Pome is older.", "ok": true, "ptoks": 53}
+{"cond": "oracle", "type": "hop1", "world": 2, "q": "What is Sumime's job?", "ans": "doctor", "reply": "Sumime's job is a doctor.", "ok": true, "ptoks": 39}
+{"cond": "oracle", "type": "hop2", "world": 2, "q": "What is the job of Dove's mentor?", "ans": "baker", "reply": "Popo works as a baker.", "ok": true, "ptoks": 48}
+{"cond": "oracle", "type": "hop3", "world": 2, "q": "In which city does the mentor of Sudolu's mentor live?", "ans": "Hahaburg", "reply": "Hahaburg", "ok": true, "ptoks": 63}
+{"cond": "oracle", "type": "count", "world": 2, "q": "How many people live in Jogipoton?", "ans": "4", "reply": "4", "ok": true, "ptoks": 68}
+{"cond": "oracle", "type": "older", "world": 2, "q": "Who is older, Noki or Pome?", "ans": "Pome", "reply": "Pome is older.", "ok": true, "ptoks": 51}
+{"cond": "oracle", "type": "hop1", "world": 2, "q": "What is Nala's job?", "ans": "tailor", "reply": "Tailor", "ok": true, "ptoks": 39}
+{"cond": "oracle", "type": "hop2", "world": 2, "q": "What is the job of Suba's mentor?", "ans": "doctor", "reply": "Givedo works as a doctor.", "ok": true, "ptoks": 52}
+{"cond": "oracle", "type": "hop3", "world": 2, "q": "In which city does the mentor of Jozola's mentor live?", "ans": "Basubaford", "reply": "Basubaford", "ok": true, "ptoks": 65}
+{"cond": "oracle", "type": "count", "world": 2, "q": "How many people live in Dokuburg?", "ans": "5", "reply": "4", "ok": false, "ptoks": 75}
+{"cond": "oracle", "type": "older", "world": 2, "q": "Who is older, Sudolu or Sumime?", "ans": "Sudolu", "reply": "Sudolu is older.", "ok": true, "ptoks": 51}
+{"cond": "oracle", "type": "hop1", "world": 3, "q": "What is Kisupo's job?", "ans": "farmer", "reply": "Kisupo's job is a farmer.", "ok": true, "ptoks": 39}
+{"cond": "oracle", "type": "hop2", "world": 3, "q": "What is the job of Najomi's mentor?", "ans": "pilot", "reply": "Pilot", "ok": true, "ptoks": 50}
+{"cond": "oracle", "type": "hop3", "world": 3, "q": "In which city does the mentor of Noki's mentor live?", "ans": "Lanafeton", "reply": "Lanafeton", "ok": true, "ptoks": 64}
+{"cond": "oracle", "type": "count", "world": 3, "q": "How many people live in Bafeton?", "ans": "3", "reply": "3", "ok": true, "ptoks": 60}
+{"cond": "oracle", "type": "older", "world": 3, "q": "Who is older, Kisupo or Joha?", "ans": "Joha", "reply": "Joha is older.", "ok": true, "ptoks": 51}
+{"cond": "oracle", "type": "hop1", "world": 3, "q": "What is Baku's job?", "ans": "baker", "reply": "Baker", "ok": true, "ptoks": 39}
+{"cond": "oracle", "type": "hop2", "world": 3, "q": "What is the job of Zodo's mentor?", "ans": "sailor", "reply": "Batave works as a sailor.", "ok": true, "ptoks": 50}
+{"cond": "oracle", "type": "hop3", "world": 3, "q": "In which city does the mentor of Kihafe's mentor live?", "ans": "Rizoford", "reply": "Rizoford", "ok": true, "ptoks": 65}
+{"cond": "oracle", "type": "count", "world": 3, "q": "How many people live in Zonoton?", "ans": "3", "reply": "3", "ok": true, "ptoks": 59}
+{"cond": "oracle", "type": "older", "world": 3, "q": "Who is older, Riha or Vemeri?", "ans": "Riha", "reply": "Riha is older.", "ok": true, "ptoks": 53}
+{"cond": "oracle", "type": "hop1", "world": 3, "q": "What is Kihafe's job?", "ans": "tailor", "reply": "Tailor", "ok": true, "ptoks": 41}
+{"cond": "oracle", "type": "hop2", "world": 3, "q": "What is the job of Najomi's mentor?", "ans": "pilot", "reply": "Pilot", "ok": true, "ptoks": 50}
+{"cond": "oracle", "type": "hop3", "world": 3, "q": "In which city does the mentor of Kunaba's mentor live?", "ans": "Rizoford", "reply": "Rizoford", "ok": true, "ptoks": 63}
+{"cond": "oracle", "type": "count", "world": 3, "q": "How many people live in Zonoton?", "ans": "3", "reply": "3", "ok": true, "ptoks": 59}
+{"cond": "oracle", "type": "older", "world": 3, "q": "Who is older, Noki or Najomi?", "ans": "Noki", "reply": "Noki is older.", "ok": true, "ptoks": 52}
+{"cond": "oracle", "type": "hop1", "world": 3, "q": "What is Kisupo's job?", "ans": "farmer", "reply": "Kisupo's job is a farmer.", "ok": true, "ptoks": 39}
+{"cond": "oracle", "type": "hop2", "world": 3, "q": "What is the job of Jojo's mentor?", "ans": "potter", "reply": "Jojo's mentor is a potter.", "ok": true, "ptoks": 51}
+{"cond": "oracle", "type": "hop3", "world": 3, "q": "In which city does the mentor of Riha's mentor live?", "ans": "Rizoford", "reply": "Rizoford", "ok": true, "ptoks": 64}
+{"cond": "oracle", "type": "count", "world": 3, "q": "How many people live in Rizoford?", "ans": "5", "reply": "4", "ok": false, "ptoks": 81}
+{"cond": "oracle", "type": "older", "world": 3, "q": "Who is older, Kidoba or Josuha?", "ans": "Josuha", "reply": "Josuha is older.", "ok": true, "ptoks": 53}
+{"cond": "oracle", "type": "hop1", "world": 3, "q": "What is Jojo's job?", "ans": "pilot", "reply": "Pilot", "ok": true, "ptoks": 39}
+{"cond": "oracle", "type": "hop2", "world": 3, "q": "What is the job of Noki's mentor?", "ans": "teacher", "reply": "Zojo works as a teacher.", "ok": true, "ptoks": 51}
+{"cond": "oracle", "type": "hop3", "world": 3, "q": "In which city does the mentor of Gime's mentor live?", "ans": "Lanafeton", "reply": "Lanafeton", "ok": true, "ptoks": 64}
+{"cond": "oracle", "type": "count", "world": 3, "q": "How many people live in Kikiton?", "ans": "3", "reply": "3", "ok": true, "ptoks": 60}
+{"cond": "oracle", "type": "older", "world": 3, "q": "Who is older, Najomi or Hamiku?", "ans": "Hamiku", "reply": "Hamiku is older.", "ok": true, "ptoks": 51}
+{"cond": "oracle", "type": "hop1", "world": 3, "q": "What is Baku's job?", "ans": "baker", "reply": "Baker", "ok": true, "ptoks": 39}
+{"cond": "oracle", "type": "hop2", "world": 3, "q": "What is the job of Kuki's mentor?", "ans": "teacher", "reply": "Teacher", "ok": true, "ptoks": 52}
+{"cond": "oracle", "type": "hop3", "world": 3, "q": "In which city does the mentor of Kihafe's mentor live?", "ans": "Rizoford", "reply": "Rizoford", "ok": true, "ptoks": 65}
+{"cond": "oracle", "type": "count", "world": 3, "q": "How many people live in Zonoton?", "ans": "3", "reply": "3", "ok": true, "ptoks": 59}
+{"cond": "oracle", "type": "older", "world": 3, "q": "Who is older, Kisupo or Domiri?", "ans": "Domiri", "reply": "Domiri is older.", "ok": true, "ptoks": 51}
+{"cond": "oracle", "type": "hop1", "world": 4, "q": "What is Mizo's job?", "ans": "teacher", "reply": "Mizo's job is a teacher.", "ok": true, "ptoks": 39}
+{"cond": "oracle", "type": "hop2", "world": 4, "q": "What is the job of Dojodo's mentor?", "ans": "farmer", "reply": "Mepoku works as a farmer.", "ok": true, "ptoks": 54}
+{"cond": "oracle", "type": "hop3", "world": 4, "q": "In which city does the mentor of Mizo's mentor live?", "ans": "Pojoburg", "reply": "Pojoburg", "ok": true, "ptoks": 66}
+{"cond": "oracle", "type": "count", "world": 4, "q": "How many people live in Habahaford?", "ans": "4", "reply": "3", "ok": false, "ptoks": 72}
+{"cond": "oracle", "type": "older", "world": 4, "q": "Who is older, Gikizo or Vela?", "ans": "Gikizo", "reply": "Gikizo is older.", "ok": true, "ptoks": 53}
+{"cond": "oracle", "type": "hop1", "world": 4, "q": "What is Dojodo's job?", "ans": "tailor", "reply": "Tailor", "ok": true, "ptoks": 41}
+{"cond": "oracle", "type": "hop2", "world": 4, "q": "What is the job of Bazono's mentor?", "ans": "baker", "reply": "Zobave works as a baker.", "ok": true, "ptoks": 54}
+{"cond": "oracle", "type": "hop3", "world": 4, "q": "In which city does the mentor of Haluzo's mentor live?", "ans": "Pojoburg", "reply": "Pojoburg", "ok": true, "ptoks": 66}
+{"cond": "oracle", "type": "count", "world": 4, "q": "How many people live in Pojoburg?", "ans": "5", "reply": "4", "ok": false, "ptoks": 78}
+{"cond": "oracle", "type": "older", "world": 4, "q": "Who is older, Ferive or Haluzo?", "ans": "Ferive", "reply": "Ferive", "ok": true, "ptoks": 53}
+{"cond": "oracle", "type": "hop1", "world": 4, "q": "What is Rifeba's job?", "ans": "painter", "reply": "Painter", "ok": true, "ptoks": 41}
+{"cond": "oracle", "type": "hop2", "world": 4, "q": "What is the job of Mizo's mentor?", "ans": "painter", "reply": "Rifeba works as a painter.", "ok": true, "ptoks": 52}
+{"cond": "oracle", "type": "hop3", "world": 4, "q": "In which city does the mentor of Vela's mentor live?", "ans": "Pojoburg", "reply": "Pojoburg", "ok": true, "ptoks": 66}
+{"cond": "oracle", "type": "count", "world": 4, "q": "How many people live in Dojoburg?", "ans": "5", "reply": "4", "ok": false, "ptoks": 77}
+{"cond": "oracle", "type": "older", "world": 4, "q": "Who is older, Dodo or Jopoku?", "ans": "Jopoku", "reply": "Jopoku is older.", "ok": true, "ptoks": 53}
+{"cond": "oracle", "type": "hop1", "world": 4, "q": "What is Bazono's job?", "ans": "baker", "reply": "Bazono's job is a baker.", "ok": true, "ptoks": 41}
+{"cond": "oracle", "type": "hop2", "world": 4, "q": "What is the job of Dodo's mentor?", "ans": "farmer", "reply": "Bado works as a farmer.", "ok": true, "ptoks": 50}
+{"cond": "oracle", "type": "hop3", "world": 4, "q": "In which city does the mentor of Haluzo's mentor live?", "ans": "Pojoburg", "reply": "Pojoburg", "ok": true, "ptoks": 66}
+{"cond": "oracle", "type": "count", "world": 4, "q": "How many people live in Baveford?", "ans": "2", "reply": "Two", "ok": true, "ptoks": 51}
+{"cond": "oracle", "type": "older", "world": 4, "q": "Who is older, Dojodo or Kupogi?", "ans": "Dojodo", "reply": "Kupogi is older.", "ok": false, "ptoks": 54}
+{"cond": "oracle", "type": "hop1", "world": 4, "q": "What is Dojodo's job?", "ans": "tailor", "reply": "Tailor", "ok": true, "ptoks": 41}
+{"cond": "oracle", "type": "hop2", "world": 4, "q": "What is the job of Lagiba's mentor?", "ans": "pilot", "reply": "Pilot", "ok": true, "ptoks": 52}
+{"cond": "oracle", "type": "hop3", "world": 4, "q": "In which city does the mentor of Bado's mentor live?", "ans": "Dojoburg", "reply": "Dojoburg", "ok": true, "ptoks": 64}
+{"cond": "oracle", "type": "count", "world": 4, "q": "How many people live in Dojoburg?", "ans": "5", "reply": "4", "ok": false, "ptoks": 77}
+{"cond": "oracle", "type": "older", "world": 4, "q": "Who is older, Nohapo or Gikizo?", "ans": "Nohapo", "reply": "Gikizo is older.", "ok": false, "ptoks": 55}
+{"cond": "oracle", "type": "hop1", "world": 4, "q": "What is Rina's job?", "ans": "sailor", "reply": "Sailor", "ok": true, "ptoks": 39}
+{"cond": "oracle", "type": "hop2", "world": 4, "q": "What is the job of Fevena's mentor?", "ans": "potter", "reply": "A potter", "ok": true, "ptoks": 53}
+{"cond": "oracle", "type": "hop3", "world": 4, "q": "In which city does the mentor of Rina's mentor live?", "ans": "Pohajoton", "reply": "Pohajoton", "ok": true, "ptoks": 65}
+{"cond": "oracle", "type": "count", "world": 4, "q": "How many people live in Dojoburg?", "ans": "5", "reply": "4", "ok": false, "ptoks": 77}
+{"cond": "oracle", "type": "older", "world": 4, "q": "Who is older, Bazono or Gife?", "ans": "Bazono", "reply": "Bazono is older.", "ok": true, "ptoks": 53}
+{"cond": "open", "type": "hop1", "world": 0, "q": "What is Hakido's job?", "ans": "teacher", "reply": "Teacher", "ok": true, "ptoks": 983}
+{"cond": "open", "type": "hop2", "world": 0, "q": "What is the job of Mizo's mentor?", "ans": "pilot", "reply": "Tailor", "ok": false, "ptoks": 986}
+{"cond": "open", "type": "hop3", "world": 0, "q": "In which city does the mentor of Suta's mentor live?", "ans": "Ririford", "reply": "Navekuburg", "ok": false, "ptoks": 989}
+{"cond": "open", "type": "count", "world": 0, "q": "How many people live in Tabataburg?", "ans": "3", "reply": "3", "ok": true, "ptoks": 985}
+{"cond": "open", "type": "older", "world": 0, "q": "Who is older, Tasuno or Tagi?", "ans": "Tasuno", "reply": "Tagi", "ok": false, "ptoks": 986}
+{"cond": "open", "type": "hop1", "world": 0, "q": "What is Nalu's job?", "ans": "sailor", "reply": "Miner", "ok": false, "ptoks": 983}
+{"cond": "open", "type": "hop2", "world": 0, "q": "What is the job of Mizo's mentor?", "ans": "pilot", "reply": "Tailor", "ok": false, "ptoks": 986}
+{"cond": "open", "type": "hop3", "world": 0, "q": "In which city does the mentor of Naluha's mentor live?", "ans": "Navekuburg", "reply": "Nodoferd", "ok": false, "ptoks": 990}
+{"cond": "open", "type": "count", "world": 0, "q": "How many people live in Ririford?", "ans": "4", "reply": "1", "ok": false, "ptoks": 986}
+{"cond": "open", "type": "older", "world": 0, "q": "Who is older, Metaba or Mizo?", "ans": "Metaba", "reply": "Metaba", "ok": true, "ptoks": 986}
+{"cond": "open", "type": "hop1", "world": 0, "q": "What is Lukujo's job?", "ans": "miner", "reply": "Miner", "ok": true, "ptoks": 984}
+{"cond": "open", "type": "hop2", "world": 0, "q": "What is the job of Nalu's mentor?", "ans": "painter", "reply": "Nokuzo", "ok": false, "ptoks": 986}
+{"cond": "open", "type": "hop3", "world": 0, "q": "In which city does the mentor of Meripo's mentor live?", "ans": "Navekuburg", "reply": "Navekuburg", "ok": true, "ptoks": 989}
+{"cond": "open", "type": "count", "world": 0, "q": "How many people live in Navekuburg?", "ans": "5", "reply": "1", "ok": false, "ptoks": 987}
+{"cond": "open", "type": "older", "world": 0, "q": "Who is older, Naluha or Tagi?", "ans": "Naluha", "reply": "79", "ok": false, "ptoks": 987}
+{"cond": "open", "type": "hop1", "world": 0, "q": "What is Lukujo's job?", "ans": "miner", "reply": "Miner", "ok": true, "ptoks": 984}
+{"cond": "open", "type": "hop2", "world": 0, "q": "What is the job of Metaba's mentor?", "ans": "baker", "reply": "76 years old", "ok": false, "ptoks": 986}
+{"cond": "open", "type": "hop3", "world": 0, "q": "In which city does the mentor of Milu's mentor live?", "ans": "Gidoford", "reply": "Navekuburg", "ok": false, "ptoks": 989}
+{"cond": "open", "type": "count", "world": 0, "q": "How many people live in Nodosuford?", "ans": "4", "reply": "1", "ok": false, "ptoks": 986}
+{"cond": "open", "type": "older", "world": 0, "q": "Who is older, Mizo or Feta?", "ans": "Mizo", "reply": "Feta", "ok": false, "ptoks": 986}
+{"cond": "open", "type": "hop1", "world": 0, "q": "What is Pomipo's job?", "ans": "painter", "reply": "Painter", "ok": true, "ptoks": 983}
+{"cond": "open", "type": "hop2", "world": 0, "q": "What is the job of Tasuno's mentor?", "ans": "sailor", "reply": "farmer", "ok": false, "ptoks": 986}
+{"cond": "open", "type": "hop3", "world": 0, "q": "In which city does the mentor of Mena's mentor live?", "ans": "Ririford", "reply": "Ririford", "ok": true, "ptoks": 989}
+{"cond": "open", "type": "count", "world": 0, "q": "How many people live in Ririford?", "ans": "4", "reply": "1", "ok": false, "ptoks": 986}
+{"cond": "open", "type": "older", "world": 0, "q": "Who is older, Laku or Lukujo?", "ans": "Laku", "reply": "Laku is older.", "ok": true, "ptoks": 987}
+{"cond": "open", "type": "hop1", "world": 0, "q": "What is Metaba's job?", "ans": "teacher", "reply": "Teacher", "ok": true, "ptoks": 983}
+{"cond": "open", "type": "hop2", "world": 0, "q": "What is the job of Laku's mentor?", "ans": "baker", "reply": "54 years old", "ok": false, "ptoks": 986}
+{"cond": "open", "type": "hop3", "world": 0, "q": "In which city does the mentor of Lukujo's mentor live?", "ans": "Gidoford", "reply": "Navekuburg", "ok": false, "ptoks": 990}
+{"cond": "open", "type": "count", "world": 0, "q": "How many people live in Nodosuford?", "ans": "4", "reply": "1", "ok": false, "ptoks": 986}
+{"cond": "open", "type": "older", "world": 0, "q": "Who is older, Milu or Jodo?", "ans": "Jodo", "reply": "Jodo", "ok": true, "ptoks": 986}
+{"cond": "open", "type": "hop1", "world": 1, "q": "What is Kizo's job?", "ans": "doctor", "reply": "Doctor", "ok": true, "ptoks": 970}
+{"cond": "open", "type": "hop2", "world": 1, "q": "What is the job of Surife's mentor?", "ans": "teacher", "reply": "Baker", "ok": false, "ptoks": 973}
+{"cond": "open", "type": "hop3", "world": 1, "q": "In which city does the mentor of Gino's mentor live?", "ans": "Nagiburg", "reply": "Zonoburg", "ok": false, "ptoks": 976}
+{"cond": "open", "type": "count", "world": 1, "q": "How many people live in Kizoford?", "ans": "2", "reply": "1", "ok": false, "ptoks": 973}
+{"cond": "open", "type": "older", "world": 1, "q": "Who is older, Bapo or Dobado?", "ans": "Bapo", "reply": "21", "ok": false, "ptoks": 973}
+{"cond": "open", "type": "hop1", "world": 1, "q": "What is Kilu's job?", "ans": "teacher", "reply": "teacher", "ok": true, "ptoks": 970}
+{"cond": "open", "type": "hop2", "world": 1, "q": "What is the job of Kizo's mentor?", "ans": "tailor", "reply": "Nado", "ok": false, "ptoks": 973}
+{"cond": "open", "type": "hop3", "world": 1, "q": "In which city does the mentor of Nokiba's mentor live?", "ans": "Nagiburg", "reply": "Kizoford", "ok": false, "ptoks": 977}
+{"cond": "open", "type": "count", "world": 1, "q": "How many people live in Zonoburg?", "ans": "5", "reply": "2", "ok": false, "ptoks": 973}
+{"cond": "open", "type": "older", "world": 1, "q": "Who is older, Kumeri or Vekulu?", "ans": "Vekulu", "reply": "Vekulu", "ok": true, "ptoks": 975}
+{"cond": "open", "type": "hop1", "world": 1, "q": "What is Nomi's job?", "ans": "farmer", "reply": "farmer", "ok": true, "ptoks": 970}
+{"cond": "open", "type": "hop2", "world": 1, "q": "What is the job of Mena's mentor?", "ans": "tailor", "reply": "Dobado", "ok": false, "ptoks": 973}
+{"cond": "open", "type": "hop3", "world": 1, "q": "In which city does the mentor of Gino's mentor live?", "ans": "Nagiburg", "reply": "Zonoburg", "ok": false, "ptoks": 976}
+{"cond": "open", "type": "count", "world": 1, "q": "How many people live in Kizoford?", "ans": "2", "reply": "1", "ok": false, "ptoks": 973}
+{"cond": "open", "type": "older", "world": 1, "q": "Who is older, Kigina or Fegi?", "ans": "Fegi", "reply": "Fegi", "ok": true, "ptoks": 975}
+{"cond": "open", "type": "hop1", "world": 1, "q": "What is Vezo's job?", "ans": "potter", "reply": "Potter", "ok": true, "ptoks": 971}
+{"cond": "open", "type": "hop2", "world": 1, "q": "What is the job of Bapo's mentor?", "ans": "farmer", "reply": "Bapo's mentor is Jojo.", "ok": false, "ptoks": 973}
+{"cond": "open", "type": "hop3", "world": 1, "q": "In which city does the mentor of Fegi's mentor live?", "ans": "Zonoburg", "reply": "Kizoford", "ok": false, "ptoks": 977}
+{"cond": "open", "type": "count", "world": 1, "q": "How many people live in Hanoton?", "ans": "5", "reply": "Mehajo", "ok": false, "ptoks": 971}
+{"cond": "open", "type": "older", "world": 1, "q": "Who is older, Gino or Kigina?", "ans": "Gino", "reply": "Kigina", "ok": false, "ptoks": 974}
+{"cond": "open", "type": "hop1", "world": 1, "q": "What is Mihajo's job?", "ans": "doctor", "reply": "doctor", "ok": true, "ptoks": 971}
+{"cond": "open", "type": "hop2", "world": 1, "q": "What is the job of Joki's mentor?", "ans": "teacher", "reply": "Pilot", "ok": false, "ptoks": 973}
+{"cond": "open", "type": "hop3", "world": 1, "q": "In which city does the mentor of Nokiba's mentor live?", "ans": "Nagiburg", "reply": "Kizoford", "ok": false, "ptoks": 977}
+{"cond": "open", "type": "count", "world": 1, "q": "How many people live in Hanoton?", "ans": "5", "reply": "Mehajo", "ok": false, "ptoks": 971}
+{"cond": "open", "type": "older", "world": 1, "q": "Who is older, Jojo or Jota?", "ans": "Jojo", "reply": "Jota", "ok": false, "ptoks": 973}
+{"cond": "open", "type": "hop1", "world": 1, "q": "What is Kizo's job?", "ans": "doctor", "reply": "Doctor", "ok": true, "ptoks": 970}
+{"cond": "open", "type": "hop2", "world": 1, "q": "What is the job of Vezo's mentor?", "ans": "doctor", "reply": "Potter", "ok": false, "ptoks": 974}
+{"cond": "open", "type": "hop3", "world": 1, "q": "In which city does the mentor of Bapo's mentor live?", "ans": "Hanoton", "reply": "Fekiton", "ok": false, "ptoks": 976}
+{"cond": "open", "type": "count", "world": 1, "q": "How many people live in Fekiton?", "ans": "2", "reply": "Kizo and Kumeri", "ok": false, "ptoks": 972}
+{"cond": "open", "type": "older", "world": 1, "q": "Who is older, Vekulu or Joki?", "ans": "Vekulu", "reply": "Joki", "ok": false, "ptoks": 974}
+{"cond": "open", "type": "hop1", "world": 2, "q": "What is Lumefe's job?", "ans": "baker", "reply": "Baker", "ok": true, "ptoks": 950}
+{"cond": "open", "type": "hop2", "world": 2, "q": "What is the job of Melata's mentor?", "ans": "painter", "reply": "doctor", "ok": false, "ptoks": 953}
+{"cond": "open", "type": "hop3", "world": 2, "q": "In which city does the mentor of Sumime's mentor live?", "ans": "Hahaburg", "reply": "Jogipoton", "ok": false, "ptoks": 956}
+{"cond": "open", "type": "count", "world": 2, "q": "How many people live in Lupoton?", "ans": "2", "reply": "Nala and Popo", "ok": false, "ptoks": 951}
+{"cond": "open", "type": "older", "world": 2, "q": "Who is older, Kutari or Popo?", "ans": "Kutari", "reply": "Kutari", "ok": true, "ptoks": 953}
+{"cond": "open", "type": "hop1", "world": 2, "q": "What is Lumefe's job?", "ans": "baker", "reply": "Baker", "ok": true, "ptoks": 950}
+{"cond": "open", "type": "hop2", "world": 2, "q": "What is the job of Sudolu's mentor?", "ans": "miner", "reply": "miner", "ok": true, "ptoks": 953}
+{"cond": "open", "type": "hop3", "world": 2, "q": "In which city does the mentor of Suhaki's mentor live?", "ans": "Dokuburg", "reply": "Jopona", "ok": false, "ptoks": 957}
+{"cond": "open", "type": "count", "world": 2, "q": "How many people live in Hahaburg?", "ans": "4", "reply": "4", "ok": true, "ptoks": 953}
+{"cond": "open", "type": "older", "world": 2, "q": "Who is older, Sumime or Jola?", "ans": "Sumime", "reply": "Jola", "ok": false, "ptoks": 953}
+{"cond": "open", "type": "hop1", "world": 2, "q": "What is Jopona's job?", "ans": "doctor", "reply": "Cat.", "ok": false, "ptoks": 951}
+{"cond": "open", "type": "hop2", "world": 2, "q": "What is the job of Kutari's mentor?", "ans": "painter", "reply": "Kutari's mentor is Milu.", "ok": false, "ptoks": 953}
+{"cond": "open", "type": "hop3", "world": 2, "q": "In which city does the mentor of Sumime's mentor live?", "ans": "Hahaburg", "reply": "Jogipoton", "ok": false, "ptoks": 956}
+{"cond": "open", "type": "count", "world": 2, "q": "How many people live in Lupoton?", "ans": "2", "reply": "Nala and Popo", "ok": false, "ptoks": 951}
+{"cond": "open", "type": "older", "world": 2, "q": "Who is older, Sumime or Jopona?", "ans": "Sumime", "reply": "Jopona", "ok": false, "ptoks": 954}
+{"cond": "open", "type": "hop1", "world": 2, "q": "What is Givedo's job?", "ans": "doctor", "reply": "doctor", "ok": true, "ptoks": 951}
+{"cond": "open", "type": "hop2", "world": 2, "q": "What is the job of Jopona's mentor?", "ans": "baker", "reply": "Popo", "ok": false, "ptoks": 954}
+{"cond": "open", "type": "hop3", "world": 2, "q": "In which city does the mentor of Nala's mentor live?", "ans": "Dokuburg", "reply": "Basubaford", "ok": false, "ptoks": 956}
+{"cond": "open", "type": "count", "world": 2, "q": "How many people live in Lupoton?", "ans": "2", "reply": "Nala and Popo", "ok": false, "ptoks": 951}
+{"cond": "open", "type": "older", "world": 2, "q": "Who is older, Pome or Gihado?", "ans": "Pome", "reply": "Gihado", "ok": false, "ptoks": 954}
+{"cond": "open", "type": "hop1", "world": 2, "q": "What is Sumime's job?", "ans": "doctor", "reply": "Doctor", "ok": true, "ptoks": 950}
+{"cond": "open", "type": "hop2", "world": 2, "q": "What is the job of Dove's mentor?", "ans": "baker", "reply": "Dove's mentor is Jola.", "ok": false, "ptoks": 952}
+{"cond": "open", "type": "hop3", "world": 2, "q": "In which city does the mentor of Sudolu's mentor live?", "ans": "Hahaburg", "reply": "Basubaford", "ok": false, "ptoks": 956}
+{"cond": "open", "type": "count", "world": 2, "q": "How many people live in Jogipoton?", "ans": "4", "reply": "4", "ok": true, "ptoks": 952}
+{"cond": "open", "type": "older", "world": 2, "q": "Who is older, Noki or Pome?", "ans": "Pome", "reply": "Pome", "ok": true, "ptoks": 953}
+{"cond": "open", "type": "hop1", "world": 2, "q": "What is Nala's job?", "ans": "tailor", "reply": "Tailor", "ok": true, "ptoks": 950}
+{"cond": "open", "type": "hop2", "world": 2, "q": "What is the job of Suba's mentor?", "ans": "doctor", "reply": "Givedo", "ok": false, "ptoks": 953}
+{"cond": "open", "type": "hop3", "world": 2, "q": "In which city does the mentor of Jozola's mentor live?", "ans": "Basubaford", "reply": "Dokuburg", "ok": false, "ptoks": 957}
+{"cond": "open", "type": "count", "world": 2, "q": "How many people live in Dokuburg?", "ans": "5", "reply": "4", "ok": false, "ptoks": 952}
+{"cond": "open", "type": "older", "world": 2, "q": "Who is older, Sudolu or Sumime?", "ans": "Sudolu", "reply": "Sudolu", "ok": true, "ptoks": 953}
+{"cond": "open", "type": "hop1", "world": 3, "q": "What is Kisupo's job?", "ans": "farmer", "reply": "farmer", "ok": true, "ptoks": 963}
+{"cond": "open", "type": "hop2", "world": 3, "q": "What is the job of Najomi's mentor?", "ans": "pilot", "reply": "Painter", "ok": false, "ptoks": 966}
+{"cond": "open", "type": "hop3", "world": 3, "q": "In which city does the mentor of Noki's mentor live?", "ans": "Lanafeton", "reply": "Zonoton", "ok": false, "ptoks": 969}
+{"cond": "open", "type": "count", "world": 3, "q": "How many people live in Bafeton?", "ans": "3", "reply": "2", "ok": false, "ptoks": 965}
+{"cond": "open", "type": "older", "world": 3, "q": "Who is older, Kisupo or Joha?", "ans": "Joha", "reply": "55", "ok": false, "ptoks": 966}
+{"cond": "open", "type": "hop1", "world": 3, "q": "What is Baku's job?", "ans": "baker", "reply": "Baku's job is a baker.", "ok": true, "ptoks": 963}
+{"cond": "open", "type": "hop2", "world": 3, "q": "What is the job of Zodo's mentor?", "ans": "sailor", "reply": "Zodo's mentor is Batave.", "ok": false, "ptoks": 966}
+{"cond": "open", "type": "hop3", "world": 3, "q": "In which city does the mentor of Kihafe's mentor live?", "ans": "Rizoford", "reply": "Rizoford", "ok": true, "ptoks": 970}
+{"cond": "open", "type": "count", "world": 3, "q": "How many people live in Zonoton?", "ans": "3", "reply": "3", "ok": true, "ptoks": 965}
+{"cond": "open", "type": "older", "world": 3, "q": "Who is older, Riha or Vemeri?", "ans": "Riha", "reply": "Vemeri", "ok": false, "ptoks": 967}
+{"cond": "open", "type": "hop1", "world": 3, "q": "What is Kihafe's job?", "ans": "tailor", "reply": "Tailor", "ok": true, "ptoks": 964}
+{"cond": "open", "type": "hop2", "world": 3, "q": "What is the job of Najomi's mentor?", "ans": "pilot", "reply": "Painter", "ok": false, "ptoks": 966}
+{"cond": "open", "type": "hop3", "world": 3, "q": "In which city does the mentor of Kunaba's mentor live?", "ans": "Rizoford", "reply": "Rizoford", "ok": true, "ptoks": 969}
+{"cond": "open", "type": "count", "world": 3, "q": "How many people live in Zonoton?", "ans": "3", "reply": "3", "ok": true, "ptoks": 965}
+{"cond": "open", "type": "older", "world": 3, "q": "Who is older, Noki or Najomi?", "ans": "Noki", "reply": "Noki", "ok": true, "ptoks": 966}
+{"cond": "open", "type": "hop1", "world": 3, "q": "What is Kisupo's job?", "ans": "farmer", "reply": "farmer", "ok": true, "ptoks": 963}
+{"cond": "open", "type": "hop2", "world": 3, "q": "What is the job of Jojo's mentor?", "ans": "potter", "reply": "Goat", "ok": false, "ptoks": 966}
+{"cond": "open", "type": "hop3", "world": 3, "q": "In which city does the mentor of Riha's mentor live?", "ans": "Rizoford", "reply": "Rizoford", "ok": true, "ptoks": 969}
+{"cond": "open", "type": "count", "world": 3, "q": "How many people live in Rizoford?", "ans": "5", "reply": "1", "ok": false, "ptoks": 966}
+{"cond": "open", "type": "older", "world": 3, "q": "Who is older, Kidoba or Josuha?", "ans": "Josuha", "reply": "Josuha", "ok": true, "ptoks": 967}
+{"cond": "open", "type": "hop1", "world": 3, "q": "What is Jojo's job?", "ans": "pilot", "reply": "pilot", "ok": true, "ptoks": 963}
+{"cond": "open", "type": "hop2", "world": 3, "q": "What is the job of Noki's mentor?", "ans": "teacher", "reply": "Zojo", "ok": false, "ptoks": 966}
+{"cond": "open", "type": "hop3", "world": 3, "q": "In which city does the mentor of Gime's mentor live?", "ans": "Lanafeton", "reply": "Rizoford", "ok": false, "ptoks": 969}
+{"cond": "open", "type": "count", "world": 3, "q": "How many people live in Kikiton?", "ans": "3", "reply": "3", "ok": true, "ptoks": 965}
+{"cond": "open", "type": "older", "world": 3, "q": "Who is older, Najomi or Hamiku?", "ans": "Hamiku", "reply": "Hamiku", "ok": true, "ptoks": 966}
+{"cond": "open", "type": "hop1", "world": 3, "q": "What is Baku's job?", "ans": "baker", "reply": "Baku's job is a baker.", "ok": true, "ptoks": 963}
+{"cond": "open", "type": "hop2", "world": 3, "q": "What is the job of Kuki's mentor?", "ans": "teacher", "reply": "Tailor", "ok": false, "ptoks": 966}
+{"cond": "open", "type": "hop3", "world": 3, "q": "In which city does the mentor of Kihafe's mentor live?", "ans": "Rizoford", "reply": "Rizoford", "ok": true, "ptoks": 970}
+{"cond": "open", "type": "count", "world": 3, "q": "How many people live in Zonoton?", "ans": "3", "reply": "3", "ok": true, "ptoks": 965}
+{"cond": "open", "type": "older", "world": 3, "q": "Who is older, Kisupo or Domiri?", "ans": "Domiri", "reply": "Domiri", "ok": true, "ptoks": 966}
+{"cond": "open", "type": "hop1", "world": 4, "q": "What is Mizo's job?", "ans": "teacher", "reply": "Teacher", "ok": true, "ptoks": 987}
+{"cond": "open", "type": "hop2", "world": 4, "q": "What is the job of Dojodo's mentor?", "ans": "farmer", "reply": "Mepoku", "ok": false, "ptoks": 991}
+{"cond": "open", "type": "hop3", "world": 4, "q": "In which city does the mentor of Mizo's mentor live?", "ans": "Pojoburg", "reply": "Pojoburg", "ok": true, "ptoks": 993}
+{"cond": "open", "type": "count", "world": 4, "q": "How many people live in Habahaford?", "ans": "4", "reply": "3", "ok": false, "ptoks": 990}
+{"cond": "open", "type": "older", "world": 4, "q": "Who is older, Gikizo or Vela?", "ans": "Gikizo", "reply": "Vela", "ok": false, "ptoks": 991}
+{"cond": "open", "type": "hop1", "world": 4, "q": "What is Dojodo's job?", "ans": "tailor", "reply": "Tailor", "ok": true, "ptoks": 988}
+{"cond": "open", "type": "hop2", "world": 4, "q": "What is the job of Bazono's mentor?", "ans": "baker", "reply": "Bazono's mentor is Zobave.", "ok": false, "ptoks": 991}
+{"cond": "open", "type": "hop3", "world": 4, "q": "In which city does the mentor of Haluzo's mentor live?", "ans": "Pojoburg", "reply": "Lano", "ok": false, "ptoks": 994}
+{"cond": "open", "type": "count", "world": 4, "q": "How many people live in Pojoburg?", "ans": "5", "reply": "Mepoku", "ok": false, "ptoks": 989}
+{"cond": "open", "type": "older", "world": 4, "q": "Who is older, Ferive or Haluzo?", "ans": "Ferive", "reply": "Ferive", "ok": true, "ptoks": 991}
+{"cond": "open", "type": "hop1", "world": 4, "q": "What is Rifeba's job?", "ans": "painter", "reply": "painter", "ok": true, "ptoks": 988}
+{"cond": "open", "type": "hop2", "world": 4, "q": "What is the job of Mizo's mentor?", "ans": "painter", "reply": "Mepoku", "ok": false, "ptoks": 990}
+{"cond": "open", "type": "hop3", "world": 4, "q": "In which city does the mentor of Vela's mentor live?", "ans": "Pojoburg", "reply": "Pojoburg", "ok": true, "ptoks": 993}
+{"cond": "open", "type": "count", "world": 4, "q": "How many people live in Dojoburg?", "ans": "5", "reply": "1", "ok": false, "ptoks": 989}
+{"cond": "open", "type": "older", "world": 4, "q": "Who is older, Dodo or Jopoku?", "ans": "Jopoku", "reply": "Jopoku", "ok": true, "ptoks": 991}
+{"cond": "open", "type": "hop1", "world": 4, "q": "What is Bazono's job?", "ans": "baker", "reply": "Bazono is a baker.", "ok": true, "ptoks": 988}
+{"cond": "open", "type": "hop2", "world": 4, "q": "What is the job of Dodo's mentor?", "ans": "farmer", "reply": "Dodo's mentor is Bado.", "ok": false, "ptoks": 990}
+{"cond": "open", "type": "hop3", "world": 4, "q": "In which city does the mentor of Haluzo's mentor live?", "ans": "Pojoburg", "reply": "Lano", "ok": false, "ptoks": 994}
+{"cond": "open", "type": "count", "world": 4, "q": "How many people live in Baveford?", "ans": "2", "reply": "3", "ok": false, "ptoks": 989}
+{"cond": "open", "type": "older", "world": 4, "q": "Who is older, Dojodo or Kupogi?", "ans": "Dojodo", "reply": "Kupogi", "ok": false, "ptoks": 991}
+{"cond": "open", "type": "hop1", "world": 4, "q": "What is Dojodo's job?", "ans": "tailor", "reply": "Tailor", "ok": true, "ptoks": 988}
+{"cond": "open", "type": "hop2", "world": 4, "q": "What is the job of Lagiba's mentor?", "ans": "pilot", "reply": "Haluzo", "ok": false, "ptoks": 990}
+{"cond": "open", "type": "hop3", "world": 4, "q": "In which city does the mentor of Bado's mentor live?", "ans": "Dojoburg", "reply": "Pohajoton", "ok": false, "ptoks": 993}
+{"cond": "open", "type": "count", "world": 4, "q": "How many people live in Dojoburg?", "ans": "5", "reply": "1", "ok": false, "ptoks": 989}
+{"cond": "open", "type": "older", "world": 4, "q": "Who is older, Nohapo or Gikizo?", "ans": "Nohapo", "reply": "Gikizo is older.", "ok": false, "ptoks": 992}
+{"cond": "open", "type": "hop1", "world": 4, "q": "What is Rina's job?", "ans": "sailor", "reply": "Sailor", "ok": true, "ptoks": 987}
+{"cond": "open", "type": "hop2", "world": 4, "q": "What is the job of Fevena's mentor?", "ans": "potter", "reply": "farmer", "ok": false, "ptoks": 991}
+{"cond": "open", "type": "hop3", "world": 4, "q": "In which city does the mentor of Rina's mentor live?", "ans": "Pohajoton", "reply": "Pojoburg", "ok": false, "ptoks": 993}
+{"cond": "open", "type": "count", "world": 4, "q": "How many people live in Dojoburg?", "ans": "5", "reply": "1", "ok": false, "ptoks": 989}
+{"cond": "open", "type": "older", "world": 4, "q": "Who is older, Bazono or Gife?", "ans": "Bazono", "reply": "Gife", "ok": false, "ptoks": 991}
