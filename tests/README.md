@@ -55,6 +55,7 @@ is a `FAIL` or an `XPASS`.
 | `it_tokenizer` | `llama-tokenize` ids == HF `tokenizer.json` ids (`tests/data/tokenizer_expected.json`) | build, `BITNET_GGUF` |
 | `it_blas_batch` | a 32+ token prompt on CPU does not crash | build, `BITNET_GGUF` |
 | `it_metal_default` | `-ngl 99` does not abort | macOS, build, `BITNET_GGUF` |
+| `it_metal_mm` | prefill with > 8 columns (simdgroup-matrix kernel, patch 0012): same continuation and perplexity as with `GGML_METAL_I2S_NO_MM=1` | macOS, build, `BITNET_GGUF` |
 
 Integration tests take their binaries from `BITNETX_BIN`; if it is not set and
 `build_smoke` passed in the same run, its `bin/` directory is used.

@@ -1,0 +1,205 @@
+--- a/ggml/src/ggml-metal/ggml-metal.metal
++++ b/ggml/src/ggml-metal/ggml-metal.metal
+@@ -11062,3 +11062,92 @@
+ I2S_BITS_INST(4, 2) I2S_BITS_INST(4, 4) I2S_BITS_INST(4, 8)
+ 
+ // END_BITNETX_I2S
++
++// ---------------------------------------------------------------------------------------------------------------------
++// BitNet I2_S, prefill (> 8 columns): the stock simdgroup-matrix kernel_mul_mm with an I2_S dequantizer.
++// A weight block is 128 weights = 32 bytes, i.e. 8 chunks of 16 (nl = 8): chunk il covers the weights
++// [32*(il/2) + 16*(il%2), +16) which are the bytes [16*(il%2), +16) shifted by 6 - 2*(il/2).
++// The activations are quantized beforehand into exact small integers stored as f32 (kernel_quantize_i8_s_f32f_f32),
++// the products and sums of {-1,0,+1} x int8 are exact in the half / f32 matrix multiply, and
++// kernel_i2_s_scale_cols applies  ws / s  per column afterwards (same value as the other paths).
++// ---------------------------------------------------------------------------------------------------------------------
++// BEGIN_BITNETX_MM_I2S
++
++typedef struct {
++    uchar qs[32];
++} block_i2s;
++
++template <typename type4x4>
++void dequantize_i2_s(device const block_i2s * xb, short il, thread type4x4 & reg) {
++    const short sh = 6 - 2*(il/2);
++    const short b0 = 16*(il%2);
++
++    for (short i = 0; i < 16; ++i) {
++        reg[i/4][i%4] = (int) ((xb->qs[b0 + i] >> sh) & 3) - 1;
++    }
++}
++
++template [[host_name("kernel_mul_mm_i2_s_f32")]] kernel mul_mm_t kernel_mul_mm<half, half4x4, simdgroup_half8x8, half, half2x4, simdgroup_half8x8, block_i2s, 8, dequantize_i2_s, float, float4x4, float, float2x4>;
++
++// like kernel_quantize_i8_s_f32 but the quantized values are written as f32
++kernel void kernel_quantize_i8_s_f32f_f32(
++        constant ggml_metal_kargs_quantize_i8_s & args,
++        device const char  * src1,
++        device       float * qf,
++        device       float * scales,
++        uint   col   [[threadgroup_position_in_grid]],
++        ushort tpitg [[thread_index_in_threadgroup]],
++        ushort sgitg [[simdgroup_index_in_threadgroup]],
++        ushort tiisg [[thread_index_in_simdgroup]]) {
++    threadgroup float sh[8];
++
++    const int i13 = col / (args.ne11*args.ne12);
++    const int rem = col % (args.ne11*args.ne12);
++    const int i12 = rem / args.ne11;
++    const int i11 = rem % args.ne11;
++
++    device const float * x = (device const float *)(src1 + i13*args.nb13 + i12*args.nb12 + i11*args.nb11);
++
++    float amax = 0.0f;
++    for (int i = tpitg; i < args.ne10; i += 256) {
++        amax = max(amax, fabs(x[i]));
++    }
++    amax = simd_max(amax);
++    if (tiisg == 0) {
++        sh[sgitg] = amax;
++    }
++    threadgroup_barrier(mem_flags::mem_threadgroup);
++    amax = simd_max(tiisg < 8 ? sh[tiisg] : 0.0f);
++
++    const float s = amax > 0.0f ? precise::divide(127.0f, amax) : 0.0f;
++
++    device float * dst = qf + (long) col * args.ne10;
++    for (int i = tpitg; i < args.ne10; i += 256) {
++        dst[i] = (float) clamp((int) round(x[i]*s), -128, 127);
++    }
++
++    if (tpitg == 0) {
++        scales[col] = s;
++    }
++}
++
++// dst[col][row] (contiguous, raw integer sums from the matrix multiply) *= ws / s[col]
++kernel void kernel_i2_s_scale_cols(
++        constant ggml_metal_kargs_mul_mv_i2_s & args,
++        device const char  * src0,
++        device const float * scales,
++        device       float * dst,
++        uint2 gid [[thread_position_in_grid]]) {
++    const int row = gid.x;
++    const int col = gid.y;
++
++    if (row >= args.ne01 || col >= args.ncols) {
++        return;
++    }
++
++    const float ws = *(device const float *)(src0 + args.ws_off);
++    const float s  = scales[col];
++
++    dst[(long) col*args.ne01 + row] = s > 0.0f ? dst[(long) col*args.ne01 + row] * precise::divide(ws, s) : 0.0f;
++}
++// END_BITNETX_MM_I2S
+--- a/ggml/src/ggml-metal/ggml-metal-ops.cpp
++++ b/ggml/src/ggml-metal/ggml-metal-ops.cpp
+@@ -2052,7 +2052,10 @@
+ size_t ggml_metal_op_mul_mat_i2_s_extra(const ggml_tensor * op) {
+     assert(op->op == GGML_OP_MUL_MAT && op->src[0]->type == GGML_TYPE_I2_S);
+ 
+-    return ggml_metal_i2_s_off_q8(op) + ggml_metal_i2_s_ncols(op)*op->src[1]->ne[0] - ggml_nbytes(op);
++    // int8 values / bit planes need 1 byte per activation, the matrix path (more than 8 columns) stores them as f32
++    const size_t bytes_per_act = ggml_metal_i2_s_ncols(op) > 8 ? sizeof(float) : 1;
++
++    return ggml_metal_i2_s_off_q8(op) + ggml_metal_i2_s_ncols(op)*op->src[1]->ne[0]*bytes_per_act - ggml_nbytes(op);
+ }
+ 
+ // Bit-serial layout of an I2_S weight tensor (see ggml-metal-i2s.h), built once on first use and kept until the device is
+@@ -2173,8 +2176,12 @@
+     ggml_metal_buffer_id bid_q8 = bid_dst;
+     bid_q8.offs += ggml_metal_i2_s_off_q8(op);
+ 
++    // more than 8 columns: stock simdgroup-matrix kernel (needs A14+/M1+, and the non-tensor variant of the kernel)
++    static const bool no_mm = getenv("GGML_METAL_I2S_NO_MM") != nullptr;
++    const bool use_mm = !no_mm && ncols > 8 && props_dev->has_simdgroup_mm && !props_dev->has_tensor && ne00 >= 64;
++
+     ggml_metal_buffer_id bid_bits = { nullptr, 0 };
+-    const bool use_bits = ggml_metal_i2_s_get_bits(ctx->dev, op->src[0], &bid_bits);
++    const bool use_bits = !use_mm && ggml_metal_i2_s_get_bits(ctx->dev, op->src[0], &bid_bits);
+ 
+     {
+         ggml_metal_kargs_quantize_i8_s args = {
+@@ -2187,7 +2194,8 @@
+             /*.ncols =*/ ncols,
+         };
+ 
+-        auto pipeline = ggml_metal_library_get_pipeline_i2_s(lib, use_bits ? "kernel_quantize_i8_s_planes_f32" : "kernel_quantize_i8_s_f32");
++        auto pipeline = ggml_metal_library_get_pipeline_i2_s(lib,
++                use_mm ? "kernel_quantize_i8_s_f32f_f32" : (use_bits ? "kernel_quantize_i8_s_planes_f32" : "kernel_quantize_i8_s_f32"));
+ 
+         ggml_metal_encoder_set_pipeline(enc, pipeline);
+         ggml_metal_encoder_set_bytes   (enc, &args, sizeof(args), 0);
+@@ -2203,7 +2211,71 @@
+ 
+     // the mat-vec kernel reads what the quantization kernel has just written
+     ggml_metal_op_concurrency_reset(ctx);
++
++    if (use_mm) {
++        GGML_ASSERT(ne02 == 1 && ne03 == 1);
++
++        auto pipeline = ggml_metal_library_get_pipeline_mul_mm(lib, op);
++
++        const uint64_t nb01_w = (uint64_t) ne00/4; // packed row stride (the tensor's own nb01 is ne00)
++
++        ggml_metal_kargs_mul_mm args = {
++            /*.ne00 =*/ ne00,
++            /*.ne02 =*/ ne02,
++            /*.nb01 =*/ nb01_w,
++            /*.nb02 =*/ nb01_w*ne01,
++            /*.nb03 =*/ nb01_w*ne01,
++            /*.ne12 =*/ ne12,
++            /*.nb10 =*/ sizeof(float),
++            /*.nb11 =*/ sizeof(float)*ne10,
++            /*.nb12 =*/ sizeof(float)*ne10*ne11,
++            /*.nb13 =*/ sizeof(float)*ne10*ne11*ne12,
++            /*.ne0  =*/ (int32_t) op->ne[0],
++            /*.ne1  =*/ (int32_t) op->ne[1],
++            /*.r2   =*/ (int16_t) (ne12/ne02),
++            /*.r3   =*/ (int16_t) (ne13/ne03),
++        };
++
++        ggml_metal_encoder_set_pipeline(enc, pipeline);
++        ggml_metal_encoder_set_bytes   (enc, &args, sizeof(args), 0);
++        ggml_metal_encoder_set_buffer  (enc, bid_src0, 1);
++        ggml_metal_encoder_set_buffer  (enc, bid_q8,   2); // quantized activations (f32)
++        ggml_metal_encoder_set_buffer  (enc, bid_dst,  3);
++
++        ggml_metal_encoder_set_threadgroup_memory_size(enc, pipeline.smem, 0);
++
++        ggml_metal_encoder_dispatch_threadgroups(enc, (ne11 + pipeline.nr1 - 1)/pipeline.nr1, (ne01 + pipeline.nr0 - 1)/pipeline.nr0, ne12*ne13, 32, pipeline.nsg, 1);
++
++        // the scaling reads what the matrix multiply has just written
++        ggml_metal_op_concurrency_reset(ctx);
++
++        {
++            ggml_metal_kargs_mul_mv_i2_s sargs = {
++                /*.nb1    =*/ nb1,
++                /*.nb2    =*/ nb2,
++                /*.nb3    =*/ nb3,
++                /*.ws_off =*/ (uint64_t) ne00*ne01/4,
++                /*.ne00   =*/ ne00,
++                /*.ne01   =*/ ne01,
++                /*.ne11   =*/ ne11,
++                /*.ne12   =*/ ne12,
++                /*.ncols  =*/ ncols,
++            };
++
++            auto spipeline = ggml_metal_library_get_pipeline_i2_s(lib, "kernel_i2_s_scale_cols");
++
++            ggml_metal_encoder_set_pipeline(enc, spipeline);
++            ggml_metal_encoder_set_bytes   (enc, &sargs, sizeof(sargs), 0);
++            ggml_metal_encoder_set_buffer  (enc, bid_src0,   1);
++            ggml_metal_encoder_set_buffer  (enc, bid_scales, 2);
++            ggml_metal_encoder_set_buffer  (enc, bid_dst,    3);
++
++            ggml_metal_encoder_dispatch_threadgroups(enc, (ne01 + 31)/32, ncols, 1, 32, 1, 1);
++        }
+ 
++        return 1;
++    }
++
+     if (use_bits) {
+         // popcount kernels: no threadgroup memory; the number of rows per simdgroup depends on the columns processed together
+         const int C = ncols >= 4 ? 4 : (ncols >= 2 ? 2 : 1);
